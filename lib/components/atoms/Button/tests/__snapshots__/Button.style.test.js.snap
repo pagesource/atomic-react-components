@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+.c0 {
+  border: none;
+  border-radius: 0;
+  background: none;
+  position: relative;
+  min-height: 48px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.c0:focus {
+  outline: 1px dashed #999;
+}
+
+.c0:focus:not(.focus-visible) {
+  outline: none;
+}
+
+.c0 .spinner {
+  position: absolute;
+  top: 50%;
+  left: 9px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0 .spinner.center-spinner {
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.c0 .spinner div {
+  height: 25px;
+  width: 25px;
+  top: 0;
+}
+
+<Button
+  ariaLabel=""
+  className="c0"
+  disabled={false}
+  inheritedStyles=""
+  loader={false}
+  loaderPositionCenter={false}
+  primary={false}
+  secondary={false}
+  theme={
+    Object {
+      "backgroundColorDisabled": "grey",
+      "backgroundColorPrimary": "#fff",
+      "backgroundColorSecondary": "#eaf2f6",
+      "backgroundColorSuccess": "#2e993a",
+      "brandPrimaryColor": "#006193",
+      "buttonBackgroundColorPrimary": "#e57725",
+      "buttonBackgroundColorSecondary": "#016fad",
+      "buttonColorPrimary": "#ffffff",
+      "buttonColorSecondary": "#ffffff",
+      "cautionBackgroundColor": "#fffdf3",
+      "colorOutline": "#999",
+      "containerShadowPrimary": "rgba(0,0,0,.2)",
+      "deviceType": "desktop",
+      "fieldBorderColor": "#bfbfbf",
+      "fieldBorderDisabledColor": "#bfdfdf",
+      "fieldBorderErrorColor": "#c00",
+      "fieldBorderFocusColor": "#006193",
+      "fontBold": "700",
+      "fontBook": "400",
+      "fontFamilyDefault": "Arial, Helvetica, sans-serif",
+      "fontFamilyIcon": "",
+      "fontFamilyPrimary": "Arial, Helvetica, sans-serif",
+      "fontFamilySecondary": "Arial, Helvetica, sans-serif",
+      "fontMedium": "500",
+      "fontNormal": "normal",
+      "fontSemiBold": "600",
+      "fontSizeBase": "16px",
+      "fontSizeButtonPrimary": "24px",
+      "fontSizeButtonSecondary": "16px",
+      "fontSizeDefault": "12px",
+      "letterSpacing": "1px",
+      "lineHeightBase": "1.5",
+      "linkColorPrimary": "#008CBA",
+      "textColorError": "#c00",
+      "textColorPlaceholder": "#dfdfdf",
+      "textColorPrimary": "#222",
+      "textColorSecondary": "#262626",
+      "textColorSuccess": "#2e993a",
+      "zIndex": Object {
+        "zFilter": 100,
+        "zFilterActions": 400,
+        "zFilterList": 150,
+        "zFlyout": 200,
+        "zLoader": 1000,
+        "zMenu": 800,
+        "zNativeTickSelectIcon": 50,
+        "zOverlay": 900,
+        "zPlacesAutocomplete": 1100,
+        "zSticky": 700,
+      },
+    }
+  }
+  type="button"
+/>
+`;
+
+exports[`Button should render correctly for mobile 1`] = `
+.c0 {
+  border: none;
+  border-radius: 0;
+  background: none;
+  position: relative;
+  min-height: 48px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.c0:focus {
+  outline: 1px dashed #999;
+}
+
+.c0:focus:not(.focus-visible) {
+  outline: none;
+}
+
+.c0 .spinner {
+  position: absolute;
+  top: 50%;
+  left: 9px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c0 .spinner.center-spinner {
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.c0 .spinner div {
+  height: 25px;
+  width: 25px;
+  top: 0;
+}
+
+<Button
+  ariaLabel=""
+  className="c0"
+  disabled={false}
+  inheritedStyles=""
+  loader={false}
+  loaderPositionCenter={false}
+  primary={false}
+  secondary={false}
+  theme={
+    Object {
+      "backgroundColorDisabled": "grey",
+      "backgroundColorPrimary": "#fff",
+      "backgroundColorSecondary": "#eaf2f6",
+      "backgroundColorSuccess": "#2e993a",
+      "brandPrimaryColor": "#006193",
+      "buttonBackgroundColorPrimary": "#e57725",
+      "buttonBackgroundColorSecondary": "#016fad",
+      "buttonColorPrimary": "#ffffff",
+      "buttonColorSecondary": "#ffffff",
+      "cautionBackgroundColor": "#fffdf3",
+      "colorOutline": "#999",
+      "containerShadowPrimary": "rgba(0,0,0,.2)",
+      "deviceType": "mobile",
+      "fieldBorderColor": "#bfbfbf",
+      "fieldBorderDisabledColor": "#bfdfdf",
+      "fieldBorderErrorColor": "#c00",
+      "fieldBorderFocusColor": "#006193",
+      "fontBold": "700",
+      "fontBook": "400",
+      "fontFamilyDefault": "Arial, Helvetica, sans-serif",
+      "fontFamilyIcon": "",
+      "fontFamilyPrimary": "Arial, Helvetica, sans-serif",
+      "fontFamilySecondary": "Arial, Helvetica, sans-serif",
+      "fontMedium": "500",
+      "fontNormal": "normal",
+      "fontSemiBold": "600",
+      "fontSizeBase": "16px",
+      "fontSizeButtonPrimary": "24px",
+      "fontSizeButtonSecondary": "16px",
+      "fontSizeDefault": "12px",
+      "letterSpacing": "1px",
+      "lineHeightBase": "1.5",
+      "linkColorPrimary": "#008CBA",
+      "textColorError": "#c00",
+      "textColorPlaceholder": "#dfdfdf",
+      "textColorPrimary": "#222",
+      "textColorSecondary": "#262626",
+      "textColorSuccess": "#2e993a",
+      "zIndex": Object {
+        "zFilter": 100,
+        "zFilterActions": 400,
+        "zFilterList": 150,
+        "zFlyout": 200,
+        "zLoader": 1000,
+        "zMenu": 800,
+        "zNativeTickSelectIcon": 50,
+        "zOverlay": 900,
+        "zPlacesAutocomplete": 1100,
+        "zSticky": 700,
+      },
+    }
+  }
+  type="button"
+/>
+`;

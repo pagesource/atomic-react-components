@@ -1,0 +1,13 @@
+[include]
+[ignore]
+.*/node_modules/.*
+.*/node_modules/styled-components/.*
+.*/node_modules/@storybook/react/.*
+.*/dist/*
+.*/.storybook/*
+[libs]
+flow-typed/
+
+[options]
+
+[strict]

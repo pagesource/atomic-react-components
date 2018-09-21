@@ -1,0 +1,14 @@
+{
+  "presets": ["react", "flow"],
+  "plugins": [
+    ["@quickbaseoss/babel-plugin-styled-components-css-namespace", { "cssNamespace": "lib" }],
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": false
+      }
+    ],
+    ["transform-object-rest-spread"]
+  ]
+}
