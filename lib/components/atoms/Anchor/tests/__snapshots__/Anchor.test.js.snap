@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Anchor Component should render correctly and match snapshot 1`] = `
+.c0 {
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  outline: 1px dashed;
+}
+
+.c0:focus:not(.focus-visible) {
+  outline: none;
+}
+
+<Anchor
+  as=""
+  className="c0"
+  forceClick={false}
+  handleLinkClick="function"
+  inheritedStyles=""
+  noLink={false}
+  scroll={false}
+  shallow={false}
+  to="/sample"
+>
+  Sample
+</Anchor>
+`;
+
+exports[`Anchor Component should render with styles correctly and match snapshot 1`] = `
+.c0 {
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:focus {
+  outline: 1px dashed;
+}
+
+.c0:focus:not(.focus-visible) {
+  outline: none;
+}
+
+<a
+  className="c0"
+  href="/sample"
+  onClick={[Function]}
+>
+  Sample
+</a>
+`;

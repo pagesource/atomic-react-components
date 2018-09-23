@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Component should render correctly and match snapshots 1`] = `
+<img
+  alt="ABC"
+  onError={[Function]}
+  src="http://abc.com"
+/>
+`;
