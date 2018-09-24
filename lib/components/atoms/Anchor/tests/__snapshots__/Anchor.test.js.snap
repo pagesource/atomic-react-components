@@ -19,7 +19,6 @@ exports[`Anchor Component should render correctly and match snapshot 1`] = `
   as=""
   className="c0"
   forceClick={false}
-  handleLinkClick="function"
   inheritedStyles=""
   noLink={false}
   scroll={false}

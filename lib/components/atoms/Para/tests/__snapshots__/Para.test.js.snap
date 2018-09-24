@@ -1,37 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading Component should render correctly and match snapshot 1`] = `
+exports[`Para Component should render correctly and match snapshot 1`] = `
 .c0 {
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
-  letter-spacing: 1px;
+  -webkit-letter-spacing: 0px;
+  -moz-letter-spacing: 0px;
+  -ms-letter-spacing: 0px;
+  letter-spacing: 0px;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 <Para
   className="c0"
   inheritedStyles=""
-  type="h3"
 >
-  Sample
+  This is Para text
 </Para>
 `;
 
-exports[`Heading Component should render with styles correctly and match snapshot 1`] = `
+exports[`Para Component should render with styles correctly and match snapshot 1`] = `
 .c0 {
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
-  letter-spacing: 1px;
+  -webkit-letter-spacing: 0px;
+  -moz-letter-spacing: 0px;
+  -ms-letter-spacing: 0px;
+  letter-spacing: 0px;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 <p
   className="c0"
 >
-  Sample
+  This is Para text
 </p>
 `;

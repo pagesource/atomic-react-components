@@ -11,9 +11,9 @@ exports[`Heading Component should render correctly and match snapshot 1`] = `
 }
 
 <Heading
+  HeadingType="h1"
   className="c0"
   inheritedStyles=""
-  type="h3"
 >
   Sample
 </Heading>
