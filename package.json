@@ -17,6 +17,7 @@
     "storybook": "start-storybook -p 6006 -s ./lib/static",
     "deploy": "build-storybook -c .storybook -o .out",
     "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js",
+    "test:updateSnapshot": "npm test --updateSnapshot",
     "test:watch": "cross-env NODE_ENV=test jest --config ./config/jest.config.js",
     "audit": "npm run build -- --report",
     "build-storybook": "build-storybook",

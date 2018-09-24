@@ -19,28 +19,6 @@ exports[`Button should render correctly 1`] = `
   outline: none;
 }
 
-.c0 .spinner {
-  position: absolute;
-  top: 50%;
-  left: 9px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.c0 .spinner.center-spinner {
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.c0 .spinner div {
-  height: 25px;
-  width: 25px;
-  top: 0;
-}
-
 <Button
   ariaLabel=""
   className="c0"
