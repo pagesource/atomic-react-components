@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Component with styles should render correctly and match snapshots 1`] = `
+<Image
+  alt="ABC"
+  className="sc-bdVaJa dlYGXA"
+  inheritedStyles=""
+  placeholderSrc="http://xyz.com"
+  sizes=""
+  src="http://abc.com"
+  srcset=""
+/>
+`;
