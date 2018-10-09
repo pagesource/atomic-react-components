@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+.c0 {
+  border: none;
+  border-radius: 0;
+  background: none;
+  position: relative;
+  min-height: 48px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.c0:focus {
+  outline: 1px dashed #999;
+}
+
+.c0:focus:not(.focus-visible) {
+  outline: none;
+}
+
+<Button
+  ariaLabel=""
+  className="c0"
+  disabled={false}
+  inheritedStyles=""
+  primary={false}
+  secondary={false}
+  theme={
+    Object {
+      "backgroundColorPrimary": "#fff",
+      "backgroundColorSecondary": "#eaf2f6",
+      "backgroundColorSuccess": "#2e993a",
+      "borderColorBoldest": "#c00",
+      "borderColorSecondary": "#d9d9d9",
+      "brandPrimaryColor": "#006193",
+      "buttonBackgroundColorPrimary": "#e57725",
+      "buttonBackgroundColorSecondary": "#016fad",
+      "buttonColorPrimary": "#ffffff",
+      "buttonColorSecondary": "#ffffff",
+      "colorOutline": "#999",
+      "containerShadowPrimary": "rgba(0,0,0,.2)",
+      "fieldBorderColor": "#bfbfbf",
+      "fieldBorderDisabledColor": "#bfdfdf",
+      "fieldBorderErrorColor": "#c00",
+      "fieldBorderFocusColor": "#006193",
+      "fontBold": "700",
+      "fontBook": "400",
+      "fontFamilyDefault": "Arial, Helvetica, sans-serif",
+      "fontFamilyIcon": "",
+      "fontFamilyPrimary": "Arial, Helvetica, sans-serif",
+      "fontFamilySecondary": "Arial, Helvetica, sans-serif",
+      "fontMedium": "500",
+      "fontNormal": "normal",
+      "fontSemiBold": "600",
+      "fontSizeBase": "16px",
+      "fontSizeButtonPrimary": "24px",
+      "fontSizeButtonSecondary": "16px",
+      "fontSizeDefault": "12px",
+      "fontSizeHighlight": "18px",
+      "letterSpacing": "0px",
+      "lineHeightBase": "1.5",
+      "linkColorPrimary": "#008CBA",
+      "linkColorSecondary": "#016fad",
+      "maxWidthPageContent": "80rem",
+      "textColorBrandPrimary": "#006193",
+      "textColorError": "#c00",
+      "textColorPlaceholder": "#dfdfdf",
+      "textColorPrimary": "#222",
+      "textColorSecondary": "#262626",
+      "textColorSecondaryLight": "#666",
+      "textColorSuccess": "#2e993a",
+      "zIndex": Object {
+        "zLoader": 1000,
+        "zNativeTickSelectIcon": 50,
+        "zOverlay": 900,
+        "zSticky": 700,
+      },
+    }
+  }
+  type="button"
+/>
+`;

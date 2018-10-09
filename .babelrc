@@ -1,5 +1,5 @@
 {
-  "presets": ["react", "flow"],
+  "presets": ["react", "flow", "stage-0"],
   "plugins": [
     ["@quickbaseoss/babel-plugin-styled-components-css-namespace", { "cssNamespace": "lib" }],
     [
