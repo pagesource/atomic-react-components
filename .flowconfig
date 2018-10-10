@@ -5,6 +5,7 @@
 .*/node_modules/@storybook/react/.*
 .*/dist/*
 .*/.storybook/*
+yup
 [include]
 [libs]
 node_modules/styled-components/flow-typed/danger_v0.x.x.js
