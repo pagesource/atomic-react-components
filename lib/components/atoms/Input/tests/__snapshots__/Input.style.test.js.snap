@@ -1,31 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button should render correctly 1`] = `
+exports[`Input Styled component should render correctly 1`] = `
 .c0 {
-  border: none;
-  border-radius: 0;
-  background: none;
-  position: relative;
-  min-height: 48px;
-  cursor: pointer;
-  opacity: 1;
+  margin: 0;
+  outline: 0;
+  line-height: 1.2rem;
+  padding: .6rem 1rem;
+  font-size: 1rem;
+  border-radius: .2rem;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+  color: #222;
 }
 
-.c0:focus {
-  outline: 1px dashed #999;
-}
-
-.c0:focus:not(.focus-visible) {
-  outline: none;
-}
-
-<Button
+<Input
   ariaLabel=""
   className="c0"
-  disabled={false}
-  inheritedStyles=""
-  primary={false}
-  secondary={false}
+  name="userName"
+  placeholder=""
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
@@ -81,6 +73,7 @@ exports[`Button should render correctly 1`] = `
       },
     }
   }
-  type="button"
+  type="text"
+  value={10}
 />
 `;

@@ -4,3 +4,4 @@ node_modules
 *.log
 reports
 out
+flow-typed
