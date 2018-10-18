@@ -8,6 +8,7 @@
 .*/__.next__/*
 .*/.history/*
 .*/*.config.js/.*
+yup
 [include]
 [libs]
 node_modules/styled-components/flow-typed/danger_v0.x.x.js

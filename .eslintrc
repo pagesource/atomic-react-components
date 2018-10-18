@@ -29,7 +29,6 @@
     "array-callback-return": "error",
     "no-undef": "error",
     "extra-rules/no-commented-out-code": "error",
-
     "class-methods-use-this": "off",
     "react/react-in-jsx-scope": "off",
     "react/button-has-type": "off",

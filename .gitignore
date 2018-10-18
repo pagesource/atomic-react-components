@@ -10,7 +10,7 @@ out
 reports
 
 # Flow
-flow-typed/npm/
+flow-typed
 
 # ES Docs
 docs
