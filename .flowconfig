@@ -1,10 +1,13 @@
 [ignore]
 #no point including this as the lib folder is our main one
 .*/node_modules/.*
-.*/node_modules/styled-components/src/.*
+.*/node_modules/styled-components/lib/.*
 .*/node_modules/@storybook/react/.*
 .*/dist/*
 .*/.storybook/*
+.*/__.next__/*
+.*/.history/*
+.*/*.config.js/.*
 [include]
 [libs]
 node_modules/styled-components/flow-typed/danger_v0.x.x.js

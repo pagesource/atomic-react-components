@@ -1,19 +1,40 @@
 {
-  "presets": ["react", "flow"],
+  "ignore": ["node_modules/**/*"],
+  "presets": ["@babel/env", "next", "@babel/flow"],
   "plugins": [
-    ["@quickbaseoss/babel-plugin-styled-components-css-namespace", { "cssNamespace": "lib" }],
     [
       "babel-plugin-styled-components",
       {
         "ssr": true,
-        "displayName": false
+        "displayName": true
       }
-    ],
-    ["transform-object-rest-spread"]
+    ]
   ],
   "env": {
+    "development": {
+      "plugins": ["@babel/plugin-transform-runtime"]
+    },
+    "production": {
+      "presets": [
+        [
+          "@babel/env",
+          {
+            "modules": false
+          }
+        ]
+      ]
+    },
     "test": {
-      "presets": ["es2015", "react"]
+      "presets": [
+        [
+          "next",
+          {
+            "preset-env": {
+              "modules": "commonjs"
+            }
+          }
+        ]
+      ]
     }
   }
 }
