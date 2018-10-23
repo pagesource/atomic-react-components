@@ -5,7 +5,7 @@ exports[`Checkbox Component should render correctly 1`] = `
   className=""
   htmlFor="name"
 >
-  <Styled(InputControl)
+  <InputControl
     id="name"
     name="test"
     type="checkbox"
