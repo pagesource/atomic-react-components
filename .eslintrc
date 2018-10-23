@@ -1,45 +1,68 @@
 {
   "parser": "babel-eslint",
-  "settings": {
-    "import/resolver": {
-      "babel-module": {}
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "legacyDecorators": true
     }
   },
-  "extends": ["airbnb", "plugin:redux-saga/recommended", "plugin:flowtype/recommended"],
-  "rules": {
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [".js", ".jsx"]
-      }
-    ],
-    "react/react-in-jsx-scope": "off",
-    "react/button-has-type": "off",
-    "jsx-a11y/click-events-have-key-events": "off",
-    "jsx-a11y/no-static-element-interactions": "off"
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
   },
   "globals": {
     "document": true,
-    "window": true,
-    "IntersectionObserver": true
+    "window": true
   },
-  "plugins": ["jest", "redux-saga", "flowtype"],
+  "plugins": ["jest", "flowtype", "prettier", "extra-rules", "compat"],
+  "extends": ["airbnb", "plugin:flowtype/recommended", "prettier"],
+  "rules": {
+    "max-params": ["error", { "max": 7 }],
+    "max-statements": ["error", { "max": 100 }],
+    "max-lines": ["error", { "max": 1000 }],
+    "max-len": 0,
+    "complexity": ["error", { "max": 10 }],
+    "object-shorthand": ["warn", "properties"],
+    "array-callback-return": "error",
+    "no-undef": "error",
+    "extra-rules/no-commented-out-code": "error",
+    "class-methods-use-this": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/button-has-type": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js"]
+      }
+    ],
+    "prettier/prettier": "error",
+    "compat/compat": "error",
+    "linebreak-style": "off"
+  },
   "overrides": [
     {
-      "files": ["**/*.story.js", "**/*.config.js", "**/*.setup.js", "**/*.test.js", "**/*.spec.js"],
+      "files": [
+        "**/*.story.js",
+        "**/*.mock.js",
+        "**/*.config.js",
+        "**/*.setup.js",
+        "**/*.test.js",
+        "**/*.spec.js"
+      ],
       "rules": {
         "import/no-extraneous-dependencies": "off",
         "no-console": "off"
       }
     },
     {
-      "files": ["**/*.test.js", "**/*.spec.js", "**/*.flow.js"],
+      "files": ["**/*.test.js", "**/*.spec.js"],
       "env": {
         "jest/globals": true
       },
       "rules": {
-        "redux-saga/yield-effects": "off",
-        "redux-saga/no-unhandled-errors": "off",
         "flowtype/no-types-missing-file-annotation": "off"
       }
     }

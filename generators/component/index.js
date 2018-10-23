@@ -2,7 +2,7 @@
  * Component Generator
  */
 
-/* eslint strict: ["off"] */
+/* eslint strict: ['off'] */
 
 'use strict';
 
@@ -10,32 +10,38 @@ const componentExists = require('../utils/componentExists');
 
 module.exports = {
   description: 'Add an unconnected component (atoms, molecules)',
-  prompts: [{
-    type: 'list',
-    name: 'type',
-    message: 'Select the type of component',
-    default: 'Stateless Function',
-    choices: () => ['Stateless Function', 'React.Component'],
-  }, {
-    type: 'input',
-    name: 'name',
-    message: 'What should it be called?',
-    default: 'Button',
-    validate: (value) => {
-      if ((/.+/).test(value)) {
-        return componentExists(value) ? 'A component or container with this name already exists' : true;
-      }
-
-      return 'The name is required';
+  prompts: [
+    {
+      type: 'list',
+      name: 'type',
+      message: 'Select the type of component',
+      default: 'Stateless Function',
+      choices: () => ['Stateless Function', 'React.Component'],
     },
-  }, {
-    type: 'list',
-    name: 'folder',
-    message: 'Where do you want to keep this component?',
-    default: 'atoms',
-    choices: () => ['atoms', 'molecules'],
-  }],
-  actions: (data) => {
+    {
+      type: 'input',
+      name: 'name',
+      message: 'What should it be called?',
+      default: 'Button',
+      validate: value => {
+        if (/.+/.test(value)) {
+          return componentExists(value)
+            ? 'A component or container with this name already exists'
+            : true;
+        }
+
+        return 'The name is required';
+      },
+    },
+    {
+      type: 'list',
+      name: 'folder',
+      message: 'Where do you want to keep this component?',
+      default: 'atoms',
+      choices: () => ['atoms', 'molecules'],
+    },
+  ],
+  actions: data => {
     // Generate index.js and index.test.js
     let componentTemplate;
 
@@ -49,37 +55,51 @@ module.exports = {
       }
     }
 
-    const actions = [{
-      type: 'add',
-      path: '../app/components/{{ folder }}/{{properCase name}}/index.js',
-      templateFile: './component/index.js.hbs',
-      abortOnFail: true,
-    }, {
-      type: 'add',
-      path: '../app/components/{{ folder }}/{{properCase name}}/{{properCase name}}.js',
-      templateFile: componentTemplate,
-      abortOnFail: true,
-    }, {
-      type: 'add',
-      path: '../app/components/{{ folder }}/{{properCase name}}/tests/{{properCase name}}.test.js',
-      templateFile: './component/test.js.hbs',
-      abortOnFail: true,
-    }, {
-      type: 'add',
-      path: '../app/components/{{ folder }}/{{properCase name}}/{{properCase name}}.story.js',
-      templateFile: './component/story.js.hbs',
-      abortOnFail: true,
-    }, {
-      type: 'add',
-      path: '../app/components/{{ folder }}/{{properCase name}}/{{properCase name}}.style.js',
-      templateFile: './component/style.js.hbs',
-      abortOnFail: true,
-    }, {
-      type: 'add',
-      path: '../app/components/{{ folder }}/{{properCase name}}/types/index.js',
-      templateFile: './component/types.js.hbs',
-      abortOnFail: true,
-    }];
+    const actions = [
+      {
+        type: 'add',
+        path: '../lib/components/{{ folder }}/{{properCase name}}/index.js',
+        templateFile: './component/index.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path: '../lib/components/{{ folder }}/{{properCase name}}/{{properCase name}}.js',
+        templateFile: componentTemplate,
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path:
+          '../lib/components/{{ folder }}/{{properCase name}}/tests/{{properCase name}}.test.js',
+        templateFile: './component/test.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path: '../lib/components/{{ folder }}/{{properCase name}}/{{properCase name}}.story.js',
+        templateFile: './component/story.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path: '../lib/components/{{ folder }}/{{properCase name}}/{{properCase name}}.mock.js',
+        templateFile: './component/mock.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path: '../lib/components/{{ folder }}/{{properCase name}}/{{properCase name}}.style.js',
+        templateFile: './component/style.style.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path: '../lib/components/{{ folder }}/{{properCase name}}/types/index.js',
+        templateFile: './component/types.js.hbs',
+        abortOnFail: true,
+      },
+    ];
 
     return actions;
   },
