@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component should render correctly 1`] = `
+<Label
+  className=""
+  htmlFor="name"
+>
+  <Styled(InputControl)
+    id="name"
+    name="test"
+    type="checkbox"
+  />
+  <span>
+    Checkbox
+  </span>
+</Label>
+`;

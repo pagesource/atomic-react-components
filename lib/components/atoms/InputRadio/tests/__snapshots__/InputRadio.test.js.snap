@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputRadio Component should render correctly 1`] = `
+<Label
+  className=""
+  htmlFor="name"
+>
+  <Styled(InputControl)
+    id="name"
+    name="test"
+    type="radio"
+  />
+  <span>
+    inputRadio
+  </span>
+</Label>
+`;

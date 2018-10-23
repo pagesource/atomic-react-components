@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputControl Component should render Radio button correctly 1`] = `
+<div
+  className=""
+>
+  <Input
+    ariaLabel=""
+    className=""
+    defaultChecked={false}
+    disabled={false}
+    id=""
+    placeholder=""
+    type="radio"
+    value=""
+  />
+  <span
+    disabled={false}
+    type="radio"
+  />
+</div>
+`;
+
+exports[`InputControl Component should render checkbox correctly 1`] = `
+<div
+  className=""
+>
+  <Input
+    ariaLabel=""
+    className=""
+    defaultChecked={false}
+    disabled={false}
+    id=""
+    placeholder=""
+    type="checkbox"
+    value=""
+  />
+  <span
+    disabled={false}
+    type="checkbox"
+  />
+</div>
+`;
