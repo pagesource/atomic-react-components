@@ -90,7 +90,7 @@ module.exports = {
       {
         type: 'add',
         path: '../lib/components/{{ folder }}/{{properCase name}}/{{properCase name}}.style.js',
-        templateFile: './component/style.style.js.hbs',
+        templateFile: './component/style.js.hbs',
         abortOnFail: true,
       },
       {
