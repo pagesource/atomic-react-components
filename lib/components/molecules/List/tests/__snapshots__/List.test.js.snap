@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should render default view correctly 1`] = `
+<List
+  className="List-sc-1wwjr07-0 dSrkKF"
+>
+  <li>
+    This is list item
+  </li>
+  <li>
+    This is list item
+  </li>
+</List>
+`;
