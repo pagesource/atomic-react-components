@@ -1,15 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InputControl Component should render Radio button correctly 1`] = `
-<div
+exports[`InputChoiceVanilla Component should render Radio button correctly 1`] = `
+<Label
   className=""
+  htmlFor="test_1"
+  showLabelBeforeInput={false}
 >
   <Input
     ariaLabel=""
     className=""
     defaultChecked={false}
     disabled={false}
-    id=""
+    id="test_1"
+    name="test_1"
     placeholder=""
     type="radio"
     value=""
@@ -18,19 +21,23 @@ exports[`InputControl Component should render Radio button correctly 1`] = `
     disabled={false}
     type="radio"
   />
-</div>
+  <div />
+</Label>
 `;
 
-exports[`InputControl Component should render checkbox correctly 1`] = `
-<div
+exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
+<Label
   className=""
+  htmlFor="test_2"
+  showLabelBeforeInput={false}
 >
   <Input
     ariaLabel=""
     className=""
     defaultChecked={false}
     disabled={false}
-    id=""
+    id="test_2"
+    name="test_2"
     placeholder=""
     type="checkbox"
     value=""
@@ -39,5 +46,6 @@ exports[`InputControl Component should render checkbox correctly 1`] = `
     disabled={false}
     type="checkbox"
   />
-</div>
+  <div />
+</Label>
 `;

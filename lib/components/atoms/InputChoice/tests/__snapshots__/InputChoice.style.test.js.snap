@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InputControl should render checkbox correctly 1`] = `
+exports[`InputChoice should render checkbox correctly 1`] = `
 .c0 {
-  display: inline-block;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .c0 > input {
@@ -19,7 +23,7 @@ exports[`InputControl should render checkbox correctly 1`] = `
 }
 
 .c0 > span::after {
-  content: "";
+  content: '';
   width: 12px;
   height: 12px;
   left: 50%;
@@ -40,11 +44,19 @@ exports[`InputControl should render checkbox correctly 1`] = `
   border-radius: 2px;
 }
 
-<InputControl
+.c0 > span {
+  margin-right: 5px;
+}
+
+<InputChoice
   checked={false}
   className="c0"
   disabled={false}
-  id=""
+  id="test_2"
+  label=""
+  labelProps={Object {}}
+  name="test_2"
+  showLabelBeforeInput={false}
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
@@ -104,9 +116,13 @@ exports[`InputControl should render checkbox correctly 1`] = `
 />
 `;
 
-exports[`InputControl should render radio correctly 1`] = `
+exports[`InputChoice should render radio correctly 1`] = `
 .c0 {
-  display: inline-block;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .c0 > input {
@@ -124,7 +140,7 @@ exports[`InputControl should render radio correctly 1`] = `
 }
 
 .c0 > span::after {
-  content: "";
+  content: '';
   width: 12px;
   height: 12px;
   left: 50%;
@@ -144,11 +160,19 @@ exports[`InputControl should render radio correctly 1`] = `
   background-color: #006193;
 }
 
-<InputControl
+.c0 > span {
+  margin-right: 5px;
+}
+
+<InputChoice
   checked={false}
   className="c0"
   disabled={false}
-  id=""
+  id="test_1"
+  label=""
+  labelProps={Object {}}
+  name="test_1"
+  showLabelBeforeInput={false}
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
