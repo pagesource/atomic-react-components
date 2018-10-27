@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render correctly 1`] = `
+<Tabs
+  className="Tabs-sc-5a2lzp-0 bIjHHx"
+  inheritedStyles=""
+  initialSelectedIndex={0}
+  isVerticalView={false}
+  panelWrapClassName=""
+  tabWrapClassName=""
+  tabsId=""
+>
+  Test
+</Tabs>
+`;

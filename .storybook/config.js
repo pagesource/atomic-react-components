@@ -6,6 +6,7 @@ import chaptersAddon, { setDefaults } from 'react-storybook-addon-chapters';
 import { withConsole } from '@storybook/addon-console';
 import { ThemeProvider } from 'styled-components';
 import Theme from '../lib/styles/theme';
+import '../lib/styles/cssIncludes';
 import '../lib/styles';
 
 setOptions({

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabPanel /> should render correctly 1`] = `
+<TabPanel
+  className="TabPanel-sc-1lm1ssk-0 dECZOi"
+  inheritedStyles=""
+>
+  Test
+</TabPanel>
+`;
