@@ -49,7 +49,6 @@ exports[`InputChoice should render checkbox correctly 1`] = `
 }
 
 <InputChoice
-  checked={false}
   className="c0"
   disabled={false}
   id="test_2"
@@ -165,7 +164,6 @@ exports[`InputChoice should render radio correctly 1`] = `
 }
 
 <InputChoice
-  checked={false}
   className="c0"
   disabled={false}
   id="test_1"
