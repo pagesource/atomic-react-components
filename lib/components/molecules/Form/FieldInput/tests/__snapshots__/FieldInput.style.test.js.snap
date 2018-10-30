@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldInput should render correctly 1`] = `
+.c0 {
+  margin-bottom: 0.75rem;
+}
+
+.c0 label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.c0 input {
+  margin-bottom: 0.25rem;
+}
+
+<FieldInput
+  className="c0"
+  fieldProps={Object {}}
+  labelProps={Object {}}
+  placeholder=""
+  type="text"
+  value=""
+/>
+`;
