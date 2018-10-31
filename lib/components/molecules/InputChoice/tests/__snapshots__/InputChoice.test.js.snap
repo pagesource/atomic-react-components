@@ -9,7 +9,6 @@ exports[`InputChoiceVanilla Component should render Radio button correctly 1`] =
   <Input
     ariaLabel=""
     className=""
-    defaultChecked={false}
     disabled={false}
     id="test_1"
     name="test_1"
@@ -18,7 +17,6 @@ exports[`InputChoiceVanilla Component should render Radio button correctly 1`] =
     value=""
   />
   <span
-    disabled={false}
     type="radio"
   />
   <div />
@@ -34,7 +32,6 @@ exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
   <Input
     ariaLabel=""
     className=""
-    defaultChecked={false}
     disabled={false}
     id="test_2"
     name="test_2"
@@ -43,7 +40,6 @@ exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
     value=""
   />
   <span
-    disabled={false}
     type="checkbox"
   />
   <div />
