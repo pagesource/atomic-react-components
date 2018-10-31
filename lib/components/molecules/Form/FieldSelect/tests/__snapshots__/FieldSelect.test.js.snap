@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldInput Component should render correctly 1`] = `
+<div>
+  <Label
+    className=""
+  />
+  <C
+    component="select"
+    render={[Function]}
+  />
+  <C
+    component={[Function]}
+  />
+</div>
+`;
