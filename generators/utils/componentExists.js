@@ -9,12 +9,7 @@ const path = require('path');
 
 const atomComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/atoms'));
 const moleculeComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/molecules'));
-const organismComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/organisms'));
-const templateComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/templates'));
-const components = atomComponents
-  .concat(moleculeComponents)
-  .concat(organismComponents)
-  .concat(templateComponents);
+const components = atomComponents.concat(moleculeComponents);
 
 function componentExists(comp) {
   return components.indexOf(comp) >= 0;
