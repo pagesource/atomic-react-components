@@ -18,8 +18,6 @@ exports[`Select Styled component should render correctly 1`] = `
 
 <Textarea
   className="c0"
-  id=""
-  name=""
   placeholder=""
   resize="none"
   theme={
