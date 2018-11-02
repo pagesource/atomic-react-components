@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputChoice should render checkbox correctly 1`] = `
+.c0 {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0 > input {
+  display: none;
+}
+
+.c0 > span {
+  border: 2px solid #006193;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c0 > span::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+  -ms-transform: translate(-50%,-50%) rotate(-45deg);
+  transform: translate(-50%,-50%) rotate(-45deg);
+  position: absolute;
+  height: 6px;
+  border: 2px solid #fff;
+  border-width: 0 0 2px 2px;
+  top: calc(50% - 3px);
+}
+
+.c0 > input:checked + span {
+  border-color: #006193;
+  background-color: #006193;
+  border-radius: 2px;
+}
+
+.c0 > span {
+  margin-right: 5px;
+}
+
+<InputChoice
+  className="c0"
+  disabled={false}
+  id="test_2"
+  label=""
+  labelProps={Object {}}
+  name="test_2"
+  showLabelBeforeInput={false}
+  theme={
+    Object {
+      "backgroundColorPrimary": "#fff",
+      "backgroundColorSecondary": "#eaf2f6",
+      "backgroundColorSuccess": "#2e993a",
+      "borderColorBoldest": "#c00",
+      "borderColorSecondary": "#d9d9d9",
+      "brandPrimaryColor": "#006193",
+      "buttonBackgroundColorPrimary": "#e57725",
+      "buttonBackgroundColorSecondary": "#016fad",
+      "buttonColorPrimary": "#ffffff",
+      "buttonColorSecondary": "#ffffff",
+      "colorOutline": "#999",
+      "containerShadowPrimary": "rgba(0,0,0,.2)",
+      "fieldBackgroundColor": "#ffffff",
+      "fieldBackgroundDisabledColor": "#f3f3f3",
+      "fieldBorderColor": "#bfbfbf",
+      "fieldBorderDisabledColor": "#bfdfdf",
+      "fieldBorderErrorColor": "#c00",
+      "fieldBorderFocusColor": "#006193",
+      "fieldTextColor": "#222",
+      "fontBold": "700",
+      "fontBook": "400",
+      "fontFamilyDefault": "Arial, Helvetica, sans-serif",
+      "fontFamilyIcon": "",
+      "fontFamilyPrimary": "Arial, Helvetica, sans-serif",
+      "fontFamilySecondary": "Arial, Helvetica, sans-serif",
+      "fontMedium": "500",
+      "fontNormal": "normal",
+      "fontSemiBold": "600",
+      "fontSizeBase": "16px",
+      "fontSizeButtonPrimary": "24px",
+      "fontSizeButtonSecondary": "16px",
+      "fontSizeDefault": "12px",
+      "fontSizeHighlight": "18px",
+      "letterSpacing": "0px",
+      "lineHeightBase": "1.5",
+      "linkColorPrimary": "#008CBA",
+      "linkColorSecondary": "#016fad",
+      "maxWidthPageContent": "80rem",
+      "textColorBrandPrimary": "#006193",
+      "textColorError": "#c00",
+      "textColorPlaceholder": "#dfdfdf",
+      "textColorPrimary": "#222",
+      "textColorSecondary": "#262626",
+      "textColorSecondaryLight": "#666",
+      "textColorSuccess": "#2e993a",
+      "zIndex": Object {
+        "zLoader": 1000,
+        "zNativeTickSelectIcon": 50,
+        "zOverlay": 900,
+        "zSticky": 700,
+      },
+    }
+  }
+  type="checkbox"
+/>
+`;
+
+exports[`InputChoice should render radio correctly 1`] = `
+.c0 {
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0 > input {
+  display: none;
+}
+
+.c0 > span {
+  border: 2px solid #006193;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.c0 > span::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+  -ms-transform: translate(-50%,-50%) rotate(-45deg);
+  transform: translate(-50%,-50%) rotate(-45deg);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.c0 > input:checked + span {
+  border-color: #006193;
+}
+
+.c0 > input:checked + span:after {
+  background-color: #006193;
+}
+
+.c0 > span {
+  margin-right: 5px;
+}
+
+<InputChoice
+  className="c0"
+  disabled={false}
+  id="test_1"
+  label=""
+  labelProps={Object {}}
+  name="test_1"
+  showLabelBeforeInput={false}
+  theme={
+    Object {
+      "backgroundColorPrimary": "#fff",
+      "backgroundColorSecondary": "#eaf2f6",
+      "backgroundColorSuccess": "#2e993a",
+      "borderColorBoldest": "#c00",
+      "borderColorSecondary": "#d9d9d9",
+      "brandPrimaryColor": "#006193",
+      "buttonBackgroundColorPrimary": "#e57725",
+      "buttonBackgroundColorSecondary": "#016fad",
+      "buttonColorPrimary": "#ffffff",
+      "buttonColorSecondary": "#ffffff",
+      "colorOutline": "#999",
+      "containerShadowPrimary": "rgba(0,0,0,.2)",
+      "fieldBackgroundColor": "#ffffff",
+      "fieldBackgroundDisabledColor": "#f3f3f3",
+      "fieldBorderColor": "#bfbfbf",
+      "fieldBorderDisabledColor": "#bfdfdf",
+      "fieldBorderErrorColor": "#c00",
+      "fieldBorderFocusColor": "#006193",
+      "fieldTextColor": "#222",
+      "fontBold": "700",
+      "fontBook": "400",
+      "fontFamilyDefault": "Arial, Helvetica, sans-serif",
+      "fontFamilyIcon": "",
+      "fontFamilyPrimary": "Arial, Helvetica, sans-serif",
+      "fontFamilySecondary": "Arial, Helvetica, sans-serif",
+      "fontMedium": "500",
+      "fontNormal": "normal",
+      "fontSemiBold": "600",
+      "fontSizeBase": "16px",
+      "fontSizeButtonPrimary": "24px",
+      "fontSizeButtonSecondary": "16px",
+      "fontSizeDefault": "12px",
+      "fontSizeHighlight": "18px",
+      "letterSpacing": "0px",
+      "lineHeightBase": "1.5",
+      "linkColorPrimary": "#008CBA",
+      "linkColorSecondary": "#016fad",
+      "maxWidthPageContent": "80rem",
+      "textColorBrandPrimary": "#006193",
+      "textColorError": "#c00",
+      "textColorPlaceholder": "#dfdfdf",
+      "textColorPrimary": "#222",
+      "textColorSecondary": "#262626",
+      "textColorSecondaryLight": "#666",
+      "textColorSuccess": "#2e993a",
+      "zIndex": Object {
+        "zLoader": 1000,
+        "zNativeTickSelectIcon": 50,
+        "zOverlay": 900,
+        "zSticky": 700,
+      },
+    }
+  }
+  type="radio"
+/>
+`;
