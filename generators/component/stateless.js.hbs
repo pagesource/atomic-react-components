@@ -1,23 +1,15 @@
 /**
-*
-* {{ properCase name }}
-*
-*/
+ *
+ * {{ properCase name }}
+ *
+ */
 // @flow
 import type { Node } from 'react';
-import styled from 'styled-components';
-import styles from './{{ properCase name }}.style';
+import styles from './{{ properCase name }}.style.js';
 import type { Props } from './types';
 
-const {{ properCase name }} = ({
-  children,
-}: Props): Node => (
-  <div className={className}>{children}</div>
-);
+const {{ properCase name }} = ({ children }: Props): Node => <div className={styles.default}>{children}</div>;
 
-{{ properCase name }}.defaultProps = {
-};
+{{ properCase name }}.defaultProps = {};
 
-export default styled({{ properCase name }}, styles);
-
-export { {{ properCase name }} };
+export default {{ properCase name }};
