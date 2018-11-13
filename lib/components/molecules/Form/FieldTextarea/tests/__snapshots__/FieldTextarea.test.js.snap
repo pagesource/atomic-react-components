@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldTextarea Component should render correctly 1`] = `
+<div
+  className=""
+>
+  <Label
+    className=""
+  />
+  <C
+    render={[Function]}
+  />
+  <C
+    component={[Function]}
+  />
+</div>
+`;
