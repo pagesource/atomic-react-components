@@ -2,14 +2,42 @@
 
 exports[`<Tabs /> should render correctly 1`] = `
 <Tabs
-  className="Tabs-sc-5a2lzp-0 bIjHHx"
+  className="example Tabs-sc-5a2lzp-0 bIjHHx"
   inheritedStyles=""
   initialSelectedIndex={0}
   isVerticalView={false}
   panelWrapClassName=""
   tabWrapClassName=""
-  tabsId=""
->
-  Test
-</Tabs>
+  tabsContent={
+    Array [
+      Object {
+        "panelContent": <List
+          ListType="ol"
+        >
+          <li>
+            This is ordered list item, content of tab 1.
+          </li>
+          <li>
+            This is ordered list item, content of tab 1.
+          </li>
+        </List>,
+        "tabTitle": "First tab",
+      },
+      Object {
+        "panelContent": <List
+          ListType="ul"
+        >
+          <li>
+            This is unordered list item, content of tab 2.
+          </li>
+          <li>
+            This is unordered list item, content of tab 2.
+          </li>
+        </List>,
+        "tabTitle": "Second tab",
+      },
+    ]
+  }
+  tabsId="default-tab"
+/>
 `;
