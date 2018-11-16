@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb /> should render correctly 1`] = `
+<Breadcrumb
+  className="Breadcrumb-sc-190arc4-0 kItiBi"
+  linkList={
+    Array [
+      Object {
+        "children": "Link 1",
+        "className": "breadcrumb-link",
+        "handleLinkClick": [Function],
+        "to": "https://nextjs.org/",
+      },
+      Object {
+        "children": "Link 2",
+        "className": "breadcrumb-link",
+        "handleLinkClick": [Function],
+        "to": "https://nextjs.org/",
+      },
+      Object {
+        "children": "Link 3",
+        "className": "breadcrumb-link",
+        "handleLinkClick": [Function],
+        "to": "https://nextjs.org/",
+      },
+    ]
+  }
+/>
+`;
