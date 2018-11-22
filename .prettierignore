@@ -1,0 +1,6 @@
+dist/
+node_modules/
+docs/
+reports/
+.history/
+out/

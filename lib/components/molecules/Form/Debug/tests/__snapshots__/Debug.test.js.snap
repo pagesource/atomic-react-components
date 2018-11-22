@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debug should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "background": "#f6f8fa",
+      "borderRadius": 4,
+      "boxShadow": "0 0 1px  #eee inset",
+      "margin": "3rem 0",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "#555",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "color": "#fff",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "letterSpacing": "1px",
+        "padding": ".5rem",
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    Debug Mode - Form State
+  </div>
+  <ContextConsumer>
+    <Component />
+  </ContextConsumer>
+</div>
+`;

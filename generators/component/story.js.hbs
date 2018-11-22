@@ -1,19 +1,19 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 // import { action } from '@storybook/addon-actions';
-import { defaultConfig } from './{{ properCase name }}.mock';
+import defaultConfig from './{{ properCase name }}.mock';
 
-// Import Vanilla Component to display markup and props
-import { {{ properCase name }}Vanilla } from './{{ properCase name }}';
 // Import Styled Component to showcase variations
-import {{ properCase name }} from './index';
+import {{ properCase name }}, { {{ properCase name }}Vanilla } from '.';
 
-storiesOf('Atoms', module).addWithChapters({{ properCase name }}, {
+storiesOf('Atoms', module).addWithChapters('{{ properCase name }}', {
   chapters: [
     {
       sections: [
         {
-          sectionFn: () => <`{{ properCase name }}`Vanilla {...defaultConfig} className={`hide-default-sample ${defaultConfig.className}`} />,
+          sectionFn: () => (
+            <{{ properCase name }}Vanilla {...defaultConfig} className={`hide-default-sample ${defaultConfig.className}`} />
+          ),
           options: {
             showSource: true,
             allowSourceToggling: true,
@@ -28,7 +28,7 @@ storiesOf('Atoms', module).addWithChapters({{ properCase name }}, {
       sections: [
         {
           title: 'Variation Name',
-          sectionFn: () => <`{{ properCase name }}` {...defaultConfig} />,
+          sectionFn: () => <{{ properCase name }} {...defaultConfig} />,
         },
       ],
     },
