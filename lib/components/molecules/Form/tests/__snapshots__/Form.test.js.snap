@@ -88,6 +88,7 @@ exports[`Form Component should render input field with no validation 1`] = `
       >
         <form
           noValidate={true}
+          onReset={[Function]}
           onSubmit={[Function]}
         >
           <div>
@@ -653,6 +654,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
       >
         <form
           noValidate={true}
+          onReset={[Function]}
           onSubmit={[Function]}
         >
           <div>
@@ -1343,6 +1345,7 @@ exports[`Form Component should render input text field 1`] = `
       >
         <form
           noValidate={true}
+          onReset={[Function]}
           onSubmit={[Function]}
         >
           <div>
@@ -2097,6 +2100,7 @@ exports[`Form Component should render select field 1`] = `
       >
         <form
           noValidate={true}
+          onReset={[Function]}
           onSubmit={[Function]}
         >
           <div>

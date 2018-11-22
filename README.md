@@ -1,6 +1,6 @@
-# AtomicPatternLib
+# Atomic React Pattern Lib
 
-This repository contains reusable react components built to serve all type of react based projects to achieve better user experience consistency and reusability.
+A react pattern library with collocation for generic react components equipped with recommended development ecosystem. Its collection of reusable react components built to serve all type of react based projects to achieve better user experience consistency and reusability.
 
 ## Why a Component Library?
 
@@ -22,7 +22,10 @@ This repository contains reusable react components built to serve all type of re
 
 ## Dependencies
 
-1. GDS
+1. formik
+2. yup
+3. flexboxgrid
+4. react-modal
 
 ## Installation
 

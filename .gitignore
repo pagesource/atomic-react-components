@@ -14,3 +14,5 @@ flow-typed
 
 # ES Docs
 docs
+
+.cache
