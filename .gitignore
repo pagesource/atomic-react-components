@@ -4,3 +4,15 @@ node_modules
 *.log
 reports
 out
+.history
+
+# Reports
+reports
+
+# Flow
+flow-typed
+
+# ES Docs
+docs
+
+.cache

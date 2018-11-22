@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component should render Modal correctly 1`] = `
+<Modal
+  aria={Object {}}
+  ariaHideApp={false}
+  bodyOpenClassName="modalWrapper"
+  className=""
+  closeTimeoutMS={0}
+  contentLabel=""
+  contentRef={null}
+  htmlOpenClassName=""
+  isOpen={false}
+  onAfterOpen={[Function]}
+  onRequestClose={[Function]}
+  overlayClassName=""
+  overlayRef={null}
+  parentSelector={[Function]}
+  portalClassName=""
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+  style={Object {}}
+>
+  <h2>
+     Hello World 
+  </h2>
+</Modal>
+`;
