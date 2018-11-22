@@ -2,7 +2,6 @@
   "name": "atomic-react-pattern-lib",
   "version": "0.1.0",
   "description": "Atomic React Pattern Library",
-  "main": "dist/index.js",
   "module": "dist/index.js",
   "style": "dist/styles/index.js",
   "scripts": {
@@ -28,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://tools.publicis.sapient.com/bitbucket-code-commons/scm/xti/atomic-react-pattern-lib.git"
+    "url": "git+https://github.com/pagesource/atomic-react-components.git"
   },
   "keywords": [
     "Atomic",
