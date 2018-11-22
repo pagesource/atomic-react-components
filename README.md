@@ -21,7 +21,10 @@ A react pattern library with collocation for generic react components equipped w
 
 ## Dependencies
 
-1. GDS
+1. formik
+2. yup
+3. flexboxgrid
+4. react-modal
 
 ## Installation
 
