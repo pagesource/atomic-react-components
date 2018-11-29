@@ -110,10 +110,12 @@
     "next": "^7.0.1",
     "normalize.css": "^8.0.0",
     "react": "^16.5.2",
+    "react-accessible-accordion": "^2.4.5",
     "react-app-polyfill": "^0.1.3",
     "react-dom": "^16.5.2",
     "react-modal": "^3.6.1",
     "styled-components": "^3.4.9",
+    "yarn": "^1.12.3",
     "yup": "^0.26.6"
   },
   "engines": {
