@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slide /> should render correctly 1`] = `
+<li
+  aria-hidden={true}
+  className="test"
+  tabIndex="-1"
+>
+  Test
+</li>
+`;

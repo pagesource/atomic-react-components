@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousal /> should render correctly 1`] = `
+<section
+  className=""
+>
+  <div
+    className="slider-container"
+  >
+    <Button
+      className="arrow"
+      disabled={true}
+      onClick={[Function]}
+    >
+      &lt;
+    </Button>
+    <Slider
+      currentSlideIndex={0}
+      totalSlides={3}
+    >
+      <p>
+        Slide 1
+      </p>
+      <p>
+        Slide 2
+      </p>
+      <p>
+        Slide 3
+      </p>
+    </Slider>
+    <Button
+      className="arrow right"
+      disabled={false}
+      onClick={[Function]}
+    >
+      &gt;
+    </Button>
+  </div>
+  <Dots
+    currentSlideIndex={0}
+    onDotClick={[Function]}
+    totalSlides={3}
+  />
+</section>
+`;

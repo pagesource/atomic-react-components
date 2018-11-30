@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Slider /> should render correctly 1`] = `
+<List
+  className=""
+  noDefaultView={true}
+>
+  <Slide
+    isActive={true}
+    key="slide_0/.0"
+  >
+    Test
+  </Slide>
+</List>
+`;

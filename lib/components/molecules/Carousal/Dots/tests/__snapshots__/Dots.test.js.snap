@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dots /> should render correctly 1`] = `
+<div
+  className=""
+>
+  <Button
+    className="dot"
+    key="dot_0"
+    onClick={[Function]}
+    primary={true}
+    secondary={false}
+  />
+  <Button
+    className="dot"
+    key="dot_1"
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+  />
+  <Button
+    className="dot"
+    key="dot_2"
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+  />
+  <Button
+    className="dot"
+    key="dot_3"
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+  />
+  <Button
+    className="dot"
+    key="dot_4"
+    onClick={[Function]}
+    primary={false}
+    secondary={true}
+  />
+</div>
+`;
