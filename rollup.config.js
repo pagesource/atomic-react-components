@@ -1,5 +1,6 @@
 import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 import packageJson from './package.json';
 
 const glob = require('glob');
@@ -28,9 +29,13 @@ const dependencies = packageJson.dependencies || {};
 const shared = {
   plugins: [
     resolve(),
+    commonjs({
+      include: 'node_modules/**',
+    }),
     babel({
       exclude: 'node_modules/**',
-      presets: [['@babel/preset-env', { modules: false }], 'next'],
+      runtimeHelpers: true,
+      presets: [['@babel/preset-env'], 'next'],
     }),
   ],
   globals: [],
