@@ -47,7 +47,7 @@ export default {
       exclude: ['node_modules/process-es6/**'],
     }),
     visualizer({
-      filename: '.reports/statistics.html',
+      filename: './reports/statistics.html',
       title: 'My Bundle',
     }),
     filesize(),
