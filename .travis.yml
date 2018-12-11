@@ -15,7 +15,6 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: "$github_token"
   local_dir: ".out"
   on:
     branch: develop
