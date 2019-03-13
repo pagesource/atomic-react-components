@@ -98,7 +98,7 @@ exports[`Form Component should render input field with no validation 1`] = `
               type="text"
             >
               <FieldInput
-                className="FieldInput-sc-1g6jjxa-0 gGDhvv"
+                className="FieldInput-sc-11uypwq-0 kqETOp"
                 fieldProps={Object {}}
                 label="User Name"
                 labelProps={Object {}}
@@ -108,7 +108,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                 value=""
               >
                 <div
-                  className="FieldInput-sc-1g6jjxa-0 gGDhvv"
+                  className="FieldInput-sc-11uypwq-0 kqETOp"
                 >
                   <Label
                     className=""
@@ -184,7 +184,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                       >
                         <Input
                           ariaLabel=""
-                          className="Input-qknnxd-0 fKPfiK"
+                          className="Input-u0xaex-0 fDZrqG"
                           name="username"
                           onBlur={[Function]}
                           onChange={[Function]}
@@ -194,7 +194,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                         >
                           <input
                             aria-label=""
-                            className="Input-qknnxd-0 fKPfiK"
+                            className="Input-u0xaex-0 fDZrqG"
                             name="username"
                             onBlur={[Function]}
                             onChange={[Function]}
@@ -270,7 +270,7 @@ exports[`Form Component should render input field with no validation 1`] = `
           >
             <Button
               ariaLabel=""
-              className="Button-sc-1ea8rw7-0 iRorEd"
+              className="Button-gslt1t-0 gNfZyi"
               disabled={false}
               inheritedStyles=""
               primary={true}
@@ -279,7 +279,7 @@ exports[`Form Component should render input field with no validation 1`] = `
             >
               <button
                 aria-label={null}
-                className="Button-sc-1ea8rw7-0 iRorEd"
+                className="Button-gslt1t-0 gNfZyi"
                 disabled={false}
                 type="submit"
               >
@@ -664,7 +664,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
               type="text"
             >
               <FieldInput
-                className="FieldInput-sc-1g6jjxa-0 gGDhvv"
+                className="FieldInput-sc-11uypwq-0 kqETOp"
                 fieldProps={Object {}}
                 label="User Name"
                 labelProps={Object {}}
@@ -674,7 +674,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                 value=""
               >
                 <div
-                  className="FieldInput-sc-1g6jjxa-0 gGDhvv"
+                  className="FieldInput-sc-11uypwq-0 kqETOp"
                 >
                   <Label
                     className=""
@@ -813,7 +813,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                       >
                         <Input
                           ariaLabel=""
-                          className="Input-qknnxd-0 fKPfiK"
+                          className="Input-u0xaex-0 fDZrqG"
                           name="username"
                           onBlur={[Function]}
                           onChange={[Function]}
@@ -823,7 +823,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                         >
                           <input
                             aria-label=""
-                            className="Input-qknnxd-0 fKPfiK"
+                            className="Input-u0xaex-0 fDZrqG"
                             name="username"
                             onBlur={[Function]}
                             onChange={[Function]}
@@ -962,7 +962,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
           >
             <Button
               ariaLabel=""
-              className="Button-sc-1ea8rw7-0 iRorEd"
+              className="Button-gslt1t-0 gNfZyi"
               disabled={false}
               inheritedStyles=""
               primary={true}
@@ -971,7 +971,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
             >
               <button
                 aria-label={null}
-                className="Button-sc-1ea8rw7-0 iRorEd"
+                className="Button-gslt1t-0 gNfZyi"
                 disabled={false}
                 type="submit"
               >
@@ -1355,7 +1355,7 @@ exports[`Form Component should render input text field 1`] = `
               type="text"
             >
               <FieldInput
-                className="FieldInput-sc-1g6jjxa-0 gGDhvv"
+                className="FieldInput-sc-11uypwq-0 kqETOp"
                 fieldProps={Object {}}
                 label="User Name"
                 labelProps={Object {}}
@@ -1365,7 +1365,7 @@ exports[`Form Component should render input text field 1`] = `
                 value=""
               >
                 <div
-                  className="FieldInput-sc-1g6jjxa-0 gGDhvv"
+                  className="FieldInput-sc-11uypwq-0 kqETOp"
                 >
                   <Label
                     className=""
@@ -1536,7 +1536,7 @@ exports[`Form Component should render input text field 1`] = `
                       >
                         <Input
                           ariaLabel=""
-                          className="Input-qknnxd-0 fKPfiK"
+                          className="Input-u0xaex-0 fDZrqG"
                           name="username"
                           onBlur={[Function]}
                           onChange={[Function]}
@@ -1546,7 +1546,7 @@ exports[`Form Component should render input text field 1`] = `
                         >
                           <input
                             aria-label=""
-                            className="Input-qknnxd-0 fKPfiK"
+                            className="Input-u0xaex-0 fDZrqG"
                             name="username"
                             onBlur={[Function]}
                             onChange={[Function]}
@@ -1717,7 +1717,7 @@ exports[`Form Component should render input text field 1`] = `
           >
             <Button
               ariaLabel=""
-              className="Button-sc-1ea8rw7-0 iRorEd"
+              className="Button-gslt1t-0 gNfZyi"
               disabled={false}
               inheritedStyles=""
               primary={true}
@@ -1726,7 +1726,7 @@ exports[`Form Component should render input text field 1`] = `
             >
               <button
                 aria-label={null}
-                className="Button-sc-1ea8rw7-0 iRorEd"
+                className="Button-gslt1t-0 gNfZyi"
                 disabled={false}
                 type="submit"
               >
@@ -2115,7 +2115,7 @@ exports[`Form Component should render select field 1`] = `
               }
             >
               <FieldSelect
-                className="FieldSelect-g26khr-0 jVDXBH"
+                className="FieldSelect-sc-2igw7p-0 egsNNu"
                 fieldProps={Object {}}
                 label="Type of user"
                 labelProps={Object {}}
@@ -2128,7 +2128,7 @@ exports[`Form Component should render select field 1`] = `
                 }
               >
                 <div
-                  className="FieldSelect-g26khr-0 jVDXBH"
+                  className="FieldSelect-sc-2igw7p-0 egsNNu"
                 >
                   <Label
                     className=""
@@ -2302,7 +2302,7 @@ exports[`Form Component should render select field 1`] = `
                         value=""
                       >
                         <Select
-                          className="Select-sc-1x42827-0 iHwOuf"
+                          className="Select-sc-18am2v4-0 fJuhuI"
                           disabled={false}
                           name="typeOfUser"
                           onBlur={[Function]}
@@ -2318,7 +2318,7 @@ exports[`Form Component should render select field 1`] = `
                           value=""
                         >
                           <select
-                            className="Select-sc-1x42827-0 iHwOuf"
+                            className="Select-sc-18am2v4-0 fJuhuI"
                             disabled={false}
                             name="typeOfUser"
                             onBlur={[Function]}
@@ -2501,7 +2501,7 @@ exports[`Form Component should render select field 1`] = `
           >
             <Button
               ariaLabel=""
-              className="Button-sc-1ea8rw7-0 iRorEd"
+              className="Button-gslt1t-0 gNfZyi"
               disabled={false}
               inheritedStyles=""
               primary={true}
@@ -2510,7 +2510,7 @@ exports[`Form Component should render select field 1`] = `
             >
               <button
                 aria-label={null}
-                className="Button-sc-1ea8rw7-0 iRorEd"
+                className="Button-gslt1t-0 gNfZyi"
                 disabled={false}
                 type="submit"
               >
