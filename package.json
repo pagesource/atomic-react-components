@@ -33,7 +33,7 @@
     "pretty": "prettier --write **/*.{js,json,css}",
     "validate": "yarn run lint && yarn run test && yarn run build",
     "auditNPM": "yarn audit --verbose --json",
-    "publish": "yarn validate && yarn publish"
+    "prepublishOnly": "yarn validate"
   },
   "repository": {
     "type": "git",
