@@ -1,5 +1,5 @@
 {
-  "name": "atomic-react-pattern-lib",
+  "name": "@xt/atomic-react-pattern-lib",
   "version": "0.1.0",
   "description": "Atomic React Pattern Library",
   "main": "dist/bundle.cjs.js",
@@ -19,6 +19,7 @@
     "generate": "plop --plopfile generators/index.js",
     "storybook": "start-storybook -s ./lib/static -p 6006",
     "build-storybook": "build-storybook -c .storybook -o ./out",
+    "deploy-storybook": "storybook-to-ghpages --existing-output-dir=.out --host-token-env-variable=GITHUB_TOKEN --ci",
     "lint:js": "eslint lib/",
     "lint:js:fix": "yarn run lint:js --fix",
     "lint:css": "stylelint lib/**/*.js",
@@ -56,6 +57,7 @@
     "@storybook/addon-viewport": "^4.0.8",
     "@storybook/addons": "^4.0.8",
     "@storybook/react": "^4.0.8",
+    "@storybook/storybook-deployer": "^2.8.1",
     "autoprefixer": "^9.1.5",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
