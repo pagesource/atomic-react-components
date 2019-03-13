@@ -1,6 +1,6 @@
 {
   "name": "@xt/atomic-react-pattern-lib",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Atomic React Pattern Library",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
@@ -48,6 +48,9 @@
     "Pattern Lib",
     "Living Style Guide"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "vinodloha",
   "license": "ISC",
   "devDependencies": {

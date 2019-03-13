@@ -26,3 +26,5 @@ generators
 flow-typed
 out
 docs
+coverage
+node_modules
