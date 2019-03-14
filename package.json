@@ -1,6 +1,6 @@
 {
   "name": "@sapient-xt/atomic-react-pattern-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Atomic React Pattern Library",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
@@ -34,7 +34,7 @@
     "validate": "yarn run lint && yarn run test && yarn run build",
     "auditNPM": "yarn audit --verbose --json",
     "prepublishOnly": "yarn validate",
-    "publish": "yarn publish --verbose --access=public"
+    "npm-publish": "yarn publish --verbose --access=public"
   },
   "repository": {
     "type": "git",
