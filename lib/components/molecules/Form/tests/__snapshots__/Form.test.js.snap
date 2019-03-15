@@ -98,7 +98,7 @@ exports[`Form Component should render input field with no validation 1`] = `
               type="text"
             >
               <FieldInput
-                className="FieldInput-sc-1a7fz5e-0 htIuCH"
+                className="FieldInput-sc-1g6jjxa-0 gGDhvv"
                 fieldProps={Object {}}
                 label="User Name"
                 labelProps={Object {}}
@@ -110,7 +110,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                 value=""
               >
                 <div
-                  className="FieldInput-sc-1a7fz5e-0 htIuCH"
+                  className="FieldInput-sc-1g6jjxa-0 gGDhvv"
                 >
                   <Label
                     className=""
@@ -666,7 +666,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
               type="text"
             >
               <FieldInput
-                className="FieldInput-sc-1a7fz5e-0 htIuCH"
+                className="FieldInput-sc-1g6jjxa-0 gGDhvv"
                 fieldProps={Object {}}
                 label="User Name"
                 labelProps={Object {}}
@@ -678,7 +678,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                 value=""
               >
                 <div
-                  className="FieldInput-sc-1a7fz5e-0 htIuCH"
+                  className="FieldInput-sc-1g6jjxa-0 gGDhvv"
                 >
                   <Label
                     className=""
@@ -1359,7 +1359,7 @@ exports[`Form Component should render input text field 1`] = `
               type="text"
             >
               <FieldInput
-                className="FieldInput-sc-1a7fz5e-0 htIuCH"
+                className="FieldInput-sc-1g6jjxa-0 gGDhvv"
                 fieldProps={Object {}}
                 label="User Name"
                 labelProps={Object {}}
@@ -1371,7 +1371,7 @@ exports[`Form Component should render input text field 1`] = `
                 value=""
               >
                 <div
-                  className="FieldInput-sc-1a7fz5e-0 htIuCH"
+                  className="FieldInput-sc-1g6jjxa-0 gGDhvv"
                 >
                   <Label
                     className=""
@@ -2121,7 +2121,7 @@ exports[`Form Component should render select field 1`] = `
               }
             >
               <FieldSelect
-                className="FieldSelect-sc-10n1zyg-0 imdPs"
+                className="FieldSelect-g26khr-0 jVDXBH"
                 fieldProps={Object {}}
                 label="Type of user"
                 labelProps={Object {}}
@@ -2135,7 +2135,7 @@ exports[`Form Component should render select field 1`] = `
                 }
               >
                 <div
-                  className="FieldSelect-sc-10n1zyg-0 imdPs"
+                  className="FieldSelect-g26khr-0 jVDXBH"
                 >
                   <Label
                     className=""
