@@ -2,7 +2,7 @@
 
 exports[`<Breadcrumb /> should render correctly 1`] = `
 <Breadcrumb
-  className="Breadcrumb-sc-190arc4-0 kItiBi"
+  className="Breadcrumb-pim2hj-0 cHhKkL"
   linkList={
     Array [
       Object {

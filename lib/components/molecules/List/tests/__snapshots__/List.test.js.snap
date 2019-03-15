@@ -4,7 +4,7 @@ exports[`<List /> should render default view correctly 1`] = `
 <List
   ListType="ul"
   borderSeparator={false}
-  className="List-sc-1wwjr07-0 ivoEXc"
+  className="List-fdkeiw-0 kGkIGp"
   inheritedStyles=""
   inline={false}
   nested={false}
