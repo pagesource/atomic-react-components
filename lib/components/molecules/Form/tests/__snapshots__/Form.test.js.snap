@@ -1,11 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form Component should render input text field 1`] = `
-<Form
-  action="/"
-  className=""
-  debug={false}
-  formWrapperProps={Object {}}
+exports[`Form Component should render input field with no validation 1`] = `
+<Formik
+  enableReinitialize={false}
   initialValues={
     Object {
       "email": "",
@@ -13,687 +10,443 @@ exports[`Form Component should render input text field 1`] = `
       "username": "",
     }
   }
+  isInitialValid={false}
+  render={[Function]}
+  validate={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validationSchema={null}
+/>
+`;
+
+exports[`Form Component should render input field with yupValidationSchema 1`] = `
+<Formik
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "email": "",
+      "typeOfUser": "",
+      "username": "",
+    }
+  }
+  isInitialValid={false}
+  render={[Function]}
   validate={[Function]}
   validateOnBlur={true}
   validateOnChange={true}
   validationSchema={
-    Object {
-      "email": Object {
-        "email": "Invalid email format",
-        "max": Array [
-          30,
-          "Max reached",
-        ],
-        "required": "Required",
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
       },
-      "username": Object {
-        "max": Array [
-          15,
-          "Max limit reached",
-        ],
-        "required": "User name Required",
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": false,
+      "_nodes": Array [
+        "username",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
       },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "username": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "min": true,
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
     }
   }
-  yupValidationSchema={null}
->
-  <Formik
-    enableReinitialize={false}
-    initialValues={
-      Object {
-        "email": "",
-        "typeOfUser": "",
-        "username": "",
-      }
+/>
+`;
+
+exports[`Form Component should render input text field 1`] = `
+<Formik
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "email": "",
+      "typeOfUser": "",
+      "username": "",
     }
-    isInitialValid={false}
-    render={[Function]}
-    validate={[Function]}
-    validateOnBlur={true}
-    validateOnChange={true}
-    validationSchema={
-      ObjectSchema {
-        "_blacklist": RefSet {
-          "list": Set {},
-          "refs": Map {},
-        },
-        "_conditions": Array [],
-        "_defaultDefault": [Function],
-        "_deps": Array [],
-        "_excludedEdges": Array [],
-        "_exclusive": Object {},
-        "_mutate": false,
-        "_nodes": Array [
-          "email",
-          "username",
-        ],
-        "_options": Object {
-          "abortEarly": true,
-          "recursive": true,
-        },
-        "_type": "object",
-        "_typeError": [Function],
-        "_whitelist": RefSet {
-          "list": Set {},
-          "refs": Map {},
-        },
-        "fields": Object {
-          "email": StringSchema {
-            "_blacklist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "_conditions": Array [],
-            "_deps": Array [],
-            "_exclusive": Object {
-              "max": true,
-              "required": false,
-              "undefined": false,
-            },
-            "_mutate": false,
-            "_options": Object {
-              "abortEarly": true,
-              "recursive": true,
-            },
-            "_type": "string",
-            "_typeError": [Function],
-            "_whitelist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "tests": Array [
-              [Function],
-              [Function],
-              [Function],
-              [Function],
-            ],
-            "transforms": Array [
-              [Function],
-            ],
+  }
+  isInitialValid={false}
+  render={[Function]}
+  validate={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": false,
+      "_nodes": Array [
+        "email",
+        "username",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "email": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
           },
-          "username": StringSchema {
-            "_blacklist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "_conditions": Array [],
-            "_deps": Array [],
-            "_exclusive": Object {
-              "max": true,
-              "required": false,
-            },
-            "_mutate": false,
-            "_options": Object {
-              "abortEarly": true,
-              "recursive": true,
-            },
-            "_type": "string",
-            "_typeError": [Function],
-            "_whitelist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "tests": Array [
-              [Function],
-              [Function],
-              [Function],
-            ],
-            "transforms": Array [
-              [Function],
-            ],
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": false,
+            "undefined": false,
           },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
         },
-        "tests": Array [],
-        "transforms": Array [
-          [Function],
-        ],
-      }
+        "username": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
     }
-  >
-    <Form
-      noValidate={true}
-    >
-      <Component
-        formik={
-          Object {
-            "dirty": false,
-            "errors": Object {},
-            "handleBlur": [Function],
-            "handleChange": [Function],
-            "handleReset": [Function],
-            "handleSubmit": [Function],
-            "initialValues": Object {
-              "email": "",
-              "typeOfUser": "",
-              "username": "",
-            },
-            "isSubmitting": false,
-            "isValid": false,
-            "isValidating": false,
-            "registerField": [Function],
-            "resetForm": [Function],
-            "setError": [Function],
-            "setErrors": [Function],
-            "setFieldError": [Function],
-            "setFieldTouched": [Function],
-            "setFieldValue": [Function],
-            "setFormikState": [Function],
-            "setStatus": [Function],
-            "setSubmitting": [Function],
-            "setTouched": [Function],
-            "setValues": [Function],
-            "submitCount": 0,
-            "submitForm": [Function],
-            "touched": Object {},
-            "unregisterField": [Function],
-            "validate": [Function],
-            "validateField": [Function],
-            "validateForm": [Function],
-            "validateOnBlur": true,
-            "validateOnChange": true,
-            "validationSchema": ObjectSchema {
-              "_blacklist": RefSet {
-                "list": Set {},
-                "refs": Map {},
-              },
-              "_conditions": Array [],
-              "_defaultDefault": [Function],
-              "_deps": Array [],
-              "_excludedEdges": Array [],
-              "_exclusive": Object {},
-              "_mutate": false,
-              "_nodes": Array [
-                "email",
-                "username",
-              ],
-              "_options": Object {
-                "abortEarly": true,
-                "recursive": true,
-              },
-              "_type": "object",
-              "_typeError": [Function],
-              "_whitelist": RefSet {
-                "list": Set {},
-                "refs": Map {},
-              },
-              "fields": Object {
-                "email": StringSchema {
-                  "_blacklist": RefSet {
-                    "list": Set {},
-                    "refs": Map {},
-                  },
-                  "_conditions": Array [],
-                  "_deps": Array [],
-                  "_exclusive": Object {
-                    "max": true,
-                    "required": false,
-                    "undefined": false,
-                  },
-                  "_mutate": false,
-                  "_options": Object {
-                    "abortEarly": true,
-                    "recursive": true,
-                  },
-                  "_type": "string",
-                  "_typeError": [Function],
-                  "_whitelist": RefSet {
-                    "list": Set {},
-                    "refs": Map {},
-                  },
-                  "tests": Array [
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                  ],
-                  "transforms": Array [
-                    [Function],
-                  ],
-                },
-                "username": StringSchema {
-                  "_blacklist": RefSet {
-                    "list": Set {},
-                    "refs": Map {},
-                  },
-                  "_conditions": Array [],
-                  "_deps": Array [],
-                  "_exclusive": Object {
-                    "max": true,
-                    "required": false,
-                  },
-                  "_mutate": false,
-                  "_options": Object {
-                    "abortEarly": true,
-                    "recursive": true,
-                  },
-                  "_type": "string",
-                  "_typeError": [Function],
-                  "_whitelist": RefSet {
-                    "list": Set {},
-                    "refs": Map {},
-                  },
-                  "tests": Array [
-                    [Function],
-                    [Function],
-                    [Function],
-                  ],
-                  "transforms": Array [
-                    [Function],
-                  ],
-                },
-              },
-              "tests": Array [],
-              "transforms": Array [
-                [Function],
-              ],
-            },
-            "values": Object {
-              "email": "",
-              "typeOfUser": "",
-              "username": "",
-            },
-          }
-        }
-        noValidate={true}
-      >
-        <form
-          noValidate={true}
-          onReset={[Function]}
-          onSubmit={[Function]}
-        >
-          <div>
-            <FieldInput
-              label="User Name"
-              name="username"
-              type="text"
-            >
-              <FieldInput
-                className="FieldInput-sc-1a7fz5e-0 htIuCH"
-                fieldProps={Object {}}
-                label="User Name"
-                labelProps={Object {}}
-                name="username"
-                onBlur={null}
-                onChange={null}
-                placeholder=""
-                type="text"
-                value=""
-              >
-                <div
-                  className="FieldInput-sc-1a7fz5e-0 htIuCH"
-                >
-                  <Label
-                    className=""
-                  >
-                    <label
-                      className=""
-                    >
-                      User Name
-                    </label>
-                  </Label>
-                  <C
-                    className="ank"
-                    name="username"
-                    render={[Function]}
-                    type="text"
-                  >
-                    <FieldInner
-                      className="ank"
-                      formik={
-                        Object {
-                          "dirty": false,
-                          "errors": Object {},
-                          "handleBlur": [Function],
-                          "handleChange": [Function],
-                          "handleReset": [Function],
-                          "handleSubmit": [Function],
-                          "initialValues": Object {
-                            "email": "",
-                            "typeOfUser": "",
-                            "username": "",
-                          },
-                          "isSubmitting": false,
-                          "isValid": false,
-                          "isValidating": false,
-                          "registerField": [Function],
-                          "resetForm": [Function],
-                          "setError": [Function],
-                          "setErrors": [Function],
-                          "setFieldError": [Function],
-                          "setFieldTouched": [Function],
-                          "setFieldValue": [Function],
-                          "setFormikState": [Function],
-                          "setStatus": [Function],
-                          "setSubmitting": [Function],
-                          "setTouched": [Function],
-                          "setValues": [Function],
-                          "submitCount": 0,
-                          "submitForm": [Function],
-                          "touched": Object {},
-                          "unregisterField": [Function],
-                          "validate": [Function],
-                          "validateField": [Function],
-                          "validateForm": [Function],
-                          "validateOnBlur": true,
-                          "validateOnChange": true,
-                          "validationSchema": ObjectSchema {
-                            "_blacklist": RefSet {
-                              "list": Set {},
-                              "refs": Map {},
-                            },
-                            "_conditions": Array [],
-                            "_defaultDefault": [Function],
-                            "_deps": Array [],
-                            "_excludedEdges": Array [],
-                            "_exclusive": Object {},
-                            "_mutate": false,
-                            "_nodes": Array [
-                              "email",
-                              "username",
-                            ],
-                            "_options": Object {
-                              "abortEarly": true,
-                              "recursive": true,
-                            },
-                            "_type": "object",
-                            "_typeError": [Function],
-                            "_whitelist": RefSet {
-                              "list": Set {},
-                              "refs": Map {},
-                            },
-                            "fields": Object {
-                              "email": StringSchema {
-                                "_blacklist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "_conditions": Array [],
-                                "_deps": Array [],
-                                "_exclusive": Object {
-                                  "max": true,
-                                  "required": false,
-                                  "undefined": false,
-                                },
-                                "_mutate": false,
-                                "_options": Object {
-                                  "abortEarly": true,
-                                  "recursive": true,
-                                },
-                                "_type": "string",
-                                "_typeError": [Function],
-                                "_whitelist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "tests": Array [
-                                  [Function],
-                                  [Function],
-                                  [Function],
-                                  [Function],
-                                ],
-                                "transforms": Array [
-                                  [Function],
-                                ],
-                              },
-                              "username": StringSchema {
-                                "_blacklist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "_conditions": Array [],
-                                "_deps": Array [],
-                                "_exclusive": Object {
-                                  "max": true,
-                                  "required": false,
-                                },
-                                "_mutate": false,
-                                "_options": Object {
-                                  "abortEarly": true,
-                                  "recursive": true,
-                                },
-                                "_type": "string",
-                                "_typeError": [Function],
-                                "_whitelist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "tests": Array [
-                                  [Function],
-                                  [Function],
-                                  [Function],
-                                ],
-                                "transforms": Array [
-                                  [Function],
-                                ],
-                              },
-                            },
-                            "tests": Array [],
-                            "transforms": Array [
-                              [Function],
-                            ],
-                          },
-                          "values": Object {
-                            "email": "",
-                            "typeOfUser": "",
-                            "username": "",
-                          },
-                        }
-                      }
-                      name="username"
-                      render={[Function]}
-                      type="text"
-                    >
-                      <Input
-                        name="username"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        placeholder=""
-                        type="text"
-                        value=""
-                      >
-                        <Input
-                          ariaLabel=""
-                          className="Input-sc-1gq1l3u-0 dkCeGC"
-                          name="username"
-                          onBlur={[Function]}
-                          onChange={[Function]}
-                          placeholder=""
-                          type="text"
-                          value=""
-                        >
-                          <input
-                            aria-label=""
-                            className="Input-sc-1gq1l3u-0 dkCeGC"
-                            name="username"
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            placeholder=""
-                            type="text"
-                            value=""
-                          />
-                        </Input>
-                      </Input>
-                    </FieldInner>
-                  </C>
-                  <C
-                    component={[Function]}
-                    name="username"
-                  >
-                    <ErrorMessageImpl
-                      component={[Function]}
-                      formik={
-                        Object {
-                          "dirty": false,
-                          "errors": Object {},
-                          "handleBlur": [Function],
-                          "handleChange": [Function],
-                          "handleReset": [Function],
-                          "handleSubmit": [Function],
-                          "initialValues": Object {
-                            "email": "",
-                            "typeOfUser": "",
-                            "username": "",
-                          },
-                          "isSubmitting": false,
-                          "isValid": false,
-                          "isValidating": false,
-                          "registerField": [Function],
-                          "resetForm": [Function],
-                          "setError": [Function],
-                          "setErrors": [Function],
-                          "setFieldError": [Function],
-                          "setFieldTouched": [Function],
-                          "setFieldValue": [Function],
-                          "setFormikState": [Function],
-                          "setStatus": [Function],
-                          "setSubmitting": [Function],
-                          "setTouched": [Function],
-                          "setValues": [Function],
-                          "submitCount": 0,
-                          "submitForm": [Function],
-                          "touched": Object {},
-                          "unregisterField": [Function],
-                          "validate": [Function],
-                          "validateField": [Function],
-                          "validateForm": [Function],
-                          "validateOnBlur": true,
-                          "validateOnChange": true,
-                          "validationSchema": ObjectSchema {
-                            "_blacklist": RefSet {
-                              "list": Set {},
-                              "refs": Map {},
-                            },
-                            "_conditions": Array [],
-                            "_defaultDefault": [Function],
-                            "_deps": Array [],
-                            "_excludedEdges": Array [],
-                            "_exclusive": Object {},
-                            "_mutate": false,
-                            "_nodes": Array [
-                              "email",
-                              "username",
-                            ],
-                            "_options": Object {
-                              "abortEarly": true,
-                              "recursive": true,
-                            },
-                            "_type": "object",
-                            "_typeError": [Function],
-                            "_whitelist": RefSet {
-                              "list": Set {},
-                              "refs": Map {},
-                            },
-                            "fields": Object {
-                              "email": StringSchema {
-                                "_blacklist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "_conditions": Array [],
-                                "_deps": Array [],
-                                "_exclusive": Object {
-                                  "max": true,
-                                  "required": false,
-                                  "undefined": false,
-                                },
-                                "_mutate": false,
-                                "_options": Object {
-                                  "abortEarly": true,
-                                  "recursive": true,
-                                },
-                                "_type": "string",
-                                "_typeError": [Function],
-                                "_whitelist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "tests": Array [
-                                  [Function],
-                                  [Function],
-                                  [Function],
-                                  [Function],
-                                ],
-                                "transforms": Array [
-                                  [Function],
-                                ],
-                              },
-                              "username": StringSchema {
-                                "_blacklist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "_conditions": Array [],
-                                "_deps": Array [],
-                                "_exclusive": Object {
-                                  "max": true,
-                                  "required": false,
-                                },
-                                "_mutate": false,
-                                "_options": Object {
-                                  "abortEarly": true,
-                                  "recursive": true,
-                                },
-                                "_type": "string",
-                                "_typeError": [Function],
-                                "_whitelist": RefSet {
-                                  "list": Set {},
-                                  "refs": Map {},
-                                },
-                                "tests": Array [
-                                  [Function],
-                                  [Function],
-                                  [Function],
-                                ],
-                                "transforms": Array [
-                                  [Function],
-                                ],
-                              },
-                            },
-                            "tests": Array [],
-                            "transforms": Array [
-                              [Function],
-                            ],
-                          },
-                          "values": Object {
-                            "email": "",
-                            "typeOfUser": "",
-                            "username": "",
-                          },
-                        }
-                      }
-                      name="username"
-                    />
-                  </C>
-                </div>
-              </FieldInput>
-            </FieldInput>
-          </div>
-          <Button
-            primary={true}
-            type="submit"
-          >
-            <Button
-              ariaLabel=""
-              className="Button-w5odot-0 fDsdHk"
-              disabled={false}
-              inheritedStyles=""
-              primary={true}
-              secondary={false}
-              type="submit"
-            >
-              <button
-                aria-label={null}
-                className="Button-w5odot-0 fDsdHk"
-                disabled={false}
-                type="submit"
-              >
-                Submit
-              </button>
-            </Button>
-          </Button>
-        </form>
-      </Component>
-    </Form>
-  </Formik>
-</Form>
+  }
+/>
+`;
+
+exports[`Form Component should render select field 1`] = `
+<Formik
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "email": "",
+      "typeOfUser": "",
+      "username": "",
+    }
+  }
+  isInitialValid={false}
+  render={[Function]}
+  validate={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": false,
+      "_nodes": Array [
+        "email",
+        "username",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "email": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": false,
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "username": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
+`;
+
+exports[`Form Component should render select tag correctly 1`] = `
+<Formik
+  enableReinitialize={false}
+  initialValues={
+    Object {
+      "email": "",
+      "typeOfUser": "",
+      "username": "",
+    }
+  }
+  isInitialValid={false}
+  render={[Function]}
+  validate={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": false,
+      "_nodes": Array [
+        "email",
+        "username",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "email": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": false,
+            "undefined": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "username": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": false,
+          },
+          "_mutate": false,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+    }
+  }
+/>
 `;
