@@ -1,6 +1,6 @@
 # Atomic React Pattern Lib
 
-A react pattern library with collocation for generic components and equipped with ideal development ecosystem. 
+A react pattern library with collocation of generic components and equipped with ideal react development ecosystem. 
 
 ## Why a Component Library?
 
