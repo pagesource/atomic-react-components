@@ -6,6 +6,7 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
   />
   <C
+    className="ank"
     component="select"
     render={[Function]}
   />
