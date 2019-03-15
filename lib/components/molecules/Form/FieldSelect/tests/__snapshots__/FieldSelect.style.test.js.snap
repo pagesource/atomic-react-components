@@ -14,5 +14,6 @@ exports[`FieldSelect should render correctly 1`] = `
   className="c0"
   fieldProps={Object {}}
   labelProps={Object {}}
+  onChange={null}
 />
 `;

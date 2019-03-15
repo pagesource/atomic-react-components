@@ -13,6 +13,7 @@ exports[`FieldTextarea should render correctly 1`] = `
 <FieldTextarea
   className="c0"
   labelProps={Object {}}
+  onChange={null}
   value=""
 />
 `;
