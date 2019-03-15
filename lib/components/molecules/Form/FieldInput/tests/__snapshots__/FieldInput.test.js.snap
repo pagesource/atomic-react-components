@@ -8,7 +8,6 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
   />
   <C
-    className="ank"
     render={[Function]}
     type="text"
   />
