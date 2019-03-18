@@ -2,7 +2,7 @@
 
 exports[`<Tabs /> should render correctly 1`] = `
 <Tabs
-  className="example Tabs-sc-1cg66ic-0 cKTevk"
+  className="example Tabs-sc-1trpncn-0 ipJech"
   inheritedStyles=""
   initialSelectedIndex={0}
   isVerticalView={false}

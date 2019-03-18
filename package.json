@@ -1,6 +1,6 @@
 {
   "name": "@xt-pagesource/atomic-react-pattern-lib",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Atomic React Pattern Library",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
