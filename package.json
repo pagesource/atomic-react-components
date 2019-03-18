@@ -20,7 +20,7 @@
     "generate": "plop --plopfile generators/index.js",
     "storybook": "start-storybook -s ./lib/static -p 6006",
     "build-storybook": "build-storybook -c .storybook -o ./out",
-    "deploy-storybook": "storybook-to-ghpages --existing-output-dir=.out --host-token-env-variable=GITHUB_TOKEN --ci",
+    "deploy-storybook": "storybook-to-ghpages --existing-output-dir=./out --host-token-env-variable=GITHUB_TOKEN --ci",
     "lint:js": "eslint lib/",
     "lint:js:fix": "yarn run lint:js --fix",
     "lint:css": "stylelint lib/**/*.js",

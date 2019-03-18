@@ -13,7 +13,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: ".out"
+  local_dir: "out"
   on:
     branch: develop
 env:
