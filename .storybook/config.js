@@ -12,7 +12,7 @@ import '../lib/styles';
 setOptions({
   name: `Atomic React Pattern Library`,
   url:
-    'https://tools.publicis.sapient.com/bitbucket-code-commons/projects/XTI/repos/atomic-react-pattern-lib/browse',
+    'https://github.com/pagesource/atomic-react-components',
 });
 
 setDefaults({

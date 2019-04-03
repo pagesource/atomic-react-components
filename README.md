@@ -1,12 +1,28 @@
 # Atomic React Pattern Lib
 
-A react pattern library with collocation for generic react components equipped with recommended development ecosystem. Its collection of reusable react components built to serve all type of react based projects to achieve better user experience consistency and reusability.
+A react pattern library with collocation of generic components and equipped with ideal react development ecosystem. 
 
 ## Why a Component Library?
 
 > **_A component library helps you achieve consistent branding as it becomes the single source of truth for every component not only in the application but for all projects in the organization._**
 
 > **_Instead of duplicating the component code across features in your project, implement the component from a central source, like a component library._**
+
+## Installation and Uses
+
+This package intends to be an ideal development ecosystem for react component libraries, with some generic OOTB components to offer, it enables any team to customize them for their needs and publish their own private or public component library. Detailed guidelines to work with this ecosystem are available [here](readme/index.md). 
+
+For direct as-is uses, use below: 
+
+```sh
+yarn add @sapient-xt/atomic-react-pattern-lib
+
+**or** 
+
+npm install @sapient-xt/atomic-react-pattern-lib
+```
+
+Its collection of reusable react components built to serve all type of react based projects to achieve better user experience consistency and reusability.
 
 ## Ecosystem of this component library 🎉
 
@@ -19,6 +35,7 @@ A react pattern library with collocation for generic react components equipped w
 - **Unit testing framework:** with Jest and Enzyme.
 - Babel 7 to transpiling javascript and releasing them as ESModules.
 - **Theme and Styling:** with Styled Components.
+- Uses Rollup based build process to export 3 type of bundles (esm, cjs, umd) with tree shaking enabled settings.   
 
 ## Dependencies
 
@@ -26,28 +43,3 @@ A react pattern library with collocation for generic react components equipped w
 2. yup
 3. flexboxgrid
 4. react-modal
-
-## Installation
-
-Dependencies should be installed using the yarn
-command line tools.
-
-```sh
-yarn install
-yarn run flow:install
-```
-
-flow:install will search the [`libdef`](https://github.com/flow-typed/flow-typed/blob/master/README.md) repo and download all the libdefs that are relevant for our project and install them for us.
-
-## Topics to refer
-
-- [Development Tools](readme/DevelopmentTools.md)
-- [Static Code Linters and Code Formatter](readme/StaticCodeLinters.md)
-- [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
-- [Folder Structure](readme/FolderStructure.md)
-- [Component Scaffolding](readme/Component.md)
-- [Flow Type](readme/FlowType.md)
-- [Husky](readme/Husky.md)
-- [ES Docs](readme/ESDocs.md)
-- [Storybook](readme/Storybook.md)
-- [Running The Tests](readme/Test.md)

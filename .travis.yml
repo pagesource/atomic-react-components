@@ -12,12 +12,13 @@ install:
 deploy:
   provider: pages
   skip_cleanup: true
-  local_dir: ".out"
+  github-token: $GITHUB_TOKEN
+  local_dir: "out"
   on:
     branch: develop
 env:
   matrix:
-    secure: s7LtkMICM25z4C+A5FG9SXUPyU2Gs4MuSnGIuvqk67OZyBOxtUUtpgHQdpAd1ImRaMTy2gmi1bX5c+45e7jzy6gXqZ7FaOdUTMjAQs4dZyuV3QMHv/uJNXaBG8530+vT8rtQnZjFGbsxAgjkHk1PIJXStmKLE/Yl3v8w8AxFyowwaHYyjdaSnJOZYYPvO7nYbVHZVqPfX/sJquyk3YWmnUFaorS0KDt1qPHECwxSz1H7yfMuTZgvmrWTtt62+etLgeCsTACPv2/NXkB/KBfFMNhBq60r7TUp2cCAWLim5H91MY+j4Hr3Wn+cNQJOIBMOPniZsyzBVFqw5jBh+WqVE1no/KKv7xqEVEKv8c/ryjvQ6A94KMgb9WyJSpYEjUrKWU9TYucE7tbILtk9/nXqvav2bqONVBy0f4PBSZFuSiXohs3DIsL2JP4RKui8epBR5czLz4aUJV2k0W6qDJqzG6ma6U9+Zq3kAxkZ6fvk+j1c1sZTy1RxpOkdM/N9DWOLLtkIHJJKpIcNc347msU2YVjHbdMCaVNvUe2/cI/kIDBlo9EVpeyeEO8Xf2ZtI0ZjQwC5BDsWqdkB9qLj34dwfBtXvGVB8UrWQex5Upl0886hb3ssjiwLO4Xbdm0kr/c9/565NoQHdk8avDsO9ochE4TIAVnBubz68ysUVzMg16o=
+    secure: $GITHUB_TOKEN
 notifications:
   email:
     - vkumar59@sapient.com
