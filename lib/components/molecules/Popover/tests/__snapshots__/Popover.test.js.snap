@@ -1,14 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Popover /> should render correctly 1`] = `
-<Popover
-  className="Popover-sc-1xo3w5k-0 cPkpcj"
-  hidePopoverCloseBtn={false}
-  isVisible={false}
-  popOverBody=""
-  popOverHeader=""
-  trigger=""
->
-  Test
-</Popover>
+exports[`<Popover /> Rendering should render correctly 1`] = `
+<div
+  className="popover-wrap"
+  role="presentation"
+/>
 `;
