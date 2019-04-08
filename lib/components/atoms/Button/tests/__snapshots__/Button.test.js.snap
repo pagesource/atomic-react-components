@@ -3,6 +3,7 @@
 exports[`Button Component should render correctly 1`] = `
 <button
   aria-label={null}
+  className=""
   disabled={false}
   type="button"
 >
