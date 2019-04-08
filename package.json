@@ -13,7 +13,7 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js",
     "test:updateSnapshot": "yarn run test --updateSnapshot",
-    "test:watch": "yarn run test --watch",
+    "test:watch": "yarn run test --watch --verbose",
     "audit": "yarn run build -- --report",
     "clean:dist": "rimraf dist",
     "build": "yarn run clean:dist && cross-env BABEL_ENV=production rollup --config rollup.config.js",

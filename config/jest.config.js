@@ -11,6 +11,7 @@ module.exports = {
     '**lib/core/**/*.js',
     '!**lib/components/**/*.mock.js',
     '!**lib/components/**/*.story.js',
+    '!**lib/components/**/*.styles.js',
     '!**lib/styles/**/*.js',
     '!**/node_modules/**',
   ],
