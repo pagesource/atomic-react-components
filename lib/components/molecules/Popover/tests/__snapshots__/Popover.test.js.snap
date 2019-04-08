@@ -2,12 +2,11 @@
 
 exports[`<Popover /> should render correctly 1`] = `
 <Popover
-  className="Popover-sc-1xo3w5k-0 dLBzeO"
+  className="Popover-sc-1xo3w5k-0 cPkpcj"
   hidePopoverCloseBtn={false}
   isVisible={false}
   popOverBody=""
   popOverHeader=""
-  wrapperBackground=""
 >
   Test
 </Popover>
