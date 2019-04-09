@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordian /> should render correctly 1`] = `
+<Accordian
+  className="Accordian-jw9uur-0 ifwpbT"
+>
+  Test
+</Accordian>
+`;
