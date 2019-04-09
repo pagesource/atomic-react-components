@@ -19,6 +19,7 @@ exports[`Anchor Component should render correctly and match snapshot 1`] = `
   as=""
   className="c0"
   forceClick={false}
+  handleLinkClick={[Function]}
   inheritedStyles=""
   scroll={false}
   shallow={false}
@@ -46,6 +47,7 @@ exports[`Anchor Component should render with styles correctly and match snapshot
 <a
   className="c0"
   href="/sample"
+  onClick={[Function]}
 >
   Sample
 </a>
