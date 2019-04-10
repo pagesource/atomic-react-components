@@ -11,10 +11,20 @@ module.exports = {
     '**lib/core/**/*.js',
     '!**lib/components/**/*.mock.js',
     '!**lib/components/**/*.story.js',
+    '!**lib/components/**/*.styles.js',
     '!**lib/styles/**/*.js',
     '!**/node_modules/**',
   ],
-  coverageReporters: ['lcov', 'json'],
+  coverageReporters: ['lcov', 'json', 'text-summary'],
+  coverageThreshold: {
+    global: {
+      branches: 40,
+      functions: 55,
+      lines: 60,
+      statements: -100,
+    },
+  },
   snapshotSerializers: ['enzyme-to-json/serializer'],
   verbose: true,
+  testMatch: ['<rootDir>/lib/**/*.test.js'],
 };
