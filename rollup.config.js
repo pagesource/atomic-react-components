@@ -40,7 +40,7 @@ export default {
     json(),
     babel(),
     resolve(),
-    flowEntry(),
+    flowEntry({ mode: 'strict-local' }),
     flow({ pretty: true }),
     commonjs({
       include: ['node_modules/**'],

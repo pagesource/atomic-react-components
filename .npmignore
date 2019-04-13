@@ -16,15 +16,12 @@
 rollup.config.js
 stylelint.config.js
 sonar-project.properties
-lib
 .storybook
 .vscode
 package.json
-reports
 config
 generators
 flow-typed
 out
-docs
 coverage
 node_modules
