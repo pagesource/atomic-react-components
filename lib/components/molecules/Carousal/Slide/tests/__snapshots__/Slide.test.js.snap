@@ -1,11 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Slide /> should render correctly 1`] = `
-<li
+<div
   aria-hidden={true}
   className="test"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
   tabIndex="-1"
 >
   Test
-</li>
+</div>
 `;

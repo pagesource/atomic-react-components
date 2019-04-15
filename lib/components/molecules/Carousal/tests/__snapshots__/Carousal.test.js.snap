@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Carousal /> should render correctly 1`] = `
-<section
+<div
   className=""
 >
   <div
@@ -39,7 +39,18 @@ exports[`<Carousal /> should render correctly 1`] = `
   <Dots
     currentSlideIndex={0}
     onDotClick={[Function]}
+    showThumbnails={true}
     totalSlides={3}
-  />
-</section>
+  >
+    <p>
+      Slide 1
+    </p>
+    <p>
+      Slide 2
+    </p>
+    <p>
+      Slide 3
+    </p>
+  </Dots>
+</div>
 `;
