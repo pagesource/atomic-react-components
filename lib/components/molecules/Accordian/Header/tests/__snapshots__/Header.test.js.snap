@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly 1`] = `
+<Header
+  className="Header-sc-18g047y-0 FGjVP"
+>
+  Test
+</Header>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> should render correctly 1`] = `
+<Body
+  className="Body-sc-1r9dnfr-0 jlSfwE"
+>
+  Test
+</Body>
+`;
