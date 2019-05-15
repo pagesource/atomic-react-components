@@ -1,6 +1,6 @@
 {
   "name": "@xt-pagesource/atomic-react-pattern-lib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Atomic React Pattern Library",
   "sideEffects": false,
   "main": "dist/index.js",
