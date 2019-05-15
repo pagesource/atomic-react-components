@@ -6,7 +6,6 @@ module.exports = api => {
     case 'docs':
     case 'test':
       dev = true;
-      modules = false;
       break;
     case 'dist-dev':
       dev = true;
@@ -22,16 +21,26 @@ module.exports = api => {
   }
 
   return {
-    ignore:["lib/**/*.test.js","lib/**/*.story.js"],
     plugins: [
       [
-        "babel-plugin-styled-components",
+        'babel-plugin-styled-components',
         {
-          "ssr": true,
-          "displayName": true
-        }
-      ]
+          ssr: true,
+          displayName: true,
+        },
+      ],
     ],
-    presets: ["@babel/preset-flow",['@react-bootstrap', { dev, modules, removePropTypes: !dev }]],
+    presets: [
+      '@babel/preset-flow',
+      [
+        'next',
+        {
+          'preset-env': {
+            modules: 'commonjs',
+          },
+        },
+      ],
+      ['@react-bootstrap', { dev, modules, removePropTypes: !dev }],
+    ],
   };
 };

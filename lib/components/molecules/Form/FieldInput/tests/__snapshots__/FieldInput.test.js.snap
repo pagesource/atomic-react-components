@@ -7,11 +7,11 @@ exports[`FieldInput Component should render correctly 1`] = `
   <Label
     className=""
   />
-  <C
+  <FormikConnect(FieldInner)
     render={[Function]}
     type="text"
   />
-  <C
+  <FormikConnect(ErrorMessageImpl)
     component={[Function]}
   />
 </div>
