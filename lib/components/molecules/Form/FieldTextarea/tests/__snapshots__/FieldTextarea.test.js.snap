@@ -7,10 +7,10 @@ exports[`FieldTextarea Component should render correctly 1`] = `
   <Label
     className=""
   />
-  <C
+  <FormikConnect(FieldInner)
     render={[Function]}
   />
-  <C
+  <FormikConnect(ErrorMessageImpl)
     component={[Function]}
   />
 </div>
