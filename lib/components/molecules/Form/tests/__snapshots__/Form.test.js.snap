@@ -67,6 +67,7 @@ exports[`Form Component should render input field with no validation 1`] = `
             "setSubmitting": [Function],
             "setTouched": [Function],
             "setValues": [Function],
+            "status": undefined,
             "submitCount": 0,
             "submitForm": [Function],
             "touched": Object {},
@@ -119,7 +120,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                       User Name
                     </label>
                   </Label>
-                  <C
+                  <FormikConnect(FieldInner)
                     name="username"
                     render={[Function]}
                     type="text"
@@ -153,6 +154,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -205,8 +207,8 @@ exports[`Form Component should render input field with no validation 1`] = `
                         </Input>
                       </Input>
                     </FieldInner>
-                  </C>
-                  <C
+                  </FormikConnect(FieldInner)>
+                  <FormikConnect(ErrorMessageImpl)
                     component={[Function]}
                     name="username"
                   >
@@ -240,6 +242,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -259,7 +262,7 @@ exports[`Form Component should render input field with no validation 1`] = `
                       }
                       name="username"
                     />
-                  </C>
+                  </FormikConnect(ErrorMessageImpl)>
                 </div>
               </FieldInput>
             </FieldInput>
@@ -570,6 +573,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
             "setSubmitting": [Function],
             "setTouched": [Function],
             "setValues": [Function],
+            "status": undefined,
             "submitCount": 0,
             "submitForm": [Function],
             "touched": Object {},
@@ -685,7 +689,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                       User Name
                     </label>
                   </Label>
-                  <C
+                  <FormikConnect(FieldInner)
                     name="username"
                     render={[Function]}
                     type="text"
@@ -719,6 +723,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -834,8 +839,8 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                         </Input>
                       </Input>
                     </FieldInner>
-                  </C>
-                  <C
+                  </FormikConnect(FieldInner)>
+                  <FormikConnect(ErrorMessageImpl)
                     component={[Function]}
                     name="username"
                   >
@@ -869,6 +874,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -951,7 +957,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
                       }
                       name="username"
                     />
-                  </C>
+                  </FormikConnect(ErrorMessageImpl)>
                 </div>
               </FieldInput>
             </FieldInput>
@@ -1229,6 +1235,7 @@ exports[`Form Component should render input text field 1`] = `
             "setSubmitting": [Function],
             "setTouched": [Function],
             "setValues": [Function],
+            "status": undefined,
             "submitCount": 0,
             "submitForm": [Function],
             "touched": Object {},
@@ -1376,7 +1383,7 @@ exports[`Form Component should render input text field 1`] = `
                       User Name
                     </label>
                   </Label>
-                  <C
+                  <FormikConnect(FieldInner)
                     name="username"
                     render={[Function]}
                     type="text"
@@ -1410,6 +1417,7 @@ exports[`Form Component should render input text field 1`] = `
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -1557,8 +1565,8 @@ exports[`Form Component should render input text field 1`] = `
                         </Input>
                       </Input>
                     </FieldInner>
-                  </C>
-                  <C
+                  </FormikConnect(FieldInner)>
+                  <FormikConnect(ErrorMessageImpl)
                     component={[Function]}
                     name="username"
                   >
@@ -1592,6 +1600,7 @@ exports[`Form Component should render input text field 1`] = `
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -1706,7 +1715,7 @@ exports[`Form Component should render input text field 1`] = `
                       }
                       name="username"
                     />
-                  </C>
+                  </FormikConnect(ErrorMessageImpl)>
                 </div>
               </FieldInput>
             </FieldInput>
@@ -1984,6 +1993,7 @@ exports[`Form Component should render select field 1`] = `
             "setSubmitting": [Function],
             "setTouched": [Function],
             "setValues": [Function],
+            "status": undefined,
             "submitCount": 0,
             "submitForm": [Function],
             "touched": Object {},
@@ -2139,7 +2149,7 @@ exports[`Form Component should render select field 1`] = `
                       Type of user
                     </label>
                   </Label>
-                  <C
+                  <FormikConnect(FieldInner)
                     component="select"
                     name="typeOfUser"
                     render={[Function]}
@@ -2174,6 +2184,7 @@ exports[`Form Component should render select field 1`] = `
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -2341,8 +2352,8 @@ exports[`Form Component should render select field 1`] = `
                         </Select>
                       </Select>
                     </FieldInner>
-                  </C>
-                  <C
+                  </FormikConnect(FieldInner)>
+                  <FormikConnect(ErrorMessageImpl)
                     component={[Function]}
                     name="typeOfUser"
                   >
@@ -2376,6 +2387,7 @@ exports[`Form Component should render select field 1`] = `
                           "setSubmitting": [Function],
                           "setTouched": [Function],
                           "setValues": [Function],
+                          "status": undefined,
                           "submitCount": 0,
                           "submitForm": [Function],
                           "touched": Object {},
@@ -2490,7 +2502,7 @@ exports[`Form Component should render select field 1`] = `
                       }
                       name="typeOfUser"
                     />
-                  </C>
+                  </FormikConnect(ErrorMessageImpl)>
                 </div>
               </FieldSelect>
             </FieldSelect>

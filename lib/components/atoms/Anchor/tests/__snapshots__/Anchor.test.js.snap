@@ -22,6 +22,7 @@ exports[`Anchor Component should render correctly and match snapshot 1`] = `
   inheritedStyles=""
   scroll={false}
   shallow={false}
+  target="_self"
   to="/sample"
 >
   Sample
@@ -46,6 +47,7 @@ exports[`Anchor Component should render with styles correctly and match snapshot
 <a
   className="c0"
   href="/sample"
+  target="_self"
 >
   Sample
 </a>

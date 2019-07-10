@@ -5,11 +5,11 @@ exports[`FieldInput Component should render correctly 1`] = `
   <Label
     className=""
   />
-  <C
+  <FormikConnect(FieldInner)
     component="select"
     render={[Function]}
   />
-  <C
+  <FormikConnect(ErrorMessageImpl)
     component={[Function]}
   />
 </div>
