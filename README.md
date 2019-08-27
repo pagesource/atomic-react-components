@@ -52,7 +52,8 @@ import { ButtonVanilla } from '@xt-pagesource/atomic-react-pattern-lib';
   12. InputChoice, InputChoiceVanilla
   13. Modal, ModalVanilla
   14. Popover, PopoverVanilla
-  15. Theme
+  15. Tabs, TabsVanilla
+  16. Theme
 </details>
 
 ### As Fork for Custom Development
