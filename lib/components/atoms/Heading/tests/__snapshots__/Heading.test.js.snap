@@ -18,20 +18,3 @@ exports[`Heading Component should render correctly and match snapshot 1`] = `
   Sample
 </Heading>
 `;
-
-exports[`Heading Component should render with styles correctly and match snapshot 1`] = `
-.c0 {
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
-  letter-spacing: 1px;
-  font-weight: normal;
-  font-size: 20px;
-}
-
-<h1
-  className="c0"
->
-  Sample
-</h1>
-`;

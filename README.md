@@ -1,6 +1,6 @@
 # Atomic React Pattern Lib
 
-A react pattern library with collocation of generic components and equipped with ideal react development ecosystem. 
+A react pattern library with collocation of generic components and equipped with ideal react development ecosystem.
 
 ## Why a Component Library?
 
@@ -10,19 +10,65 @@ A react pattern library with collocation of generic components and equipped with
 
 ## Installation and Uses
 
-This package intends to be an ideal development ecosystem for react component libraries, with some generic OOTB components to offer, it enables any team to customize them for their needs and publish their own private or public component library. Detailed guidelines to work with this ecosystem are available [here](readme/index.md). 
+This package can be used in 2 ways as NPM dependency or as Fork if you wish to setup your own component library. Its collection of reusable react components built to serve all type of react based projects to achieve consistent user experience and reusability.
 
-For direct as-is uses, use below: 
+### As NPM Dependency
+
+If you wish to consume components exported by this library as is and don't see much scope for customization, following is how this package can be used:
 
 ```sh
-yarn add @sapient-xt/atomic-react-pattern-lib
+yarn add @xt-pagesource/atomic-react-pattern-lib
 
-**or** 
+**or**
 
-npm install @sapient-xt/atomic-react-pattern-lib
+npm install @xt-pagesource/atomic-react-pattern-lib
 ```
 
-Its collection of reusable react components built to serve all type of react based projects to achieve better user experience consistency and reusability.
+To reuse one of the component in your react components just import the components you need. Each component has its un-styled export too as Vanilla version.
+
+```javascript
+//1. With Default Styles
+import { Button } from '@xt-pagesource/atomic-react-pattern-lib';
+
+//2. Without Default Styles
+import { ButtonVanilla } from '@xt-pagesource/atomic-react-pattern-lib';
+```
+
+<details>
+  <summary>List of Component</summary>
+  
+  ## Exported Components
+  1. Button, ButtonVanilla
+  2. Anchor, AnchorVanilla
+  3. Para, ParaVanilla
+  4. Heading, HeadingVanilla
+  5. FieldError, FieldErrorVanilla
+  6. Image, ImageVanilla
+  7. Input, InputVanilla
+  8. Select, SelectVanilla
+  9. Label 
+  10. Form
+  11. Textarea, TextareaVanilla
+  12. InputChoice, InputChoiceVanilla
+  13. Modal, ModalVanilla
+  14. Popover, PopoverVanilla
+  15. Theme
+</details>
+
+### As Fork for Custom Development
+
+This package intends to be an ideal development ecosystem for react component libraries, with some generic OOTB components to offer, it enables any team to customize them for their needs and publish their own private or public component library. Detailed guidelines to work with this ecosystem are available [here](readme/index.md).
+
+Fork the repository and do a **git clone**. Navigate to root directory of checked out code.
+
+Dependencies should be installed using the **yarn** (Preferred Option).
+
+```sh
+yarn install
+yarn run flow:install
+```
+
+flow:install will search the [`libdef`](https://github.com/flow-typed/flow-typed/blob/master/README.md) repo and download all the libdefs that are relevant for our project and install them for us.
 
 ## Ecosystem of this component library 🎉
 
@@ -35,7 +81,7 @@ Its collection of reusable react components built to serve all type of react bas
 - **Unit testing framework:** with Jest and Enzyme.
 - Babel 7 to transpiling javascript and releasing them as ESModules.
 - **Theme and Styling:** with Styled Components.
-- Uses Rollup based build process to export 3 type of bundles (esm, cjs, umd) with tree shaking enabled settings.   
+- Uses Rollup based build process to export 3 type of bundles (esm, cjs, umd) with tree shaking enabled settings.
 
 ## Dependencies
 
