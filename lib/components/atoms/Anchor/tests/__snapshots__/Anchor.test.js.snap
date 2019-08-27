@@ -23,6 +23,7 @@ exports[`Anchor Component should render correctly and match snapshot 1`] = `
   inheritedStyles=""
   scroll={false}
   shallow={false}
+  target=""
   to="/sample"
 >
   Sample
