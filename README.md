@@ -10,7 +10,7 @@ A react pattern library with collocation of generic components and equipped with
 
 ## Installation and Uses
 
-This package can be used in 2 ways as NPM dependency or as Fork if you wish to setup your own component library. Its collection of reusable react components built to serve all type of react based projects to achieve consistent user experience and reusability.
+This package can be used in 2 ways as NPM dependency or as Fork/Clone; if you wish to setup your own component library. Its collection of reusable react components built to serve all type of react based projects to achieve consistent user experience and reusability.
 
 ### As NPM Dependency
 
@@ -56,7 +56,7 @@ import { ButtonVanilla } from '@xt-pagesource/atomic-react-pattern-lib';
   16. Theme
 </details>
 
-### As Fork for Custom Development
+### As Fork/Clone for Custom Development
 
 This package intends to be an ideal development ecosystem for react component libraries, with some generic OOTB components to offer, it enables any team to customize them for their needs and publish their own private or public component library. Detailed guidelines to work with this ecosystem are available [here](readme/index.md).
 
