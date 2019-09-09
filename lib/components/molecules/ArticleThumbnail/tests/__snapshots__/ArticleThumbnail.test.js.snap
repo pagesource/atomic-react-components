@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArticleThumbnail /> should render correctly 1`] = `
+<ArticleThumbnail
+  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
+>
+  Test
+</ArticleThumbnail>
+`;
