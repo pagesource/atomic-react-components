@@ -3,6 +3,11 @@
 exports[`<ArticleThumbnail /> should render correctly 1`] = `
 <ArticleThumbnail
   className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
+  image={Object {}}
+  readMoreText="Read more"
+  target="_blank"
+  url="#"
+  variation="v1"
 >
   Test
 </ArticleThumbnail>
