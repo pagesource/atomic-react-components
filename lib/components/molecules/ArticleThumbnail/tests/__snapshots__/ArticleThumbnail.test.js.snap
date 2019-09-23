@@ -4,7 +4,6 @@ exports[`<ArticleThumbnail /> should render correctly 1`] = `
 <ArticleThumbnail
   className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
   image={Object {}}
-  title={Object {}}
 >
   Test
 </ArticleThumbnail>
@@ -12,12 +11,15 @@ exports[`<ArticleThumbnail /> should render correctly 1`] = `
 
 exports[`<ArticleThumbnail /> should render correctly with clickable image and title 1`] = `
 <ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
-  description={
+  anchorProps={
     Object {
-      "chidlren": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum quis ipsum sed volutpat. Duis suscipit odio ac lacus efficitur, sit amet tempor lectus imperdiet. Nunc dignissim nisi gravida mi malesuada, at aliquet arcu dapibus. Aenean efficitur egestas turpis eget semper. Nulla magna orci, fringilla in varius vitae, congue nec nisl. In vitae efficitur odio, sit amet aliquet enim. Sed consectetur leo quis orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vel risus vel ligula venenatis luctus.",
+      "children": "Readmore",
+      "className": "AnchorClass",
+      "target": "_blank",
+      "to": "#",
     }
   }
+  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
   image={
     Object {
       "alt": "Dummy Image",
@@ -33,18 +35,7 @@ exports[`<ArticleThumbnail /> should render correctly with clickable image and t
       "srcset": "/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w",
     }
   }
-  title={
-    Object {
-      "anchorProps": Object {
-        "children": "Readmore",
-        "className": "AnchorClass",
-        "target": "_blank",
-        "to": "#",
-      },
-      "children": "Title",
-      "className": "TileClass",
-    }
-  }
+  readMoreContent="ReadMore"
 >
   Test
 </ArticleThumbnail>
@@ -52,12 +43,15 @@ exports[`<ArticleThumbnail /> should render correctly with clickable image and t
 
 exports[`<ArticleThumbnail /> should render correctly with no clickable image and title 1`] = `
 <ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
-  description={
+  anchorProps={
     Object {
-      "chidlren": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum quis ipsum sed volutpat. Duis suscipit odio ac lacus efficitur, sit amet tempor lectus imperdiet. Nunc dignissim nisi gravida mi malesuada, at aliquet arcu dapibus. Aenean efficitur egestas turpis eget semper. Nulla magna orci, fringilla in varius vitae, congue nec nisl. In vitae efficitur odio, sit amet aliquet enim. Sed consectetur leo quis orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vel risus vel ligula venenatis luctus.",
+      "children": "Readmore",
+      "className": "AnchorClass",
+      "target": "_blank",
+      "to": "#",
     }
   }
+  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
   image={
     Object {
       "alt": "Dummy Image",
@@ -65,12 +59,6 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
       "sizes": "(min-width: 36em) 33.3vw, 100vw",
       "src": "/images/dummies/320.png",
       "srcset": "/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w",
-    }
-  }
-  title={
-    Object {
-      "children": "Title",
-      "className": "TileClass",
     }
   }
 >
@@ -80,12 +68,15 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
 
 exports[`<ArticleThumbnail /> should render correctly with readmore button 1`] = `
 <ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
-  description={
+  anchorProps={
     Object {
-      "chidlren": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum quis ipsum sed volutpat. Duis suscipit odio ac lacus efficitur, sit amet tempor lectus imperdiet. Nunc dignissim nisi gravida mi malesuada, at aliquet arcu dapibus. Aenean efficitur egestas turpis eget semper. Nulla magna orci, fringilla in varius vitae, congue nec nisl. In vitae efficitur odio, sit amet aliquet enim. Sed consectetur leo quis orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vel risus vel ligula venenatis luctus.",
+      "children": "Readmore",
+      "className": "AnchorClass",
+      "target": "_blank",
+      "to": "#",
     }
   }
+  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
   image={
     Object {
       "alt": "Dummy Image",
@@ -101,12 +92,6 @@ exports[`<ArticleThumbnail /> should render correctly with readmore button 1`] =
       "className": "AnchorClass",
       "target": "_blank",
       "to": "#",
-    }
-  }
-  title={
-    Object {
-      "children": "Title",
-      "className": "TileClass",
     }
   }
 >
