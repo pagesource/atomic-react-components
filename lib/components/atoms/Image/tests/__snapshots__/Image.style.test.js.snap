@@ -5,6 +5,7 @@ exports[`Image Component with styles should render correctly and match snapshots
   alt="ABC"
   className="Image-sc-1m0q2wx-0 jgJdFJ"
   inheritedStyles=""
+  loading="auto"
   placeholderSrc="http://xyz.com"
   sizes=""
   src="http://abc.com"
