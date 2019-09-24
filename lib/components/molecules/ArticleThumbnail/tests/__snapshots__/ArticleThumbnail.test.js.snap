@@ -13,7 +13,6 @@ exports[`<ArticleThumbnail /> should render correctly with clickable image and t
 <ArticleThumbnail
   anchorProps={
     Object {
-      "children": "Readmore",
       "className": "AnchorClass",
       "target": "_blank",
       "to": "#",
@@ -23,12 +22,6 @@ exports[`<ArticleThumbnail /> should render correctly with clickable image and t
   image={
     Object {
       "alt": "Dummy Image",
-      "anchorProps": Object {
-        "children": "Readmore",
-        "className": "AnchorClass",
-        "target": "_blank",
-        "to": "#",
-      },
       "placeholderSrc": "/images/image-placeholder.png",
       "sizes": "(min-width: 36em) 33.3vw, 100vw",
       "src": "/images/dummies/320.png",
@@ -45,7 +38,6 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
 <ArticleThumbnail
   anchorProps={
     Object {
-      "children": "Readmore",
       "className": "AnchorClass",
       "target": "_blank",
       "to": "#",
@@ -68,32 +60,8 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
 
 exports[`<ArticleThumbnail /> should render correctly with readmore button 1`] = `
 <ArticleThumbnail
-  anchorProps={
-    Object {
-      "children": "Readmore",
-      "className": "AnchorClass",
-      "target": "_blank",
-      "to": "#",
-    }
-  }
   className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
-  image={
-    Object {
-      "alt": "Dummy Image",
-      "placeholderSrc": "/images/image-placeholder.png",
-      "sizes": "(min-width: 36em) 33.3vw, 100vw",
-      "src": "/images/dummies/320.png",
-      "srcset": "/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w",
-    }
-  }
-  readMore={
-    Object {
-      "children": "Readmore",
-      "className": "AnchorClass",
-      "target": "_blank",
-      "to": "#",
-    }
-  }
+  image={Object {}}
 >
   Test
 </ArticleThumbnail>
