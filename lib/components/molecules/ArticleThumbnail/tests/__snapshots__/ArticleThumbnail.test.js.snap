@@ -2,7 +2,7 @@
 
 exports[`<ArticleThumbnail /> should render correctly 1`] = `
 <ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
+  className="ArticleThumbnail-sc-1pvkf9f-0 hCXvzE"
   image={Object {}}
 >
   Test
@@ -18,7 +18,7 @@ exports[`<ArticleThumbnail /> should render correctly with clickable image and t
       "to": "#",
     }
   }
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
+  className="ArticleThumbnail-sc-1pvkf9f-0 hCXvzE"
   image={
     Object {
       "alt": "Dummy Image",
@@ -43,7 +43,7 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
       "to": "#",
     }
   }
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
+  className="ArticleThumbnail-sc-1pvkf9f-0 hCXvzE"
   image={
     Object {
       "alt": "Dummy Image",
@@ -60,7 +60,7 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
 
 exports[`<ArticleThumbnail /> should render correctly with readmore button 1`] = `
 <ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 bRRbHw"
+  className="ArticleThumbnail-sc-1pvkf9f-0 hCXvzE"
   image={Object {}}
 >
   Test
