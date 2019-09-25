@@ -13,10 +13,11 @@ exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
   image={
     Object {
       "alt": "Dummy Image",
-      "placeholderSrc": "/images/image-placeholder.png",
+      "loading": "lazy",
+      "placeholderSrc": "https://placekitten.com/g/601/300",
       "sizes": "(min-width: 36em) 33.3vw, 100vw",
-      "src": "/images/dummies/320.png",
-      "srcset": "/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w",
+      "src": "https://placekitten.com/g/601/300",
+      "srcset": "https://placekitten.com/g/601/300 1024w, https://placekitten.com/g/401/300 640w, https://placekitten.com/g/301/300 320w",
     }
   }
   readMoreContent="ReadMore"
@@ -38,10 +39,10 @@ exports[`<ArticleThumbnail /> should render correctly with full clickable thumb 
   image={
     Object {
       "alt": "Dummy Image",
-      "placeholderSrc": "/images/image-placeholder.png",
+      "placeholderSrc": "https://placekitten.com/g/600/300",
       "sizes": "(min-width: 36em) 33.3vw, 100vw",
-      "src": "/images/dummies/320.png",
-      "srcset": "/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w",
+      "src": "https://placekitten.com/g/600/300",
+      "srcset": "https://placekitten.com/g/600/300 1024w, https://placekitten.com/g/400/300 640w, https://placekitten.com/g/300/300 320w",
     }
   }
 >
