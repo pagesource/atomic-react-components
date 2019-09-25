@@ -1,15 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ArticleThumbnail /> should render correctly 1`] = `
-<ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 hCXvzE"
-  image={Object {}}
->
-  Test
-</ArticleThumbnail>
-`;
-
-exports[`<ArticleThumbnail /> should render correctly with clickable image and title 1`] = `
+exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
 <ArticleThumbnail
   anchorProps={
     Object {
@@ -34,7 +25,7 @@ exports[`<ArticleThumbnail /> should render correctly with clickable image and t
 </ArticleThumbnail>
 `;
 
-exports[`<ArticleThumbnail /> should render correctly with no clickable image and title 1`] = `
+exports[`<ArticleThumbnail /> should render correctly with full clickable thumb 1`] = `
 <ArticleThumbnail
   anchorProps={
     Object {
@@ -53,15 +44,6 @@ exports[`<ArticleThumbnail /> should render correctly with no clickable image an
       "srcset": "/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w",
     }
   }
->
-  Test
-</ArticleThumbnail>
-`;
-
-exports[`<ArticleThumbnail /> should render correctly with readmore button 1`] = `
-<ArticleThumbnail
-  className="ArticleThumbnail-sc-1pvkf9f-0 hCXvzE"
-  image={Object {}}
 >
   Test
 </ArticleThumbnail>
