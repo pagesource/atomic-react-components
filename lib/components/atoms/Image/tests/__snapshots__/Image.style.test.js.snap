@@ -5,9 +5,23 @@ exports[`Image Component with styles should render correctly and match snapshots
   alt="ABC"
   className="Image-sc-1m0q2wx-0 jgJdFJ"
   inheritedStyles=""
+  loading="auto"
   placeholderSrc="http://xyz.com"
   sizes=""
   src="http://abc.com"
+  srcset=""
+/>
+`;
+
+exports[`Image Component with styles should render correctly with lazy load 1`] = `
+<Image
+  alt="Dummy Image"
+  className="Image-sc-1m0q2wx-0 jgJdFJ"
+  inheritedStyles=""
+  loading="lazy"
+  placeholderSrc="/images/image-placeholder.png"
+  sizes="(min-width: 36em) 33.3vw, 100vw"
+  src="https://dummyimage.com/600x400/000/fff"
   srcset=""
 />
 `;
