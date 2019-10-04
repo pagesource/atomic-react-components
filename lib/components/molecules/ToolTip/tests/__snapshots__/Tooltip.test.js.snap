@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> should render correctly disabled button 1`] = `
+<Tooltip
+  className="Tooltip-sc-1hdd3t8-0 bYkaYF"
+  data-tooltip="text tool tip content"
+  domElement={
+    <Button
+      ariaLabel=""
+      className=""
+      disabled={true}
+      inheritedStyles=""
+      onClick={[Function]}
+      primary={false}
+      secondary={false}
+      type="button"
+    >
+      Submit(Disabled)
+    </Button>
+  }
+  showImage={false}
+  tootTipContent="You don't have permission to sumbit."
+/>
+`;
+
+exports[`<Tooltip /> should render correctly with clickable button 1`] = `
+<Tooltip
+  className="Tooltip-sc-1hdd3t8-0 bYkaYF"
+  data-tooltip="text tool tip content"
+  domElement={
+    <Button
+      ariaLabel=""
+      className=""
+      disabled={false}
+      inheritedStyles=""
+      onClick={[Function]}
+      primary={false}
+      secondary={false}
+      type="button"
+    >
+      Submit
+    </Button>
+  }
+  showImage={false}
+  tootTipContent="Click to Submit"
+/>
+`;
+
+exports[`<Tooltip /> should render correctly with icon 1`] = `
+<Tooltip
+  className="Tooltip-sc-1hdd3t8-0 ikttzb"
+  data-tooltip="text tool tip content"
+  domElement={
+    <Label
+      className=""
+    >
+      Text message with Image Icon
+    </Label>
+  }
+  showImage={true}
+  tootTipContent="Tool Tip Message to show on label with image Icon"
+/>
+`;
+
+exports[`<Tooltip /> should render correctly with without icon 1`] = `
+<Tooltip
+  className="Tooltip-sc-1hdd3t8-0 bYkaYF"
+  data-tooltip="text tool tip content"
+  domElement={
+    <Label
+      className=""
+    >
+      Text message without image Icon
+    </Label>
+  }
+  showImage={false}
+  tootTipContent="Tool Tip Message to show without image Icon..."
+/>
+`;
