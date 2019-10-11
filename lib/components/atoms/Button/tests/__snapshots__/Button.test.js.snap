@@ -4,6 +4,7 @@ exports[`Button Component should render correctly 1`] = `
 <button
   aria-label={null}
   className=""
+  data-locator="button-button-submit"
   disabled={false}
   type="button"
 >
