@@ -16,6 +16,7 @@ exports[`Input Styled component should render correctly 1`] = `
 <Input
   ariaLabel=""
   className="c0"
+  elementLocator=""
   name="userName"
   placeholder=""
   theme={
