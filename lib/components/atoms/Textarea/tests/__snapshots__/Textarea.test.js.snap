@@ -3,7 +3,10 @@
 exports[`<Textarea /> should render correctly 1`] = `
 <textarea
   className=""
+  data-locator="my-custom-textarea-selector"
   defaultValue=""
+  id="textarea-1"
+  name="my-text-area"
   placeholder=""
   resize="none"
   title=""

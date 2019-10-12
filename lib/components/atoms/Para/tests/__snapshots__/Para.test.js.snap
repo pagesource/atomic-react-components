@@ -12,6 +12,7 @@ exports[`Para Component should render correctly and match snapshot 1`] = `
 
 <Para
   className="c0"
+  elementLocator="my-paragraph"
   inheritedStyles=""
 >
   This is Para text
