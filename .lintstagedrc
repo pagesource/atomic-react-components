@@ -6,6 +6,6 @@
   "*.js": [
     "yarn run lint:css:fix",
     "yarn run lint:js:fix",
-    "yarn test",
+    "yarn run test -- --findRelatedTests",
   ]
 }
