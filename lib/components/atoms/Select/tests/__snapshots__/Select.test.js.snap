@@ -7,6 +7,7 @@ exports[`Select Component should render correctly 1`] = `
   disabled={false}
   id="dropdown-1"
   name="my-drop"
+  onChange={[Function]}
   value=""
 >
   <option
