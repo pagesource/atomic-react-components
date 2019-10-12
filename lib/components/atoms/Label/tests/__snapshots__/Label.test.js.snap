@@ -3,6 +3,7 @@
 exports[`Label Component should render correctly 1`] = `
 <label
   className=""
+  data-locator="label-userid--user"
   htmlFor="userid"
 >
    User Name 

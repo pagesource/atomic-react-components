@@ -4,6 +4,7 @@ exports[`FieldInput Component should render correctly 1`] = `
 <div>
   <Label
     className=""
+    elementLocator=""
   />
   <FormikConnect(FieldInner)
     component="select"
