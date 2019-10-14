@@ -1,11 +1,13 @@
 import 'react-app-polyfill/ie11';
 import React from 'react';
-import { configure, setAddon, addDecorator } from '@storybook/react';
+import { configure, setAddon, addDecorator, addParameters } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 import chaptersAddon, { setDefaults } from 'react-storybook-addon-chapters';
 import { withConsole } from '@storybook/addon-console';
+import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withSmartKnobs } from 'storybook-addon-smart-knobs';
+import { withA11y } from '@storybook/addon-a11y';
 import { ThemeProvider } from 'styled-components';
 import Theme from '../lib/styles/theme';
 import '../lib/styles/cssIncludes';
@@ -27,10 +29,18 @@ setDefaults({
 
 addDecorator(withKnobs);
 addDecorator(withSmartKnobs);
+addDecorator(withA11y);
 
 addDecorator((storyFn, context) => (
   <ThemeProvider theme={Theme}>{withConsole()(storyFn)(context)}</ThemeProvider>
 ));
+
+addParameters({
+  docs: {
+    container: DocsContainer,
+    page: DocsPage,
+  },
+});
 
 setAddon(chaptersAddon);
 

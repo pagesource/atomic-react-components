@@ -6,6 +6,7 @@ exports[`FieldInput Component should render correctly 1`] = `
 >
   <Label
     className=""
+    elementLocator=""
   />
   <FormikConnect(FieldInner)
     render={[Function]}

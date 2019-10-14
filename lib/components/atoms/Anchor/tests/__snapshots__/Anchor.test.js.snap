@@ -18,6 +18,7 @@ exports[`Anchor Component should render correctly and match snapshot 1`] = `
 <Anchor
   as=""
   className="c0"
+  elementLocator=""
   forceClick={false}
   handleLinkClick={[Function]}
   inheritedStyles=""
