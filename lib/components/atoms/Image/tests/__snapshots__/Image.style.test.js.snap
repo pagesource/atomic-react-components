@@ -4,6 +4,7 @@ exports[`Image Component with styles should render correctly and match snapshots
 <Image
   alt="ABC"
   className="Image-sc-1m0q2wx-0 jgJdFJ"
+  elementLocator=""
   inheritedStyles=""
   loading="auto"
   placeholderSrc="http://xyz.com"
@@ -17,6 +18,7 @@ exports[`Image Component with styles should render correctly with lazy load 1`] 
 <Image
   alt="Dummy Image"
   className="Image-sc-1m0q2wx-0 jgJdFJ"
+  elementLocator=""
   inheritedStyles=""
   loading="lazy"
   placeholderSrc="/images/image-placeholder.png"
