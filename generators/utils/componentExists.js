@@ -11,9 +11,11 @@ const atomComponents = fs.readdirSync(path.join(__dirname, '../../lib/components
 const moleculeComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/molecules'));
 const organismComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/organisms'));
 const templateComponents = fs.readdirSync(path.join(__dirname, '../../lib/components/templates'));
+const hoc = fs.readdirSync(path.join(__dirname, '../../lib/components/hoc'));
 const components = atomComponents
   .concat(moleculeComponents)
   .concat(organismComponents)
+  .concat(hoc)
   .concat(templateComponents);
 
 function componentExists(comp) {
