@@ -1,79 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Tooltip /> should render correctly disabled button 1`] = `
-<Tooltip
-  className="Tooltip-sc-1hdd3t8-0 bYkaYF"
-  data-tooltip="text tool tip content"
-  domElement={
-    <Button
-      ariaLabel=""
-      className=""
-      disabled={true}
-      inheritedStyles=""
-      onClick={[Function]}
-      primary={false}
-      secondary={false}
-      type="button"
-    >
-      Submit(Disabled)
-    </Button>
-  }
-  showImage={false}
-  tootTipContent="You don't have permission to sumbit."
-/>
+<div>
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={true}
+    inheritedStyles=""
+    onClick={[Function]}
+    primary={false}
+    secondary={false}
+    type="button"
+  >
+    Submit(Disabled)
+  </Button>
+  <Image
+    alt="Dummy Image"
+    height="20px"
+    onClick={[Function]}
+    src="https://image.freepik.com/free-icon/information-circle_318-27255.jpg"
+    width="20px"
+  />
+</div>
 `;
 
 exports[`<Tooltip /> should render correctly with clickable button 1`] = `
-<Tooltip
-  className="Tooltip-sc-1hdd3t8-0 bYkaYF"
-  data-tooltip="text tool tip content"
-  domElement={
-    <Button
-      ariaLabel=""
-      className=""
-      disabled={false}
-      inheritedStyles=""
-      onClick={[Function]}
-      primary={false}
-      secondary={false}
-      type="button"
-    >
-      Submit
-    </Button>
-  }
-  showImage={false}
-  tootTipContent="Click to Submit"
-/>
+<div>
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    inheritedStyles=""
+    onClick={[Function]}
+    primary={false}
+    secondary={false}
+    type="button"
+  >
+    Submit
+  </Button>
+  <Image
+    alt="Dummy Image"
+    height="20px"
+    onClick={[Function]}
+    src="https://image.freepik.com/free-icon/information-circle_318-27255.jpg"
+    width="20px"
+  />
+</div>
 `;
 
 exports[`<Tooltip /> should render correctly with icon 1`] = `
-<Tooltip
-  className="Tooltip-sc-1hdd3t8-0 ikttzb"
-  data-tooltip="text tool tip content"
-  domElement={
-    <Label
-      className=""
-    >
-      Text message with Image Icon
-    </Label>
-  }
-  showImage={true}
-  tootTipContent="Tool Tip Message to show on label with image Icon"
-/>
-`;
-
-exports[`<Tooltip /> should render correctly with without icon 1`] = `
-<Tooltip
-  className="Tooltip-sc-1hdd3t8-0 bYkaYF"
-  data-tooltip="text tool tip content"
-  domElement={
-    <Label
-      className=""
-    >
-      Text message without image Icon
-    </Label>
-  }
-  showImage={false}
-  tootTipContent="Tool Tip Message to show without image Icon..."
-/>
+<div>
+  <Label
+    className=""
+  >
+    Text message with Image Icon 
+  </Label>
+  <Image
+    alt="Dummy Image"
+    height="20px"
+    onClick={[Function]}
+    src="https://image.freepik.com/free-icon/information-circle_318-27255.jpg"
+    width="20px"
+  />
+</div>
 `;
