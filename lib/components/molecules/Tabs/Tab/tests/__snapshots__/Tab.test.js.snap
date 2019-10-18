@@ -1,10 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Tab /> should render correctly 1`] = `
-<Tab
-  className="Tab-ddcdtl-0 dqCeP"
+<li
+  className=""
+  id="tab_undefined"
   inheritedStyles=""
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="tab"
+  tabIndex={-1}
 >
-  Test
-</Tab>
+  <Anchor
+    noLink={true}
+    to="#undefined"
+  >
+    Test
+  </Anchor>
+</li>
 `;

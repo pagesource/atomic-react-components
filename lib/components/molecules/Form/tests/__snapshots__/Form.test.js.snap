@@ -45,7 +45,7 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
       "_deps": Array [],
       "_excludedEdges": Array [],
       "_exclusive": Object {},
-      "_mutate": false,
+      "_mutate": undefined,
       "_nodes": Array [
         "username",
       ],
@@ -70,9 +70,9 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
           "_exclusive": Object {
             "max": true,
             "min": true,
-            "required": false,
+            "required": true,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -84,7 +84,6 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
             [Function],
@@ -129,7 +128,7 @@ exports[`Form Component should render input text field 1`] = `
       "_deps": Array [],
       "_excludedEdges": Array [],
       "_exclusive": Object {},
-      "_mutate": false,
+      "_mutate": undefined,
       "_nodes": Array [
         "email",
         "username",
@@ -154,10 +153,10 @@ exports[`Form Component should render input text field 1`] = `
           "_deps": Array [],
           "_exclusive": Object {
             "max": true,
-            "required": false,
+            "required": true,
             "undefined": false,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -169,7 +168,6 @@ exports[`Form Component should render input text field 1`] = `
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
             [Function],
@@ -187,9 +185,9 @@ exports[`Form Component should render input text field 1`] = `
           "_deps": Array [],
           "_exclusive": Object {
             "max": true,
-            "required": false,
+            "required": true,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -201,7 +199,6 @@ exports[`Form Component should render input text field 1`] = `
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
           ],
@@ -245,7 +242,7 @@ exports[`Form Component should render select field 1`] = `
       "_deps": Array [],
       "_excludedEdges": Array [],
       "_exclusive": Object {},
-      "_mutate": false,
+      "_mutate": undefined,
       "_nodes": Array [
         "email",
         "username",
@@ -270,10 +267,10 @@ exports[`Form Component should render select field 1`] = `
           "_deps": Array [],
           "_exclusive": Object {
             "max": true,
-            "required": false,
+            "required": true,
             "undefined": false,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -285,7 +282,6 @@ exports[`Form Component should render select field 1`] = `
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
             [Function],
@@ -303,9 +299,9 @@ exports[`Form Component should render select field 1`] = `
           "_deps": Array [],
           "_exclusive": Object {
             "max": true,
-            "required": false,
+            "required": true,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -317,7 +313,6 @@ exports[`Form Component should render select field 1`] = `
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
           ],
@@ -361,7 +356,7 @@ exports[`Form Component should render select tag correctly 1`] = `
       "_deps": Array [],
       "_excludedEdges": Array [],
       "_exclusive": Object {},
-      "_mutate": false,
+      "_mutate": undefined,
       "_nodes": Array [
         "email",
         "username",
@@ -386,10 +381,10 @@ exports[`Form Component should render select tag correctly 1`] = `
           "_deps": Array [],
           "_exclusive": Object {
             "max": true,
-            "required": false,
+            "required": true,
             "undefined": false,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -401,7 +396,6 @@ exports[`Form Component should render select tag correctly 1`] = `
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
             [Function],
@@ -419,9 +413,9 @@ exports[`Form Component should render select tag correctly 1`] = `
           "_deps": Array [],
           "_exclusive": Object {
             "max": true,
-            "required": false,
+            "required": true,
           },
-          "_mutate": false,
+          "_mutate": undefined,
           "_options": Object {
             "abortEarly": true,
             "recursive": true,
@@ -433,7 +427,6 @@ exports[`Form Component should render select tag correctly 1`] = `
             "refs": Map {},
           },
           "tests": Array [
-            [Function],
             [Function],
             [Function],
           ],
