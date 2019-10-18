@@ -7,6 +7,7 @@ import { withConsole } from '@storybook/addon-console';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withSmartKnobs } from 'storybook-addon-smart-knobs';
+import { withDesign } from 'storybook-addon-designs';
 import { withA11y } from '@storybook/addon-a11y';
 import { ThemeProvider } from 'styled-components';
 import Theme from '../lib/styles/theme';
@@ -30,6 +31,7 @@ setDefaults({
 addDecorator(withKnobs);
 addDecorator(withSmartKnobs);
 addDecorator(withA11y);
+addDecorator(withDesign);
 
 addDecorator((storyFn, context) => (
   <ThemeProvider theme={Theme}>{withConsole()(storyFn)(context)}</ThemeProvider>
@@ -39,6 +41,10 @@ addParameters({
   docs: {
     container: DocsContainer,
     page: DocsPage,
+  },
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/GBCGqs11KNeUyPksQzEMw0hr/Wireframing/duplicate?node-id=0%3A1', // TODO: to be updated as per style guide later
   },
 });
 
