@@ -23,8 +23,6 @@ module.exports = {
     '/lib/components/molecules/Form/FieldCheckbox/FieldCheckbox.js',
     '/lib/components/molecules/Breadcrumb/Breadcrumb.js',
     '/lib/components/molecules/Form/FieldInput/FieldInput.js',
-    '/lib/components/molecules/Form/FieldCheckbox/FieldCheckbox.js',
-    '/lib/components/molecules/Form/FieldRadioGroup/FieldRadioGroup.js',
     '/lib/core/utils/*.*',
   ],
   coverageReporters: ['lcov', 'json', 'text-summary'],
