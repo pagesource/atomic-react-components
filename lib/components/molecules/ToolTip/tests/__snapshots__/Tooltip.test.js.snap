@@ -1,34 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Tooltip /> should render correctly disabled button 1`] = `
+exports[`<Tooltip /> should render correctly with button 1`] = `
 <div>
   <Button
     ariaLabel=""
-    className=""
-    disabled={true}
-    inheritedStyles=""
-    onClick={[Function]}
-    primary={false}
-    secondary={false}
-    type="button"
-  >
-    Submit(Disabled)
-  </Button>
-  <Image
-    alt="Dummy Image"
-    height="20px"
-    onClick={[Function]}
-    src="https://image.freepik.com/free-icon/information-circle_318-27255.jpg"
-    width="20px"
-  />
-</div>
-`;
-
-exports[`<Tooltip /> should render correctly with clickable button 1`] = `
-<div>
-  <Button
-    ariaLabel=""
-    className=""
+    className="trigger-tooltip"
     disabled={false}
     inheritedStyles=""
     onClick={[Function]}
@@ -36,31 +12,26 @@ exports[`<Tooltip /> should render correctly with clickable button 1`] = `
     secondary={false}
     type="button"
   >
-    Submit
+    ToolTip
   </Button>
-  <Image
-    alt="Dummy Image"
-    height="20px"
-    onClick={[Function]}
-    src="https://image.freepik.com/free-icon/information-circle_318-27255.jpg"
-    width="20px"
-  />
 </div>
 `;
 
-exports[`<Tooltip /> should render correctly with icon 1`] = `
+exports[`<Tooltip /> should render correctly with button 2`] = `
 <div>
-  <Label
+  <Anchor
+    as=""
     className=""
-  >
-    Text message with Image Icon 
-  </Label>
-  <Image
-    alt="Dummy Image"
-    height="20px"
+    forceClick={false}
+    handleLinkClick={[Function]}
+    href="javascript:void(0);"
+    inheritedStyles=""
     onClick={[Function]}
-    src="https://image.freepik.com/free-icon/information-circle_318-27255.jpg"
-    width="20px"
-  />
+    scroll={false}
+    shallow={false}
+    target=""
+  >
+    ToolTip Link
+  </Anchor>
 </div>
 `;
