@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<List /> should render default view correctly 1`] = `
-<List
-  ListType="ul"
+<ul
   borderSeparator={false}
-  className="List-rp20fd-0 kFZjCf"
+  className=""
   inheritedStyles=""
   inline={false}
   nested={false}
@@ -17,5 +16,5 @@ exports[`<List /> should render default view correctly 1`] = `
   <li>
     This is list item
   </li>
-</List>
+</ul>
 `;

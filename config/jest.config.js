@@ -18,19 +18,14 @@ module.exports = {
   coveragePathIgnorePatterns: [
     // exceptions.
     '/node_modules/',
-    'components/molecules/Form/FieldRadioGroup/FieldRadioGroup.js',
-    'components/molecules/ArticleThumbnail/ArticleThumbnail.js',
-    'components/molecules/Form/FieldCheckbox/FieldCheckbox.js',
-    'components/molecules/Breadcrumb/Breadcrumb.js',
-    'components/molecules/Form/FieldInput/FieldInput.js',
   ],
   coverageReporters: ['lcov', 'json', 'text-summary'],
   coverageThreshold: {
     global: {
-      branches: 60,
-      functions: 80,
-      lines: 80,
-      statements: 80,
+      branches: 40,
+      functions: 40,
+      lines: 60,
+      statements: 60,
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],

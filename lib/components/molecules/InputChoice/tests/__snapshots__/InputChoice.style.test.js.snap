@@ -1,61 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InputChoice should render checkbox correctly 1`] = `
-.c0 {
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.c0 > input {
-  display: none;
-}
-
-.c0 > span {
-  border: 2px solid #006193;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.c0 > span::after {
-  content: '';
-  width: 12px;
-  height: 12px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%,-50%) rotate(-45deg);
-  -ms-transform: translate(-50%,-50%) rotate(-45deg);
-  transform: translate(-50%,-50%) rotate(-45deg);
-  position: absolute;
-  height: 6px;
-  border: 2px solid #fff;
-  border-width: 0 0 2px 2px;
-  top: calc(50% - 3px);
-}
-
-.c0 > input:checked + span {
-  border-color: #006193;
-  background-color: #006193;
-  border-radius: 2px;
-}
-
-.c0 > span {
-  margin-right: 5px;
-}
-
-<InputChoice
-  className="c0"
-  disabled={false}
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "InputChoice-sc-1d450rw-0",
+        "isStatic": false,
+        "rules": Array [
+          "cursor:",
+          [Function],
+          ";display:inline-flex;> input{display:none;}> span{border:2px solid ",
+          [Function],
+          ";width:20px;height:20px;position:relative;display:inline-block;vertical-align:middle;",
+          [Function],
+          " &::after{content:'';width:12px;height:12px;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-45deg);position:absolute;",
+          [Function],
+          " ",
+          [Function],
+          ";}}& > input:checked + span{",
+          [Function],
+          " ",
+          [Function],
+          " &:after{",
+          [Function],
+          ";}}",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "InputChoice",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "InputChoice-sc-1d450rw-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": true,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   id="test_2"
-  label=""
-  labelProps={Object {}}
   name="test_2"
-  showLabelBeforeInput={false}
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
@@ -116,61 +106,51 @@ exports[`InputChoice should render checkbox correctly 1`] = `
 `;
 
 exports[`InputChoice should render radio correctly 1`] = `
-.c0 {
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.c0 > input {
-  display: none;
-}
-
-.c0 > span {
-  border: 2px solid #006193;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 50%;
-}
-
-.c0 > span::after {
-  content: '';
-  width: 12px;
-  height: 12px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%,-50%) rotate(-45deg);
-  -ms-transform: translate(-50%,-50%) rotate(-45deg);
-  transform: translate(-50%,-50%) rotate(-45deg);
-  position: absolute;
-  border-radius: 50%;
-}
-
-.c0 > input:checked + span {
-  border-color: #006193;
-}
-
-.c0 > input:checked + span:after {
-  background-color: #006193;
-}
-
-.c0 > span {
-  margin-right: 5px;
-}
-
-<InputChoice
-  className="c0"
-  disabled={false}
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "InputChoice-sc-1d450rw-0",
+        "isStatic": false,
+        "rules": Array [
+          "cursor:",
+          [Function],
+          ";display:inline-flex;> input{display:none;}> span{border:2px solid ",
+          [Function],
+          ";width:20px;height:20px;position:relative;display:inline-block;vertical-align:middle;",
+          [Function],
+          " &::after{content:'';width:12px;height:12px;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-45deg);position:absolute;",
+          [Function],
+          " ",
+          [Function],
+          ";}}& > input:checked + span{",
+          [Function],
+          " ",
+          [Function],
+          " &:after{",
+          [Function],
+          ";}}",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "InputChoice",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "InputChoice-sc-1d450rw-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": true,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   id="test_1"
-  label=""
-  labelProps={Object {}}
   name="test_1"
-  showLabelBeforeInput={false}
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
