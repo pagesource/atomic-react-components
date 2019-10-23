@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Tooltip /> should render correctly with button 1`] = `
-<div>
+<div
+  role="presentation"
+>
   <Button
     ariaLabel=""
     className="trigger-tooltip"
@@ -18,7 +20,9 @@ exports[`<Tooltip /> should render correctly with button 1`] = `
 `;
 
 exports[`<Tooltip /> should render correctly with button 2`] = `
-<div>
+<div
+  role="presentation"
+>
   <Anchor
     as=""
     className=""
