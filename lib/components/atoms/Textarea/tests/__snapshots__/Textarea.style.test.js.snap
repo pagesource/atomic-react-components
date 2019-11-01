@@ -1,25 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Select Styled component should render correctly 1`] = `
-.c0 {
-  margin: 0;
-  outline: 0;
-  line-height: 1.2rem;
-  padding: 0.6rem 1rem;
-  font-size: 1rem;
-  border-radius: 0.2rem;
-  background-color: #ffffff;
-  border: 1px solid #bfbfbf;
-  color: #222;
-  resize: none;
-  width: 100%;
-  height: 100px;
-}
-
-<Textarea
-  className="c0"
-  placeholder=""
-  resize="none"
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Textarea-g6e5bs-0",
+        "isStatic": false,
+        "rules": Array [
+          "margin:0;outline:0;line-height:1.2rem;padding:0.6rem 1rem;font-size:1rem;border-radius:0.2rem;background-color:",
+          [Function],
+          ";border:1px solid ",
+          [Function],
+          ";color:",
+          [Function],
+          ";resize:",
+          [Function],
+          ";width:100%;height:100px;",
+          [Function],
+          ";",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "Textarea",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Textarea-g6e5bs-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": true,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
@@ -75,7 +93,5 @@ exports[`Select Styled component should render correctly 1`] = `
       },
     }
   }
-  title=""
-  value=""
 />
 `;

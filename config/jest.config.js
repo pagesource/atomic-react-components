@@ -15,13 +15,17 @@ module.exports = {
     '!**lib/styles/**/*.js',
     '!**/node_modules/**',
   ],
+  coveragePathIgnorePatterns: [
+    // exceptions.
+    '/node_modules/',
+  ],
   coverageReporters: ['lcov', 'json', 'text-summary'],
   coverageThreshold: {
     global: {
-      branches: 35,
-      functions: 55,
-      lines: 60,
-      statements: -100,
+      branches: 40,
+      functions: 50,
+      lines: 70,
+      statements: 60,
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],

@@ -1,43 +1,84 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Tabs /> should render correctly 1`] = `
-<Tabs
-  className="example Tabs-sc-1trpncn-0 ipJech"
+<div
+  className="example"
+  id="default-tab"
   inheritedStyles=""
   initialSelectedIndex={0}
-  isVerticalView={false}
-  panelWrapClassName=""
-  tabWrapClassName=""
-  tabsContent={
-    Array [
-      Object {
-        "panelContent": <List
-          ListType="ol"
-        >
-          <li>
-            This is ordered list item, content of tab 1.
-          </li>
-          <li>
-            This is ordered list item, content of tab 1.
-          </li>
-        </List>,
-        "tabTitle": "First tab",
-      },
-      Object {
-        "panelContent": <List
-          ListType="ul"
-        >
-          <li>
-            This is unordered list item, content of tab 2.
-          </li>
-          <li>
-            This is unordered list item, content of tab 2.
-          </li>
-        </List>,
-        "tabTitle": "Second tab",
-      },
-    ]
-  }
-  tabsId="default-tab"
-/>
+>
+  <div
+    className="tabs-wrap"
+  >
+    <List
+      inline={true}
+      noDefaultView={true}
+      noMargin={true}
+      role="tablist"
+    >
+      <Tab
+        className=""
+        index={0}
+        isSelected={true}
+        key="tab-0"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabId="tab-list-item-0"
+      >
+        First tab
+      </Tab>
+      <Tab
+        className=""
+        index={1}
+        isSelected={false}
+        key="tab-1"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabId="tab-list-item-1"
+      >
+        Second tab
+      </Tab>
+    </List>
+  </div>
+  <div
+    className="panels-wrap"
+  >
+    <TabPanel
+      className=""
+      index={0}
+      isSelected={true}
+      key="tab-panel-0"
+      tabId="tab-list-item-0"
+    >
+      <List
+        ListType="ol"
+      >
+        <li>
+          This is ordered list item, content of tab 1.
+        </li>
+        <li>
+          This is ordered list item, content of tab 1.
+        </li>
+      </List>
+    </TabPanel>
+    <TabPanel
+      className=""
+      index={1}
+      isSelected={false}
+      key="tab-panel-1"
+      tabId="tab-list-item-1"
+    >
+      <List
+        ListType="ul"
+      >
+        <li>
+          This is unordered list item, content of tab 2.
+        </li>
+        <li>
+          This is unordered list item, content of tab 2.
+        </li>
+      </List>
+    </TabPanel>
+  </div>
+</div>
 `;

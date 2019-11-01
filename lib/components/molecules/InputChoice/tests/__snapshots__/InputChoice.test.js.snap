@@ -3,6 +3,7 @@
 exports[`InputChoiceVanilla Component should render Radio button correctly 1`] = `
 <Label
   className=""
+  elementLocator=""
   htmlFor="test_1"
   showLabelBeforeInput={false}
 >
@@ -10,6 +11,7 @@ exports[`InputChoiceVanilla Component should render Radio button correctly 1`] =
     ariaLabel=""
     className=""
     disabled={false}
+    elementLocator=""
     id="test_1"
     name="test_1"
     placeholder=""
@@ -26,6 +28,7 @@ exports[`InputChoiceVanilla Component should render Radio button correctly 1`] =
 exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
 <Label
   className=""
+  elementLocator=""
   htmlFor="test_2"
   showLabelBeforeInput={false}
 >
@@ -33,6 +36,7 @@ exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
     ariaLabel=""
     className=""
     disabled={false}
+    elementLocator=""
     id="test_2"
     name="test_2"
     placeholder=""

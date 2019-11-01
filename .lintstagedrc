@@ -4,7 +4,6 @@
     "git add",
   ],
   "*.js": [
-    "yarn run flow focus-check",
     "yarn run lint:css:fix",
     "yarn run lint:js:fix",
     "yarn run test -- --findRelatedTests",

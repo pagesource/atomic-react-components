@@ -3,6 +3,7 @@
 exports[`Select Styled component should render correctly 1`] = `
 <select
   className=""
+  data-locator="select-input-userType-undefined"
   disabled={false}
   name="userType"
   theme={

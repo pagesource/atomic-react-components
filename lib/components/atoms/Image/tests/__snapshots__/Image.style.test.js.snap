@@ -1,23 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Image Component with styles should render correctly and match snapshots 1`] = `
-<Image
+<StyledComponent
   alt="ABC"
-  className="Image-sc-1m0q2wx-0 jgJdFJ"
-  inheritedStyles=""
-  loading="auto"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Image-sc-1m0q2wx-0",
+        "isStatic": false,
+        "rules": Array [
+          "max-width:100%;height:auto;",
+          ";",
+        ],
+      },
+      "displayName": "Image",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Image-sc-1m0q2wx-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   placeholderSrc="http://xyz.com"
-  sizes=""
   src="http://abc.com"
-  srcset=""
 />
 `;
 
 exports[`Image Component with styles should render correctly with lazy load 1`] = `
-<Image
+<StyledComponent
   alt="Dummy Image"
-  className="Image-sc-1m0q2wx-0 jgJdFJ"
-  inheritedStyles=""
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Image-sc-1m0q2wx-0",
+        "isStatic": false,
+        "rules": Array [
+          "max-width:100%;height:auto;",
+          ";",
+        ],
+      },
+      "displayName": "Image",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Image-sc-1m0q2wx-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   loading="lazy"
   placeholderSrc="/images/image-placeholder.png"
   sizes="(min-width: 36em) 33.3vw, 100vw"
