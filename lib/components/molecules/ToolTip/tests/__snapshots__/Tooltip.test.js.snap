@@ -8,6 +8,7 @@ exports[`<Tooltip /> should render correctly with button 1`] = `
     ariaLabel=""
     className="trigger-tooltip"
     disabled={false}
+    elementLocator=""
     inheritedStyles=""
     onClick={[Function]}
     primary={false}
@@ -26,6 +27,7 @@ exports[`<Tooltip /> should render correctly with button 2`] = `
   <Anchor
     as=""
     className=""
+    elementLocator=""
     forceClick={false}
     handleLinkClick={[Function]}
     href="javascript:void(0);"

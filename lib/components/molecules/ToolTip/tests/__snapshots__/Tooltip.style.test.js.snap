@@ -1,24 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button should render correctly 1`] = `
-.c0 {
-  position: absolute;
-}
-
-.c0 .tooltip__close {
-  border: none;
-  cursor: pointer;
-  float: right;
-}
-
-.c0 .tooltip__body {
-  padding: 10px;
-}
-
-<Tooltip
-  className="c0"
-  isOpen={false}
-  leftPos={0}
+exports[`Tooltip should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Tooltip-sc-1hdd3t8-0",
+        "isStatic": false,
+        "rules": Array [
+          "position:absolute;",
+          [Function],
+          ";.tooltip{&__close{border:none;cursor:pointer;float:right;}&__body{padding:10px;}",
+          [Function],
+          ";}",
+          ";",
+        ],
+      },
+      "displayName": "Tooltip",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Tooltip-sc-1hdd3t8-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
@@ -74,6 +85,5 @@ exports[`Button should render correctly 1`] = `
       },
     }
   }
-  topPos={0}
 />
 `;
