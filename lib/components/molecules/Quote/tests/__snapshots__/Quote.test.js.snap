@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Quote /> Rendering should render correctly with all fields 1`] = `
+<figure
+  authorStyle={
+    Object {
+      "color": "blue",
+    }
+  }
+  className="quote-wrap quote"
+  contentStyle={
+    Object {
+      "color": "red",
+    }
+  }
+  quoteStyle={Object {}}
+>
+  <span
+    className="quote__mark"
+  >
+    ”
+  </span>
+  <blockquote
+    cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
+    className="quote__content"
+  >
+    Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
+  </blockquote>
+  <small
+    className="quote__author"
+  >
+    <cite>
+      Stephen Covey
+    </cite>
+    <span>
+      , 
+    </span>
+    <cite>
+      My company
+    </cite>
+  </small>
+</figure>
+`;
+
+exports[`<Quote /> Rendering should render correctly with no author 1`] = `
+<figure
+  authorStyle={Object {}}
+  className="quote-wrap quote"
+  contentStyle={Object {}}
+  quoteStyle={Object {}}
+>
+  <span
+    className="quote__mark"
+  >
+    ”
+  </span>
+  <blockquote
+    cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
+    className="quote__content"
+  >
+    Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
+  </blockquote>
+  <small
+    className="quote__author"
+  >
+    <cite>
+      My company
+    </cite>
+  </small>
+</figure>
+`;
+
+exports[`<Quote /> Rendering should render correctly with no company 1`] = `
+<figure
+  authorStyle={Object {}}
+  className="quote-wrap quote"
+  contentStyle={Object {}}
+  quoteStyle={Object {}}
+>
+  <span
+    className="quote__mark"
+  >
+    ”
+  </span>
+  <blockquote
+    cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
+    className="quote__content"
+  >
+    Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
+  </blockquote>
+  <small
+    className="quote__author"
+  >
+    <cite>
+      Stephen Covey
+    </cite>
+  </small>
+</figure>
+`;
