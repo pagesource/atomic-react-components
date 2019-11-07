@@ -11,6 +11,8 @@ import { ThemeProvider } from 'styled-components';
 import Theme from '../lib/styles/theme';
 import '../lib/styles/cssIncludes';
 import GlobalStyles from '../lib/styles';
+import { withTests } from '@storybook/addon-jest';
+import results from '../.jest-test-results.json';
 
 setDefaults({
   sectionOptions: {
@@ -31,6 +33,11 @@ addDecorator((storyFn, context) => (
     <ThemeProvider theme={Theme}>{withConsole()(storyFn)(context)}</ThemeProvider>
   </React.Fragment>
 ));
+addDecorator(
+  withTests({
+    results,
+  })
+);
 
 addParameters({
   options: {
