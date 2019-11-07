@@ -1,27 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FieldInput should render correctly 1`] = `
-.c0 {
-  margin-bottom: 0.75rem;
-}
-
-.c0 label {
-  display: block;
-  margin-bottom: 0.25rem;
-}
-
-.c0 input {
-  margin-bottom: 0.25rem;
-}
-
-<FieldInput
-  className="c0"
-  fieldProps={Object {}}
-  labelProps={Object {}}
-  onBlur={null}
-  onChange={null}
-  placeholder=""
-  type="text"
-  value=""
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "FieldInput-sc-1gh57p3-0",
+        "isStatic": false,
+        "rules": Array [
+          "margin-bottom:0.75rem;label{display:block;margin-bottom:0.25rem;}input{margin-bottom:0.25rem;}",
+          ";",
+        ],
+      },
+      "displayName": "FieldInput",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "FieldInput-sc-1gh57p3-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

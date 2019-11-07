@@ -1,29 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Breadcrumb /> should render correctly 1`] = `
-<Breadcrumb
-  className="Breadcrumb-sc-2lmppw-0 kZtuhB"
-  linkList={
-    Array [
-      Object {
-        "children": "Link 1",
-        "className": "breadcrumb-link",
-        "handleLinkClick": [Function],
-        "to": "https://nextjs.org/",
-      },
-      Object {
-        "children": "Link 2",
-        "className": "breadcrumb-link",
-        "handleLinkClick": [Function],
-        "to": "https://nextjs.org/",
-      },
-      Object {
-        "children": "Link 3",
-        "className": "breadcrumb-link",
-        "handleLinkClick": [Function],
-        "to": "https://nextjs.org/",
-      },
-    ]
-  }
-/>
+<nav
+  aria-label="Breadcrumb"
+>
+  <List
+    ListType="ol"
+    borderSeparator={true}
+    inline={true}
+    noDefaultView={true}
+  >
+    <li
+      key="breadcrumb-item-0"
+    >
+      <Anchor
+        className="breadcrumb-link"
+        handleLinkClick={[Function]}
+        to="https://nextjs.org/"
+      >
+        Link 1
+      </Anchor>
+    </li>
+    <li
+      key="breadcrumb-item-1"
+    >
+      <Anchor
+        className="breadcrumb-link"
+        handleLinkClick={[Function]}
+        to="https://nextjs.org/"
+      >
+        Link 2
+      </Anchor>
+    </li>
+    <li
+      key="breadcrumb-item-2"
+    >
+      <Anchor
+        aria-current="page"
+        className="breadcrumb-link"
+        handleLinkClick={[Function]}
+        to="https://nextjs.org/"
+      >
+        Link 3
+      </Anchor>
+    </li>
+  </List>
+</nav>
 `;

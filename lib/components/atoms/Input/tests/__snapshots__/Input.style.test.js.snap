@@ -1,24 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input Styled component should render correctly 1`] = `
-.c0 {
-  margin: 0;
-  outline: 0;
-  line-height: 1.2rem;
-  padding: 0.6rem 1rem;
-  font-size: 1rem;
-  border-radius: 0.2rem;
-  background-color: #ffffff;
-  border: 1px solid #bfbfbf;
-  color: #222;
-}
-
-<Input
-  ariaLabel=""
-  className="c0"
-  elementLocator=""
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Input-sc-133uxg0-0",
+        "isStatic": false,
+        "rules": Array [
+          "margin:0;outline:0;line-height:1.2rem;padding:0.6rem 1rem;font-size:1rem;border-radius:0.2rem;background-color:",
+          [Function],
+          ";border:1px solid ",
+          [Function],
+          ";color:",
+          [Function],
+          ";",
+          [Function],
+          ";",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "Input",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Input-sc-133uxg0-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": true,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
   name="userName"
-  placeholder=""
   theme={
     Object {
       "backgroundColorPrimary": "#fff",
@@ -74,7 +92,6 @@ exports[`Input Styled component should render correctly 1`] = `
       },
     }
   }
-  type="text"
   value={10}
 />
 `;
