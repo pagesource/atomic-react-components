@@ -1,0 +1,27 @@
+// @flow
+/**
+ *HOC
+ * {{ properCase name }}
+ *
+ */
+
+import React from 'react';
+
+import { getDisplayName } from '../../../core/utils/getDisplayName';
+
+const {{ properCase name}} = WrappedComponent => {
+  // ...and returns another component...
+  class extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {};
+    }
+
+    render() {
+
+      return <WrappedComponent {...this.props} />;
+    }
+  };
+  {{ properCase name}}.displayName = `{{ properCase name}}(${getDisplayName(WrappedComponent)})`;
+  return {{ properCase name}};
+}
