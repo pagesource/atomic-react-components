@@ -1,7 +1,7 @@
 // @flow
 /**
  *HOC
- * {{ properCase name }}
+ * {{ camelCase name }}
  *
  */
 
@@ -9,9 +9,9 @@ import React from 'react';
 
 import { getDisplayName } from '../../../core/utils/getDisplayName';
 
-const {{ properCase name}} = WrappedComponent => {
+const {{ camelCase name}} = WrappedComponent => {
   // ...and returns another component...
-  class extends React.Component {
+  class {{ properCase name}} extends React.Component {
     constructor(props) {
       super(props);
       this.state = {};
@@ -25,3 +25,5 @@ const {{ properCase name}} = WrappedComponent => {
   {{ properCase name}}.displayName = `{{ properCase name}}(${getDisplayName(WrappedComponent)})`;
   return {{ properCase name}};
 }
+
+export default {{ camelCase name }};
