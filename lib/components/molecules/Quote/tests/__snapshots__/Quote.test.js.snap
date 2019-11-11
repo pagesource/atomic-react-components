@@ -15,11 +15,11 @@ exports[`<Quote /> Rendering should render correctly with all fields 1`] = `
   }
   quoteStyle={Object {}}
 >
-  <span
+  <div
     className="quote__mark"
   >
     ”
-  </span>
+  </div>
   <blockquote
     cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
     className="quote__content"
@@ -51,11 +51,11 @@ exports[`<Quote /> Rendering should render correctly with no author 1`] = `
   contentStyle={Object {}}
   quoteStyle={Object {}}
 >
-  <span
+  <div
     className="quote__mark"
   >
     ”
-  </span>
+  </div>
   <blockquote
     cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
     className="quote__content"
@@ -81,11 +81,11 @@ exports[`<Quote /> Rendering should render correctly with no company 1`] = `
   contentStyle={Object {}}
   quoteStyle={Object {}}
 >
-  <span
+  <div
     className="quote__mark"
   >
     ”
-  </span>
+  </div>
   <blockquote
     cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
     className="quote__content"
