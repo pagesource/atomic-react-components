@@ -27,7 +27,7 @@ exports[`<Quote /> Rendering should render correctly with all fields 1`] = `
     <p>
       Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
     </p>
-    <small
+    <footer
       className="quote__author"
     >
       <cite>
@@ -39,7 +39,7 @@ exports[`<Quote /> Rendering should render correctly with all fields 1`] = `
       <cite>
         My company
       </cite>
-    </small>
+    </footer>
   </blockquote>
 </div>
 `;
@@ -63,13 +63,13 @@ exports[`<Quote /> Rendering should render correctly with no author 1`] = `
     <p>
       Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
     </p>
-    <small
+    <footer
       className="quote__author"
     >
       <cite>
         My company
       </cite>
-    </small>
+    </footer>
   </blockquote>
 </div>
 `;
@@ -93,13 +93,13 @@ exports[`<Quote /> Rendering should render correctly with no company 1`] = `
     <p>
       Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
     </p>
-    <small
+    <footer
       className="quote__author"
     >
       <cite>
         Stephen Covey
       </cite>
-    </small>
+    </footer>
   </blockquote>
 </div>
 `;
