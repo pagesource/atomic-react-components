@@ -16,7 +16,7 @@ module.exports = {
       name: 'type',
       message: 'Select the type of component',
       default: 'Stateless Function',
-      choices: () => ['Stateless Function', 'React.Component', 'HOC'],
+      choices: () => ['Stateless Function', 'Stateless Function (WithHooks)', 'HOC'],
     },
     {
       type: 'input',
@@ -55,7 +55,7 @@ module.exports = {
         break;
       }
       default: {
-        componentTemplate = './component/class.js.hbs';
+        componentTemplate = './component/statelessHooks.js.hbs';
       }
     }
 

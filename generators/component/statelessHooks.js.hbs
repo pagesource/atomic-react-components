@@ -1,0 +1,30 @@
+// @flow
+/**
+ *
+ * {{ properCase name }}
+ *
+ */
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
+
+import styles from './{{ properCase name }}.style';
+import type { Props } from './types';
+
+const {{ properCase name }} = (props: Props): Node => {
+  const [dummy, setDummy] = useState(true);
+
+  useEffect(() => {
+    // ... Use hooks
+    setDummy(false);
+  });
+
+  return <div className={styles.default} dummy={dummy} {...props} />;
+};
+
+{{ properCase name }}.defaultProps = {};
+
+export default styled({{ properCase name }})`
+  ${styles};
+`;
+
+export { {{ properCase name }} as {{ properCase name }}Vanilla };
