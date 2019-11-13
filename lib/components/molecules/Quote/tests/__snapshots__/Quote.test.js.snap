@@ -30,7 +30,7 @@ exports[`<Quote /> Rendering should render correctly with all fields 1`] = `
     className="quote__content quote"
   >
     <p>
-      Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
+      Be patient with yourself. Self-growth is tender.. it is holy ground. There is no greater investment. Be patient with yourself. Self-growth is tender.. it is holy ground. There is no greater investment.
     </p>
   </div>
   <footer
@@ -72,7 +72,7 @@ exports[`<Quote /> Rendering should render correctly with no author 1`] = `
     className="quote__content quote"
   >
     <p>
-      Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
+      Be patient with yourself. Self-growth is tender.. it is holy ground. There is no greater investment. Be patient with yourself. Self-growth is tender.. it is holy ground. There is no greater investment.
     </p>
   </div>
   <footer
@@ -107,7 +107,7 @@ exports[`<Quote /> Rendering should render correctly with no company 1`] = `
     className="quote__content quote"
   >
     <p>
-      Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
+      Be patient with yourself. Self-growth istender.. it is holy ground. There is no greater investment. Be patient with yourself. Self-growth istender.. it is holy ground. There is no greater investment.
     </p>
   </div>
   <footer
