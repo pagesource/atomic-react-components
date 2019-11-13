@@ -1,105 +1,121 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Quote /> Rendering should render correctly with all fields 1`] = `
-<div
+<blockquote
   authorStyle={
     Object {
       "color": "blue",
     }
   }
+  cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
   className="quote-wrap quote"
   contentStyle={
     Object {
       "color": "red",
     }
   }
+  markStyle={
+    Object {
+      "font-size": "60px;",
+    }
+  }
   quoteStyle={Object {}}
 >
   <div
-    className="quote__mark"
+    className="quote__mark quote"
   >
-    ”
+    "
   </div>
-  <blockquote
-    cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
-    className="quote__content"
+  <div
+    className="quote__content quote"
   >
     <p>
       Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
     </p>
-    <footer
-      className="quote__author"
-    >
-      <cite>
-        Stephen Covey
-      </cite>
-      <span>
-        , 
-      </span>
-      <cite>
-        My company
-      </cite>
-    </footer>
-  </blockquote>
-</div>
+  </div>
+  <footer
+    className="quote__author quote"
+  >
+    <cite>
+      My company
+    </cite>
+    <span>
+      ,
+       
+    </span>
+    <cite>
+      Stephen Covey
+    </cite>
+  </footer>
+</blockquote>
 `;
 
 exports[`<Quote /> Rendering should render correctly with no author 1`] = `
-<div
+<blockquote
   authorStyle={Object {}}
+  cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
   className="quote-wrap quote"
   contentStyle={Object {}}
+  markStyle={
+    Object {
+      "font-size": "60px;",
+    }
+  }
   quoteStyle={Object {}}
 >
   <div
-    className="quote__mark"
+    className="quote__mark quote"
   >
-    ”
+    "
   </div>
-  <blockquote
-    cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
-    className="quote__content"
+  <div
+    className="quote__content quote"
   >
     <p>
       Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
     </p>
-    <footer
-      className="quote__author"
-    >
-      <cite>
-        My company
-      </cite>
-    </footer>
-  </blockquote>
-</div>
+  </div>
+  <footer
+    className="quote__author quote"
+  >
+    <cite>
+      My company
+    </cite>
+  </footer>
+</blockquote>
 `;
 
 exports[`<Quote /> Rendering should render correctly with no company 1`] = `
-<div
+<blockquote
   authorStyle={Object {}}
+  cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
   className="quote-wrap quote"
   contentStyle={Object {}}
+  markStyle={
+    Object {
+      "font-size": "60px;",
+    }
+  }
   quoteStyle={Object {}}
 >
   <div
-    className="quote__mark"
+    className="quote__mark quote"
   >
-    ”
+    "
   </div>
-  <blockquote
-    cite="https://blog.hubspot.com/sales/18-motivational-quotes-to-start-your-day-list"
-    className="quote__content"
+  <div
+    className="quote__content quote"
   >
     <p>
       Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment. Be patient with yourself. Self-growth is tender; it's holy ground. There's no greater investment.
     </p>
-    <footer
-      className="quote__author"
-    >
-      <cite>
-        Stephen Covey
-      </cite>
-    </footer>
-  </blockquote>
-</div>
+  </div>
+  <footer
+    className="quote__author quote"
+  >
+    <cite>
+      Stephen Covey
+    </cite>
+  </footer>
+</blockquote>
 `;
