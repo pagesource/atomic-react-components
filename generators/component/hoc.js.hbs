@@ -5,23 +5,24 @@
  *
  */
 
-import React from 'react';
+import React, { useState, useEffect } from "react";
 
 import { getDisplayName } from '../../../core/utils/getDisplayName';
 
 const {{ camelCase name}} = WrappedComponent => {
   // ...and returns another component...
-  class {{ properCase name}} extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {};
-    }
 
-    render() {
+  function {{ properCase name}}(props) {
+   const [dummy, setDummy] = useState(true);
 
-      return <WrappedComponent {...this.props} />;
-    }
-  };
+    useEffect(() => {
+      // ... Use hooks
+      setDummy(false);
+    });
+
+    return <WrappedComponent {...props} dummy={dummy} />;
+  }
+
   {{ properCase name}}.displayName = `{{ properCase name}}(${getDisplayName(WrappedComponent)})`;
   return {{ properCase name}};
 }
