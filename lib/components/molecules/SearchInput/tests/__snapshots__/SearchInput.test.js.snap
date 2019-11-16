@@ -6,6 +6,7 @@ exports[`<SearchInput /> should render correctly 1`] = `
     Object {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
+      "compare": null,
       "componentStyle": ComponentStyle {
         "componentId": "SearchInput-sc-6c1zjb-0",
         "isStatic": false,
@@ -24,7 +25,11 @@ exports[`<SearchInput /> should render correctly 1`] = `
       "foldedComponentIds": Array [],
       "render": [Function],
       "styledComponentId": "SearchInput-sc-6c1zjb-0",
-      "target": [Function],
+      "target": Object {
+        "$$typeof": Symbol(react.memo),
+        "compare": null,
+        "type": [Function],
+      },
       "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
