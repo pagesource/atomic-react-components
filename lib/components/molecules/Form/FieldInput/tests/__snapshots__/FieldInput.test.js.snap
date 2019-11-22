@@ -7,8 +7,10 @@ exports[`FieldInput Component should render correctly 1`] = `
   <Label
     className=""
     elementLocator=""
+    htmlFor="input-jrkyfm80-1"
   />
   <FormikConnect(FieldInner)
+    id="input-jrkyfm80-1"
     render={[Function]}
     type="text"
   />
