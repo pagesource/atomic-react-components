@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> should render correctly 1`] = `
+<Carousel
+  autoplay={false}
+  nav={true}
+  nextLabel="next"
+  prevLabel="prev"
+  slideTransitionTime={1000}
+>
+  <section
+    aria-labelledby="carousel-heading"
+    className="carousel-wrapper"
+  >
+    <div
+      className="nav-action next"
+    >
+      <Button
+        disabled={false}
+        onClick={[Function]}
+        onKeyUp={[Function]}
+      >
+        <StyledComponent
+          disabled={false}
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1ccn477-0",
+                "isStatic": false,
+                "lastClassName": "cILCRu",
+                "rules": Array [
+                  "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                  [Function],
+                  ";",
+                  ";",
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1ccn477-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Button
+            ariaLabel=""
+            className="Button-sc-1ccn477-0 ixrXYr"
+            disabled={false}
+            elementLocator=""
+            inheritedStyles=""
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            primary={false}
+            secondary={false}
+            tertiary={false}
+            type="button"
+          >
+            <button
+              aria-label={null}
+              className="Button-sc-1ccn477-0 ixrXYr"
+              data-locator="button-button-next"
+              disabled={false}
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              next
+            </button>
+          </Button>
+        </StyledComponent>
+      </Button>
+    </div>
+    <Component>
+      <div
+        aria-label="slides"
+        className="carousel-section"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <Slide
+          id="slide_1"
+          key=".0"
+        >
+          <div
+            className="slide active"
+          >
+            TEst 1 
+          </div>
+        </Slide>
+        <Slide
+          id="slide_2"
+          key=".1"
+        >
+          <div
+            className="slide"
+          >
+            TEst 3 
+          </div>
+        </Slide>
+        <Slide
+          id="slide_3"
+          key=".2"
+        >
+          <div
+            className="slide"
+          >
+            TEst 4 
+          </div>
+        </Slide>
+        <Slide
+          id="slide_4"
+          key=".3"
+        >
+          <div
+            className="slide"
+          >
+            TEst 2 
+          </div>
+        </Slide>
+      </div>
+    </Component>
+    <div
+      className="nav-action prev"
+    >
+      <Button
+        disabled={true}
+        onClick={[Function]}
+        onKeyUp={[Function]}
+      >
+        <StyledComponent
+          disabled={true}
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "Button-sc-1ccn477-0",
+                "isStatic": false,
+                "lastClassName": "cILCRu",
+                "rules": Array [
+                  "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";",
+                  [Function],
+                  ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                  [Function],
+                  ";",
+                  ";",
+                ],
+              },
+              "displayName": "Button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "Button-sc-1ccn477-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onClick={[Function]}
+          onKeyUp={[Function]}
+        >
+          <Button
+            ariaLabel=""
+            className="Button-sc-1ccn477-0 cILCRu"
+            disabled={true}
+            elementLocator=""
+            inheritedStyles=""
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            primary={false}
+            secondary={false}
+            tertiary={false}
+            type="button"
+          >
+            <button
+              aria-label={null}
+              className="Button-sc-1ccn477-0 cILCRu"
+              data-locator="button-button-"
+              disabled={true}
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              4
+            </button>
+          </Button>
+        </StyledComponent>
+      </Button>
+    </div>
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      className="hidden"
+      tabIndex="-1"
+    >
+      Item 1 of 4
+    </div>
+  </section>
+</Carousel>
+`;

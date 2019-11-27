@@ -6,7 +6,6 @@ exports[`<TabPanel /> should render correctly 1`] = `
   aria-labelledby="tab_undefined"
   className=""
   hidden={true}
-  inheritedStyles=""
   role="tabpanel"
 >
   Test

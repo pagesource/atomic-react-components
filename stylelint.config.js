@@ -11,6 +11,7 @@ const strictRules = {
   'declaration-colon-newline-after': null,
   'value-list-max-empty-lines': null,
   'font-family-no-missing-generic-family-keyword': null,
+  'string-no-newline': null,
 };
 
 module.exports = {
