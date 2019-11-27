@@ -25,6 +25,7 @@ exports[`Input Styled component should render correctly 1`] = `
       "styledComponentId": "Input-sc-133uxg0-0",
       "target": [Function],
       "toString": [Function],
+      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -158,6 +159,12 @@ exports[`Input Styled component should render correctly 1`] = `
     height: var(--spacing-3);
     width: var(--spacing-6);
   ",
+      },
+      "icons": Object {
+        "leftArrow": null,
+        "pauseIcon": null,
+        "playIcon": null,
+        "rightArrow": null,
       },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",

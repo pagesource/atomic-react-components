@@ -33,6 +33,10 @@ module.exports = (distRoot, optimize) => ({
           },
         ],
       },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loader: 'file-loader?name=/public/static/images/[name].[ext]',
+      },
     ],
   },
   externals: {

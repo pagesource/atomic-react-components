@@ -20,7 +20,9 @@ exports[`Button should render correctly 1`] = `
           [Function],
           ";",
           [Function],
-          ";&:focus:not(.focus-visible){outline:none;}",
+          ";&:focus:not(.focus-visible){outline:none;}&.icon{border:none;background-color:transparent;text-indent:-1000px;overflow:hidden;background-repeat:no-repeat;background-position:center;background-size:cover;min-width:20px;min-height:20px;padding:0;&.icon-image{background-image:url('",
+          [Function],
+          "');}}",
           [Function],
           ";",
           ";",
@@ -32,6 +34,7 @@ exports[`Button should render correctly 1`] = `
       "styledComponentId": "Button-sc-1ccn477-0",
       "target": [Function],
       "toString": [Function],
+      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -164,6 +167,12 @@ exports[`Button should render correctly 1`] = `
     height: var(--spacing-3);
     width: var(--spacing-6);
   ",
+      },
+      "icons": Object {
+        "leftArrow": null,
+        "pauseIcon": null,
+        "playIcon": null,
+        "rightArrow": null,
       },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",

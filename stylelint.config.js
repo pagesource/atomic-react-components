@@ -1,8 +1,8 @@
 const strictRules = {
   'selector-max-specificity': [
-    '0,2,0',
+    '0,3,0',
     {
-      ignoreSelectors: [':global', ':local'],
+      ignoreSelectors: [':global', ':local', ':first-child', ':last-child'],
       severity: 'warning',
     },
   ],
@@ -11,6 +11,7 @@ const strictRules = {
   'declaration-colon-newline-after': null,
   'value-list-max-empty-lines': null,
   'font-family-no-missing-generic-family-keyword': null,
+  'string-no-newline': null,
 };
 
 module.exports = {
