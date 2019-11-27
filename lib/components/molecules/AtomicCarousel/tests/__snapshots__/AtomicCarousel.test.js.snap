@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AtomicCarousel /> Navigation should be clickable 1`] = `
+<AtomicCarousel>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "AtomicCarousel-sc-18kyvc6-0",
+          "isStatic": false,
+          "lastClassName": "jNSlfC",
+          "rules": Array [
+            "&.atomic-carousel{max-width:100%;}",
+            ";",
+          ],
+        },
+        "displayName": "AtomicCarousel",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+        "target": [Function],
+        "toString": [Function],
+        "usesTheme": false,
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <AtomicCarousel
+      className="AtomicCarousel-sc-18kyvc6-0 jNSlfC"
+      dots={true}
+      navigation={true}
+    >
+      <article
+        className="atomic-carousel"
+      >
+        <Button
+          ariaLabel=""
+          className=""
+          disabled={true}
+          elementLocator=""
+          inheritedStyles=""
+          onClick={[Function]}
+          primary={false}
+          secondary={false}
+          tertiary={false}
+          type="button"
+        >
+          <button
+            aria-label={null}
+            className=""
+            data-locator="button-button-prev"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            prev
+          </button>
+        </Button>
+        <h1>
+          Test1
+        </h1>
+        <Button
+          ariaLabel=""
+          className=""
+          disabled={true}
+          elementLocator=""
+          inheritedStyles=""
+          onClick={[Function]}
+          primary={false}
+          secondary={false}
+          tertiary={false}
+          type="button"
+        >
+          <button
+            aria-label={null}
+            className=""
+            data-locator="button-button-next"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next
+          </button>
+        </Button>
+      </article>
+      <div
+        className="atomic-dots"
+      >
+        <List>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "List-rp20fd-0",
+                  "isStatic": false,
+                  "lastClassName": "kFZjCf",
+                  "rules": Array [
+                    "margin:0 0 10px 0;li{margin-bottom:10px;}",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    ";",
+                  ],
+                },
+                "displayName": "List",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "List-rp20fd-0",
+                "target": [Function],
+                "toString": [Function],
+                "usesTheme": true,
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <List
+              ListType="ul"
+              borderSeparator={false}
+              className="List-rp20fd-0 kFZjCf"
+              inheritedStyles=""
+              inline={false}
+              nested={false}
+              noDefaultView={false}
+              noMargin={false}
+            >
+              <ul
+                borderSeparator={false}
+                className="List-rp20fd-0 kFZjCf"
+                inheritedStyles=""
+                inline={false}
+                nested={false}
+                noDefaultView={false}
+                noMargin={false}
+              >
+                <ListItem
+                  className="atomic-item"
+                  key="0"
+                >
+                  <StyledComponent
+                    className="atomic-item"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "ListItem-qqbojw-0",
+                          "isStatic": false,
+                          "lastClassName": "gFopPe",
+                          "rules": Array [
+                            "margin:10px;",
+                            [Function],
+                            ";",
+                            ";",
+                          ],
+                        },
+                        "displayName": "ListItem",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "ListItem-qqbojw-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "usesTheme": false,
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <ListItem
+                      className="ListItem-qqbojw-0 gFopPe atomic-item"
+                    >
+                      <li
+                        className="item ListItem-qqbojw-0 gFopPe atomic-item"
+                      >
+                        <Button
+                          ariaLabel=""
+                          className=""
+                          disabled={true}
+                          elementLocator=""
+                          inheritedStyles=""
+                          onClick={[Function]}
+                          primary={false}
+                          secondary={false}
+                          tertiary={false}
+                          type="button"
+                        >
+                          <button
+                            aria-label={null}
+                            className=""
+                            data-locator="button-button-"
+                            disabled={true}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            0
+                          </button>
+                        </Button>
+                      </li>
+                    </ListItem>
+                  </StyledComponent>
+                </ListItem>
+              </ul>
+            </List>
+          </StyledComponent>
+        </List>
+      </div>
+    </AtomicCarousel>
+  </StyledComponent>
+</AtomicCarousel>
+`;
+
+exports[`<AtomicCarousel /> render without dots 1`] = `
+<StyledComponent
+  dots={false}
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "AtomicCarousel-sc-18kyvc6-0",
+        "isStatic": false,
+        "lastClassName": "jNSlfC",
+        "rules": Array [
+          "&.atomic-carousel{max-width:100%;}",
+          ";",
+        ],
+      },
+      "displayName": "AtomicCarousel",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <h1>
+    Test
+  </h1>
+</StyledComponent>
+`;
+
+exports[`<AtomicCarousel /> render without navigation 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "AtomicCarousel-sc-18kyvc6-0",
+        "isStatic": false,
+        "lastClassName": "jNSlfC",
+        "rules": Array [
+          "&.atomic-carousel{max-width:100%;}",
+          ";",
+        ],
+      },
+      "displayName": "AtomicCarousel",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  navigation={false}
+>
+  <h1>
+    Test
+  </h1>
+</StyledComponent>
+`;
+
+exports[`<AtomicCarousel /> should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "AtomicCarousel-sc-18kyvc6-0",
+        "isStatic": false,
+        "lastClassName": "jNSlfC",
+        "rules": Array [
+          "&.atomic-carousel{max-width:100%;}",
+          ";",
+        ],
+      },
+      "displayName": "AtomicCarousel",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <div
+    className="1"
+  >
+    Test1
+  </div>
+  <div
+    className="2"
+  >
+    Test2
+  </div>
+  <div
+    className="3"
+  >
+    Test3
+  </div>
+  <div
+    className="4"
+  >
+    Test4
+  </div>
+</StyledComponent>
+`;

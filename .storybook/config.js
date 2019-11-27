@@ -32,11 +32,14 @@ addDecorator((storyFn, context) => (
 ));
 
 const cssReq = require.context('!!raw-loader!../lib/styles/themes/base/tokens/', true, /.\.css$/);
-const cssTokenFiles = cssReq.keys().map(filename => ({ filename, content: cssReq(filename).default }));
+const cssTokenFiles = cssReq
+  .keys()
+  .map(filename => ({ filename, content: cssReq(filename).default }));
 
 const svgIconsReq = require.context('!!raw-loader!../lib/styles/themes/base', true, /.\.svg$/);
-const svgIconTokenFiles = svgIconsReq.keys().map(filename => ({ filename, content: svgIconsReq(filename).default }));
-
+const svgIconTokenFiles = svgIconsReq
+  .keys()
+  .map(filename => ({ filename, content: svgIconsReq(filename).default }));
 
 addParameters({
   options: {
@@ -54,9 +57,9 @@ addParameters({
   designToken: {
     files: {
       css: cssTokenFiles,
-      svgIcons: svgIconTokenFiles
-    }
-  }
+      svgIcons: svgIconTokenFiles,
+    },
+  },
 });
 
 const req = require.context('../lib/components/atoms/Button', true, /story\.js$/);

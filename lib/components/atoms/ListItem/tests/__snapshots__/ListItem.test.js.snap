@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "ListItem-qqbojw-0",
+        "isStatic": false,
+        "rules": Array [
+          "margin:10px;",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "ListItem",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "ListItem-qqbojw-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
