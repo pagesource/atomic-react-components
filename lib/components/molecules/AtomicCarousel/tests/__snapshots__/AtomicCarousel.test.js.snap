@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AtomicCarousel /> render without dots 1`] = `
+<StyledComponent
+  dots={false}
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "AtomicCarousel-sc-18kyvc6-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:flex;justify-content:space-between;align-items:center;& > * + *{margin-top:auto;}& + .atomic-dots{& > ul{display:flex;align-items:center;justify-content:center;margin:10px;}}",
+          ";",
+        ],
+      },
+      "displayName": "AtomicCarousel",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <h1>
+    Test
+  </h1>
+</StyledComponent>
+`;
+
+exports[`<AtomicCarousel /> render without navigation 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "AtomicCarousel-sc-18kyvc6-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:flex;justify-content:space-between;align-items:center;& > * + *{margin-top:auto;}& + .atomic-dots{& > ul{display:flex;align-items:center;justify-content:center;margin:10px;}}",
+          ";",
+        ],
+      },
+      "displayName": "AtomicCarousel",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  navigation={false}
+>
+  <h1>
+    Test
+  </h1>
+</StyledComponent>
+`;
+
+exports[`<AtomicCarousel /> should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "AtomicCarousel-sc-18kyvc6-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:flex;justify-content:space-between;align-items:center;& > * + *{margin-top:auto;}& + .atomic-dots{& > ul{display:flex;align-items:center;justify-content:center;margin:10px;}}",
+          ";",
+        ],
+      },
+      "displayName": "AtomicCarousel",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <div
+    className="1"
+  >
+    Test1
+  </div>
+  <div
+    className="2"
+  >
+    Test2
+  </div>
+  <div
+    className="3"
+  >
+    Test3
+  </div>
+  <div
+    className="4"
+  >
+    Test4
+  </div>
+</StyledComponent>
+`;
