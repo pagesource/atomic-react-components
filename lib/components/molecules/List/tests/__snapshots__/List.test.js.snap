@@ -2,13 +2,7 @@
 
 exports[`<List /> should render default view correctly 1`] = `
 <ul
-  borderSeparator={false}
   className=""
-  inheritedStyles=""
-  inline={false}
-  nested={false}
-  noDefaultView={false}
-  noMargin={false}
 >
   <li>
     This is list item

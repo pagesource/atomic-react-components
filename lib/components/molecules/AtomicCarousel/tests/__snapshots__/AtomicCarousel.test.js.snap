@@ -1,0 +1,864 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AtomicCarousel /> Should render correctly 1`] = `
+<AtomicCarousel>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "AtomicCarousel-sc-18kyvc6-0",
+          "isStatic": false,
+          "lastClassName": "dmeuDh",
+          "rules": Array [
+            "display:flex;flex-direction:column;align-items:center;.carousel-container{display:flex;align-items:center;}.atomic-dots{ul{display:flex;}}.carousel-slides{.slide-item{flex:0 0 ",
+            [Function],
+            "%;}}",
+            ";",
+          ],
+        },
+        "displayName": "AtomicCarousel",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "AtomicCarousel-sc-18kyvc6-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <AtomicCarousel
+      animationIcon={true}
+      autoPlay={true}
+      className="AtomicCarousel-sc-18kyvc6-0 dmeuDh"
+      classNames=""
+      displayHeader={true}
+      dots={true}
+      fade={true}
+      heading="Carousel"
+      navigation={true}
+      navigationIcons={true}
+      nextLabel="next"
+      perSlideFrame={1}
+      playLabel="play"
+      prevLabel="prev"
+      slideTransitionTime={1500}
+      stopLabel="stop"
+    >
+      <section
+        aria-labelledby="carousel"
+        className="carousel AtomicCarousel-sc-18kyvc6-0 dmeuDh"
+      >
+        <header
+          id="carousel"
+        >
+          <Heading
+            className="carousel-heading"
+          >
+            <StyledComponent
+              className="carousel-heading"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Heading-sc-1p0x9xg-0",
+                    "isStatic": false,
+                    "lastClassName": "iKimIq",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "Heading",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Heading-sc-1p0x9xg-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <Heading
+                HeadingType="h1"
+                className="Heading-sc-1p0x9xg-0 iKimIq carousel-heading"
+                elementLocator=""
+                inheritedStyles=""
+              >
+                <h1
+                  className="Heading-sc-1p0x9xg-0 iKimIq carousel-heading"
+                  data-locator="heading-h1-carousel"
+                >
+                  Carousel
+                </h1>
+              </Heading>
+            </StyledComponent>
+          </Heading>
+        </header>
+        <div
+          className="carousel-container"
+        >
+          <div
+            className="action previous"
+          >
+            <Button
+              className=""
+              data-action="prev"
+              disabled={true}
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              title="prev"
+              type="button"
+            >
+              <StyledComponent
+                className=""
+                data-action="prev"
+                disabled={true}
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Button-sc-1ccn477-0",
+                      "isStatic": false,
+                      "lastClassName": "ixrXYr",
+                      "rules": Array [
+                        "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                        [Function],
+                        ";",
+                        ";",
+                      ],
+                    },
+                    "displayName": "Button",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Button-sc-1ccn477-0",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                title="prev"
+                type="button"
+              >
+                <Button
+                  ariaLabel=""
+                  className="Button-sc-1ccn477-0 cILCRu"
+                  data-action="prev"
+                  disabled={true}
+                  elementLocator=""
+                  inheritedStyles=""
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  primary={false}
+                  secondary={false}
+                  tertiary={false}
+                  title="prev"
+                  type="button"
+                >
+                  <button
+                    aria-label={null}
+                    className="Button-sc-1ccn477-0 cILCRu"
+                    data-action="prev"
+                    data-locator="button-button-"
+                    disabled={true}
+                    onClick={[Function]}
+                    onKeyUp={[Function]}
+                    title="prev"
+                    type="button"
+                  >
+                    <Icon
+                      alt="previous"
+                      title="previous"
+                    >
+                      <StyledComponent
+                        alt="previous"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Icon-sc-14jstry-0",
+                              "isStatic": false,
+                              "lastClassName": "gWNbvT",
+                              "rules": Array [
+                                [Function],
+                                ";",
+                                ";",
+                              ],
+                            },
+                            "displayName": "Icon",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Icon-sc-14jstry-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        title="previous"
+                      >
+                        <Icon
+                          alt="previous"
+                          className="Icon-sc-14jstry-0 gWNbvT"
+                          title="previous"
+                        >
+                          <img
+                            alt="previous"
+                            className="icon-image"
+                          />
+                        </Icon>
+                      </StyledComponent>
+                    </Icon>
+                  </button>
+                </Button>
+              </StyledComponent>
+            </Button>
+          </div>
+          <div
+            className="carousel-slides fadeIn"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <div
+              className="slide-item"
+              key="1"
+            >
+              <h1>
+                Test1
+              </h1>
+            </div>
+          </div>
+          <div
+            className="action next"
+          >
+            <Button
+              className=""
+              data-action="next"
+              disabled={false}
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              title="next"
+              type="button"
+            >
+              <StyledComponent
+                className=""
+                data-action="next"
+                disabled={false}
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Button-sc-1ccn477-0",
+                      "isStatic": false,
+                      "lastClassName": "ixrXYr",
+                      "rules": Array [
+                        "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                        [Function],
+                        ";",
+                        ";",
+                      ],
+                    },
+                    "displayName": "Button",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Button-sc-1ccn477-0",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                title="next"
+                type="button"
+              >
+                <Button
+                  ariaLabel=""
+                  className="Button-sc-1ccn477-0 ixrXYr"
+                  data-action="next"
+                  disabled={false}
+                  elementLocator=""
+                  inheritedStyles=""
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  primary={false}
+                  secondary={false}
+                  tertiary={false}
+                  title="next"
+                  type="button"
+                >
+                  <button
+                    aria-label={null}
+                    className="Button-sc-1ccn477-0 ixrXYr"
+                    data-action="next"
+                    data-locator="button-button-"
+                    disabled={false}
+                    onClick={[Function]}
+                    onKeyUp={[Function]}
+                    title="next"
+                    type="button"
+                  >
+                    <Icon
+                      alt="next"
+                      title="next"
+                    >
+                      <StyledComponent
+                        alt="next"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "Icon-sc-14jstry-0",
+                              "isStatic": false,
+                              "lastClassName": "gWNbvT",
+                              "rules": Array [
+                                [Function],
+                                ";",
+                                ";",
+                              ],
+                            },
+                            "displayName": "Icon",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "Icon-sc-14jstry-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        title="next"
+                      >
+                        <Icon
+                          alt="next"
+                          className="Icon-sc-14jstry-0 gWNbvT"
+                          title="next"
+                        >
+                          <img
+                            alt="next"
+                            className="icon-image"
+                          />
+                        </Icon>
+                      </StyledComponent>
+                    </Icon>
+                  </button>
+                </Button>
+              </StyledComponent>
+            </Button>
+          </div>
+        </div>
+        <div
+          className="atomic-dots"
+        >
+          <List
+            ListType="ul"
+            borderSeparator={false}
+            className=""
+            inheritedStyles=""
+            inline={false}
+            nested={false}
+            noDefaultView={false}
+            noMargin={false}
+          >
+            <ul
+              className=""
+            >
+              <li
+                className="atomic-item active"
+                key="1"
+              >
+                <Button
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  type="button"
+                >
+                  <StyledComponent
+                    className="icon"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Button-sc-1ccn477-0",
+                          "isStatic": false,
+                          "lastClassName": "ixrXYr",
+                          "rules": Array [
+                            "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                            [Function],
+                            ";",
+                            ";",
+                          ],
+                        },
+                        "displayName": "Button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Button-sc-1ccn477-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onClick={[Function]}
+                    onKeyUp={[Function]}
+                    type="button"
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button-sc-1ccn477-0 ixrXYr icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      type="button"
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button-sc-1ccn477-0 ixrXYr icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        type="button"
+                      >
+                        1
+                      </button>
+                    </Button>
+                  </StyledComponent>
+                </Button>
+              </li>
+              <li
+                className="atomic-item"
+                key="2"
+              >
+                <Button
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  type="button"
+                >
+                  <StyledComponent
+                    className="icon"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Button-sc-1ccn477-0",
+                          "isStatic": false,
+                          "lastClassName": "ixrXYr",
+                          "rules": Array [
+                            "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                            [Function],
+                            ";",
+                            ";",
+                          ],
+                        },
+                        "displayName": "Button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Button-sc-1ccn477-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onClick={[Function]}
+                    onKeyUp={[Function]}
+                    type="button"
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button-sc-1ccn477-0 ixrXYr icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      type="button"
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button-sc-1ccn477-0 ixrXYr icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        type="button"
+                      >
+                        2
+                      </button>
+                    </Button>
+                  </StyledComponent>
+                </Button>
+              </li>
+              <li
+                className="atomic-item"
+                key="3"
+              >
+                <Button
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  type="button"
+                >
+                  <StyledComponent
+                    className="icon"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Button-sc-1ccn477-0",
+                          "isStatic": false,
+                          "lastClassName": "ixrXYr",
+                          "rules": Array [
+                            "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                            [Function],
+                            ";",
+                            ";",
+                          ],
+                        },
+                        "displayName": "Button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Button-sc-1ccn477-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onClick={[Function]}
+                    onKeyUp={[Function]}
+                    type="button"
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button-sc-1ccn477-0 ixrXYr icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      type="button"
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button-sc-1ccn477-0 ixrXYr icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        type="button"
+                      >
+                        3
+                      </button>
+                    </Button>
+                  </StyledComponent>
+                </Button>
+              </li>
+              <li
+                className="atomic-item"
+                key="4"
+              >
+                <Button
+                  className="icon"
+                  onClick={[Function]}
+                  onKeyUp={[Function]}
+                  type="button"
+                >
+                  <StyledComponent
+                    className="icon"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Button-sc-1ccn477-0",
+                          "isStatic": false,
+                          "lastClassName": "ixrXYr",
+                          "rules": Array [
+                            "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";",
+                            [Function],
+                            ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                            [Function],
+                            ";",
+                            ";",
+                          ],
+                        },
+                        "displayName": "Button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Button-sc-1ccn477-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onClick={[Function]}
+                    onKeyUp={[Function]}
+                    type="button"
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button-sc-1ccn477-0 ixrXYr icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      onKeyUp={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      type="button"
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button-sc-1ccn477-0 ixrXYr icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        onKeyUp={[Function]}
+                        type="button"
+                      >
+                        4
+                      </button>
+                    </Button>
+                  </StyledComponent>
+                </Button>
+              </li>
+            </ul>
+          </List>
+        </div>
+        <div
+          aria-label="animation"
+          className="animation-panel"
+        >
+          <Button
+            onClick={[Function]}
+            type="button"
+          >
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Button-sc-1ccn477-0",
+                    "isStatic": false,
+                    "lastClassName": "ixrXYr",
+                    "rules": Array [
+                      "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
+                      [Function],
+                      ";",
+                      [Function],
+                      ";",
+                      [Function],
+                      ";",
+                      [Function],
+                      ";",
+                      [Function],
+                      ";&:focus:not(.focus-visible){outline:none;}&.icon{border-radius:50%;}",
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "Button",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Button-sc-1ccn477-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              type="button"
+            >
+              <Button
+                ariaLabel=""
+                className="Button-sc-1ccn477-0 ixrXYr"
+                disabled={false}
+                elementLocator=""
+                inheritedStyles=""
+                onClick={[Function]}
+                primary={false}
+                secondary={false}
+                tertiary={false}
+                type="button"
+              >
+                <button
+                  aria-label={null}
+                  className="Button-sc-1ccn477-0 ixrXYr"
+                  data-locator="button-button-"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <Icon
+                    alt="next"
+                    path={false}
+                    title="next"
+                  >
+                    <StyledComponent
+                      alt="next"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Icon-sc-14jstry-0",
+                            "isStatic": false,
+                            "lastClassName": "gWNbvT",
+                            "rules": Array [
+                              [Function],
+                              ";",
+                              ";",
+                            ],
+                          },
+                          "displayName": "Icon",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Icon-sc-14jstry-0",
+                          "target": [Function],
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      path={false}
+                      title="next"
+                    >
+                      <Icon
+                        alt="next"
+                        className="Icon-sc-14jstry-0 gWNbvT"
+                        path={false}
+                        title="next"
+                      >
+                        <img
+                          alt="next"
+                          className="icon-image"
+                          src={false}
+                        />
+                      </Icon>
+                    </StyledComponent>
+                  </Icon>
+                </button>
+              </Button>
+            </StyledComponent>
+          </Button>
+        </div>
+        <div
+          aria-atomic="true"
+          aria-live="polite"
+          className="hidden"
+          tabIndex="-1"
+        >
+          Item 1 of 4
+        </div>
+      </section>
+    </AtomicCarousel>
+  </StyledComponent>
+</AtomicCarousel>
+`;
