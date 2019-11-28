@@ -2,6 +2,20 @@
 
 exports[`<Table /> should render correctly 1`] = `
 <StyledComponent
+  data={
+    Array [
+      Object {
+        "ClientName": "US Bank",
+        "Payer": "test",
+        "value": "v1",
+      },
+      Object {
+        "ClientName": "Test Client",
+        "Payer": "test2",
+        "value": "v2",
+      },
+    ]
+  }
   forwardedComponent={
     Object {
       "$$typeof": Symbol(react.forward_ref),
