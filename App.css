@@ -1,0 +1,46 @@
+footer {
+  clear: both;
+  position: fixed;
+  height: 79px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-btn{
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  font-weight:bold;
+  padding:10px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.footer-heading{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.footer-content{
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.footer-close{
+  padding-left: 15px;
+  cursor: pointer;
+  display: inline;
+}
+.padding-none{
+  padding-left: 0;
+}
+.footer-desc{
+  font-size: 13px;
+}
+.body{
+  display: block;
+  height: 100vh;
+}
