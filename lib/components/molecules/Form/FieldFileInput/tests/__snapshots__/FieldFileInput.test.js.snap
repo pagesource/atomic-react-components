@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldInput Component should render correctly 1`] = `
+<div
+  className=""
+>
+  <FormikConnect(FieldInner)
+    render={[Function]}
+    type="text"
+  />
+  <Button
+    secondary={true}
+    type="button"
+  >
+    Upload...
+  </Button>
+</div>
+`;
