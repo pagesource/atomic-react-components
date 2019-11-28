@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typeahead /> should render correctly 1`] = `
+<div>
+  <Input
+    ariaLabel=""
+    className=""
+    elementLocator=""
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value=""
+  />
+  <List
+    ListType="ul"
+    borderSeparator={false}
+    className="example"
+    inheritedStyles=""
+    inline={false}
+    nested={false}
+    noDefaultView={false}
+    noMargin={false}
+  >
+    <ListItem
+      key="1"
+    >
+      This is list item
+    </ListItem>
+    <ListItem
+      key="2"
+    >
+      This is list item
+    </ListItem>
+    <ListItem
+      key="3"
+    >
+      This is list item
+    </ListItem>
+  </List>
+</div>
+`;
