@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Video /> should render correctly 1`] = `
+<StyledComponent
+  autoPlay={true}
+  className="videoContainer"
+  controls={true}
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Video-sc-1272gq3-0",
+        "isStatic": false,
+        "lastClassName": "dezLKG",
+        "rules": Array [
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "Video",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Video-sc-1272gq3-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  height="auto"
+  loop={true}
+  muted={true}
+  poster=""
+  src="http://techslides.com/demos/sample-videos/small.mp4"
+  type="video/mp4"
+  width="100%"
+>
+  Test
+</StyledComponent>
+`;
