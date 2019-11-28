@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Blockquote /> should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Blockquote-sc-1fbgk4w-0",
+        "isStatic": false,
+        "rules": Array [
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "Blockquote",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Blockquote-sc-1fbgk4w-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;

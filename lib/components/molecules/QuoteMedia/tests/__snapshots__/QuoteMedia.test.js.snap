@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteMedia should render correctly 1`] = `
+<StyledComponent
+  author="Lorem ipsum dollor sit amet"
+  className="quote"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "QuoteMedia-gd566l-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:grid;grid-template-columns:repeat(2,1fr);.title{",
+          [Function],
+          ";grid-column:1/-1;}.media{",
+          [Function],
+          ";}.blockquote{position:relative;",
+          [Function],
+          ";&__content{",
+          [Function],
+          ";}&__author{text-align:right;",
+          [Function],
+          ";}&:before{display:block;height:0;content:'”';position:absolute;top:0;font-family:var(--font-family-display);line-height:1;",
+          [Function],
+          ";}}",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "QuoteMedia",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "QuoteMedia-gd566l-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  quoteContent="Lorem ipsum dollor sit ametLorem ipsum dollor sit ametLorem ipsum dollor"
+  title="Lorem ipsum dollor"
+>
+  Test
+</StyledComponent>
+`;
