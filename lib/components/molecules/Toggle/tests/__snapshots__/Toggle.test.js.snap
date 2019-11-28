@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toggle /> should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Toggle-ezbk6e-0",
+        "isStatic": false,
+        "rules": Array [
+          [Function],
+          ";section{",
+          [Function],
+          ";}label{position:relative;display:inline-block;",
+          [Function],
+          ";cursor:",
+          [Function],
+          ";}label input{opacity:0;width:0;height:0;}.slider{position:absolute;cursor:",
+          [Function],
+          ";top:0;left:0;right:0;bottom:0;background-color:var(--grey);-webkit-transition:0.4s;transition:0.4s;}.slider:before{position:absolute;content:'';",
+          [Function],
+          ";bottom:4px;background-color:var(--white);-webkit-transition:0.4s;transition:0.4s;}input:checked + .slider{background-color:var(--success);}input:checked + .slider:before{",
+          [Function],
+          ";-}.slider.round{border-radius:var(--spacing-7);}.slider.round:before{border-radius:50%;}.toggleLabel{vertical-align:middle;",
+          [Function],
+          ";}",
+          ";",
+        ],
+      },
+      "displayName": "Toggle",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Toggle-ezbk6e-0",
+      "target": [Function],
+      "toString": [Function],
+      "usesTheme": true,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
