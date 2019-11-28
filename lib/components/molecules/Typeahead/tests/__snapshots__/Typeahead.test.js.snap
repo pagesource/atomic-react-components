@@ -1,11 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Typeahead /> should render correctly 1`] = `
-<div>
+<div
+  className=""
+>
   <Input
     ariaLabel=""
     className=""
     elementLocator=""
+    label=""
     onChange={[Function]}
     placeholder=""
     type="text"
@@ -14,28 +17,12 @@ exports[`<Typeahead /> should render correctly 1`] = `
   <List
     ListType="ul"
     borderSeparator={false}
-    className="example"
+    className=""
     inheritedStyles=""
     inline={false}
     nested={false}
     noDefaultView={false}
     noMargin={false}
-  >
-    <ListItem
-      key="1"
-    >
-      This is list item
-    </ListItem>
-    <ListItem
-      key="2"
-    >
-      This is list item
-    </ListItem>
-    <ListItem
-      key="3"
-    >
-      This is list item
-    </ListItem>
-  </List>
+  />
 </div>
 `;
