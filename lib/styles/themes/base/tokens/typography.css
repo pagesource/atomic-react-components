@@ -38,6 +38,7 @@
   --font-size-link: 0.75rem;
   --font-size-label: 0.75rem;
   --font-size-field: 0.75rem;
+   --font-size-quote: 8rem;
 }
 
 /**
@@ -66,4 +67,5 @@
   --line-height-link: 1.25rem;
   --line-height-label: 1.25rem;
   --line-height-field: 1.25rem;
+  --line-height-quote: 0.1rem;
 }
