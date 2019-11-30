@@ -12,7 +12,7 @@
     "es"
   ],
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js -json --outputFile=.jest-test-results.jso",
+    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js",
     "test:snap": "yarn run test -u",
     "test:watch": "yarn run test --watch --verbose",
     "audit": "yarn run build -- --report",
