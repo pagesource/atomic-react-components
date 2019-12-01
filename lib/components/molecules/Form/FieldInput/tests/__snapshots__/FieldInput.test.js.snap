@@ -8,10 +8,60 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <FormikConnect(FieldInner)
-    render={[Function]}
+  <Field
     type="text"
+  >
+    <Component />
+  </Field>
+  <FormikConnect(ErrorMessageImpl)
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "FieldError-sc-1b3h259-0",
+          "isStatic": false,
+          "rules": Array [
+            "font-family:",
+            [Function],
+            ";font-size:12px;text-align:left;color:",
+            [Function],
+            ";margin:0;",
+            [Function],
+            ";",
+            ";",
+          ],
+        },
+        "displayName": "FieldError",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "FieldError-sc-1b3h259-0",
+        "target": [Function],
+        "toString": [Function],
+        "usesTheme": true,
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
   />
+</div>
+`;
+
+exports[`FieldInput Component should render label correctly 1`] = `
+<div
+  className=""
+>
+  <Label
+    className=""
+    elementLocator=""
+  >
+    Enter username
+  </Label>
+  <Field
+    type="text"
+  >
+    <Component />
+  </Field>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {
