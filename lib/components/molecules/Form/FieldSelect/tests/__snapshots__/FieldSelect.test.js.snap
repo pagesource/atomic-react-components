@@ -6,9 +6,9 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <FormikConnect(FieldInner)>
+  <Field>
     <Component />
-  </FormikConnect(FieldInner)>
+  </Field>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {
@@ -51,9 +51,9 @@ exports[`FieldInput Component should render label correctly 1`] = `
   >
     Select Fav Color
   </Label>
-  <FormikConnect(FieldInner)>
+  <Field>
     <Component />
-  </FormikConnect(FieldInner)>
+  </Field>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {
