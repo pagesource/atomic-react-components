@@ -20,11 +20,10 @@ exports[`FieldTextarea Component should render correctly 1`] = `
           "componentId": "FieldError-sc-1b3h259-0",
           "isStatic": false,
           "rules": Array [
-            "font-family:",
             [Function],
-            ";font-size:12px;text-align:left;color:",
+            ";",
             [Function],
-            ";margin:0;",
+            ";text-align:left;margin:0;",
             [Function],
             ";",
             ";",
