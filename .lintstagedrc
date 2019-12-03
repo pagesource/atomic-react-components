@@ -3,9 +3,12 @@
     "prettier --write",
     "git add",
   ],
-  "*.js": [
+  "*.{css}": [
+    "yarn run lint:css:fix",
+  ],
+  "*.{js}": [
     "yarn run lint:css:fix",
     "yarn run lint:js:fix",
-    "yarn run test -- --findRelatedTests",
+    "yarn run test",
   ]
 }

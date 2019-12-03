@@ -22,13 +22,16 @@ module.exports = {
   coverageReporters: ['lcov', 'json', 'text-summary'],
   coverageThreshold: {
     global: {
-      branches: 40,
-      functions: 40,
-      lines: 60,
-      statements: 60,
+      branches: 45,
+      functions: 60,
+      lines: 70,
+      statements: 65,
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
   verbose: true,
   testMatch: ['<rootDir>/lib/**/*.test.js'],
+  moduleNameMapper: {
+    '\\.(css)$': 'identity-obj-proxy',
+  },
 };
