@@ -12,10 +12,9 @@
     "es"
   ],
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js",
+    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js -json --outputFile=.jest-test-results.jso",
     "test:snap": "yarn run test -u",
     "test:watch": "yarn run test --watch --verbose",
-    "test:embed": "yarn run test --json --outputFile=.jest-test-results.json || true",
     "audit": "yarn run build -- --report",
     "clean:dist": "rimraf dist",
     "build": "yarn run clean:dist && node scripts/build.js",
@@ -114,10 +113,10 @@
     "mini-css-extract-plugin": "^0.8.0",
     "plop": "^2.4.0",
     "prettier": "1.19.1",
-    "react-storybook-addon-chapters": "^3.1.6",
     "rimraf": "^2.6.3",
     "storybook-addon-designs": "^5.1.1",
     "storybook-addon-smart-knobs": "^5.0.0",
+    "storybook-design-token": "^0.4.1",
     "style-loader": "^1.0.0",
     "stylelint": "^11.1.1",
     "stylelint-config-prettier": "^6.0.0",
