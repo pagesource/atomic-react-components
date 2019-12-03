@@ -3,48 +3,757 @@
 exports[`RenderTable should render correctly 1`] = `
 <table>
   <thead>
-    <tr />
+    <tr>
+      <th
+        key="name/.0"
+      >
+        <Column
+          intent="header"
+          label="Dessert (100g serving)"
+          name="name"
+        />
+      </th>
+      <th
+        key="calories/.1"
+      >
+        <Column
+          intent="header"
+          label="Calories"
+          name="calories"
+        />
+      </th>
+      <th
+        key="fat/.2"
+      >
+        <Column
+          intent="header"
+          label="Fat (g)"
+          name="fat"
+        />
+      </th>
+      <th
+        key="carbs/.3"
+      >
+        <Column
+          intent="header"
+          label="Carbs (g)"
+          name="carbs"
+        />
+      </th>
+      <th
+        key="protein/.4"
+      >
+        <Column
+          intent="header"
+          label="Protein (g)"
+          name="protein"
+        />
+      </th>
+    </tr>
   </thead>
   <tbody>
     <tr
       key="1"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Cupcake"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={305}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={3.7}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={67}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={4.3}
+        />
+      </td>
+    </tr>
     <tr
       key="2"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Donut"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={452}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={25}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={51}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={4.9}
+        />
+      </td>
+    </tr>
     <tr
       key="3"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Eclair"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={262}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={16}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={24}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={6}
+        />
+      </td>
+    </tr>
     <tr
       key="5"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Frozen yoghurt"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={159}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={6}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={24}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={4}
+        />
+      </td>
+    </tr>
     <tr
       key="6"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Gingerbread"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={356}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={16}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={49}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={3.9}
+        />
+      </td>
+    </tr>
     <tr
       key="7"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Honeycomb"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={408}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={3.2}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={87}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={6.5}
+        />
+      </td>
+    </tr>
     <tr
       key="8"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Ice cream sandwich"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={237}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={9}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={37}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={4.3}
+        />
+      </td>
+    </tr>
     <tr
       key="9"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Jelly Bean"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={375}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={0}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={94}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={0}
+        />
+      </td>
+    </tr>
     <tr
       key="10"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="KitKat"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={518}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={26}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={65}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={7}
+        />
+      </td>
+    </tr>
     <tr
       key="11"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Lollipop"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={392}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={0.2}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={98}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={0}
+        />
+      </td>
+    </tr>
     <tr
       key="12"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Marshmallow"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={318}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={0}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={81}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={2}
+        />
+      </td>
+    </tr>
     <tr
       key="13"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Nougat"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={360}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={19}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={9}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={37}
+        />
+      </td>
+    </tr>
     <tr
       key="14"
-    />
+    >
+      <td
+        key=".0"
+      >
+        <Column
+          intent="cell"
+          label="Dessert (100g serving)"
+          name="name"
+          value="Oreo"
+        />
+      </td>
+      <td
+        key=".1"
+      >
+        <Column
+          intent="cell"
+          label="Calories"
+          name="calories"
+          value={437}
+        />
+      </td>
+      <td
+        key=".2"
+      >
+        <Column
+          intent="cell"
+          label="Fat (g)"
+          name="fat"
+          value={18}
+        />
+      </td>
+      <td
+        key=".3"
+      >
+        <Column
+          intent="cell"
+          label="Carbs (g)"
+          name="carbs"
+          value={63}
+        />
+      </td>
+      <td
+        key=".4"
+      >
+        <Column
+          intent="cell"
+          label="Protein (g)"
+          name="protein"
+          value={4}
+        />
+      </td>
+    </tr>
   </tbody>
 </table>
 `;
