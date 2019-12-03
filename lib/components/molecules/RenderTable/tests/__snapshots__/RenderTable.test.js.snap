@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RenderTable should render correctly 1`] = `
+<table>
+  <thead>
+    <tr />
+  </thead>
+  <tbody>
+    <tr
+      key="1"
+    />
+    <tr
+      key="2"
+    />
+    <tr
+      key="3"
+    />
+    <tr
+      key="5"
+    />
+    <tr
+      key="6"
+    />
+    <tr
+      key="7"
+    />
+    <tr
+      key="8"
+    />
+    <tr
+      key="9"
+    />
+    <tr
+      key="10"
+    />
+    <tr
+      key="11"
+    />
+    <tr
+      key="12"
+    />
+    <tr
+      key="13"
+    />
+    <tr
+      key="14"
+    />
+  </tbody>
+</table>
+`;

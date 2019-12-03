@@ -7,8 +7,7 @@ module.exports = {
   collectCoverage: true,
   coverageDirectory: '<rootDir>/reports/coverage',
   collectCoverageFrom: [
-    '**lib/components/**/*.js',
-    '**lib/core/**/*.js',
+    '**lib/components/molecules/RenderTable/tests/*.js',
     '!**lib/components/**/*.mock.js',
     '!**lib/components/**/*.story.js',
     '!**lib/components/**/*.styles.js',
@@ -30,5 +29,5 @@ module.exports = {
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
   verbose: true,
-  testMatch: ['<rootDir>/lib/**/*.test.js'],
+  testMatch: ['<rootDir>/lib/components/molecules/RenderTable/tests/*.test.js'],
 };
