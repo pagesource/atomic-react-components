@@ -12,6 +12,8 @@ exports[`Image Component with styles should render correctly and match snapshots
         "isStatic": false,
         "rules": Array [
           "max-width:100%;height:auto;",
+          [Function],
+          ";",
           ";",
         ],
       },
@@ -44,6 +46,8 @@ exports[`Image Component with styles should render correctly with lazy load 1`] 
         "isStatic": false,
         "rules": Array [
           "max-width:100%;height:auto;",
+          [Function],
+          ";",
           ";",
         ],
       },
