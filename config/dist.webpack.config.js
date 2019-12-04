@@ -22,6 +22,17 @@ module.exports = (distRoot, optimize) => ({
           },
         },
       },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+          },
+        ],
+      },
     ],
   },
   externals: {
