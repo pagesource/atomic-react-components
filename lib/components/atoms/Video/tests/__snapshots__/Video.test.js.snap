@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoVanilla /> should render correctly 1`] = `
+<video
+  autoPlay={true}
+  className="videoContainer"
+  controls={true}
+  controlsList="nodownload"
+  height="auto"
+  loop={true}
+  muted={true}
+  poster=""
+  width="100%"
+>
+  <source
+    src="http://techslides.com/demos/sample-videos/small.mp4"
+    type="video/mp4"
+  />
+  <track
+    default={true}
+    kind="subtitles"
+    label="English"
+    src="/"
+    srcLang="en"
+  />
+</video>
+`;
