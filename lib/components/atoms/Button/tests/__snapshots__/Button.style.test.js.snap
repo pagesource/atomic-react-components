@@ -54,6 +54,8 @@ exports[`Button should render correctly 1`] = `
         "CTA_OUTLINE": "outline: var(--border-size-cta-tertiary) dashed var(--outline);",
         "CTA_TAB": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke);",
         "CTA_TAB_ACTIVE": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke-active);",
+        "CTA_TAB_PANEL": "border-top: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TAB_PANEL_VERTICAL": "border-left: var(--border-size-cta-tertiary) solid var(--stroke);",
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
@@ -108,6 +110,14 @@ exports[`Button should render correctly 1`] = `
       background-color: var(--bg-cta-tertiary-active);
       color: var(--text-inverse);
     }
+  ",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
   ",
         "LINK_PRIMARY": "
     color: var(--text-link);
