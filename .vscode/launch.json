@@ -1,20 +1,21 @@
 {
   "version": "0.2.0",
+
   "configurations": [
     {
-      "name": "Debug CRA Tests",
       "type": "node",
+
       "request": "launch",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
-      "args": ["test", "--runInBand", "--no-cache", "--watchAll=false"],
-      "cwd": "${workspaceRoot}",
-      "protocol": "inspector",
+
+      "name": "Jest single run all tests",
+
+      "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+
+      "args": ["--verbose", "-i", "--no-cache"],
+
       "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen",
-      "env": {
-        "CI": "true"
-      },
-      "disableOptimisticBPs": true
+
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }
