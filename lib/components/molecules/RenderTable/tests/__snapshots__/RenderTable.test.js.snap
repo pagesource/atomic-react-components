@@ -7,7 +7,7 @@ exports[`RenderTable should render correctly 1`] = `
       <th
         key="name/.0"
       >
-        <Column
+        <Component
           intent="header"
           label="Dessert (100g serving)"
           name="name"
@@ -16,7 +16,7 @@ exports[`RenderTable should render correctly 1`] = `
       <th
         key="calories/.1"
       >
-        <Column
+        <Component
           intent="header"
           label="Calories"
           name="calories"
@@ -25,7 +25,7 @@ exports[`RenderTable should render correctly 1`] = `
       <th
         key="fat/.2"
       >
-        <Column
+        <Component
           intent="header"
           label="Fat (g)"
           name="fat"
@@ -34,7 +34,7 @@ exports[`RenderTable should render correctly 1`] = `
       <th
         key="carbs/.3"
       >
-        <Column
+        <Component
           intent="header"
           label="Carbs (g)"
           name="carbs"
@@ -43,7 +43,7 @@ exports[`RenderTable should render correctly 1`] = `
       <th
         key="protein/.4"
       >
-        <Column
+        <Component
           intent="header"
           label="Protein (g)"
           name="protein"
@@ -58,7 +58,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -68,7 +68,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -78,7 +78,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -88,7 +88,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -98,7 +98,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -112,7 +112,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -122,7 +122,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -132,7 +132,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -142,7 +142,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -152,7 +152,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -166,7 +166,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -176,7 +176,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -186,7 +186,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -196,7 +196,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -206,7 +206,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -220,7 +220,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -230,7 +230,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -240,7 +240,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -250,7 +250,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -260,7 +260,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -274,7 +274,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -284,7 +284,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -294,7 +294,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -304,7 +304,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -314,7 +314,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -328,7 +328,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -338,7 +338,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -348,7 +348,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -358,7 +358,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -368,7 +368,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -382,7 +382,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -392,7 +392,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -402,7 +402,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -412,7 +412,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -422,7 +422,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -436,7 +436,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -446,7 +446,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -456,7 +456,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -466,7 +466,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -476,7 +476,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -490,7 +490,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -500,7 +500,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -510,7 +510,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -520,7 +520,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -530,7 +530,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -544,7 +544,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -554,7 +554,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -564,7 +564,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -574,7 +574,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -584,7 +584,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -598,7 +598,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -608,7 +608,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -618,7 +618,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -628,7 +628,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -638,7 +638,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -652,7 +652,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -662,7 +662,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -672,7 +672,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -682,7 +682,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -692,7 +692,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
@@ -706,7 +706,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".0"
       >
-        <Column
+        <Component
           intent="cell"
           label="Dessert (100g serving)"
           name="name"
@@ -716,7 +716,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".1"
       >
-        <Column
+        <Component
           intent="cell"
           label="Calories"
           name="calories"
@@ -726,7 +726,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".2"
       >
-        <Column
+        <Component
           intent="cell"
           label="Fat (g)"
           name="fat"
@@ -736,7 +736,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".3"
       >
-        <Column
+        <Component
           intent="cell"
           label="Carbs (g)"
           name="carbs"
@@ -746,7 +746,7 @@ exports[`RenderTable should render correctly 1`] = `
       <td
         key=".4"
       >
-        <Column
+        <Component
           intent="cell"
           label="Protein (g)"
           name="protein"
