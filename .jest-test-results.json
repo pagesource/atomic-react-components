@@ -1,1 +1,34 @@
-{"numFailedTestSuites":0,"numFailedTests":0,"numPassedTestSuites":1,"numPassedTests":7,"numPendingTestSuites":0,"numPendingTests":0,"numRuntimeErrorTestSuites":0,"numTodoTests":0,"numTotalTestSuites":1,"numTotalTests":7,"openHandles":[],"snapshot":{"added":0,"didUpdate":false,"failure":false,"filesAdded":0,"filesRemoved":0,"filesRemovedList":[],"filesUnmatched":0,"filesUpdated":0,"matched":1,"total":1,"unchecked":0,"uncheckedKeysByFile":[],"unmatched":0,"updated":0},"startTime":1575475350637,"success":false,"testResults":[{"assertionResults":[{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should render correctly","location":null,"status":"passed","title":"should render correctly"},{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should have table component","location":null,"status":"passed","title":"should have table component"},{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should have thead component","location":null,"status":"passed","title":"should have thead component"},{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should have tbody component","location":null,"status":"passed","title":"should have tbody component"},{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should have th is equal to number of columns","location":null,"status":"passed","title":"should have th is equal to number of columns"},{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should have tr is equal to number of data rows","location":null,"status":"passed","title":"should have tr is equal to number of data rows"},{"ancestorTitles":["RenderTable"],"failureMessages":[],"fullName":"RenderTable should loop through each row and check the content","location":null,"status":"passed","title":"should loop through each row and check the content"}],"endTime":1575475359917,"message":"","name":"C:\\Users\\user\\Documents\\projects\\atomic-react-components\\lib\\components\\molecules\\RenderTable\\tests\\RenderTable.test.js","startTime":1575475355325,"status":"passed","summary":""}],"wasInterrupted":false,"coverageMap":{"C:\\Users\\user\\Documents\\projects\\atomic-react-components\\lib\\components\\molecules\\RenderTable\\RenderTable.js":{"path":"C:\\Users\\user\\Documents\\projects\\atomic-react-components\\lib\\components\\molecules\\RenderTable\\RenderTable.js","statementMap":{"0":{"start":{"line":13,"column":20},"end":{"line":39,"column":1}},"1":{"start":{"line":14,"column":2},"end":{"line":38,"column":4}},"2":{"start":{"line":19,"column":12},"end":{"line":19,"column":89}},"3":{"start":{"line":25,"column":10},"end":{"line":34,"column":15}},"4":{"start":{"line":27,"column":14},"end":{"line":32,"column":19}},"5":{"start":{"line":41,"column":0},"end":{"line":43,"column":2}},"6":{"start":{"line":45,"column":0},"end":{"line":45,"column":89}},"7":{"start":{"line":45,"column":52},"end":{"line":45,"column":87}},"8":{"start":{"line":47,"column":0},"end":{"line":47,"column":30}}},"fnMap":{"0":{"name":"(anonymous_0)","decl":{"start":{"line":13,"column":20},"end":{"line":13,"column":21}},"loc":{"start":{"line":13,"column":83},"end":{"line":39,"column":1}},"line":13},"1":{"name":"(anonymous_1)","decl":{"start":{"line":18,"column":34},"end":{"line":18,"column":35}},"loc":{"start":{"line":19,"column":12},"end":{"line":19,"column":89}},"line":19},"2":{"name":"(anonymous_2)","decl":{"start":{"line":24,"column":18},"end":{"line":24,"column":19}},"loc":{"start":{"line":25,"column":10},"end":{"line":34,"column":15}},"line":25},"3":{"name":"(anonymous_3)","decl":{"start":{"line":26,"column":36},"end":{"line":26,"column":37}},"loc":{"start":{"line":27,"column":14},"end":{"line":32,"column":19}},"line":27},"4":{"name":"(anonymous_4)","decl":{"start":{"line":45,"column":21},"end":{"line":45,"column":22}},"loc":{"start":{"line":45,"column":52},"end":{"line":45,"column":87}},"line":45}},"branchMap":{"0":{"loc":{"start":{"line":45,"column":52},"end":{"line":45,"column":87}},"type":"cond-expr","locations":[{"start":{"line":45,"column":74},"end":{"line":45,"column":79}},{"start":{"line":45,"column":82},"end":{"line":45,"column":87}}],"line":45}},"s":{"0":1,"1":7,"2":35,"3":91,"4":455,"5":1,"6":1,"7":0,"8":1},"f":{"0":7,"1":35,"2":91,"3":455,"4":0},"b":{"0":[0,0]},"_coverageSchema":"43e27e138ebf9cfc5966b082cf9a028302ed4184","hash":"f48eb68fd1fbf91ac37f1aa12fab599289d3846b"}}}
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 0,
+  "numTotalTests": 0,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": true,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1575525494489,
+  "success": true,
+  "testResults": [],
+  "wasInterrupted": false,
+  "coverageMap": {}
+}
