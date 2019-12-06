@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> should render correctly 1`] = `
+<Accordion
+  accordionContent={
+    Array [
+      Object {
+        "accordionBody": <div>
+          <img
+            alt="placeholderImage"
+            src="https://via.placeholder.com/150"
+          />
+        </div>,
+        "accordionHeader": "Accordion 1",
+        "isOpen": true,
+      },
+      Object {
+        "accordionBody": <div>
+          <p>
+            Puglias most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.
+          </p>
+          <figure>
+            <img
+              alt="Trulli"
+              src="https://via.placeholder.com/350"
+            />
+            <figcaption>
+              Fig.1 - Trulli, Puglia, Italy.
+            </figcaption>
+          </figure>
+        </div>,
+        "accordionHeader": "Accordion 2",
+        "isOpen": false,
+      },
+      Object {
+        "accordionBody": <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>,
+        "accordionHeader": "Accordion 3",
+        "isOpen": false,
+      },
+    ]
+  }
+  className="accordion"
+>
+  <StyledComponent
+    accordionContent={
+      Array [
+        Object {
+          "accordionBody": <div>
+            <img
+              alt="placeholderImage"
+              src="https://via.placeholder.com/150"
+            />
+          </div>,
+          "accordionHeader": "Accordion 1",
+          "isOpen": true,
+        },
+        Object {
+          "accordionBody": <div>
+            <p>
+              Puglias most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.
+            </p>
+            <figure>
+              <img
+                alt="Trulli"
+                src="https://via.placeholder.com/350"
+              />
+              <figcaption>
+                Fig.1 - Trulli, Puglia, Italy.
+              </figcaption>
+            </figure>
+          </div>,
+          "accordionHeader": "Accordion 2",
+          "isOpen": false,
+        },
+        Object {
+          "accordionBody": <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>,
+          "accordionHeader": "Accordion 3",
+          "isOpen": false,
+        },
+      ]
+    }
+    className="accordion"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Accordion-vybsad-0",
+          "isStatic": false,
+          "lastClassName": "erlkoq",
+          "rules": Array [
+            [Function],
+            ";",
+            ";",
+          ],
+        },
+        "displayName": "Accordion",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Accordion-vybsad-0",
+        "target": [Function],
+        "toString": [Function],
+        "usesTheme": false,
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <Accordion
+      accordionContent={
+        Array [
+          Object {
+            "accordionBody": <div>
+              <img
+                alt="placeholderImage"
+                src="https://via.placeholder.com/150"
+              />
+            </div>,
+            "accordionHeader": "Accordion 1",
+            "isOpen": true,
+          },
+          Object {
+            "accordionBody": <div>
+              <p>
+                Puglias most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.
+              </p>
+              <figure>
+                <img
+                  alt="Trulli"
+                  src="https://via.placeholder.com/350"
+                />
+                <figcaption>
+                  Fig.1 - Trulli, Puglia, Italy.
+                </figcaption>
+              </figure>
+            </div>,
+            "accordionHeader": "Accordion 2",
+            "isOpen": false,
+          },
+          Object {
+            "accordionBody": <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>,
+            "accordionHeader": "Accordion 3",
+            "isOpen": false,
+          },
+        ]
+      }
+      className="Accordion-vybsad-0 erlkoq accordion"
+      isOpen={false}
+    >
+      <div
+        className="Accordion-vybsad-0 erlkoq accordion"
+      >
+        <details
+          className="accordion-item"
+          key="accordion-0"
+          open={true}
+        >
+          <summary
+            className="accordion-header"
+          >
+            Accordion 1
+          </summary>
+          <div
+            className="accordion-panel"
+          >
+            <div>
+              <img
+                alt="placeholderImage"
+                src="https://via.placeholder.com/150"
+              />
+            </div>
+          </div>
+        </details>
+        <details
+          className="accordion-item"
+          key="accordion-1"
+          open={false}
+        >
+          <summary
+            className="accordion-header"
+          >
+            Accordion 2
+          </summary>
+          <div
+            className="accordion-panel"
+          >
+            <div>
+              <p>
+                Puglias most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.
+              </p>
+              <figure>
+                <img
+                  alt="Trulli"
+                  src="https://via.placeholder.com/350"
+                />
+                <figcaption>
+                  Fig.1 - Trulli, Puglia, Italy.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </details>
+        <details
+          className="accordion-item"
+          key="accordion-2"
+          open={false}
+        >
+          <summary
+            className="accordion-header"
+          >
+            Accordion 3
+          </summary>
+          <div
+            className="accordion-panel"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </details>
+      </div>
+    </Accordion>
+  </StyledComponent>
+</Accordion>
+`;
