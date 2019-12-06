@@ -10,9 +10,7 @@ exports[`Button should render correctly 1`] = `
         "componentId": "Button-sc-1ccn477-0",
         "isStatic": false,
         "rules": Array [
-          "border:none;border-radius:0;background:none;position:relative;min-height:48px;cursor:",
-          [Function],
-          ";opacity:",
+          "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
           [Function],
           ";",
           [Function],
@@ -20,9 +18,9 @@ exports[`Button should render correctly 1`] = `
           [Function],
           ";",
           [Function],
-          ";&:focus{outline:1px dashed ",
+          ";",
           [Function],
-          ";}&:focus:not(.focus-visible){outline:none;}",
+          ";&:focus:not(.focus-visible){outline:none;}",
           [Function],
           ";",
           ";",
@@ -42,56 +40,212 @@ exports[`Button should render correctly 1`] = `
   forwardedRef={null}
   theme={
     Object {
-      "backgroundColorPrimary": "#fff",
-      "backgroundColorSecondary": "#eaf2f6",
-      "backgroundColorSuccess": "#2e993a",
-      "borderColorBoldest": "#c00",
-      "borderColorSecondary": "#d9d9d9",
-      "brandPrimaryColor": "#006193",
-      "buttonBackgroundColorPrimary": "#e57725",
-      "buttonBackgroundColorSecondary": "#016fad",
-      "buttonColorPrimary": "#ffffff",
-      "buttonColorSecondary": "#ffffff",
-      "colorOutline": "#999",
-      "containerShadowPrimary": "rgba(0,0,0,.2)",
-      "fieldBackgroundColor": "#ffffff",
-      "fieldBackgroundDisabledColor": "#f3f3f3",
-      "fieldBorderColor": "#bfbfbf",
-      "fieldBorderDisabledColor": "#bfdfdf",
-      "fieldBorderErrorColor": "#c00",
-      "fieldBorderFocusColor": "#006193",
-      "fieldTextColor": "#222",
-      "fontBold": "700",
-      "fontBook": "400",
-      "fontFamilyDefault": "Arial, Helvetica, sans-serif",
-      "fontFamilyIcon": "",
-      "fontFamilyPrimary": "Arial, Helvetica, sans-serif",
-      "fontFamilySecondary": "Arial, Helvetica, sans-serif",
-      "fontMedium": "500",
-      "fontNormal": "normal",
-      "fontSemiBold": "600",
-      "fontSizeBase": "16px",
-      "fontSizeButtonPrimary": "24px",
-      "fontSizeButtonSecondary": "16px",
-      "fontSizeDefault": "12px",
-      "fontSizeHighlight": "18px",
-      "letterSpacing": "0px",
-      "lineHeightBase": "1.5",
-      "linkColorPrimary": "#008CBA",
-      "linkColorSecondary": "#016fad",
-      "maxWidthPageContent": "80rem",
-      "textColorBrandPrimary": "#006193",
-      "textColorError": "#c00",
-      "textColorPlaceholder": "#dfdfdf",
-      "textColorPrimary": "#222",
-      "textColorSecondary": "#262626",
-      "textColorSecondaryLight": "#666",
-      "textColorSuccess": "#2e993a",
+      "animations": Object {
+        "ANIMATION_SLIDE_UP": "var(--animation-slide-up)",
+        "ANIMATION_SLIDE_UP_WITH_MARGIN": "var(--animation-slide-up-with-margin)",
+        "ANIMATION_SPINNER": "var(--animation-spinner)",
+        "DURATION_M": "var(--duration-m)",
+        "EASING_SWIFT": "var(--easing-swift)",
+      },
+      "behaviour": Object {
+        "LINK_DECORATION": "text-decoration: none;",
+      },
+      "border": Object {
+        "CTA_OUTLINE": "outline: var(--border-size-cta-tertiary) dashed var(--outline);",
+        "CTA_TAB": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TAB_ACTIVE": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke-active);",
+        "CTA_TAB_PANEL": "border-top: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TAB_PANEL_VERTICAL": "border-left: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TERTIARY": "
+    border: var(--border-size-cta-tertiary) solid var(--border-secondary);
+  ",
+        "FIELD_ACTIVE": "
+    border: var(--border-size-field-active) solid var(--field-border-active);
+  ",
+        "FIELD_DISABLED": "
+    border: var(--border-size-field-active) solid var(--border-disabled);
+  ",
+        "FIELD_PRIMARY": "
+    border: var(--border-size-field) solid var(--field-border-primary);
+  ",
+        "FIELD_RADIO": "
+    border-radius: var(--border-radius-round);
+  ",
+        "FIELD_SECONDARY": "
+    border: var(--border-size-field) solid var(--field-border-secondary);
+  ",
+        "LIST_INLINE": "
+    border-right: var(--border-size-field) solid var(--field-border-primary);
+  ",
+      },
+      "colors": Object {
+        "CTA_DISABLED": "
+    &[disabled]{
+      background-color: var(--brand-disabled);
+      color: var(--text-cta-disabled);
+    }
+  ",
+        "CTA_PRIMARY": "
+    background-color: var(--bg-cta-primary);
+    color: var(--text-cta-primary);
+    &:hover, &:active{
+      background-color: var(--bg-cta-primary-active);
+    }
+  ",
+        "CTA_SECONDARY": "
+    background-color: var(--bg-cta-secondary);
+    color: var(--text-cta-secondary);
+    &:hover, &:active{
+      background-color: var(--bg-cta-secondary-active);
+    }
+  ",
+        "CTA_TAB": "
+    background-color: var(--bg-cta-tertiary);
+    color: var(--text-cta-tertiary);
+  ",
+        "CTA_TERTIARY": "
+    background-color: var(--bg-cta-tertiary);
+    color: var(--text-cta-tertiary);
+    &:hover, &:active{
+      background-color: var(--bg-cta-tertiary-active);
+      color: var(--text-inverse);
+    }
+  ",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
+  ",
+        "LINK_PRIMARY": "
+    color: var(--text-link);
+  ",
+        "TEXT_DEFAULT": "
+    color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
+  ",
+        "TEXT_INVERSE": "
+    color: var(--text-inverse);
+  ",
+        "TEXT_LIGHT": "
+    color: var(--text-light);
+  ",
+        "TEXT_SECONDARY": "
+    color: var(--text-secondary);
+  ",
+        "TOGGLE_SWITCH": "
+    background-color: var(--bg-cta-secondary);
+  ",
+      },
+      "dimensions": Object {
+        "CHECKBOX": "
+    height: var(--spacing-3);
+    width: var(--spacing-3);
+  ",
+        "CONTENT_MAX_WIDTH": "
+    max-width: var(--spacing-max-content);
+  ",
+        "CTA": "
+    height: var(--spacing-6);
+    width: auto;
+  ",
+        "FIELD": "
+    height: var(--spacing-6);
+    width:100;
+  ",
+        "RADIO": "
+    height: var(--spacing-3);
+    width: var(--spacing-3);
+  ",
+        "TOGGLE_SWITCH": "
+    height: var(--spacing-3);
+    width: var(--spacing-6);
+  ",
+      },
+      "shadow": Object {
+        "SHADOW_L": "var(--shadow-l)",
+        "SHADOW_M": "var(--shadow-m)",
+        "SHADOW_S": "var(--shadow-s)",
+      },
+      "spacing": Object {
+        "HALF_UNIT": "0.25rem",
+        "MAX_CONTENT": "80rem",
+        "QUAD_UNIT": "0.125rem",
+        "UNIT_1": "0.5rem",
+        "UNIT_10": "5rem",
+        "UNIT_11": "5.5rem",
+        "UNIT_12": "6rem",
+        "UNIT_13": "6.5rem",
+        "UNIT_14": "7rem",
+        "UNIT_15": "7.5rem",
+        "UNIT_16": "8rem",
+        "UNIT_17": "8.5rem",
+        "UNIT_18": "9rem",
+        "UNIT_19": "9.5rem",
+        "UNIT_2": "1rem",
+        "UNIT_20": "10rem",
+        "UNIT_3": "1.5rem",
+        "UNIT_4": "2rem",
+        "UNIT_5": "2.5rem",
+        "UNIT_6": "3rem",
+        "UNIT_7": "3.5rem",
+        "UNIT_8": "4rem",
+        "UNIT_9": "4.5rem",
+      },
+      "typography": Object {
+        "FONT_CTA": "
+    font-size: var(--font-size-cta);
+    line-height: var(--line-height-cta);
+  ",
+        "FONT_DEFAULT": "
+    font-family: var(--font-family);
+    font-display: var(--font-family-display);
+    font-size: var(--font-size-default);
+    line-height: var(--line-height-default);
+  ",
+        "FONT_FIELD": "
+    font-size: var(--font-size-field);
+    line-height: var(--line-height-field);
+  ",
+        "FONT_H1": "
+    font-family: var(--font-family-secondary);
+    font-display: var(--font-family-display);
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-h1);
+  ",
+        "FONT_H2": "
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h2);
+  ",
+        "FONT_H3": "
+    font-size: var(--font-size-h3);
+    line-height: var(--line-height-h3);
+  ",
+        "FONT_H4": "
+    font-size: var(--font-size-h4);
+    line-height: var(--line-height-h4);
+  ",
+        "FONT_LABEL": "
+    font-size: var(--font-size-label);
+    line-height: var(--line-height-label);
+  ",
+        "FONT_LINK": "
+    font-size: var(--font-size-link);
+    line-height: var(--line-height-link);
+    text-decoration: none;
+  ",
+      },
       "zIndex": Object {
-        "zLoader": 1000,
-        "zNativeTickSelectIcon": 50,
-        "zOverlay": 900,
-        "zSticky": 700,
+        "zFlyOut": "z-index: var(--z-index-fly-out)",
+        "zLoader": "z-index: var(--z-index-loader)",
+        "zModal": "z-index: var(--z-index-modal)",
+        "zNativeTickSelectIcon": "z-index: var(--z-index-native-tick-select-icon)",
+        "zOverlay": "z-index: var(--z-index-overlay)",
+        "zSticky": "z-index: var(--z-index-sticky)",
       },
     }
   }
