@@ -1,17 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Input Component should render correctly 1`] = `
-<input
-  aria-label=""
-  className=""
-  data-locator="my-input-field"
-  name="my-input"
-  onChange={[Function]}
-  placeholder=""
-  type="file"
-/>
-`;
-
 exports[`Input Component snapshot testing for input field 1`] = `
 <input
   aria-label=""
