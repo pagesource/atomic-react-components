@@ -6,10 +6,17 @@ exports[`FieldInput Component should render correctly 1`] = `
 >
   <FormikConnect(FieldInner)
     render={[Function]}
-    type="text"
+    type="file"
   />
   <Button
-    secondary={true}
+    onClick={[Function]}
+    tertiary={true}
+    type="button"
+  >
+    Choose file(s)
+  </Button>
+  <Button
+    primary={true}
     type="button"
   >
     Upload...

@@ -23,7 +23,18 @@ exports[`Input Styled component should render correctly 1`] = `
       "foldedComponentIds": Array [],
       "render": [Function],
       "styledComponentId": "Input-sc-133uxg0-0",
-      "target": [Function],
+      "target": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "ariaLabel": "",
+          "className": "",
+          "elementLocator": "",
+          "placeholder": "",
+          "type": "text",
+          "value": "",
+        },
+        "render": [Function],
+      },
       "toString": [Function],
       "usesTheme": true,
       "warnTooManyClasses": [Function],
@@ -53,6 +64,8 @@ exports[`Input Styled component should render correctly 1`] = `
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
+        "DD_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
+        "FF_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "FIELD_ACTIVE": "
     border: var(--border-size-field-active) solid var(--field-border-active);
   ",
