@@ -2,7 +2,6 @@
 
 exports[`Form Component should render input field with no validation 1`] = `
 <Formik
-  enableReinitialize={false}
   initialValues={
     Object {
       "email": "",
@@ -10,18 +9,17 @@ exports[`Form Component should render input field with no validation 1`] = `
       "username": "",
     }
   }
-  isInitialValid={false}
-  render={[Function]}
   validate={[Function]}
   validateOnBlur={true}
   validateOnChange={true}
   validationSchema={null}
-/>
+>
+  <Component />
+</Formik>
 `;
 
 exports[`Form Component should render input field with yupValidationSchema 1`] = `
 <Formik
-  enableReinitialize={false}
   initialValues={
     Object {
       "email": "",
@@ -29,8 +27,6 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
       "username": "",
     }
   }
-  isInitialValid={false}
-  render={[Function]}
   validate={[Function]}
   validateOnBlur={true}
   validateOnChange={true}
@@ -99,12 +95,13 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
       ],
     }
   }
-/>
+>
+  <Component />
+</Formik>
 `;
 
 exports[`Form Component should render input text field 1`] = `
 <Formik
-  enableReinitialize={false}
   initialValues={
     Object {
       "email": "",
@@ -112,8 +109,6 @@ exports[`Form Component should render input text field 1`] = `
       "username": "",
     }
   }
-  isInitialValid={false}
-  render={[Function]}
   validate={[Function]}
   validateOnBlur={true}
   validateOnChange={true}
@@ -213,12 +208,13 @@ exports[`Form Component should render input text field 1`] = `
       ],
     }
   }
-/>
+>
+  <Component />
+</Formik>
 `;
 
 exports[`Form Component should render select field 1`] = `
 <Formik
-  enableReinitialize={false}
   initialValues={
     Object {
       "email": "",
@@ -226,8 +222,6 @@ exports[`Form Component should render select field 1`] = `
       "username": "",
     }
   }
-  isInitialValid={false}
-  render={[Function]}
   validate={[Function]}
   validateOnBlur={true}
   validateOnChange={true}
@@ -327,12 +321,13 @@ exports[`Form Component should render select field 1`] = `
       ],
     }
   }
-/>
+>
+  <Component />
+</Formik>
 `;
 
 exports[`Form Component should render select tag correctly 1`] = `
 <Formik
-  enableReinitialize={false}
   initialValues={
     Object {
       "email": "",
@@ -340,8 +335,6 @@ exports[`Form Component should render select tag correctly 1`] = `
       "username": "",
     }
   }
-  isInitialValid={false}
-  render={[Function]}
   validate={[Function]}
   validateOnBlur={true}
   validateOnChange={true}
@@ -441,5 +434,7 @@ exports[`Form Component should render select tag correctly 1`] = `
       ],
     }
   }
-/>
+>
+  <Component />
+</Formik>
 `;

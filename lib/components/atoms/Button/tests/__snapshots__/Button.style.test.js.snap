@@ -54,6 +54,8 @@ exports[`Button should render correctly 1`] = `
         "CTA_OUTLINE": "outline: var(--border-size-cta-tertiary) dashed var(--outline);",
         "CTA_TAB": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke);",
         "CTA_TAB_ACTIVE": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke-active);",
+        "CTA_TAB_PANEL": "border-top: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TAB_PANEL_VERTICAL": "border-left: var(--border-size-cta-tertiary) solid var(--stroke);",
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
@@ -109,6 +111,14 @@ exports[`Button should render correctly 1`] = `
       color: var(--text-inverse);
     }
   ",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
@@ -162,29 +172,29 @@ exports[`Button should render correctly 1`] = `
         "SHADOW_S": "var(--shadow-s)",
       },
       "spacing": Object {
-        "halfUnit": "0.25rem",
-        "maxContent": "80rem",
-        "quadUnit": "0.125rem",
-        "unit1": "0.5rem",
-        "unit10": "5rem",
-        "unit11": "5.5rem",
-        "unit12": "6rem",
-        "unit13": "6.5rem",
-        "unit14": "7rem",
-        "unit15": "7.5rem",
-        "unit16": "8rem",
-        "unit17": "8.5rem",
-        "unit18": "9rem",
-        "unit19": "9.5rem",
-        "unit2": "1rem",
-        "unit20": "10rem",
-        "unit3": "1.5rem",
-        "unit4": "2rem",
-        "unit5": "2.5rem",
-        "unit6": "3rem",
-        "unit7": "3.5rem",
-        "unit8": "4rem",
-        "unit9": "4.5rem",
+        "HALF_UNIT": "0.25rem",
+        "MAX_CONTENT": "80rem",
+        "QUAD_UNIT": "0.125rem",
+        "UNIT_1": "0.5rem",
+        "UNIT_10": "5rem",
+        "UNIT_11": "5.5rem",
+        "UNIT_12": "6rem",
+        "UNIT_13": "6.5rem",
+        "UNIT_14": "7rem",
+        "UNIT_15": "7.5rem",
+        "UNIT_16": "8rem",
+        "UNIT_17": "8.5rem",
+        "UNIT_18": "9rem",
+        "UNIT_19": "9.5rem",
+        "UNIT_2": "1rem",
+        "UNIT_20": "10rem",
+        "UNIT_3": "1.5rem",
+        "UNIT_4": "2rem",
+        "UNIT_5": "2.5rem",
+        "UNIT_6": "3rem",
+        "UNIT_7": "3.5rem",
+        "UNIT_8": "4rem",
+        "UNIT_9": "4.5rem",
       },
       "typography": Object {
         "FONT_CTA": "

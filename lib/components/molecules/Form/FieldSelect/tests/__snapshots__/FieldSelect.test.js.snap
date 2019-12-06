@@ -6,10 +6,9 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <FormikConnect(FieldInner)
-    component="select"
-    render={[Function]}
-  />
+  <Field>
+    <Component />
+  </Field>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {
