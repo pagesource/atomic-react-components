@@ -8,10 +8,10 @@ exports[`<Typeahead /> should render correctly 1`] = `
     ariaLabel=""
     className=""
     elementLocator=""
-    label=""
     onChange={[Function]}
+    onKeyDown={[Function]}
     placeholder=""
-    type="text"
+    type="search"
     value=""
   />
   <List
