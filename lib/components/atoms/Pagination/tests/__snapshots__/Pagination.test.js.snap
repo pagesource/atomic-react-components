@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should render correctly 1`] = `
+<nav
+  className=""
+>
+  <ul
+    className="pagination"
+  />
+</nav>
+`;
