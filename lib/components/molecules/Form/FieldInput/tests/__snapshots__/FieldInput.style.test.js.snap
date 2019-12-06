@@ -20,7 +20,6 @@ exports[`FieldInput should render correctly 1`] = `
       "styledComponentId": "FieldInput-sc-1gh57p3-0",
       "target": [Function],
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

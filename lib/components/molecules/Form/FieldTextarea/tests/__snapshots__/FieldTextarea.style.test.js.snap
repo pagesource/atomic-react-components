@@ -20,7 +20,6 @@ exports[`FieldTextarea should render correctly 1`] = `
       "styledComponentId": "FieldTextarea-sc-9fr5lr-0",
       "target": [Function],
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

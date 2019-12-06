@@ -20,7 +20,6 @@ exports[`FieldSelect should render correctly 1`] = `
       "styledComponentId": "FieldSelect-sc-1fkkiga-0",
       "target": [Function],
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

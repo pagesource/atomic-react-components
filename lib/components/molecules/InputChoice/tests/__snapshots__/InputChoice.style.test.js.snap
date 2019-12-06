@@ -41,7 +41,6 @@ exports[`InputChoice should render checkbox correctly 1`] = `
       "styledComponentId": "InputChoice-sc-1d450rw-0",
       "target": [Function],
       "toString": [Function],
-      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -295,7 +294,6 @@ exports[`InputChoice should render radio correctly 1`] = `
       "styledComponentId": "InputChoice-sc-1d450rw-0",
       "target": [Function],
       "toString": [Function],
-      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
