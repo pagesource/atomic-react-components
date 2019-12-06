@@ -23,9 +23,9 @@ module.exports = {
   coverageThreshold: {
     global: {
       branches: 45,
-      functions: 45,
+      functions: 55,
       lines: 65,
-      statements: 60,
+      statements: 65,
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
