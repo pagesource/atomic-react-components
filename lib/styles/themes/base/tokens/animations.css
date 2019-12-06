@@ -1,0 +1,60 @@
+/**
+ * @tokens Animations
+ * @presenter Animation
+ */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-up-with-margin {
+  from {
+    opacity: 0;
+    margin-top: 30px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+:root {
+  --animation-slide-up: slide-up 0.3s;
+  --animation-slide-up-with-margin: slide-up-with-margin 0.3s;
+  --animation-spinner: rotate 1.2s infinite cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+/**
+ * @tokens Durations
+ * @presenter Duration
+ */
+
+ :root {
+  --duration-m: 300ms;
+}
+
+/**
+ * @tokens Easings
+ * @presenter Easing
+ */
+
+ :root {
+  --easing-swift: cubic-bezier(0.55, 0, 0.1, 1);
+}
+

@@ -6,35 +6,10 @@ import defaultConfig from './{{ properCase name }}.mock';
 // Import Styled Component to showcase variations
 import {{ properCase name }}, { {{ properCase name }}Vanilla } from '.';
 
-// TODO: indentation is not working fine in editor. Need to check for .hbs files
-// $FlowFixMe eslint-disable-next-line extra-rules/no-commented-out-code
-storiesOf('{{ folder }}', module).addParameters({ jest: ['{{ properCase name }}', '{{ properCase name }}Vanilla']
-}).addWithChapters('{{ properCase name }}', {
-chapters: [
-{
-sections: [
-{
-sectionFn: () => (
-<{{ properCase name }}Vanilla {...defaultConfig} className={`hide-default-sample ${defaultConfig.className}`} />
-),
-options: {
-showSource: true,
-allowSourceToggling: true,
-showPropTables: true,
-allowPropTablesToggling: true,
-},
-},
-],
-},
-{
-title: 'Primary {{ properCase name }} Variations',
-sections: [
-{
-title: 'Variation Name',
-sectionFn: () =>
-<{{ properCase name }} {...defaultConfig} />,
-},
-],
-},
-],
-});
+storiesOf('{{ folder }}/{{ properCase name }}', module).addParameters({ jest: ['{{ properCase name }}', '{{ properCase name }}Vanilla']
+})
+.add('Knobs', () => (
+<{{ properCase name }}Vanilla {...defaultConfig} />
+))
+.add('{{ properCase name }}', () =>
+<{{ properCase name }} {...defaultConfig} />);
