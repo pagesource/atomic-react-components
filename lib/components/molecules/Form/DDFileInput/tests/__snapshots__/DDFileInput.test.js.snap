@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DDFieldInput Component should render correctly 1`] = `
+<div
+  className=""
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onDragOver={[Function]}
+  onDrop={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <FormikConnect(FieldInner)
+    render={[Function]}
+    type="file"
+  />
+  Drop Files Here...
+</div>
+`;
