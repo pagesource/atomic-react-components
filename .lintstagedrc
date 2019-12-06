@@ -8,9 +8,7 @@
   ],
   "*.js": [
     "yarn run lint:css:fix",
-    "yarn run lint:js:fix"
-  ],
-  "*.test.js": [
+    "yarn run lint:js:fix",
     "yarn run test",
   ],
 }
