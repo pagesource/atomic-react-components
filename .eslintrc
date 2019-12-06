@@ -41,7 +41,12 @@
     ],
     "prettier/prettier": "error",
     "compat/compat": "error",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "jsx-a11y/media-has-caption": [ 1, {
+      "audio": [ "Audio" ],
+      "video": [ "Video" ],
+      "track": [ "Track" ]
+    }]
   },
   "overrides": [
     {
