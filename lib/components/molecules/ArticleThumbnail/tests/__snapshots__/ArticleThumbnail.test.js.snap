@@ -26,22 +26,3 @@ exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
   </Anchor>
 </div>
 `;
-
-exports[`<ArticleThumbnail /> should render correctly with full clickable thumb 1`] = `
-<div>
-  <Anchor
-    className="AnchorClass"
-    target="_blank"
-    to="#"
-  >
-    <Image
-      alt="Dummy Image"
-      placeholderSrc="https://placekitten.com/g/600/300"
-      sizes="(min-width: 36em) 33.3vw, 100vw"
-      src="https://placekitten.com/g/600/300"
-      srcset="https://placekitten.com/g/600/300 1024w, https://placekitten.com/g/400/300 640w, https://placekitten.com/g/300/300 320w"
-    />
-    Test
-  </Anchor>
-</div>
-`;
