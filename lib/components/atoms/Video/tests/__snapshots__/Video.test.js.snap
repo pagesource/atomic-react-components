@@ -16,12 +16,5 @@ exports[`<VideoVanilla /> should render correctly 1`] = `
     src="http://techslides.com/demos/sample-videos/small.mp4"
     type="video/mp4"
   />
-  <track
-    default={true}
-    kind="subtitles"
-    label="English"
-    src="/"
-    srcLang="en"
-  />
 </video>
 `;
