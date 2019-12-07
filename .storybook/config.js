@@ -62,7 +62,7 @@ addParameters({
   },
 });
 
-const req = require.context('../lib/components', true, /story\.js$/);
+const req = require.context('../lib/components/molecules/Table', true, /story\.js$/);
 
 function loadStories() {
   req.keys().forEach(filename => req(filename));
