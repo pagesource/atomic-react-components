@@ -5,6 +5,7 @@ exports[`FieldInput Component should render correctly 1`] = `
   className=""
 >
   <FormikConnect(FieldInner)
+    name="fileupload"
     render={[Function]}
     type="file"
   />
