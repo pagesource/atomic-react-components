@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Column should render correctly 1`] = `<em />`;
+
 exports[`Table should render correctly 1`] = `
-<table>
+<table
+  className=""
+  intent=""
+>
   <thead>
     <tr>
       <th
@@ -11,6 +16,7 @@ exports[`Table should render correctly 1`] = `
           intent="header"
           label="Dessert (100g serving)"
           name="name"
+          value=""
         />
       </th>
       <th
@@ -20,6 +26,7 @@ exports[`Table should render correctly 1`] = `
           intent="header"
           label="Calories"
           name="calories"
+          value=""
         />
       </th>
       <th
@@ -29,6 +36,7 @@ exports[`Table should render correctly 1`] = `
           intent="header"
           label="Fat (g)"
           name="fat"
+          value=""
         />
       </th>
       <th
@@ -38,6 +46,7 @@ exports[`Table should render correctly 1`] = `
           intent="header"
           label="Carbs (g)"
           name="carbs"
+          value=""
         />
       </th>
       <th
@@ -47,6 +56,7 @@ exports[`Table should render correctly 1`] = `
           intent="header"
           label="Protein (g)"
           name="protein"
+          value=""
         />
       </th>
     </tr>
