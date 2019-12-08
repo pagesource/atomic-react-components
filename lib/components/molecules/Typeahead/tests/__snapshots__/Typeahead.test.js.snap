@@ -15,12 +15,11 @@ exports[`<Typeahead /> should render correctly 1`] = `
     value=""
   />
   <List
-    ListType="ul"
     borderSeparator={false}
-    className=""
+    id="suggestions-list"
     inheritedStyles=""
-    inline={false}
-    nested={false}
+    inline="false"
+    nested="false"
     noDefaultView={false}
     noMargin={false}
   />
