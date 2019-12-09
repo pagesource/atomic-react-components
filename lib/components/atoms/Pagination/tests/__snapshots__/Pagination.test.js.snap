@@ -6,6 +6,43 @@ exports[`<Pagination /> should render correctly 1`] = `
 >
   <ul
     className="pagination"
-  />
+  >
+    <li
+      className="first"
+    >
+      <a
+        onClick={[Function]}
+      >
+        First
+      </a>
+    </li>
+    <li
+      className="previous"
+    >
+      <a
+        onClick={[Function]}
+      >
+        Previou
+      </a>
+    </li>
+    <li
+      className="disabled next"
+    >
+      <a
+        onClick={[Function]}
+      >
+        Next
+      </a>
+    </li>
+    <li
+      className="last"
+    >
+      <a
+        onClick={[Function]}
+      >
+        Last
+      </a>
+    </li>
+  </ul>
 </nav>
 `;

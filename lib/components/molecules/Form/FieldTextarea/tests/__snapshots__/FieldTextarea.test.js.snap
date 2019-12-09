@@ -8,9 +8,9 @@ exports[`FieldTextarea Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <Field>
+  <FormikConnect(FieldInner)>
     <Component />
-  </Field>
+  </FormikConnect(FieldInner)>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {

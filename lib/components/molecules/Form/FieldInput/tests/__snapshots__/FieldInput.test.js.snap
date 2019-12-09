@@ -8,11 +8,11 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <Field
+  <FormikConnect(FieldInner)
     type="text"
   >
     <Component />
-  </Field>
+  </FormikConnect(FieldInner)>
   <FormikConnect(ErrorMessageImpl)
     component={
       Object {
