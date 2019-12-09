@@ -13,7 +13,7 @@ exports[`<QuoteMedia /> should render correctly 1`] = `
   <Blockquote
     className="blockquote"
     quoteAuthorProp="Lorem ipsum"
-    quoteContentProp="Lorem ipsum dollor sit amet"
+    quoteProp="Lorem ipsum dollor sit amet"
   />
   <div
     className="media"

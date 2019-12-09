@@ -231,7 +231,7 @@ exports[`Input Styled component should render correctly 1`] = `
     line-height: var(--line-height-link);
     text-decoration: none;
   ",
-        "FONT_QUOTE": "
+        "FONT_QUOTE_SIGN": "
     font-size: var(--font-size-quote);
     line-height: var(--line-height-quote);
   ",
