@@ -11,6 +11,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       className="first"
     >
       <Button
+        disabled={false}
         onClick={[Function]}
       >
         First
@@ -20,6 +21,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       className="previous"
     >
       <Button
+        disabled={false}
         onClick={[Function]}
       >
         Previous
@@ -37,9 +39,10 @@ exports[`<Pagination /> should render correctly 1`] = `
       </Button>
     </li>
     <li
-      className="disabled next"
+      className="next"
     >
       <Button
+        disabled={true}
         onClick={[Function]}
       >
         Next
@@ -49,6 +52,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       className="last"
     >
       <Button
+        disabled={false}
         onClick={[Function]}
       >
         Last
