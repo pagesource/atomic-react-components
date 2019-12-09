@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typeahead /> should render correctly 1`] = `
+<Typeahead
+  className=""
+  inheritedStyles=""
+  label=""
+  onChange={[MockFunction]}
+  renderListItem={[Function]}
+  suggestions={Array []}
+>
+  <div
+    className=""
+  >
+    <Input
+      ariaLabel=""
+      autoComplete="off"
+      className=""
+      elementLocator=""
+      label=""
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder=""
+      type="search"
+      value=""
+    >
+      <input
+        aria-label=""
+        autoComplete="off"
+        className=""
+        data-locator="input-search-undefined"
+        label=""
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        type="search"
+        value=""
+      />
+    </Input>
+    <List
+      borderSeparator={false}
+      id="typeahead-suggestions-list"
+      inheritedStyles=""
+      inline={false}
+      nested={false}
+      noDefaultView={false}
+      noMargin={true}
+      theme={Object {}}
+    >
+      <StyledComponent
+        borderSeparator={false}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "List-rp20fd-0",
+              "isStatic": false,
+              "lastClassName": "keHPRt",
+              "rules": Array [
+                "margin:0 0 10px 0;li{margin-bottom:10px;}",
+                [Function],
+                ";",
+                [Function],
+                ";",
+                [Function],
+                ";",
+                [Function],
+                ";",
+                [Function],
+                ";",
+                [Function],
+                ";",
+                ";",
+              ],
+            },
+            "displayName": "List",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "List-rp20fd-0",
+            "target": [Function],
+            "toString": [Function],
+            "usesTheme": true,
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        id="typeahead-suggestions-list"
+        inheritedStyles=""
+        inline={false}
+        nested={false}
+        noDefaultView={false}
+        noMargin={true}
+        theme={Object {}}
+      >
+        <List
+          ListType="ul"
+          borderSeparator={false}
+          className="List-rp20fd-0 keHPRt"
+          id="typeahead-suggestions-list"
+          inheritedStyles=""
+          inline={false}
+          nested={false}
+          noDefaultView={false}
+          noMargin={true}
+          theme={Object {}}
+        >
+          <ul
+            borderSeparator={false}
+            className="List-rp20fd-0 keHPRt"
+            id="typeahead-suggestions-list"
+            inheritedStyles=""
+            inline={false}
+            nested={false}
+            noDefaultView={false}
+            noMargin={true}
+            theme={Object {}}
+          />
+        </List>
+      </StyledComponent>
+    </List>
+  </div>
+</Typeahead>
+`;
