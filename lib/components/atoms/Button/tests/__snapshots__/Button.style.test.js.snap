@@ -32,7 +32,6 @@ exports[`Button should render correctly 1`] = `
       "styledComponentId": "Button-sc-1ccn477-0",
       "target": [Function],
       "toString": [Function],
-      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -237,6 +236,10 @@ exports[`Button should render correctly 1`] = `
     font-size: var(--font-size-link);
     line-height: var(--line-height-link);
     text-decoration: none;
+  ",
+        "FONT_QUOTE": "
+    font-size: var(--font-size-quote);
+    line-height: var(--line-height-quote);
   ",
       },
       "zIndex": Object {

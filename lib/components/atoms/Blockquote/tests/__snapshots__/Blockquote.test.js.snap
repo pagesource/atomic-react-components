@@ -1,39 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Blockquote /> should render correctly 1`] = `
-<StyledComponent
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "Blockquote-sc-1fbgk4w-0",
-        "isStatic": false,
-        "rules": Array [
-          "position:relative;",
-          [Function],
-          ";.content{",
-          [Function],
-          ";}.author{text-align:right;",
-          [Function],
-          ";}&:before{display:block;height:0;content:'”';position:absolute;top:0;",
-          [Function],
-          ";}",
-          [Function],
-          ";",
-          ";",
-        ],
-      },
-      "displayName": "Blockquote",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "Blockquote-sc-1fbgk4w-0",
-      "target": [Function],
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
-/>
+<blockquote
+  className="blockquote"
+>
+  <p
+    className="quoteContent"
+  >
+    Lorem Ipsum
+  </p>
+  <footer
+    className="quoteAuthor"
+  >
+    Lorem Ipsum author
+  </footer>
+</blockquote>
 `;
