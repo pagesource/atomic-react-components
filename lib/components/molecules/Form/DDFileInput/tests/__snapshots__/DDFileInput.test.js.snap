@@ -11,6 +11,10 @@ exports[`DDFieldInput Component should render correctly 1`] = `
   role="button"
   tabIndex="0"
 >
+  <Label
+    className=""
+    elementLocator=""
+  />
   <Field
     name="fileupload"
     render={[Function]}

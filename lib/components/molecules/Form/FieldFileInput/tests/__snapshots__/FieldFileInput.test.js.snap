@@ -4,6 +4,10 @@ exports[`FieldInput Component should render correctly 1`] = `
 <div
   className=""
 >
+  <Label
+    className=""
+    elementLocator=""
+  />
   <Field
     name="fileupload"
     render={[Function]}
