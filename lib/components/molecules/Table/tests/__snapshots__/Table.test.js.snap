@@ -6,11 +6,15 @@ exports[`Table should render correctly 1`] = `
 <table
   className=""
   intent=""
+  role="table"
 >
   <thead>
-    <tr>
+    <tr
+      role="row"
+    >
       <th
         key="name/.0"
+        role="columnheader"
       >
         <Component
           intent="header"
@@ -21,6 +25,7 @@ exports[`Table should render correctly 1`] = `
       </th>
       <th
         key="calories/.1"
+        role="columnheader"
       >
         <Component
           intent="header"
@@ -31,6 +36,7 @@ exports[`Table should render correctly 1`] = `
       </th>
       <th
         key="fat/.2"
+        role="columnheader"
       >
         <Component
           intent="header"
@@ -41,6 +47,7 @@ exports[`Table should render correctly 1`] = `
       </th>
       <th
         key="carbs/.3"
+        role="columnheader"
       >
         <Component
           intent="header"
@@ -51,6 +58,7 @@ exports[`Table should render correctly 1`] = `
       </th>
       <th
         key="protein/.4"
+        role="columnheader"
       >
         <Component
           intent="header"
@@ -64,9 +72,11 @@ exports[`Table should render correctly 1`] = `
   <tbody>
     <tr
       key="1"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -77,6 +87,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -87,6 +98,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -97,6 +109,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -107,6 +120,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -118,9 +132,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="2"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -131,6 +147,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -141,6 +158,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -151,6 +169,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -161,6 +180,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -172,9 +192,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="3"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -185,6 +207,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -195,6 +218,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -205,6 +229,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -215,6 +240,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -226,9 +252,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="5"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -239,6 +267,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -249,6 +278,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -259,6 +289,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -269,6 +300,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -280,9 +312,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="6"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -293,6 +327,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -303,6 +338,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -313,6 +349,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -323,6 +360,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -334,9 +372,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="7"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -347,6 +387,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -357,6 +398,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -367,6 +409,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -377,6 +420,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -388,9 +432,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="8"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -401,6 +447,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -411,6 +458,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -421,6 +469,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -431,6 +480,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -442,9 +492,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="9"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -455,6 +507,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -465,6 +518,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -475,6 +529,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -485,6 +540,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -496,9 +552,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="10"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -509,6 +567,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -519,6 +578,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -529,6 +589,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -539,6 +600,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -550,9 +612,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="11"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -563,6 +627,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -573,6 +638,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -583,6 +649,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -593,6 +660,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -604,9 +672,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="12"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -617,6 +687,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -627,6 +698,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -637,6 +709,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -647,6 +720,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -658,9 +732,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="13"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -671,6 +747,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -681,6 +758,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -691,6 +769,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -701,6 +780,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -712,9 +792,11 @@ exports[`Table should render correctly 1`] = `
     </tr>
     <tr
       key="14"
+      role="row"
     >
       <td
         key=".0"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -725,6 +807,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".1"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -735,6 +818,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".2"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -745,6 +829,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".3"
+        role="cell"
       >
         <Component
           intent="cell"
@@ -755,6 +840,7 @@ exports[`Table should render correctly 1`] = `
       </td>
       <td
         key=".4"
+        role="cell"
       >
         <Component
           intent="cell"
