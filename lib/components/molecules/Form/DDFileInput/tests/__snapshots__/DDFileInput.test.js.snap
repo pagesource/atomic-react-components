@@ -11,7 +11,7 @@ exports[`DDFieldInput Component should render correctly 1`] = `
   role="button"
   tabIndex="0"
 >
-  <FormikConnect(FieldInner)
+  <Field
     name="fileupload"
     render={[Function]}
     type="file"

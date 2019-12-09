@@ -4,11 +4,13 @@ exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
 <div>
   <Anchor
     className="AnchorClass"
+    key="NaN"
     target="_blank"
     to="#"
   >
     <Image
       alt="Dummy Image"
+      key="5"
       loading="lazy"
       placeholderSrc="https://placekitten.com/g/601/300"
       sizes="(min-width: 36em) 33.3vw, 100vw"
@@ -19,6 +21,7 @@ exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
   Test
   <Anchor
     className="AnchorClass"
+    key="10"
     target="_blank"
     to="#"
   >
@@ -31,11 +34,13 @@ exports[`<ArticleThumbnail /> should render correctly with full clickable thumb 
 <div>
   <Anchor
     className="AnchorClass"
+    key="4"
     target="_blank"
     to="#"
   >
     <Image
       alt="Dummy Image"
+      key="5"
       placeholderSrc="https://placekitten.com/g/600/300"
       sizes="(min-width: 36em) 33.3vw, 100vw"
       src="https://placekitten.com/g/600/300"
