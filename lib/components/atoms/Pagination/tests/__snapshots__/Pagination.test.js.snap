@@ -26,6 +26,17 @@ exports[`<Pagination /> should render correctly 1`] = `
       </Button>
     </li>
     <li
+      className="page-item"
+      key="1"
+    >
+      <Button
+        className="page-link"
+        onClick={[Function]}
+      >
+        1
+      </Button>
+    </li>
+    <li
       className="disabled next"
     >
       <Button

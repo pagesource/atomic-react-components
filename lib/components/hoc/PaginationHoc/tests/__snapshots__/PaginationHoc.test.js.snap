@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PaginationHoc /> should render correctly 1`] = `<Component />`;
+
+exports[`<PaginationHoc /> should render correctly 2`] = `<Component />`;
