@@ -220,13 +220,13 @@ exports[`Select Styled component should render correctly 1`] = `
   value=""
 >
   <option
-    key="Option 1"
+    key="userType_Option 1"
     value="Option 1"
   >
     Option 1
   </option>
   <option
-    key="Option 2"
+    key="userType_Option 2"
     value="Option 2"
   >
     Option 2
