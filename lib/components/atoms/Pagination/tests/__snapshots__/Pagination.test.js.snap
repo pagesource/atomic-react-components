@@ -10,38 +10,38 @@ exports[`<Pagination /> should render correctly 1`] = `
     <li
       className="first"
     >
-      <a
+      <Button
         onClick={[Function]}
       >
         First
-      </a>
+      </Button>
     </li>
     <li
       className="previous"
     >
-      <a
+      <Button
         onClick={[Function]}
       >
-        Previou
-      </a>
+        Previous
+      </Button>
     </li>
     <li
       className="disabled next"
     >
-      <a
+      <Button
         onClick={[Function]}
       >
         Next
-      </a>
+      </Button>
     </li>
     <li
       className="last"
     >
-      <a
+      <Button
         onClick={[Function]}
       >
         Last
-      </a>
+      </Button>
     </li>
   </ul>
 </nav>
