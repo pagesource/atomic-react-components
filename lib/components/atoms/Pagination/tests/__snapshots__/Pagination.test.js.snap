@@ -32,7 +32,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       key="1"
     >
       <Button
-        className="page-link"
+        className="page-button"
         onClick={[Function]}
       >
         1
@@ -42,7 +42,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       className="next"
     >
       <Button
-        disabled={true}
+        disabled={false}
         onClick={[Function]}
       >
         Next
