@@ -12,7 +12,7 @@
   "openHandles": [],
   "snapshot": {
     "added": 0,
-    "didUpdate": true,
+    "didUpdate": false,
     "failure": false,
     "filesAdded": 0,
     "filesRemoved": 0,
@@ -26,349 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1575984001986,
+  "startTime": 1575986398274,
   "success": true,
   "testResults": [
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Button"],
-          "failureMessages": [],
-          "fullName": "Button should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984005690,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/tests/Button.style.test.js",
-      "startTime": 1575984004768,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render label correctly",
-          "location": null,
-          "status": "pending",
-          "title": "should render label correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render select tag",
-          "location": null,
-          "status": "pending",
-          "title": "should render select tag"
-        }
-      ],
-      "endTime": 1575984005790,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/FieldSelect/tests/FieldSelect.test.js",
-      "startTime": 1575984004764,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldTextarea Component"],
-          "failureMessages": [],
-          "fullName": "FieldTextarea Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldTextarea Component"],
-          "failureMessages": [],
-          "fullName": "FieldTextarea Component should render label correctly",
-          "location": null,
-          "status": "pending",
-          "title": "should render label correctly"
-        },
-        {
-          "ancestorTitles": ["FieldTextarea Component"],
-          "failureMessages": [],
-          "fullName": "FieldTextarea Component should render textarea tag",
-          "location": null,
-          "status": "pending",
-          "title": "should render textarea tag"
-        }
-      ],
-      "endTime": 1575984005775,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/FieldTextarea/tests/FieldTextarea.test.js",
-      "startTime": 1575984004762,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Tabs />"],
-          "failureMessages": [],
-          "fullName": "<Tabs /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["<Tabs /> functional behavior"],
-          "failureMessages": [],
-          "fullName": "<Tabs /> functional behavior should have minimum dom structure for the tests below",
-          "location": null,
-          "status": "passed",
-          "title": "should have minimum dom structure for the tests below"
-        },
-        {
-          "ancestorTitles": ["<Tabs /> functional behavior"],
-          "failureMessages": [],
-          "fullName": "<Tabs /> functional behavior should change the tab panel and execute callback on closed tab click",
-          "location": null,
-          "status": "passed",
-          "title": "should change the tab panel and execute callback on closed tab click"
-        }
-      ],
-      "endTime": 1575984005858,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Tabs/tests/Tabs.test.js",
-      "startTime": 1575984004676,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render select tag correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render select tag correctly"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render input text field",
-          "location": null,
-          "status": "passed",
-          "title": "should render input text field"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render select field",
-          "location": null,
-          "status": "passed",
-          "title": "should render select field"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render input field with yupValidationSchema",
-          "location": null,
-          "status": "passed",
-          "title": "should render input field with yupValidationSchema"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render input field with no validation",
-          "location": null,
-          "status": "passed",
-          "title": "should render input field with no validation"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component getSchema should return null if no params are passed",
-          "location": null,
-          "status": "passed",
-          "title": "getSchema should return null if no params are passed"
-        }
-      ],
-      "endTime": 1575984006305,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/tests/Form.test.js",
-      "startTime": 1575984004778,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<PaginationHoc />"],
-          "failureMessages": [],
-          "fullName": "<PaginationHoc /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984006329,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/tests/PaginationHoc.test.js",
-      "startTime": 1575984004752,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Popover /> Rendering"],
-          "failureMessages": [],
-          "fullName": "<Popover /> Rendering should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Popover functional behavior"],
-          "failureMessages": [],
-          "fullName": "Popover functional behavior Should have Close Button By Default and can be closed",
-          "location": null,
-          "status": "passed",
-          "title": "Should have Close Button By Default and can be closed"
-        },
-        {
-          "ancestorTitles": ["Popover functional behavior"],
-          "failureMessages": [],
-          "fullName": "Popover functional behavior Should open By Default when isVisible set to true",
-          "location": null,
-          "status": "passed",
-          "title": "Should open By Default when isVisible set to true"
-        },
-        {
-          "ancestorTitles": ["Popover functional behavior"],
-          "failureMessages": [],
-          "fullName": "Popover functional behavior Should open and close on Trigger and X button click",
-          "location": null,
-          "status": "passed",
-          "title": "Should open and close on Trigger and X button click"
-        }
-      ],
-      "endTime": 1575984006506,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Popover/tests/Popover.test.js",
-      "startTime": 1575984006158,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render label correctly",
-          "location": null,
-          "status": "pending",
-          "title": "should render label correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render Input component with proper type",
-          "location": null,
-          "status": "pending",
-          "title": "should render Input component with proper type"
-        }
-      ],
-      "endTime": 1575984006525,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/FieldInput/tests/FieldInput.test.js",
-      "startTime": 1575984006236,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Button Component"],
-          "failureMessages": [],
-          "fullName": "Button Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Button Component"],
-          "failureMessages": [],
-          "fullName": "Button Component should render disabled",
-          "location": null,
-          "status": "passed",
-          "title": "should render disabled"
-        },
-        {
-          "ancestorTitles": ["Button Component"],
-          "failureMessages": [],
-          "fullName": "Button Component should render title element",
-          "location": null,
-          "status": "passed",
-          "title": "should render title element"
-        },
-        {
-          "ancestorTitles": ["Button Component"],
-          "failureMessages": [],
-          "fullName": "Button Component should render aria attribute element",
-          "location": null,
-          "status": "passed",
-          "title": "should render aria attribute element"
-        },
-        {
-          "ancestorTitles": ["Button Component"],
-          "failureMessages": [],
-          "fullName": "Button Component should check the data attribute of button",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of button"
-        }
-      ],
-      "endTime": 1575984006541,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/tests/Button.test.js",
-      "startTime": 1575984006228,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Breadcrumb />"],
-          "failureMessages": [],
-          "fullName": "<Breadcrumb /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984006716,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/tests/Breadcrumb.test.js",
-      "startTime": 1575984004709,
-      "status": "passed",
-      "summary": ""
-    },
     {
       "assertionResults": [
         {
@@ -444,10 +104,188 @@
           "title": "should test click event on previous button"
         }
       ],
-      "endTime": 1575984006854,
+      "endTime": 1575986402535,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/tests/Pagination.test.js",
-      "startTime": 1575984006095,
+      "startTime": 1575986401462,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Button"],
+          "failureMessages": [],
+          "fullName": "Button should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986402548,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/tests/Button.style.test.js",
+      "startTime": 1575986401491,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render label correctly",
+          "location": null,
+          "status": "pending",
+          "title": "should render label correctly"
+        },
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render select tag",
+          "location": null,
+          "status": "pending",
+          "title": "should render select tag"
+        }
+      ],
+      "endTime": 1575986402619,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/FieldSelect/tests/FieldSelect.test.js",
+      "startTime": 1575986401462,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["FieldTextarea Component"],
+          "failureMessages": [],
+          "fullName": "FieldTextarea Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["FieldTextarea Component"],
+          "failureMessages": [],
+          "fullName": "FieldTextarea Component should render label correctly",
+          "location": null,
+          "status": "pending",
+          "title": "should render label correctly"
+        },
+        {
+          "ancestorTitles": ["FieldTextarea Component"],
+          "failureMessages": [],
+          "fullName": "FieldTextarea Component should render textarea tag",
+          "location": null,
+          "status": "pending",
+          "title": "should render textarea tag"
+        }
+      ],
+      "endTime": 1575986402743,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/FieldTextarea/tests/FieldTextarea.test.js",
+      "startTime": 1575986401536,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Tabs />"],
+          "failureMessages": [],
+          "fullName": "<Tabs /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["<Tabs /> functional behavior"],
+          "failureMessages": [],
+          "fullName": "<Tabs /> functional behavior should have minimum dom structure for the tests below",
+          "location": null,
+          "status": "passed",
+          "title": "should have minimum dom structure for the tests below"
+        },
+        {
+          "ancestorTitles": ["<Tabs /> functional behavior"],
+          "failureMessages": [],
+          "fullName": "<Tabs /> functional behavior should change the tab panel and execute callback on closed tab click",
+          "location": null,
+          "status": "passed",
+          "title": "should change the tab panel and execute callback on closed tab click"
+        }
+      ],
+      "endTime": 1575986402894,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Tabs/tests/Tabs.test.js",
+      "startTime": 1575986401459,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render select tag correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render select tag correctly"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render input text field",
+          "location": null,
+          "status": "passed",
+          "title": "should render input text field"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render select field",
+          "location": null,
+          "status": "passed",
+          "title": "should render select field"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render input field with yupValidationSchema",
+          "location": null,
+          "status": "passed",
+          "title": "should render input field with yupValidationSchema"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render input field with no validation",
+          "location": null,
+          "status": "passed",
+          "title": "should render input field with no validation"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component getSchema should return null if no params are passed",
+          "location": null,
+          "status": "passed",
+          "title": "getSchema should return null if no params are passed"
+        }
+      ],
+      "endTime": 1575986403081,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/tests/Form.test.js",
+      "startTime": 1575986401457,
       "status": "passed",
       "summary": ""
     },
@@ -486,10 +324,136 @@
           "title": "should render checked"
         }
       ],
-      "endTime": 1575984006947,
+      "endTime": 1575986403263,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/InputChoice/tests/InputChoice.test.js",
-      "startTime": 1575984006646,
+      "startTime": 1575986402968,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render label correctly",
+          "location": null,
+          "status": "pending",
+          "title": "should render label correctly"
+        },
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render Input component with proper type",
+          "location": null,
+          "status": "pending",
+          "title": "should render Input component with proper type"
+        }
+      ],
+      "endTime": 1575986403315,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/FieldInput/tests/FieldInput.test.js",
+      "startTime": 1575986402950,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Popover /> Rendering"],
+          "failureMessages": [],
+          "fullName": "<Popover /> Rendering should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should have Close Button By Default and can be closed",
+          "location": null,
+          "status": "passed",
+          "title": "Should have Close Button By Default and can be closed"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should open By Default when isVisible set to true",
+          "location": null,
+          "status": "passed",
+          "title": "Should open By Default when isVisible set to true"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should open and close on Trigger and X button click",
+          "location": null,
+          "status": "passed",
+          "title": "Should open and close on Trigger and X button click"
+        }
+      ],
+      "endTime": 1575986403361,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Popover/tests/Popover.test.js",
+      "startTime": 1575986403008,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Button Component"],
+          "failureMessages": [],
+          "fullName": "Button Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Button Component"],
+          "failureMessages": [],
+          "fullName": "Button Component should render disabled",
+          "location": null,
+          "status": "passed",
+          "title": "should render disabled"
+        },
+        {
+          "ancestorTitles": ["Button Component"],
+          "failureMessages": [],
+          "fullName": "Button Component should render title element",
+          "location": null,
+          "status": "passed",
+          "title": "should render title element"
+        },
+        {
+          "ancestorTitles": ["Button Component"],
+          "failureMessages": [],
+          "fullName": "Button Component should render aria attribute element",
+          "location": null,
+          "status": "passed",
+          "title": "should render aria attribute element"
+        },
+        {
+          "ancestorTitles": ["Button Component"],
+          "failureMessages": [],
+          "fullName": "Button Component should check the data attribute of button",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of button"
+        }
+      ],
+      "endTime": 1575986403384,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/tests/Button.test.js",
+      "startTime": 1575986403063,
       "status": "passed",
       "summary": ""
     },
@@ -520,10 +484,36 @@
           "title": "should check the default slnid of field error"
         }
       ],
-      "endTime": 1575984007009,
+      "endTime": 1575986403490,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/FieldError/tests/FieldError.test.js",
-      "startTime": 1575984006711,
+      "startTime": 1575986403193,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<ArticleThumbnail />"],
+          "failureMessages": [],
+          "fullName": "<ArticleThumbnail /> should render correctly with Readmore",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with Readmore"
+        },
+        {
+          "ancestorTitles": ["<ArticleThumbnail />"],
+          "failureMessages": [],
+          "fullName": "<ArticleThumbnail /> should render correctly with full clickable thumb",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with full clickable thumb"
+        }
+      ],
+      "endTime": 1575986403688,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/ArticleThumbnail/tests/ArticleThumbnail.test.js",
+      "startTime": 1575986403397,
       "status": "passed",
       "summary": ""
     },
@@ -538,10 +528,28 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1575984007064,
+      "endTime": 1575986403844,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Select/tests/Select.style.test.js",
-      "startTime": 1575984006802,
+      "startTime": 1575986403533,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Breadcrumb />"],
+          "failureMessages": [],
+          "fullName": "<Breadcrumb /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986403850,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/tests/Breadcrumb.test.js",
+      "startTime": 1575986401456,
       "status": "passed",
       "summary": ""
     },
@@ -572,316 +580,10 @@
           "title": "should check the default locator of heading"
         }
       ],
-      "endTime": 1575984007111,
+      "endTime": 1575986403875,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/tests/Heading.test.js",
-      "startTime": 1575984006837,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Anchor Component"],
-          "failureMessages": [],
-          "fullName": "Anchor Component should render correctly and match snapshot",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshot"
-        },
-        {
-          "ancestorTitles": ["Anchor Component"],
-          "failureMessages": [],
-          "fullName": "Anchor Component Should handle on typeahead focuson Events",
-          "location": null,
-          "status": "passed",
-          "title": "Should handle on typeahead focuson Events"
-        },
-        {
-          "ancestorTitles": ["Anchor Component"],
-          "failureMessages": [],
-          "fullName": "Anchor Component should check the data attribute of anchor",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of anchor"
-        }
-      ],
-      "endTime": 1575984007141,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Anchor/tests/Anchor.test.js",
-      "startTime": 1575984006826,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<ArticleThumbnail />"],
-          "failureMessages": [],
-          "fullName": "<ArticleThumbnail /> should render correctly with Readmore",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with Readmore"
-        },
-        {
-          "ancestorTitles": ["<ArticleThumbnail />"],
-          "failureMessages": [],
-          "fullName": "<ArticleThumbnail /> should render correctly with full clickable thumb",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with full clickable thumb"
-        }
-      ],
-      "endTime": 1575984007284,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/ArticleThumbnail/tests/ArticleThumbnail.test.js",
-      "startTime": 1575984006996,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Para Component"],
-          "failureMessages": [],
-          "fullName": "Para Component should render correctly and match snapshot",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshot"
-        },
-        {
-          "ancestorTitles": ["Para Component"],
-          "failureMessages": [],
-          "fullName": "Para Component should check the data attribute of para",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of para"
-        }
-      ],
-      "endTime": 1575984007404,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Para/tests/Para.test.js",
-      "startTime": 1575984007154,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Component"],
-          "failureMessages": [],
-          "fullName": "Select Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Select Component"],
-          "failureMessages": [],
-          "fullName": "Select Component should check the data attribute of dropdown/select",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of dropdown/select"
-        }
-      ],
-      "endTime": 1575984007495,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Select/tests/Select.test.js",
-      "startTime": 1575984007218,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Modal Component"],
-          "failureMessages": [],
-          "fullName": "Modal Component should render Modal correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render Modal correctly"
-        }
-      ],
-      "endTime": 1575984007528,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Modal/tests/Modal.test.js",
-      "startTime": 1575984007268,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Textarea />"],
-          "failureMessages": [],
-          "fullName": "<Textarea /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["<Textarea />"],
-          "failureMessages": [],
-          "fullName": "<Textarea /> should check the data attribute of textarea",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of textarea"
-        }
-      ],
-      "endTime": 1575984007562,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Textarea/tests/Textarea.test.js",
-      "startTime": 1575984007308,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Image Component with styles"],
-          "failureMessages": [],
-          "fullName": "Image Component with styles should render correctly and match snapshots",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshots"
-        },
-        {
-          "ancestorTitles": ["Image Component with styles"],
-          "failureMessages": [],
-          "fullName": "Image Component with styles should render correctly with lazy load",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with lazy load"
-        }
-      ],
-      "endTime": 1575984007610,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/tests/Image.style.test.js",
-      "startTime": 1575984007354,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Input Styled component"],
-          "failureMessages": [],
-          "fullName": "Input Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984007618,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Input/tests/Input.style.test.js",
-      "startTime": 1575984007380,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Tab />"],
-          "failureMessages": [],
-          "fullName": "<Tab /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984007793,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Tabs/Tab/tests/Tab.test.js",
-      "startTime": 1575984007569,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Styled component"],
-          "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984007895,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Textarea/tests/Textarea.style.test.js",
-      "startTime": 1575984007676,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Label Component"],
-          "failureMessages": [],
-          "fullName": "Label Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Label Component"],
-          "failureMessages": [],
-          "fullName": "Label Component should check the data attribute of label",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of label"
-        }
-      ],
-      "endTime": 1575984007926,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Label/tests/Label.test.js",
-      "startTime": 1575984007735,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Debug"],
-          "failureMessages": [],
-          "fullName": "Debug should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1575984007978,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/Debug/tests/Debug.test.js",
-      "startTime": 1575984007757,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Input Component"],
-          "failureMessages": [],
-          "fullName": "Input Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Input Component"],
-          "failureMessages": [],
-          "fullName": "Input Component should check the data attribute of input",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of input"
-        }
-      ],
-      "endTime": 1575984008017,
-      "message": "",
-      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Input/tests/Input.test.js",
-      "startTime": 1575984007782,
+      "startTime": 1575986403592,
       "status": "passed",
       "summary": ""
     },
@@ -920,10 +622,308 @@
           "title": "should check the default locator of image"
         }
       ],
-      "endTime": 1575984008017,
+      "endTime": 1575986403895,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/tests/Image.test.js",
-      "startTime": 1575984007837,
+      "startTime": 1575986403631,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<PaginationHoc />"],
+          "failureMessages": [],
+          "fullName": "<PaginationHoc /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986403989,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/tests/PaginationHoc.test.js",
+      "startTime": 1575986403644,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component should render correctly and match snapshot",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshot"
+        },
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component Should handle on typeahead focuson Events",
+          "location": null,
+          "status": "passed",
+          "title": "Should handle on typeahead focuson Events"
+        },
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component should check the data attribute of anchor",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of anchor"
+        }
+      ],
+      "endTime": 1575986404026,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Anchor/tests/Anchor.test.js",
+      "startTime": 1575986403757,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Select Styled component"],
+          "failureMessages": [],
+          "fullName": "Select Styled component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986404272,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Textarea/tests/Textarea.style.test.js",
+      "startTime": 1575986404023,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Image Component with styles"],
+          "failureMessages": [],
+          "fullName": "Image Component with styles should render correctly and match snapshots",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshots"
+        },
+        {
+          "ancestorTitles": ["Image Component with styles"],
+          "failureMessages": [],
+          "fullName": "Image Component with styles should render correctly with lazy load",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with lazy load"
+        }
+      ],
+      "endTime": 1575986404348,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/tests/Image.style.test.js",
+      "startTime": 1575986404151,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Modal Component"],
+          "failureMessages": [],
+          "fullName": "Modal Component should render Modal correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render Modal correctly"
+        }
+      ],
+      "endTime": 1575986404368,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Modal/tests/Modal.test.js",
+      "startTime": 1575986404114,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Input Component"],
+          "failureMessages": [],
+          "fullName": "Input Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Input Component"],
+          "failureMessages": [],
+          "fullName": "Input Component should check the data attribute of input",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of input"
+        }
+      ],
+      "endTime": 1575986404427,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Input/tests/Input.test.js",
+      "startTime": 1575986404170,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Input Styled component"],
+          "failureMessages": [],
+          "fullName": "Input Styled component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986404465,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Input/tests/Input.style.test.js",
+      "startTime": 1575986404171,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Para Component"],
+          "failureMessages": [],
+          "fullName": "Para Component should render correctly and match snapshot",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshot"
+        },
+        {
+          "ancestorTitles": ["Para Component"],
+          "failureMessages": [],
+          "fullName": "Para Component should check the data attribute of para",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of para"
+        }
+      ],
+      "endTime": 1575986404476,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Para/tests/Para.test.js",
+      "startTime": 1575986404252,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Tab />"],
+          "failureMessages": [],
+          "fullName": "<Tab /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986404543,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Tabs/Tab/tests/Tab.test.js",
+      "startTime": 1575986404290,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Textarea />"],
+          "failureMessages": [],
+          "fullName": "<Textarea /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["<Textarea />"],
+          "failureMessages": [],
+          "fullName": "<Textarea /> should check the data attribute of textarea",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of textarea"
+        }
+      ],
+      "endTime": 1575986404771,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Textarea/tests/Textarea.test.js",
+      "startTime": 1575986404571,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Debug"],
+          "failureMessages": [],
+          "fullName": "Debug should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1575986404773,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Form/Debug/tests/Debug.test.js",
+      "startTime": 1575986404620,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Select Component"],
+          "failureMessages": [],
+          "fullName": "Select Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Select Component"],
+          "failureMessages": [],
+          "fullName": "Select Component should check the data attribute of dropdown/select",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of dropdown/select"
+        }
+      ],
+      "endTime": 1575986404823,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Select/tests/Select.test.js",
+      "startTime": 1575986404632,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Label Component"],
+          "failureMessages": [],
+          "fullName": "Label Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Label Component"],
+          "failureMessages": [],
+          "fullName": "Label Component should check the data attribute of label",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of label"
+        }
+      ],
+      "endTime": 1575986404860,
+      "message": "",
+      "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Label/tests/Label.test.js",
+      "startTime": 1575986404680,
       "status": "passed",
       "summary": ""
     },
@@ -938,10 +938,10 @@
           "title": "should render default view correctly"
         }
       ],
-      "endTime": 1575984008045,
+      "endTime": 1575986404873,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/List/tests/List.test.js",
-      "startTime": 1575984007854,
+      "startTime": 1575986404705,
       "status": "passed",
       "summary": ""
     },
@@ -956,16 +956,165 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1575984008169,
+      "endTime": 1575986404937,
       "message": "",
       "name": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Tabs/TabPanel/tests/TabPanel.test.js",
-      "startTime": 1575984008034,
+      "startTime": 1575986404764,
       "status": "passed",
       "summary": ""
     }
   ],
   "wasInterrupted": false,
   "coverageMap": {
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "e68acb0f211e44014d211d190123e831056fe25d"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 19 }, "end": { "line": 76, "column": 1 } },
+        "1": { "start": { "line": 27, "column": 22 }, "end": { "line": 27, "column": 24 } },
+        "2": { "start": { "line": 28, "column": 10 }, "end": { "line": 28, "column": 11 } },
+        "3": { "start": { "line": 30, "column": 2 }, "end": { "line": 33, "column": 54 } },
+        "4": { "start": { "line": 31, "column": 4 }, "end": { "line": 31, "column": 11 } },
+        "5": { "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 24 } },
+        "6": { "start": { "line": 35, "column": 34 }, "end": { "line": 35, "column": 48 } },
+        "7": { "start": { "line": 36, "column": 23 }, "end": { "line": 36, "column": 37 } },
+        "8": { "start": { "line": 37, "column": 23 }, "end": { "line": 37, "column": 56 } },
+        "9": { "start": { "line": 39, "column": 2 }, "end": { "line": 75, "column": 4 } },
+        "10": { "start": { "line": 46, "column": 27 }, "end": { "line": 46, "column": 38 } },
+        "11": { "start": { "line": 52, "column": 68 }, "end": { "line": 52, "column": 93 } },
+        "12": { "start": { "line": 57, "column": 10 }, "end": { "line": 61, "column": 15 } },
+        "13": { "start": { "line": 58, "column": 35 }, "end": { "line": 58, "column": 51 } },
+        "14": { "start": { "line": 64, "column": 57 }, "end": { "line": 64, "column": 82 } },
+        "15": { "start": { "line": 69, "column": 57 }, "end": { "line": 69, "column": 78 } },
+        "16": { "start": { "line": 78, "column": 0 }, "end": { "line": 84, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 19 }, "end": { "line": 14, "column": 20 } },
+          "loc": { "start": { "line": 26, "column": 19 }, "end": { "line": 76, "column": 1 } },
+          "line": 26
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 46, "column": 21 }, "end": { "line": 46, "column": 22 } },
+          "loc": { "start": { "line": 46, "column": 27 }, "end": { "line": 46, "column": 38 } },
+          "line": 46
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 52, "column": 62 }, "end": { "line": 52, "column": 63 } },
+          "loc": { "start": { "line": 52, "column": 68 }, "end": { "line": 52, "column": 93 } },
+          "line": 52
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 56, "column": 25 }, "end": { "line": 56, "column": 26 } },
+          "loc": { "start": { "line": 57, "column": 10 }, "end": { "line": 61, "column": 15 } },
+          "line": 57
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 58, "column": 29 }, "end": { "line": 58, "column": 30 } },
+          "loc": { "start": { "line": 58, "column": 35 }, "end": { "line": 58, "column": 51 } },
+          "line": 58
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 64, "column": 51 }, "end": { "line": 64, "column": 52 } },
+          "loc": { "start": { "line": 64, "column": 57 }, "end": { "line": 64, "column": 82 } },
+          "line": 64
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 69, "column": 51 }, "end": { "line": 69, "column": 52 } },
+          "loc": { "start": { "line": 69, "column": 57 }, "end": { "line": 69, "column": 78 } },
+          "line": 69
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 2,
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 13,
+        "6": 13,
+        "7": 13,
+        "8": 13,
+        "9": 13,
+        "10": 1,
+        "11": 1,
+        "12": 13,
+        "13": 0,
+        "14": 1,
+        "15": 1,
+        "16": 2
+      },
+      "f": { "0": 13, "1": 1, "2": 1, "3": 13, "4": 0, "5": 1, "6": 1 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "6823d34849ba6599085c39315642b2b70abc58e0"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.style.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 7, "column": 28 }, "end": { "line": 7, "column": 53 } },
+        "1": { "start": { "line": 9, "column": 14 }, "end": { "line": 9, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 7, "column": 19 }, "end": { "line": 7, "column": 20 } },
+          "loc": { "start": { "line": 7, "column": 28 }, "end": { "line": 7, "column": 53 } },
+          "line": 7
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 5 } },
+          "loc": { "start": { "line": 9, "column": 14 }, "end": { "line": 9, "column": 64 } },
+          "line": 9
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 9, "column": 14 }, "end": { "line": 9, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 9, "column": 38 }, "end": { "line": 9, "column": 59 } },
+            { "start": { "line": 9, "column": 62 }, "end": { "line": 9, "column": 64 } }
+          ],
+          "line": 9
+        }
+      },
+      "s": { "0": 0, "1": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "8ba9e33979926bbfb2a2b808de050182273f055c"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "56c2555b95b83ca0e3ef936f369c2700230d1e74"
+    },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/Button.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/Button.js",
       "statementMap": {
@@ -3667,304 +3816,6 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "1f022d8a68b3116cc28c6f64c30213bbc217e381"
     },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Button/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "56c2555b95b83ca0e3ef936f369c2700230d1e74"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "4814da0e1e2a8bd0bf345a582ab3da7bc846103b"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/PaginationHoc.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/PaginationHoc.js",
-      "statementMap": {
-        "0": { "start": { "line": 14, "column": 31 }, "end": { "line": 60, "column": 1 } },
-        "1": { "start": { "line": 18, "column": 30 }, "end": { "line": 18, "column": 42 } },
-        "2": { "start": { "line": 19, "column": 42 }, "end": { "line": 19, "column": 53 } },
-        "3": { "start": { "line": 20, "column": 27 }, "end": { "line": 20, "column": 39 } },
-        "4": { "start": { "line": 21, "column": 42 }, "end": { "line": 21, "column": 54 } },
-        "5": { "start": { "line": 23, "column": 4 }, "end": { "line": 25, "column": 11 } },
-        "6": { "start": { "line": 24, "column": 6 }, "end": { "line": 24, "column": 36 } },
-        "7": { "start": { "line": 27, "column": 28 }, "end": { "line": 27, "column": 54 } },
-        "8": { "start": { "line": 28, "column": 29 }, "end": { "line": 28, "column": 59 } },
-        "9": { "start": { "line": 30, "column": 4 }, "end": { "line": 32, "column": 11 } },
-        "10": { "start": { "line": 31, "column": 6 }, "end": { "line": 31, "column": 24 } },
-        "11": { "start": { "line": 34, "column": 4 }, "end": { "line": 37, "column": 22 } },
-        "12": { "start": { "line": 35, "column": 26 }, "end": { "line": 35, "column": 72 } },
-        "13": { "start": { "line": 36, "column": 6 }, "end": { "line": 36, "column": 34 } },
-        "14": { "start": { "line": 39, "column": 21 }, "end": { "line": 39, "column": 61 } },
-        "15": { "start": { "line": 39, "column": 35 }, "end": { "line": 39, "column": 61 } },
-        "16": { "start": { "line": 41, "column": 4 }, "end": { "line": 55, "column": 6 } },
-        "17": { "start": { "line": 44, "column": 50 }, "end": { "line": 44, "column": 71 } },
-        "18": { "start": { "line": 58, "column": 2 }, "end": { "line": 58, "column": 83 } },
-        "19": { "start": { "line": 59, "column": 2 }, "end": { "line": 59, "column": 23 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 14, "column": 31 }, "end": { "line": 14, "column": 32 } },
-          "loc": { "start": { "line": 14, "column": 51 }, "end": { "line": 60, "column": 1 } },
-          "line": 14
-        },
-        "1": {
-          "name": "PaginationHoc",
-          "decl": { "start": { "line": 17, "column": 11 }, "end": { "line": 17, "column": 24 } },
-          "loc": { "start": { "line": 17, "column": 32 }, "end": { "line": 56, "column": 3 } },
-          "line": 17
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 23, "column": 14 }, "end": { "line": 23, "column": 15 } },
-          "loc": { "start": { "line": 23, "column": 20 }, "end": { "line": 25, "column": 5 } },
-          "line": 23
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 30, "column": 14 }, "end": { "line": 30, "column": 15 } },
-          "loc": { "start": { "line": 30, "column": 20 }, "end": { "line": 32, "column": 5 } },
-          "line": 30
-        },
-        "4": {
-          "name": "(anonymous_4)",
-          "decl": { "start": { "line": 34, "column": 14 }, "end": { "line": 34, "column": 15 } },
-          "loc": { "start": { "line": 34, "column": 20 }, "end": { "line": 37, "column": 5 } },
-          "line": 34
-        },
-        "5": {
-          "name": "(anonymous_5)",
-          "decl": { "start": { "line": 39, "column": 21 }, "end": { "line": 39, "column": 22 } },
-          "loc": { "start": { "line": 39, "column": 35 }, "end": { "line": 39, "column": 61 } },
-          "line": 39
-        },
-        "6": {
-          "name": "(anonymous_6)",
-          "decl": { "start": { "line": 44, "column": 42 }, "end": { "line": 44, "column": 43 } },
-          "loc": { "start": { "line": 44, "column": 50 }, "end": { "line": 44, "column": 71 } },
-          "line": 44
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 44, "column": 11 }, "end": { "line": 44, "column": 72 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 44, "column": 11 }, "end": { "line": 44, "column": 22 } },
-            { "start": { "line": 44, "column": 26 }, "end": { "line": 44, "column": 72 } }
-          ],
-          "line": 44
-        }
-      },
-      "s": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
-        "3": 1,
-        "4": 1,
-        "5": 1,
-        "6": 0,
-        "7": 1,
-        "8": 1,
-        "9": 1,
-        "10": 0,
-        "11": 1,
-        "12": 0,
-        "13": 0,
-        "14": 1,
-        "15": 0,
-        "16": 1,
-        "17": 0,
-        "18": 1,
-        "19": 1
-      },
-      "f": { "0": 1, "1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
-      "b": { "0": [1, 1] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "c6601140c801e3f33f684d75066b0b96d7ac2e84"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/core/utils/getDisplayName.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/core/utils/getDisplayName.js",
-      "statementMap": {
-        "0": { "start": { "line": 1, "column": 30 }, "end": { "line": 3, "column": 1 } },
-        "1": { "start": { "line": 2, "column": 2 }, "end": { "line": 2, "column": 78 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 1, "column": 30 }, "end": { "line": 1, "column": 31 } },
-          "loc": { "start": { "line": 1, "column": 50 }, "end": { "line": 3, "column": 1 } },
-          "line": 1
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 2, "column": 9 }, "end": { "line": 2, "column": 77 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 2, "column": 9 }, "end": { "line": 2, "column": 37 } },
-            { "start": { "line": 2, "column": 41 }, "end": { "line": 2, "column": 62 } },
-            { "start": { "line": 2, "column": 66 }, "end": { "line": 2, "column": 77 } }
-          ],
-          "line": 2
-        }
-      },
-      "s": { "0": 1, "1": 1 },
-      "f": { "0": 1 },
-      "b": { "0": [1, 1, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "5921e6c73722a47d83ad40c5903874f95d9bc66a"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "e68acb0f211e44014d211d190123e831056fe25d"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.js",
-      "statementMap": {
-        "0": { "start": { "line": 14, "column": 19 }, "end": { "line": 76, "column": 1 } },
-        "1": { "start": { "line": 27, "column": 22 }, "end": { "line": 27, "column": 24 } },
-        "2": { "start": { "line": 28, "column": 10 }, "end": { "line": 28, "column": 11 } },
-        "3": { "start": { "line": 30, "column": 2 }, "end": { "line": 33, "column": 54 } },
-        "4": { "start": { "line": 31, "column": 4 }, "end": { "line": 31, "column": 11 } },
-        "5": { "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 24 } },
-        "6": { "start": { "line": 35, "column": 34 }, "end": { "line": 35, "column": 48 } },
-        "7": { "start": { "line": 36, "column": 23 }, "end": { "line": 36, "column": 37 } },
-        "8": { "start": { "line": 37, "column": 23 }, "end": { "line": 37, "column": 56 } },
-        "9": { "start": { "line": 39, "column": 2 }, "end": { "line": 75, "column": 4 } },
-        "10": { "start": { "line": 46, "column": 27 }, "end": { "line": 46, "column": 38 } },
-        "11": { "start": { "line": 52, "column": 68 }, "end": { "line": 52, "column": 93 } },
-        "12": { "start": { "line": 57, "column": 10 }, "end": { "line": 61, "column": 15 } },
-        "13": { "start": { "line": 58, "column": 35 }, "end": { "line": 58, "column": 51 } },
-        "14": { "start": { "line": 64, "column": 57 }, "end": { "line": 64, "column": 82 } },
-        "15": { "start": { "line": 69, "column": 57 }, "end": { "line": 69, "column": 78 } },
-        "16": { "start": { "line": 78, "column": 0 }, "end": { "line": 84, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 14, "column": 19 }, "end": { "line": 14, "column": 20 } },
-          "loc": { "start": { "line": 26, "column": 19 }, "end": { "line": 76, "column": 1 } },
-          "line": 26
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 46, "column": 21 }, "end": { "line": 46, "column": 22 } },
-          "loc": { "start": { "line": 46, "column": 27 }, "end": { "line": 46, "column": 38 } },
-          "line": 46
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 52, "column": 62 }, "end": { "line": 52, "column": 63 } },
-          "loc": { "start": { "line": 52, "column": 68 }, "end": { "line": 52, "column": 93 } },
-          "line": 52
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 56, "column": 25 }, "end": { "line": 56, "column": 26 } },
-          "loc": { "start": { "line": 57, "column": 10 }, "end": { "line": 61, "column": 15 } },
-          "line": 57
-        },
-        "4": {
-          "name": "(anonymous_4)",
-          "decl": { "start": { "line": 58, "column": 29 }, "end": { "line": 58, "column": 30 } },
-          "loc": { "start": { "line": 58, "column": 35 }, "end": { "line": 58, "column": 51 } },
-          "line": 58
-        },
-        "5": {
-          "name": "(anonymous_5)",
-          "decl": { "start": { "line": 64, "column": 51 }, "end": { "line": 64, "column": 52 } },
-          "loc": { "start": { "line": 64, "column": 57 }, "end": { "line": 64, "column": 82 } },
-          "line": 64
-        },
-        "6": {
-          "name": "(anonymous_6)",
-          "decl": { "start": { "line": 69, "column": 51 }, "end": { "line": 69, "column": 52 } },
-          "loc": { "start": { "line": 69, "column": 57 }, "end": { "line": 69, "column": 78 } },
-          "line": 69
-        }
-      },
-      "branchMap": {},
-      "s": {
-        "0": 2,
-        "1": 13,
-        "2": 13,
-        "3": 13,
-        "4": 13,
-        "5": 13,
-        "6": 13,
-        "7": 13,
-        "8": 13,
-        "9": 13,
-        "10": 1,
-        "11": 1,
-        "12": 13,
-        "13": 0,
-        "14": 1,
-        "15": 1,
-        "16": 2
-      },
-      "f": { "0": 13, "1": 1, "2": 1, "3": 13, "4": 0, "5": 1, "6": 1 },
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "6823d34849ba6599085c39315642b2b70abc58e0"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.style.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Pagination/Pagination.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 7, "column": 28 }, "end": { "line": 7, "column": 53 } },
-        "1": { "start": { "line": 9, "column": 14 }, "end": { "line": 9, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 7, "column": 19 }, "end": { "line": 7, "column": 20 } },
-          "loc": { "start": { "line": 7, "column": 28 }, "end": { "line": 7, "column": 53 } },
-          "line": 7
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 5 } },
-          "loc": { "start": { "line": 9, "column": 14 }, "end": { "line": 9, "column": 64 } },
-          "line": 9
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 9, "column": 14 }, "end": { "line": 9, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 9, "column": 38 }, "end": { "line": 9, "column": 59 } },
-            { "start": { "line": 9, "column": 62 }, "end": { "line": 9, "column": 64 } }
-          ],
-          "line": 9
-        }
-      },
-      "s": { "0": 0, "1": 0 },
-      "f": { "0": 0, "1": 0 },
-      "b": { "0": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "8ba9e33979926bbfb2a2b808de050182273f055c"
-    },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Popover/index.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Popover/index.js",
       "statementMap": {},
@@ -4178,199 +4029,6 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "82864c8960e71d14ec6f82218d535bc13f5a7eda"
     },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "4955e7b20a1a6ac3b64289b0aeb6b6885aa1fbac"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.js",
-      "statementMap": {
-        "0": { "start": { "line": 15, "column": 19 }, "end": { "line": 30, "column": 1 } },
-        "1": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
-        "2": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 15, "column": 19 }, "end": { "line": 15, "column": 20 } },
-          "loc": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
-          "line": 16
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 19, "column": 21 }, "end": { "line": 19, "column": 22 } },
-          "loc": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } },
-          "line": 20
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 18, "column": 7 }, "end": { "line": 27, "column": 10 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 18, "column": 7 }, "end": { "line": 18, "column": 15 } },
-            { "start": { "line": 19, "column": 8 }, "end": { "line": 27, "column": 10 } }
-          ],
-          "line": 18
-        },
-        "1": {
-          "loc": { "start": { "line": 21, "column": 13 }, "end": { "line": 25, "column": 13 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 22, "column": 14 }, "end": { "line": 22, "column": 54 } },
-            { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 34 } }
-          ],
-          "line": 21
-        }
-      },
-      "s": { "0": 1, "1": 1, "2": 3 },
-      "f": { "0": 1, "1": 3 },
-      "b": { "0": [1, 1], "1": [1, 2] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "4acaa267ff6e2ab0efd0c809008e3318bcfcc5e7"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.style.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
-          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
-          "line": 4
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 4, "column": 38 }, "end": { "line": 4, "column": 59 } },
-            { "start": { "line": 4, "column": 62 }, "end": { "line": 4, "column": 64 } }
-          ],
-          "line": 4
-        }
-      },
-      "s": { "0": 0 },
-      "f": { "0": 0 },
-      "b": { "0": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "971d14e54af9cbdd221d3f3187bca0678e194577"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "c32c3cd2a2385875effd25f5a4ead9e226e4b1d0"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.js",
-      "statementMap": {
-        "0": { "start": { "line": 17, "column": 16 }, "end": { "line": 32, "column": 1 } },
-        "1": { "start": { "line": 25, "column": 2 }, "end": { "line": 31, "column": 16 } },
-        "2": { "start": { "line": 34, "column": 0 }, "end": { "line": 38, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 17, "column": 16 }, "end": { "line": 17, "column": 17 } },
-          "loc": { "start": { "line": 25, "column": 2 }, "end": { "line": 31, "column": 16 } },
-          "line": 25
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 20, "column": 2 }, "end": { "line": 20, "column": 20 } },
-          "type": "default-arg",
-          "locations": [
-            { "start": { "line": 20, "column": 16 }, "end": { "line": 20, "column": 20 } }
-          ],
-          "line": 20
-        },
-        "1": {
-          "loc": { "start": { "line": 27, "column": 18 }, "end": { "line": 27, "column": 94 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 27, "column": 18 }, "end": { "line": 27, "column": 32 } },
-            { "start": { "line": 27, "column": 36 }, "end": { "line": 27, "column": 94 } }
-          ],
-          "line": 27
-        }
-      },
-      "s": { "0": 1, "1": 3, "2": 1 },
-      "f": { "0": 3 },
-      "b": { "0": [0], "1": [3, 2] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "a56895a9b3b6ce1e258b657224f9a8d208d4f792"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.style.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 5, "column": 4 }, "end": { "line": 16, "column": 5 } },
-        "1": { "start": { "line": 7, "column": 8 }, "end": { "line": 7, "column": 46 } },
-        "2": { "start": { "line": 9, "column": 8 }, "end": { "line": 9, "column": 46 } },
-        "3": { "start": { "line": 11, "column": 8 }, "end": { "line": 11, "column": 46 } },
-        "4": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 46 } },
-        "5": { "start": { "line": 15, "column": 8 }, "end": { "line": 15, "column": 51 } },
-        "6": { "start": { "line": 18, "column": 14 }, "end": { "line": 18, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
-          "loc": { "start": { "line": 4, "column": 13 }, "end": { "line": 17, "column": 3 } },
-          "line": 4
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 18, "column": 4 }, "end": { "line": 18, "column": 5 } },
-          "loc": { "start": { "line": 18, "column": 14 }, "end": { "line": 18, "column": 64 } },
-          "line": 18
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 5, "column": 4 }, "end": { "line": 16, "column": 5 } },
-          "type": "switch",
-          "locations": [
-            { "start": { "line": 6, "column": 6 }, "end": { "line": 7, "column": 46 } },
-            { "start": { "line": 8, "column": 6 }, "end": { "line": 9, "column": 46 } },
-            { "start": { "line": 10, "column": 6 }, "end": { "line": 11, "column": 46 } },
-            { "start": { "line": 12, "column": 6 }, "end": { "line": 13, "column": 46 } },
-            { "start": { "line": 14, "column": 6 }, "end": { "line": 15, "column": 51 } }
-          ],
-          "line": 5
-        },
-        "1": {
-          "loc": { "start": { "line": 18, "column": 14 }, "end": { "line": 18, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 18, "column": 38 }, "end": { "line": 18, "column": 59 } },
-            { "start": { "line": 18, "column": 62 }, "end": { "line": 18, "column": 64 } }
-          ],
-          "line": 18
-        }
-      },
-      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
-      "f": { "0": 0, "1": 0 },
-      "b": { "0": [0, 0, 0, 0, 0], "1": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "9bd382bbda46860a6e9124bf0a6a4761822da967"
-    },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/ArticleThumbnail/index.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/ArticleThumbnail/index.js",
       "statementMap": {},
@@ -4568,6 +4226,348 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "a780647f9c349c2862d59bfbebe98ff5e1c3e566"
     },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "4955e7b20a1a6ac3b64289b0aeb6b6885aa1fbac"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.js",
+      "statementMap": {
+        "0": { "start": { "line": 15, "column": 19 }, "end": { "line": 30, "column": 1 } },
+        "1": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
+        "2": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 15, "column": 19 }, "end": { "line": 15, "column": 20 } },
+          "loc": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
+          "line": 16
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 19, "column": 21 }, "end": { "line": 19, "column": 22 } },
+          "loc": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } },
+          "line": 20
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 18, "column": 7 }, "end": { "line": 27, "column": 10 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 18, "column": 7 }, "end": { "line": 18, "column": 15 } },
+            { "start": { "line": 19, "column": 8 }, "end": { "line": 27, "column": 10 } }
+          ],
+          "line": 18
+        },
+        "1": {
+          "loc": { "start": { "line": 21, "column": 13 }, "end": { "line": 25, "column": 13 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 22, "column": 14 }, "end": { "line": 22, "column": 54 } },
+            { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 34 } }
+          ],
+          "line": 21
+        }
+      },
+      "s": { "0": 1, "1": 1, "2": 3 },
+      "f": { "0": 1, "1": 3 },
+      "b": { "0": [1, 1], "1": [1, 2] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "4acaa267ff6e2ab0efd0c809008e3318bcfcc5e7"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.style.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/Breadcrumb.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
+          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
+          "line": 4
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 4, "column": 38 }, "end": { "line": 4, "column": 59 } },
+            { "start": { "line": 4, "column": 62 }, "end": { "line": 4, "column": 64 } }
+          ],
+          "line": 4
+        }
+      },
+      "s": { "0": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "971d14e54af9cbdd221d3f3187bca0678e194577"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "c32c3cd2a2385875effd25f5a4ead9e226e4b1d0"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.js",
+      "statementMap": {
+        "0": { "start": { "line": 17, "column": 16 }, "end": { "line": 32, "column": 1 } },
+        "1": { "start": { "line": 25, "column": 2 }, "end": { "line": 31, "column": 16 } },
+        "2": { "start": { "line": 34, "column": 0 }, "end": { "line": 38, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 17, "column": 16 }, "end": { "line": 17, "column": 17 } },
+          "loc": { "start": { "line": 25, "column": 2 }, "end": { "line": 31, "column": 16 } },
+          "line": 25
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 20, "column": 2 }, "end": { "line": 20, "column": 20 } },
+          "type": "default-arg",
+          "locations": [
+            { "start": { "line": 20, "column": 16 }, "end": { "line": 20, "column": 20 } }
+          ],
+          "line": 20
+        },
+        "1": {
+          "loc": { "start": { "line": 27, "column": 18 }, "end": { "line": 27, "column": 94 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 27, "column": 18 }, "end": { "line": 27, "column": 32 } },
+            { "start": { "line": 27, "column": 36 }, "end": { "line": 27, "column": 94 } }
+          ],
+          "line": 27
+        }
+      },
+      "s": { "0": 1, "1": 3, "2": 1 },
+      "f": { "0": 3 },
+      "b": { "0": [0], "1": [3, 2] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "a56895a9b3b6ce1e258b657224f9a8d208d4f792"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.style.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Heading/Heading.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 5, "column": 4 }, "end": { "line": 16, "column": 5 } },
+        "1": { "start": { "line": 7, "column": 8 }, "end": { "line": 7, "column": 46 } },
+        "2": { "start": { "line": 9, "column": 8 }, "end": { "line": 9, "column": 46 } },
+        "3": { "start": { "line": 11, "column": 8 }, "end": { "line": 11, "column": 46 } },
+        "4": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 46 } },
+        "5": { "start": { "line": 15, "column": 8 }, "end": { "line": 15, "column": 51 } },
+        "6": { "start": { "line": 18, "column": 14 }, "end": { "line": 18, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
+          "loc": { "start": { "line": 4, "column": 13 }, "end": { "line": 17, "column": 3 } },
+          "line": 4
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 18, "column": 4 }, "end": { "line": 18, "column": 5 } },
+          "loc": { "start": { "line": 18, "column": 14 }, "end": { "line": 18, "column": 64 } },
+          "line": 18
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 5, "column": 4 }, "end": { "line": 16, "column": 5 } },
+          "type": "switch",
+          "locations": [
+            { "start": { "line": 6, "column": 6 }, "end": { "line": 7, "column": 46 } },
+            { "start": { "line": 8, "column": 6 }, "end": { "line": 9, "column": 46 } },
+            { "start": { "line": 10, "column": 6 }, "end": { "line": 11, "column": 46 } },
+            { "start": { "line": 12, "column": 6 }, "end": { "line": 13, "column": 46 } },
+            { "start": { "line": 14, "column": 6 }, "end": { "line": 15, "column": 51 } }
+          ],
+          "line": 5
+        },
+        "1": {
+          "loc": { "start": { "line": 18, "column": 14 }, "end": { "line": 18, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 18, "column": 38 }, "end": { "line": 18, "column": 59 } },
+            { "start": { "line": 18, "column": 62 }, "end": { "line": 18, "column": 64 } }
+          ],
+          "line": 18
+        }
+      },
+      "s": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0 },
+      "b": { "0": [0, 0, 0, 0, 0], "1": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "9bd382bbda46860a6e9124bf0a6a4761822da967"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "4814da0e1e2a8bd0bf345a582ab3da7bc846103b"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/PaginationHoc.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/PaginationHoc.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 31 }, "end": { "line": 60, "column": 1 } },
+        "1": { "start": { "line": 18, "column": 30 }, "end": { "line": 18, "column": 42 } },
+        "2": { "start": { "line": 19, "column": 42 }, "end": { "line": 19, "column": 53 } },
+        "3": { "start": { "line": 20, "column": 27 }, "end": { "line": 20, "column": 39 } },
+        "4": { "start": { "line": 21, "column": 42 }, "end": { "line": 21, "column": 54 } },
+        "5": { "start": { "line": 23, "column": 4 }, "end": { "line": 25, "column": 11 } },
+        "6": { "start": { "line": 24, "column": 6 }, "end": { "line": 24, "column": 36 } },
+        "7": { "start": { "line": 27, "column": 28 }, "end": { "line": 27, "column": 54 } },
+        "8": { "start": { "line": 28, "column": 29 }, "end": { "line": 28, "column": 59 } },
+        "9": { "start": { "line": 30, "column": 4 }, "end": { "line": 32, "column": 11 } },
+        "10": { "start": { "line": 31, "column": 6 }, "end": { "line": 31, "column": 24 } },
+        "11": { "start": { "line": 34, "column": 4 }, "end": { "line": 37, "column": 22 } },
+        "12": { "start": { "line": 35, "column": 26 }, "end": { "line": 35, "column": 72 } },
+        "13": { "start": { "line": 36, "column": 6 }, "end": { "line": 36, "column": 34 } },
+        "14": { "start": { "line": 39, "column": 21 }, "end": { "line": 39, "column": 61 } },
+        "15": { "start": { "line": 39, "column": 35 }, "end": { "line": 39, "column": 61 } },
+        "16": { "start": { "line": 41, "column": 4 }, "end": { "line": 55, "column": 6 } },
+        "17": { "start": { "line": 44, "column": 50 }, "end": { "line": 44, "column": 71 } },
+        "18": { "start": { "line": 58, "column": 2 }, "end": { "line": 58, "column": 83 } },
+        "19": { "start": { "line": 59, "column": 2 }, "end": { "line": 59, "column": 23 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 31 }, "end": { "line": 14, "column": 32 } },
+          "loc": { "start": { "line": 14, "column": 51 }, "end": { "line": 60, "column": 1 } },
+          "line": 14
+        },
+        "1": {
+          "name": "PaginationHoc",
+          "decl": { "start": { "line": 17, "column": 11 }, "end": { "line": 17, "column": 24 } },
+          "loc": { "start": { "line": 17, "column": 32 }, "end": { "line": 56, "column": 3 } },
+          "line": 17
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 23, "column": 14 }, "end": { "line": 23, "column": 15 } },
+          "loc": { "start": { "line": 23, "column": 20 }, "end": { "line": 25, "column": 5 } },
+          "line": 23
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 30, "column": 14 }, "end": { "line": 30, "column": 15 } },
+          "loc": { "start": { "line": 30, "column": 20 }, "end": { "line": 32, "column": 5 } },
+          "line": 30
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 34, "column": 14 }, "end": { "line": 34, "column": 15 } },
+          "loc": { "start": { "line": 34, "column": 20 }, "end": { "line": 37, "column": 5 } },
+          "line": 34
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 39, "column": 21 }, "end": { "line": 39, "column": 22 } },
+          "loc": { "start": { "line": 39, "column": 35 }, "end": { "line": 39, "column": 61 } },
+          "line": 39
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 44, "column": 42 }, "end": { "line": 44, "column": 43 } },
+          "loc": { "start": { "line": 44, "column": 50 }, "end": { "line": 44, "column": 71 } },
+          "line": 44
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 44, "column": 11 }, "end": { "line": 44, "column": 72 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 44, "column": 11 }, "end": { "line": 44, "column": 22 } },
+            { "start": { "line": 44, "column": 26 }, "end": { "line": 44, "column": 72 } }
+          ],
+          "line": 44
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 0,
+        "11": 1,
+        "12": 0,
+        "13": 0,
+        "14": 1,
+        "15": 0,
+        "16": 1,
+        "17": 0,
+        "18": 1,
+        "19": 1
+      },
+      "f": { "0": 1, "1": 1, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "b": { "0": [1, 1] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "c6601140c801e3f33f684d75066b0b96d7ac2e84"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/core/utils/getDisplayName.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/core/utils/getDisplayName.js",
+      "statementMap": {
+        "0": { "start": { "line": 1, "column": 30 }, "end": { "line": 3, "column": 1 } },
+        "1": { "start": { "line": 2, "column": 2 }, "end": { "line": 2, "column": 78 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 1, "column": 30 }, "end": { "line": 1, "column": 31 } },
+          "loc": { "start": { "line": 1, "column": 50 }, "end": { "line": 3, "column": 1 } },
+          "line": 1
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 2, "column": 9 }, "end": { "line": 2, "column": 77 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 2, "column": 9 }, "end": { "line": 2, "column": 37 } },
+            { "start": { "line": 2, "column": 41 }, "end": { "line": 2, "column": 62 } },
+            { "start": { "line": 2, "column": 66 }, "end": { "line": 2, "column": 77 } }
+          ],
+          "line": 2
+        }
+      },
+      "s": { "0": 1, "1": 1 },
+      "f": { "0": 1 },
+      "b": { "0": [1, 1, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "5921e6c73722a47d83ad40c5903874f95d9bc66a"
+    },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Modal/Modal.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Modal/Modal.js",
       "statementMap": {
@@ -4648,6 +4648,16 @@
       "b": {},
       "hash": "42edcec51a8e58d17724060e03262bad3e5e20ed"
     },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "a2806c76e6c0f687c9aa95295474caf754906ab6"
+    },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/ArticleThumbnail/types/index.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/ArticleThumbnail/types/index.js",
       "statementMap": {},
@@ -4657,16 +4667,6 @@
       "f": {},
       "b": {},
       "hash": "37ed3d8af5209f368d6660ff973c7025f4f2ce0a"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/types/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/types/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "f9b9390dd7a712e01a20af07ce4bc1aaee9073fa"
     },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Modal/index.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Modal/index.js",
@@ -4697,16 +4697,6 @@
       "f": {},
       "b": {},
       "hash": "f18df9a2667cc38923d784cd6adda737269b2317"
-    },
-    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/index.js": {
-      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/atoms/Image/index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "a2806c76e6c0f687c9aa95295474caf754906ab6"
     },
     "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/types/index.js": {
       "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/hoc/PaginationHoc/types/index.js",
@@ -4746,6 +4736,16 @@
       "f": { "0": 0 },
       "b": { "0": [0, 0] },
       "hash": "7f34cd7e2f3ed12d61486a0049b0009c5d7637eb"
+    },
+    "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/types/index.js": {
+      "path": "/Users/visjha/Desktop/learning/learning-in-project/atomic-react-components/lib/components/molecules/Breadcrumb/types/index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "f9b9390dd7a712e01a20af07ce4bc1aaee9073fa"
     }
   }
 }
