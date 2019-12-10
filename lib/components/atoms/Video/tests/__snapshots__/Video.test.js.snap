@@ -2,7 +2,7 @@
 
 exports[`<Video /> should render correctly 1`] = `
 <video
-  autoPlay={true}
+  autoPlay={false}
   className="videoContainer"
   controls={true}
   controlsList="nodownload"
@@ -16,6 +16,13 @@ exports[`<Video /> should render correctly 1`] = `
     src="http://techslides.com/demos/sample-videos/small.mp4"
     type="video/mp4"
   />
-  Test
+  <Track
+    id={1}
+    isDefault={true}
+    kind="subtitles"
+    label="English"
+    src="/"
+    srcLang="en"
+  />
 </video>
 `;
