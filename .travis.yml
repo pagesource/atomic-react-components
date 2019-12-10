@@ -24,6 +24,6 @@ notifications:
     - vkumar59@sapient.com
     - akakroo@sapient.com
 cache:
-  yarn: true
+  yarn: false
   directories:
   - node_modules
