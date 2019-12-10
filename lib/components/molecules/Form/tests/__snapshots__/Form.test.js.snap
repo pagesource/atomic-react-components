@@ -327,11 +327,7 @@ exports[`Form Component should render select field 1`] = `
 `;
 
 exports[`Form Component should render select tag correctly 1`] = `
-<Form
-  action="/"
-  className=""
-  debug={false}
-  formWrapperProps={Object {}}
+<Formik
   initialValues={
     Object {
       "email": "",
@@ -343,469 +339,102 @@ exports[`Form Component should render select tag correctly 1`] = `
   validateOnBlur={true}
   validateOnChange={true}
   validationSchema={
-    Object {
-      "email": Object {
-        "email": "Invalid email format",
-        "max": Array [
-          30,
-          "Max reached",
-        ],
-        "required": "Required",
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
       },
-      "username": Object {
-        "max": Array [
-          15,
-          "Max limit reached",
-        ],
-        "required": "User name Required",
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [
+        "email",
+        "username",
+      ],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
       },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {
+        "email": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": true,
+            "undefined": false,
+          },
+          "_mutate": undefined,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+        "username": StringSchema {
+          "_blacklist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_conditions": Array [],
+          "_deps": Array [],
+          "_exclusive": Object {
+            "max": true,
+            "required": true,
+          },
+          "_mutate": undefined,
+          "_options": Object {
+            "abortEarly": true,
+            "recursive": true,
+          },
+          "_type": "string",
+          "_typeError": [Function],
+          "_whitelist": RefSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+        },
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
     }
   }
-  yupValidationSchema={null}
 >
-  <Formik
-    initialValues={
-      Object {
-        "email": "",
-        "typeOfUser": "",
-        "username": "",
-      }
-    }
-    validate={[Function]}
-    validateOnBlur={true}
-    validateOnChange={true}
-    validationSchema={
-      ObjectSchema {
-        "_blacklist": RefSet {
-          "list": Set {},
-          "refs": Map {},
-        },
-        "_conditions": Array [],
-        "_defaultDefault": [Function],
-        "_deps": Array [],
-        "_excludedEdges": Array [],
-        "_exclusive": Object {},
-        "_mutate": undefined,
-        "_nodes": Array [
-          "email",
-          "username",
-        ],
-        "_options": Object {
-          "abortEarly": true,
-          "recursive": true,
-        },
-        "_type": "object",
-        "_typeError": [Function],
-        "_whitelist": RefSet {
-          "list": Set {},
-          "refs": Map {},
-        },
-        "fields": Object {
-          "email": StringSchema {
-            "_blacklist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "_conditions": Array [],
-            "_deps": Array [],
-            "_exclusive": Object {
-              "max": true,
-              "required": true,
-              "undefined": false,
-            },
-            "_mutate": undefined,
-            "_options": Object {
-              "abortEarly": true,
-              "recursive": true,
-            },
-            "_type": "string",
-            "_typeError": [Function],
-            "_whitelist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "tests": Array [
-              [Function],
-              [Function],
-              [Function],
-            ],
-            "transforms": Array [
-              [Function],
-            ],
-          },
-          "username": StringSchema {
-            "_blacklist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "_conditions": Array [],
-            "_deps": Array [],
-            "_exclusive": Object {
-              "max": true,
-              "required": true,
-            },
-            "_mutate": undefined,
-            "_options": Object {
-              "abortEarly": true,
-              "recursive": true,
-            },
-            "_type": "string",
-            "_typeError": [Function],
-            "_whitelist": RefSet {
-              "list": Set {},
-              "refs": Map {},
-            },
-            "tests": Array [
-              [Function],
-              [Function],
-            ],
-            "transforms": Array [
-              [Function],
-            ],
-          },
-        },
-        "tests": Array [],
-        "transforms": Array [
-          [Function],
-        ],
-      }
-    }
-  >
-    <Form
-      noValidate={true}
-    >
-      <form
-        action="#"
-        noValidate={true}
-        onReset={[Function]}
-        onSubmit={[Function]}
-      >
-        <div>
-          <FieldSelect
-            label="Type of user"
-            name="typeOfUser"
-            options={
-              Array [
-                "Admin",
-                "Read Only",
-              ]
-            }
-            validateOnBlur={true}
-          >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "FieldSelect-sc-1fkkiga-0",
-                    "isStatic": false,
-                    "lastClassName": "kbdiVe",
-                    "rules": Array [
-                      "margin-bottom:",
-                      [Function],
-                      ";label{display:block;margin-bottom:",
-                      [Function],
-                      ";}",
-                      ";",
-                    ],
-                  },
-                  "displayName": "FieldSelect",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "FieldSelect-sc-1fkkiga-0",
-                  "target": [Function],
-                  "toString": [Function],
-                  "usesTheme": true,
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-              label="Type of user"
-              name="typeOfUser"
-              options={
-                Array [
-                  "Admin",
-                  "Read Only",
-                ]
-              }
-              validateOnBlur={true}
-            >
-              <FieldSelect
-                className="FieldSelect-sc-1fkkiga-0 kbdiVe"
-                fieldProps={Object {}}
-                label="Type of user"
-                labelProps={Object {}}
-                name="typeOfUser"
-                onChange={null}
-                options={
-                  Array [
-                    "Admin",
-                    "Read Only",
-                  ]
-                }
-                validateOnBlur={true}
-              >
-                <div
-                  className="FieldSelect-sc-1fkkiga-0 kbdiVe"
-                >
-                  <Label
-                    className=""
-                    elementLocator=""
-                  >
-                    <label
-                      className=""
-                      data-locator="label-undefined-type-of"
-                    >
-                      Type of user
-                    </label>
-                  </Label>
-                  <Field
-                    name="typeOfUser"
-                  >
-                    <Select
-                      name="typeOfUser"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      options={
-                        Array [
-                          "Admin",
-                          "Read Only",
-                        ]
-                      }
-                      validateOnBlur={true}
-                      value=""
-                    >
-                      <StyledComponent
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Select-sc-1s3i6e0-0",
-                              "isStatic": false,
-                              "lastClassName": "hiBWUp",
-                              "rules": Array [
-                                "height:auto;",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                ";",
-                              ],
-                            },
-                            "displayName": "Select",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Select-sc-1s3i6e0-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "usesTheme": true,
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        name="typeOfUser"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        options={
-                          Array [
-                            "Admin",
-                            "Read Only",
-                          ]
-                        }
-                        validateOnBlur={true}
-                        value=""
-                      >
-                        <Select
-                          className="Select-sc-1s3i6e0-0 hiBWUp"
-                          disabled={false}
-                          elementLocator=""
-                          name="typeOfUser"
-                          onBlur={[Function]}
-                          onChange={[Function]}
-                          options={
-                            Array [
-                              "Admin",
-                              "Read Only",
-                            ]
-                          }
-                          placeholder=""
-                          selectedOption=""
-                          validateOnBlur={true}
-                          value=""
-                        >
-                          <select
-                            className="Select-sc-1s3i6e0-0 hiBWUp"
-                            data-locator="select-input-typeOfUser-undefined"
-                            disabled={false}
-                            name="typeOfUser"
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            validateOnBlur={true}
-                            value=""
-                          >
-                            <option
-                              key="Admin"
-                              value="Admin"
-                            >
-                              Admin
-                            </option>
-                            <option
-                              key="Read Only"
-                              value="Read Only"
-                            >
-                              Read Only
-                            </option>
-                          </select>
-                        </Select>
-                      </StyledComponent>
-                    </Select>
-                  </Field>
-                  <FormikConnect(ErrorMessageImpl)
-                    component={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "FieldError-sc-1b3h259-0",
-                          "isStatic": false,
-                          "rules": Array [
-                            [Function],
-                            ";",
-                            [Function],
-                            ";text-align:left;margin:0;",
-                            [Function],
-                            ";",
-                            ";",
-                          ],
-                        },
-                        "displayName": "FieldError",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "FieldError-sc-1b3h259-0",
-                        "target": [Function],
-                        "toString": [Function],
-                        "usesTheme": true,
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    name="typeOfUser"
-                  >
-                    <ErrorMessageImpl
-                      component={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "FieldError-sc-1b3h259-0",
-                            "isStatic": false,
-                            "rules": Array [
-                              [Function],
-                              ";",
-                              [Function],
-                              ";text-align:left;margin:0;",
-                              [Function],
-                              ";",
-                              ";",
-                            ],
-                          },
-                          "displayName": "FieldError",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "FieldError-sc-1b3h259-0",
-                          "target": [Function],
-                          "toString": [Function],
-                          "usesTheme": true,
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      formik={
-                        Object {
-                          "dirty": false,
-                          "errors": Object {},
-                          "getFieldMeta": [Function],
-                          "getFieldProps": [Function],
-                          "handleBlur": [Function],
-                          "handleChange": [Function],
-                          "handleReset": [Function],
-                          "handleSubmit": [Function],
-                          "initialErrors": Object {},
-                          "initialStatus": undefined,
-                          "initialTouched": Object {},
-                          "initialValues": Object {
-                            "email": "",
-                            "typeOfUser": "",
-                            "username": "",
-                          },
-                          "isSubmitting": false,
-                          "isValid": true,
-                          "isValidating": false,
-                          "registerField": [Function],
-                          "resetForm": [Function],
-                          "setErrors": [Function],
-                          "setFieldError": [Function],
-                          "setFieldTouched": [Function],
-                          "setFieldValue": [Function],
-                          "setFormikState": [Function],
-                          "setStatus": [Function],
-                          "setSubmitting": [Function],
-                          "setTouched": [Function],
-                          "setValues": [Function],
-                          "status": undefined,
-                          "submitCount": 0,
-                          "submitForm": [Function],
-                          "touched": Object {},
-                          "unregisterField": [Function],
-                          "validateField": [Function],
-                          "validateForm": [Function],
-                          "validateOnBlur": true,
-                          "validateOnChange": true,
-                          "validateOnMount": false,
-                          "values": Object {
-                            "email": "",
-                            "typeOfUser": "",
-                            "username": "",
-                          },
-                        }
-                      }
-                      name="typeOfUser"
-                    />
-                  </FormikConnect(ErrorMessageImpl)>
-                </div>
-              </FieldSelect>
-            </StyledComponent>
-          </FieldSelect>
-        </div>
-        <Button
-          ariaLabel=""
-          className=""
-          disabled={false}
-          elementLocator=""
-          inheritedStyles=""
-          primary={true}
-          secondary={false}
-          tertiary={false}
-          type="submit"
-        >
-          <button
-            aria-label={null}
-            className=""
-            data-locator="button-submit-submit"
-            disabled={false}
-            type="submit"
-          >
-            Submit
-          </button>
-        </Button>
-      </form>
-    </Form>
-  </Formik>
-</Form>
+  <Component />
+</Formik>
 `;
