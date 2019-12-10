@@ -4,7 +4,7 @@ exports[`<Toast /> <Toast />should render correctly 1`] = `
 <Fragment>
   <div
     autoDismiss={true}
-    autoDismissTimeout={300000}
+    autoDismissTimeout={3000}
     className="toast default"
     placement="top-left"
     variation="default"
