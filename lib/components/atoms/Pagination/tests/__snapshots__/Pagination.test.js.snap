@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should render correctly 1`] = `
+<nav
+  className=""
+>
+  <ul
+    className="pagination"
+  >
+    <li
+      className="first"
+    >
+      <Button
+        className="btn-first"
+        disabled={false}
+        onClick={[Function]}
+      >
+        First
+      </Button>
+    </li>
+    <li
+      className="previous"
+    >
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Previous
+      </Button>
+    </li>
+    <li
+      className="page-item"
+      key="1"
+    >
+      <Button
+        className="page-button"
+        onClick={[Function]}
+      >
+        1
+      </Button>
+    </li>
+    <li
+      className="next"
+    >
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Next
+      </Button>
+    </li>
+    <li
+      className="last"
+    >
+      <Button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Last
+      </Button>
+    </li>
+  </ul>
+</nav>
+`;
