@@ -5,17 +5,14 @@ exports[`<Typeahead /> should render correctly 1`] = `
   className=""
 >
   <Input
-    ariaLabel=""
+    aria-autocomplete="both"
     autoComplete="off"
-    className=""
     disabled={false}
-    elementLocator=""
     id="word-typeahead"
     label=""
     name="word-typeahead"
     onChange={[Function]}
     onKeyDown={[Function]}
-    placeholder=""
     type="search"
     value=""
   />
