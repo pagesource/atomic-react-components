@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuoteMedia /> should render correctly 1`] = `
+<div
+  className="blockquote-container"
+>
+  <Heading
+    HeadingType="h2"
+    className="title"
+  >
+    Lorem ipsum dollor
+  </Heading>
+  <div
+    className="col-1"
+  >
+    <Blockquote
+      className=""
+      quoteAuthorProp="Lorem ipsum"
+      quoteProp="Lorem ipsum dollor sit amet"
+    />
+  </div>
+</div>
+`;

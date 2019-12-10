@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Blockquote /> should render correctly 1`] = `
+<blockquote
+  className=""
+>
+  <p
+    className="quoteContent"
+  >
+    Lorem Ipsum
+  </p>
+  <footer
+    className="quoteAuthor"
+  >
+    Lorem Ipsum author
+  </footer>
+</blockquote>
+`;
