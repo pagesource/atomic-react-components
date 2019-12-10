@@ -11,13 +11,14 @@ exports[`<QuoteMedia /> should render correctly 1`] = `
     Lorem ipsum dollor
   </Heading>
   <div
-    className="col-1"
+    className="col-1-2"
   >
-    <Blockquote
-      className=""
-      quoteAuthorProp="Lorem ipsum"
-      quoteProp="Lorem ipsum dollor sit amet"
-    />
+    <Blockquote />
+    <div
+      className="media"
+    >
+      <Component />
+    </div>
   </div>
 </div>
 `;
