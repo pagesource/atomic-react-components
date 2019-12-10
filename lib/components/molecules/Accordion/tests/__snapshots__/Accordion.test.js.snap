@@ -162,68 +162,296 @@ exports[`<Accordion /> should render correctly 1`] = `
           key="accordion-0"
           open={true}
         >
-          <summary
-            className="accordion-header"
+          <AccordionHeader
+            className=""
           >
-            Accordion 1
-          </summary>
-          <div
-            className="accordion-panel"
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "AccordionHeader-cirw9n-0",
+                    "isStatic": false,
+                    "lastClassName": "hFjCKd",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "AccordionHeader",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "AccordionHeader-cirw9n-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <AccordionHeader
+                className="AccordionHeader-cirw9n-0 hFjCKd"
+              >
+                <summary
+                  className="AccordionHeader-cirw9n-0 hFjCKd"
+                >
+                  Accordion 1
+                </summary>
+              </AccordionHeader>
+            </StyledComponent>
+          </AccordionHeader>
+          <AccordionPanel
+            className=""
           >
-            <div>
-              <img
-                alt="placeholderImage"
-                src="https://via.placeholder.com/150"
-              />
-            </div>
-          </div>
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "AccordionPanel-sc-1kws7o2-0",
+                    "isStatic": false,
+                    "lastClassName": "fwbMOS",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "AccordionPanel",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "AccordionPanel-sc-1kws7o2-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <AccordionPanel
+                className="AccordionPanel-sc-1kws7o2-0 fwbMOS"
+              >
+                <div
+                  className="AccordionPanel-sc-1kws7o2-0 fwbMOS"
+                >
+                  <div>
+                    <img
+                      alt="placeholderImage"
+                      src="https://via.placeholder.com/150"
+                    />
+                  </div>
+                </div>
+              </AccordionPanel>
+            </StyledComponent>
+          </AccordionPanel>
         </details>
         <details
           className="accordion-item"
           key="accordion-1"
           open={false}
         >
-          <summary
-            className="accordion-header"
+          <AccordionHeader
+            className=""
           >
-            Accordion 2
-          </summary>
-          <div
-            className="accordion-panel"
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "AccordionHeader-cirw9n-0",
+                    "isStatic": false,
+                    "lastClassName": "hFjCKd",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "AccordionHeader",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "AccordionHeader-cirw9n-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <AccordionHeader
+                className="AccordionHeader-cirw9n-0 hFjCKd"
+              >
+                <summary
+                  className="AccordionHeader-cirw9n-0 hFjCKd"
+                >
+                  Accordion 2
+                </summary>
+              </AccordionHeader>
+            </StyledComponent>
+          </AccordionHeader>
+          <AccordionPanel
+            className=""
           >
-            <div>
-              <p>
-                Puglias most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.
-              </p>
-              <figure>
-                <img
-                  alt="Trulli"
-                  src="https://via.placeholder.com/350"
-                />
-                <figcaption>
-                  Fig.1 - Trulli, Puglia, Italy.
-                </figcaption>
-              </figure>
-            </div>
-          </div>
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "AccordionPanel-sc-1kws7o2-0",
+                    "isStatic": false,
+                    "lastClassName": "fwbMOS",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "AccordionPanel",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "AccordionPanel-sc-1kws7o2-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <AccordionPanel
+                className="AccordionPanel-sc-1kws7o2-0 fwbMOS"
+              >
+                <div
+                  className="AccordionPanel-sc-1kws7o2-0 fwbMOS"
+                >
+                  <div>
+                    <p>
+                      Puglias most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.
+                    </p>
+                    <figure>
+                      <img
+                        alt="Trulli"
+                        src="https://via.placeholder.com/350"
+                      />
+                      <figcaption>
+                        Fig.1 - Trulli, Puglia, Italy.
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </AccordionPanel>
+            </StyledComponent>
+          </AccordionPanel>
         </details>
         <details
           className="accordion-item"
           key="accordion-2"
           open={false}
         >
-          <summary
-            className="accordion-header"
+          <AccordionHeader
+            className=""
           >
-            Accordion 3
-          </summary>
-          <div
-            className="accordion-panel"
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "AccordionHeader-cirw9n-0",
+                    "isStatic": false,
+                    "lastClassName": "hFjCKd",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "AccordionHeader",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "AccordionHeader-cirw9n-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <AccordionHeader
+                className="AccordionHeader-cirw9n-0 hFjCKd"
+              >
+                <summary
+                  className="AccordionHeader-cirw9n-0 hFjCKd"
+                >
+                  Accordion 3
+                </summary>
+              </AccordionHeader>
+            </StyledComponent>
+          </AccordionHeader>
+          <AccordionPanel
+            className=""
           >
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "AccordionPanel-sc-1kws7o2-0",
+                    "isStatic": false,
+                    "lastClassName": "fwbMOS",
+                    "rules": Array [
+                      [Function],
+                      ";",
+                      ";",
+                    ],
+                  },
+                  "displayName": "AccordionPanel",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "AccordionPanel-sc-1kws7o2-0",
+                  "target": [Function],
+                  "toString": [Function],
+                  "usesTheme": false,
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <AccordionPanel
+                className="AccordionPanel-sc-1kws7o2-0 fwbMOS"
+              >
+                <div
+                  className="AccordionPanel-sc-1kws7o2-0 fwbMOS"
+                >
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+              </AccordionPanel>
+            </StyledComponent>
+          </AccordionPanel>
         </details>
       </div>
     </Accordion>
