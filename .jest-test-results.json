@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 1,
-  "numPassedTests": 2,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 16,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 1,
-  "numTotalTests": 2,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 16,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -19,43 +19,422 @@
     "filesRemovedList": [],
     "filesUnmatched": 0,
     "filesUpdated": 0,
-    "matched": 1,
-    "total": 1,
+    "matched": 6,
+    "total": 6,
     "unchecked": 0,
     "uncheckedKeysByFile": [],
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1575627186148,
-  "success": true,
+  "startTime": 1575977652436,
+  "success": false,
   "testResults": [
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["FieldInput Component"],
+          "ancestorTitles": ["DDFieldInput Component"],
           "failureMessages": [],
-          "fullName": "FieldInput Component should render correctly",
+          "fullName": "DDFieldInput Component should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
         },
         {
-          "ancestorTitles": ["FieldInput Component"],
+          "ancestorTitles": ["DDFieldInput Component"],
           "failureMessages": [],
-          "fullName": "FieldInput Component should render button with type = \"button\" and text = \"\".",
+          "fullName": "DDFieldInput Component should render Input component with proper type for multiple file upload.",
           "location": null,
           "status": "passed",
-          "title": "should render button with type = \"button\" and text = \"\"."
+          "title": "should render Input component with proper type for multiple file upload."
+        },
+        {
+          "ancestorTitles": ["DDFieldInput Component"],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component should render text correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render text correctly"
+        },
+        {
+          "ancestorTitles": ["DDFieldInput Component"],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component should render the component with prop correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render the component with prop correctly"
+        },
+        {
+          "ancestorTitles": ["DDFieldInput Component"],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component should match the input rendered correctly on change event simulation.",
+          "location": null,
+          "status": "passed",
+          "title": "should match the input rendered correctly on change event simulation."
+        },
+        {
+          "ancestorTitles": ["DDFieldInput Component"],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component should match the input rendered correctly on blur event simulation.",
+          "location": null,
+          "status": "passed",
+          "title": "should match the input rendered correctly on blur event simulation."
+        },
+        {
+          "ancestorTitles": [
+            "DDFieldInput Component",
+            "testing the custom hook methods for drag and drop"
+          ],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component testing the custom hook methods for drag and drop nothing should happen when some other key apart from enter is passed",
+          "location": null,
+          "status": "passed",
+          "title": "nothing should happen when some other key apart from enter is passed"
+        },
+        {
+          "ancestorTitles": [
+            "DDFieldInput Component",
+            "testing the custom hook methods for drag and drop"
+          ],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component testing the custom hook methods for drag and drop should simulate file upload and return array",
+          "location": null,
+          "status": "passed",
+          "title": "should simulate file upload and return array"
+        },
+        {
+          "ancestorTitles": [
+            "DDFieldInput Component",
+            "testing the custom hook methods for drag and drop"
+          ],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component testing the custom hook methods for drag and drop should make highlight as true on drag over as mouse enters draggable area",
+          "location": null,
+          "status": "passed",
+          "title": "should make highlight as true on drag over as mouse enters draggable area"
+        },
+        {
+          "ancestorTitles": [
+            "DDFieldInput Component",
+            "testing the custom hook methods for drag and drop"
+          ],
+          "failureMessages": [],
+          "fullName": "DDFieldInput Component testing the custom hook methods for drag and drop should make highlight as false on drag leave as mouse leaves draggable area",
+          "location": null,
+          "status": "passed",
+          "title": "should make highlight as false on drag leave as mouse leaves draggable area"
         }
       ],
-      "endTime": 1575627192231,
+      "endTime": 1575977662890,
       "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\Form\\FieldFileInput\\tests\\FieldFileInput.test.js",
-      "startTime": 1575627190620,
+      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\Form\\DDFileInput\\tests\\DDFileInput.test.js",
+      "startTime": 1575977659824,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render select tag correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render select tag correctly"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render input text field",
+          "location": null,
+          "status": "passed",
+          "title": "should render input text field"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render select field",
+          "location": null,
+          "status": "passed",
+          "title": "should render select field"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render input field with yupValidationSchema",
+          "location": null,
+          "status": "passed",
+          "title": "should render input field with yupValidationSchema"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component should render input field with no validation",
+          "location": null,
+          "status": "passed",
+          "title": "should render input field with no validation"
+        },
+        {
+          "ancestorTitles": ["Form Component"],
+          "failureMessages": [],
+          "fullName": "Form Component getSchema should return null if no params are passed",
+          "location": null,
+          "status": "passed",
+          "title": "getSchema should return null if no params are passed"
+        }
+      ],
+      "endTime": 1575977663446,
+      "message": "",
+      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\Form\\tests\\Form.test.js",
+      "startTime": 1575977659794,
       "status": "passed",
       "summary": ""
     }
   ],
   "wasInterrupted": false,
-  "coverageMap": {}
+  "coverageMap": {
+    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\Form\\DDFileInput\\DDFileInput.js": {
+      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\Form\\DDFileInput\\DDFileInput.js",
+      "statementMap": {
+        "0": { "start": { "line": 25, "column": 30 }, "end": { "line": 80, "column": 1 } },
+        "1": { "start": { "line": 26, "column": 36 }, "end": { "line": 26, "column": 51 } },
+        "2": { "start": { "line": 27, "column": 25 }, "end": { "line": 29, "column": 3 } },
+        "3": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 30 } },
+        "4": { "start": { "line": 31, "column": 26 }, "end": { "line": 37, "column": 3 } },
+        "5": { "start": { "line": 32, "column": 18 }, "end": { "line": 32, "column": 20 } },
+        "6": { "start": { "line": 33, "column": 4 }, "end": { "line": 35, "column": 5 } },
+        "7": { "start": { "line": 33, "column": 17 }, "end": { "line": 33, "column": 18 } },
+        "8": { "start": { "line": 34, "column": 6 }, "end": { "line": 34, "column": 31 } },
+        "9": { "start": { "line": 36, "column": 4 }, "end": { "line": 36, "column": 17 } },
+        "10": { "start": { "line": 39, "column": 21 }, "end": { "line": 42, "column": 3 } },
+        "11": { "start": { "line": 40, "column": 4 }, "end": { "line": 40, "column": 25 } },
+        "12": { "start": { "line": 41, "column": 4 }, "end": { "line": 41, "column": 23 } },
+        "13": { "start": { "line": 44, "column": 22 }, "end": { "line": 47, "column": 3 } },
+        "14": { "start": { "line": 45, "column": 4 }, "end": { "line": 45, "column": 23 } },
+        "15": { "start": { "line": 46, "column": 4 }, "end": { "line": 46, "column": 24 } },
+        "16": { "start": { "line": 49, "column": 17 }, "end": { "line": 54, "column": 3 } },
+        "17": { "start": { "line": 50, "column": 4 }, "end": { "line": 50, "column": 27 } },
+        "18": { "start": { "line": 51, "column": 22 }, "end": { "line": 51, "column": 40 } },
+        "19": { "start": { "line": 52, "column": 18 }, "end": { "line": 52, "column": 40 } },
+        "20": { "start": { "line": 53, "column": 4 }, "end": { "line": 53, "column": 17 } },
+        "21": { "start": { "line": 56, "column": 23 }, "end": { "line": 60, "column": 3 } },
+        "22": { "start": { "line": 57, "column": 22 }, "end": { "line": 57, "column": 32 } },
+        "23": { "start": { "line": 58, "column": 18 }, "end": { "line": 58, "column": 40 } },
+        "24": { "start": { "line": 59, "column": 4 }, "end": { "line": 59, "column": 17 } },
+        "25": { "start": { "line": 62, "column": 25 }, "end": { "line": 66, "column": 3 } },
+        "26": { "start": { "line": 63, "column": 4 }, "end": { "line": 65, "column": 5 } },
+        "27": { "start": { "line": 64, "column": 6 }, "end": { "line": 64, "column": 32 } },
+        "28": { "start": { "line": 68, "column": 2 }, "end": { "line": 79, "column": 4 } },
+        "29": { "start": { "line": 82, "column": 21 }, "end": { "line": 143, "column": 1 } },
+        "30": { "start": { "line": 94, "column": 20 }, "end": { "line": 94, "column": 37 } },
+        "31": { "start": { "line": 95, "column": 29 }, "end": { "line": 95, "column": 45 } },
+        "32": { "start": { "line": 96, "column": 17 }, "end": { "line": 96, "column": 26 } },
+        "33": { "start": { "line": 97, "column": 2 }, "end": { "line": 97, "column": 76 } },
+        "34": { "start": { "line": 99, "column": 2 }, "end": { "line": 142, "column": 4 } },
+        "35": { "start": { "line": 103, "column": 21 }, "end": { "line": 103, "column": 61 } },
+        "36": { "start": { "line": 107, "column": 22 }, "end": { "line": 107, "column": 65 } },
+        "37": { "start": { "line": 119, "column": 47 }, "end": { "line": 119, "column": 51 } },
+        "38": { "start": { "line": 120, "column": 10 }, "end": { "line": 136, "column": 12 } },
+        "39": { "start": { "line": 127, "column": 16 }, "end": { "line": 127, "column": 32 } },
+        "40": { "start": { "line": 128, "column": 16 }, "end": { "line": 128, "column": 47 } },
+        "41": { "start": { "line": 129, "column": 16 }, "end": { "line": 129, "column": 70 } },
+        "42": { "start": { "line": 129, "column": 52 }, "end": { "line": 129, "column": 70 } },
+        "43": { "start": { "line": 132, "column": 16 }, "end": { "line": 132, "column": 30 } },
+        "44": { "start": { "line": 133, "column": 16 }, "end": { "line": 133, "column": 66 } },
+        "45": { "start": { "line": 133, "column": 50 }, "end": { "line": 133, "column": 66 } },
+        "46": { "start": { "line": 145, "column": 0 }, "end": { "line": 154, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 25, "column": 30 }, "end": { "line": 25, "column": 31 } },
+          "loc": { "start": { "line": 25, "column": 36 }, "end": { "line": 80, "column": 1 } },
+          "line": 25
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 27, "column": 25 }, "end": { "line": 27, "column": 26 } },
+          "loc": { "start": { "line": 27, "column": 38 }, "end": { "line": 29, "column": 3 } },
+          "line": 27
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 31, "column": 26 }, "end": { "line": 31, "column": 27 } },
+          "loc": { "start": { "line": 31, "column": 34 }, "end": { "line": 37, "column": 3 } },
+          "line": 31
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 39, "column": 21 }, "end": { "line": 39, "column": 22 } },
+          "loc": { "start": { "line": 39, "column": 28 }, "end": { "line": 42, "column": 3 } },
+          "line": 39
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 44, "column": 22 }, "end": { "line": 44, "column": 23 } },
+          "loc": { "start": { "line": 44, "column": 27 }, "end": { "line": 47, "column": 3 } },
+          "line": 44
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 49, "column": 17 }, "end": { "line": 49, "column": 18 } },
+          "loc": { "start": { "line": 49, "column": 26 }, "end": { "line": 54, "column": 3 } },
+          "line": 49
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 56, "column": 23 }, "end": { "line": 56, "column": 24 } },
+          "loc": { "start": { "line": 56, "column": 30 }, "end": { "line": 60, "column": 3 } },
+          "line": 56
+        },
+        "7": {
+          "name": "(anonymous_7)",
+          "decl": { "start": { "line": 62, "column": 25 }, "end": { "line": 62, "column": 26 } },
+          "loc": { "start": { "line": 62, "column": 45 }, "end": { "line": 66, "column": 3 } },
+          "line": 62
+        },
+        "8": {
+          "name": "(anonymous_8)",
+          "decl": { "start": { "line": 82, "column": 21 }, "end": { "line": 82, "column": 22 } },
+          "loc": { "start": { "line": 93, "column": 19 }, "end": { "line": 143, "column": 1 } },
+          "line": 93
+        },
+        "9": {
+          "name": "(anonymous_9)",
+          "decl": { "start": { "line": 103, "column": 15 }, "end": { "line": 103, "column": 16 } },
+          "loc": { "start": { "line": 103, "column": 21 }, "end": { "line": 103, "column": 61 } },
+          "line": 103
+        },
+        "10": {
+          "name": "(anonymous_10)",
+          "decl": { "start": { "line": 107, "column": 17 }, "end": { "line": 107, "column": 18 } },
+          "loc": { "start": { "line": 107, "column": 22 }, "end": { "line": 107, "column": 65 } },
+          "line": 107
+        },
+        "11": {
+          "name": "(anonymous_11)",
+          "decl": { "start": { "line": 118, "column": 16 }, "end": { "line": 118, "column": 17 } },
+          "loc": { "start": { "line": 118, "column": 37 }, "end": { "line": 137, "column": 9 } },
+          "line": 118
+        },
+        "12": {
+          "name": "(anonymous_12)",
+          "decl": { "start": { "line": 126, "column": 24 }, "end": { "line": 126, "column": 25 } },
+          "loc": { "start": { "line": 126, "column": 29 }, "end": { "line": 130, "column": 15 } },
+          "line": 126
+        },
+        "13": {
+          "name": "(anonymous_13)",
+          "decl": { "start": { "line": 131, "column": 22 }, "end": { "line": 131, "column": 23 } },
+          "loc": { "start": { "line": 131, "column": 27 }, "end": { "line": 134, "column": 15 } },
+          "line": 131
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 63, "column": 4 }, "end": { "line": 65, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 63, "column": 4 }, "end": { "line": 65, "column": 5 } },
+            { "start": { "line": 63, "column": 4 }, "end": { "line": 65, "column": 5 } }
+          ],
+          "line": 63
+        },
+        "1": {
+          "loc": { "start": { "line": 97, "column": 2 }, "end": { "line": 97, "column": 75 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 97, "column": 32 }, "end": { "line": 97, "column": 67 } },
+            { "start": { "line": 97, "column": 71 }, "end": { "line": 97, "column": 75 } }
+          ],
+          "line": 97
+        },
+        "2": {
+          "loc": { "start": { "line": 129, "column": 16 }, "end": { "line": 129, "column": 70 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 129, "column": 16 }, "end": { "line": 129, "column": 70 } },
+            { "start": { "line": 129, "column": 16 }, "end": { "line": 129, "column": 70 } }
+          ],
+          "line": 129
+        },
+        "3": {
+          "loc": { "start": { "line": 133, "column": 16 }, "end": { "line": 133, "column": 66 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 133, "column": 16 }, "end": { "line": 133, "column": 66 } },
+            { "start": { "line": 133, "column": 16 }, "end": { "line": 133, "column": 66 } }
+          ],
+          "line": 133
+        }
+      },
+      "s": {
+        "0": 2,
+        "1": 17,
+        "2": 17,
+        "3": 0,
+        "4": 17,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 17,
+        "11": 1,
+        "12": 1,
+        "13": 17,
+        "14": 1,
+        "15": 1,
+        "16": 17,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 17,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 17,
+        "26": 1,
+        "27": 0,
+        "28": 17,
+        "29": 2,
+        "30": 11,
+        "31": 11,
+        "32": 11,
+        "33": 11,
+        "34": 11,
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0,
+        "39": 0,
+        "40": 0,
+        "41": 0,
+        "42": 0,
+        "43": 0,
+        "44": 0,
+        "45": 0,
+        "46": 2
+      },
+      "f": {
+        "0": 17,
+        "1": 0,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 11,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0
+      },
+      "b": { "0": [0, 1], "1": [0, 11], "2": [0, 0], "3": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "d64b3bf77704908ec263247036712f2f70c5906c"
+    }
+  }
 }
