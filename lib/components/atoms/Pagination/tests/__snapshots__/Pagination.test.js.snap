@@ -11,6 +11,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       className="first"
     >
       <Button
+        className="btn-first"
         disabled={false}
         onClick={[Function]}
       >

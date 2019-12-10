@@ -1,3 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<PaginationHoc /> should render correctly 1`] = `<Component />`;
+exports[`<PaginationHoc /> should render correctly 1`] = `
+<Fragment>
+  <mockConstructor />
+  <Pagination
+    currentPage={0}
+    firstPost={-12}
+    lastPost={0}
+    paginate={[Function]}
+    postsPerPage={12}
+    totalPosts={0}
+  />
+</Fragment>
+`;
