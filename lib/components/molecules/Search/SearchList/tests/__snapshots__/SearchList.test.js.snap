@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchList /> should render correctly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "SearchList-sc-1z8pyj-0",
+        "isStatic": false,
+        "rules": Array [
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "SearchList",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "SearchList-sc-1z8pyj-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
