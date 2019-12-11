@@ -3,12 +3,12 @@
     "prettier --write",
     "git add",
   ],
-  "*.{css}": [
+  "*.css": [
     "yarn run lint:css:fix",
   ],
-  "*.{js}": [
+  "*.js": [
     "yarn run lint:css:fix",
     "yarn run lint:js:fix",
-    "yarn run test",
-  ]
+    "yarn run test:staged",
+  ],
 }

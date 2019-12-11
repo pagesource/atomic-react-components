@@ -4,7 +4,7 @@ module.exports = {
   moduleDirectories: ['node_modules'],
   testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/out/'],
   testResultsProcessor: 'jest-sonar-reporter',
-  collectCoverage: true,
+  // collectCoverage: true,
   coverageDirectory: '<rootDir>/reports/coverage',
   collectCoverageFrom: [
     '**lib/components/**/*.js',
@@ -23,9 +23,9 @@ module.exports = {
   coverageThreshold: {
     global: {
       branches: 45,
-      functions: 60,
-      lines: 70,
-      statements: 65,
+      functions: 45,
+      lines: 65,
+      statements: 60,
     },
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],

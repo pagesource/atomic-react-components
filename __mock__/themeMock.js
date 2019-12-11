@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { mount, shallow } from 'enzyme';
+import { mount, shallow, render } from 'enzyme';
 
 import themeMock from '../lib/styles/themes/base';
 
@@ -19,3 +19,5 @@ export const mountWithTheme = tree =>
   mount(tree, {
     wrappingComponent: ThemeProviderWrapper,
   });
+
+export const renderWithTheme = tree => render(<ThemeProviderWrapper>{tree}</ThemeProviderWrapper>);
