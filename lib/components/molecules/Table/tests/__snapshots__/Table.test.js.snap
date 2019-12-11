@@ -1,14 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Column should render correctly 1`] = `
-<em>
-  default
-</em>
-`;
-
 exports[`Table should render correctly 1`] = `
 <Table
-  className="className"
+  className="table"
   data={
     Array [
       Object {
@@ -117,9 +111,14 @@ exports[`Table should render correctly 1`] = `
       },
     ]
   }
+  showInCell={false}
+  showInHeader={false}
+  vertical={false}
 >
   <table
-    className="className"
+    className="table"
+    showInCell={false}
+    showInHeader={false}
   >
     <Head>
       <thead>
@@ -128,98 +127,28 @@ exports[`Table should render correctly 1`] = `
         >
           <th
             key=".0"
-            role="columnheader"
           >
-            <Component
-              dataMappingKey="name"
-              intent="header"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="default"
-            >
-              <em>
-                Dessert (100g serving)
-              </em>
-            </Component>
+            Dessert (100g serving)
           </th>
           <th
             key=".1"
-            role="columnheader"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="header"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value="default"
-            >
-              <em>
-                Calories
-              </em>
-            </Component>
+            Calories
           </th>
           <th
             key=".2"
-            role="columnheader"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="header"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value="default"
-            >
-              <em>
-                Fat (g)
-              </em>
-            </Component>
+            Fat (g)
           </th>
           <th
             key=".3"
-            role="columnheader"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="header"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value="default"
-            >
-              <em>
-                Carbs (g)
-              </em>
-            </Component>
+            Carbs (g)
           </th>
           <th
             key=".4"
-            role="columnheader"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="header"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value="default"
-            >
-              <em>
-                Protein (g)
-              </em>
-            </Component>
+            Protein (g)
           </th>
         </tr>
       </thead>
@@ -234,96 +163,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Cupcake"
-            >
-              <em>
-                Cupcake
-              </em>
-            </Component>
+            Cupcake
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={305}
-            >
-              <em>
-                305
-              </em>
-            </Component>
+            305
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={3.7}
-            >
-              <em>
-                3.7
-              </em>
-            </Component>
+            3.7
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={67}
-            >
-              <em>
-                67
-              </em>
-            </Component>
+            67
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={4.3}
-            >
-              <em>
-                4.3
-              </em>
-            </Component>
+            4.3
           </td>
         </tr>
         <tr
@@ -334,96 +198,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Donut"
-            >
-              <em>
-                Donut
-              </em>
-            </Component>
+            Donut
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={452}
-            >
-              <em>
-                452
-              </em>
-            </Component>
+            452
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={25}
-            >
-              <em>
-                25
-              </em>
-            </Component>
+            25
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={51}
-            >
-              <em>
-                51
-              </em>
-            </Component>
+            51
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={4.9}
-            >
-              <em>
-                4.9
-              </em>
-            </Component>
+            4.9
           </td>
         </tr>
         <tr
@@ -434,96 +233,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Eclair"
-            >
-              <em>
-                Eclair
-              </em>
-            </Component>
+            Eclair
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={262}
-            >
-              <em>
-                262
-              </em>
-            </Component>
+            262
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={16}
-            >
-              <em>
-                16
-              </em>
-            </Component>
+            16
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={24}
-            >
-              <em>
-                24
-              </em>
-            </Component>
+            24
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={6}
-            >
-              <em>
-                6
-              </em>
-            </Component>
+            6
           </td>
         </tr>
         <tr
@@ -534,96 +268,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Frozen yoghurt"
-            >
-              <em>
-                Frozen yoghurt
-              </em>
-            </Component>
+            Frozen yoghurt
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={159}
-            >
-              <em>
-                159
-              </em>
-            </Component>
+            159
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={6}
-            >
-              <em>
-                6
-              </em>
-            </Component>
+            6
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={24}
-            >
-              <em>
-                24
-              </em>
-            </Component>
+            24
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={4}
-            >
-              <em>
-                4
-              </em>
-            </Component>
+            4
           </td>
         </tr>
         <tr
@@ -634,96 +303,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Gingerbread"
-            >
-              <em>
-                Gingerbread
-              </em>
-            </Component>
+            Gingerbread
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={356}
-            >
-              <em>
-                356
-              </em>
-            </Component>
+            356
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={16}
-            >
-              <em>
-                16
-              </em>
-            </Component>
+            16
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={49}
-            >
-              <em>
-                49
-              </em>
-            </Component>
+            49
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={3.9}
-            >
-              <em>
-                3.9
-              </em>
-            </Component>
+            3.9
           </td>
         </tr>
         <tr
@@ -734,96 +338,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Honeycomb"
-            >
-              <em>
-                Honeycomb
-              </em>
-            </Component>
+            Honeycomb
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={408}
-            >
-              <em>
-                408
-              </em>
-            </Component>
+            408
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={3.2}
-            >
-              <em>
-                3.2
-              </em>
-            </Component>
+            3.2
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={87}
-            >
-              <em>
-                87
-              </em>
-            </Component>
+            87
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={6.5}
-            >
-              <em>
-                6.5
-              </em>
-            </Component>
+            6.5
           </td>
         </tr>
         <tr
@@ -834,96 +373,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Ice cream sandwich"
-            >
-              <em>
-                Ice cream sandwich
-              </em>
-            </Component>
+            Ice cream sandwich
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={237}
-            >
-              <em>
-                237
-              </em>
-            </Component>
+            237
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={9}
-            >
-              <em>
-                9
-              </em>
-            </Component>
+            9
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={37}
-            >
-              <em>
-                37
-              </em>
-            </Component>
+            37
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={4.3}
-            >
-              <em>
-                4.3
-              </em>
-            </Component>
+            4.3
           </td>
         </tr>
         <tr
@@ -934,96 +408,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Jelly Bean"
-            >
-              <em>
-                Jelly Bean
-              </em>
-            </Component>
+            Jelly Bean
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={375}
-            >
-              <em>
-                375
-              </em>
-            </Component>
+            375
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={0}
-            >
-              <em>
-                0
-              </em>
-            </Component>
+            0
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={94}
-            >
-              <em>
-                94
-              </em>
-            </Component>
+            94
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={0}
-            >
-              <em>
-                0
-              </em>
-            </Component>
+            0
           </td>
         </tr>
         <tr
@@ -1034,96 +443,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="KitKat"
-            >
-              <em>
-                KitKat
-              </em>
-            </Component>
+            KitKat
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={518}
-            >
-              <em>
-                518
-              </em>
-            </Component>
+            518
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={26}
-            >
-              <em>
-                26
-              </em>
-            </Component>
+            26
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={65}
-            >
-              <em>
-                65
-              </em>
-            </Component>
+            65
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={7}
-            >
-              <em>
-                7
-              </em>
-            </Component>
+            7
           </td>
         </tr>
         <tr
@@ -1134,96 +478,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Lollipop"
-            >
-              <em>
-                Lollipop
-              </em>
-            </Component>
+            Lollipop
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={392}
-            >
-              <em>
-                392
-              </em>
-            </Component>
+            392
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={0.2}
-            >
-              <em>
-                0.2
-              </em>
-            </Component>
+            0.2
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={98}
-            >
-              <em>
-                98
-              </em>
-            </Component>
+            98
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={0}
-            >
-              <em>
-                0
-              </em>
-            </Component>
+            0
           </td>
         </tr>
         <tr
@@ -1234,96 +513,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Marshmallow"
-            >
-              <em>
-                Marshmallow
-              </em>
-            </Component>
+            Marshmallow
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={318}
-            >
-              <em>
-                318
-              </em>
-            </Component>
+            318
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={0}
-            >
-              <em>
-                0
-              </em>
-            </Component>
+            0
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={81}
-            >
-              <em>
-                81
-              </em>
-            </Component>
+            81
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={2}
-            >
-              <em>
-                2
-              </em>
-            </Component>
+            2
           </td>
         </tr>
         <tr
@@ -1334,96 +548,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Nougat"
-            >
-              <em>
-                Nougat
-              </em>
-            </Component>
+            Nougat
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={360}
-            >
-              <em>
-                360
-              </em>
-            </Component>
+            360
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={19}
-            >
-              <em>
-                19
-              </em>
-            </Component>
+            19
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={9}
-            >
-              <em>
-                9
-              </em>
-            </Component>
+            9
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={37}
-            >
-              <em>
-                37
-              </em>
-            </Component>
+            37
           </td>
         </tr>
         <tr
@@ -1434,96 +583,31 @@ exports[`Table should render correctly 1`] = `
             key=".0"
             role="cell"
           >
-            <Component
-              dataMappingKey="name"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Dessert (100g serving)",
-                }
-              }
-              value="Oreo"
-            >
-              <em>
-                Oreo
-              </em>
-            </Component>
+            Oreo
           </td>
           <td
             key=".1"
             role="cell"
           >
-            <Component
-              dataMappingKey="calories"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Calories",
-                }
-              }
-              value={437}
-            >
-              <em>
-                437
-              </em>
-            </Component>
+            437
           </td>
           <td
             key=".2"
             role="cell"
           >
-            <Component
-              dataMappingKey="fat"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Fat (g)",
-                }
-              }
-              value={18}
-            >
-              <em>
-                18
-              </em>
-            </Component>
+            18
           </td>
           <td
             key=".3"
             role="cell"
           >
-            <Component
-              dataMappingKey="carbs"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Carbs (g)",
-                }
-              }
-              value={63}
-            >
-              <em>
-                63
-              </em>
-            </Component>
+            63
           </td>
           <td
             key=".4"
             role="cell"
           >
-            <Component
-              dataMappingKey="protein"
-              intent="cell"
-              render={
-                Object {
-                  "content": "Protein (g)",
-                }
-              }
-              value={4}
-            >
-              <em>
-                4
-              </em>
-            </Component>
+            4
           </td>
         </tr>
       </tbody>
