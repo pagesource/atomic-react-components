@@ -18,7 +18,7 @@ exports[`<Typeahead /> should render correctly 1`] = `
   />
   <List
     borderSeparator={false}
-    id="typeahead-suggestions-list"
+    id="typeahead-results-list"
     inheritedStyles=""
     inline={false}
     nested={false}
