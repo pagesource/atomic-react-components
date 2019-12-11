@@ -3,13 +3,38 @@
 exports[`<Video /> should render correctly 1`] = `
 <video
   autoPlay={false}
-  className="videoContainer"
+  className="video__container"
   controls={true}
   controlsList="nodownload"
   height="auto"
   loop={true}
   muted={true}
   poster=""
+  trackdata={
+    Array [
+      Object {
+        "id": 2,
+        "isDefault": false,
+        "label": "German",
+        "src": "/",
+        "srcLang": "de",
+      },
+      Object {
+        "id": 3,
+        "isDefault": false,
+        "label": "Franch",
+        "src": "/",
+        "srcLang": "fr",
+      },
+      Object {
+        "id": 4,
+        "isDefault": false,
+        "label": "Hindi",
+        "src": "/",
+        "srcLang": "hi",
+      },
+    ]
+  }
   width="100%"
 >
   <source
