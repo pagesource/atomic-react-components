@@ -2,185 +2,207 @@
 
 exports[`<Typeahead /> should render correctly 1`] = `
 <div
-  className=""
+  className="typeahead-component"
 >
+  <Label
+    className=""
+    elementLocator=""
+    htmlFor="word-typeahead"
+  />
   <Input
     aria-autocomplete="both"
+    aria-describedby="initInstr"
+    aria-expanded={true}
+    aria-owns="results"
     autoComplete="off"
     disabled={false}
     id="word-typeahead"
+    inheritedStyles=""
     label=""
     name="word-typeahead"
     onChange={[Function]}
     onKeyDown={[Function]}
     type="search"
-    value=""
   />
   <List
     borderSeparator={false}
-    id="typeahead-results-list"
+    id="results"
     inheritedStyles=""
     inline={false}
     nested={false}
     noDefaultView={false}
     noMargin={true}
+    role="listbox"
   >
-    <li
-      className="active"
-      key="typeahead-suggestion-item-0"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={0}
+      item="Alligator"
+      name="word-typeahead"
     >
       <ListItem
         key="Alligator"
       >
         Alligator
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-1"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={1}
+      item="Alligation"
+      name="word-typeahead"
     >
       <ListItem
         key="Alligation"
       >
         Alligation
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-2"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={2}
+      item="All"
+      name="word-typeahead"
     >
       <ListItem
         key="All"
       >
         All
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-3"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={3}
+      item="Allout"
+      name="word-typeahead"
     >
       <ListItem
         key="Allout"
       >
         Allout
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-4"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={4}
+      item="Bask"
+      name="word-typeahead"
     >
       <ListItem
         key="Bask"
       >
         Bask
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-5"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={5}
+      item="Crocodilian"
+      name="word-typeahead"
     >
       <ListItem
         key="Crocodilian"
       >
         Crocodilian
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-6"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={6}
+      item="Death Roll"
+      name="word-typeahead"
     >
       <ListItem
         key="Death Roll"
       >
         Death Roll
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-7"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={7}
+      item="Eggs"
+      name="word-typeahead"
     >
       <ListItem
         key="Eggs"
       >
         Eggs
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-8"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={8}
+      item="Jaws"
+      name="word-typeahead"
     >
       <ListItem
         key="Jaws"
       >
         Jaws
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-9"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={9}
+      item="Reptile"
+      name="word-typeahead"
     >
       <ListItem
         key="Reptile"
       >
         Reptile
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-10"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={10}
+      item="Solitary"
+      name="word-typeahead"
     >
       <ListItem
         key="Solitary"
       >
         Solitary
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-11"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={11}
+      item="Tail"
+      name="word-typeahead"
     >
       <ListItem
         key="Tail"
       >
         Tail
       </ListItem>
-    </li>
-    <li
-      className=""
-      key="typeahead-suggestion-item-12"
-      onClick={[Function]}
-      onKeyDown={[Function]}
+    </ListItem>
+    <ListItem
+      activeSuggestion={0}
+      handleClick={[Function]}
+      index={12}
+      item="Wetlands"
+      name="word-typeahead"
     >
       <ListItem
         key="Wetlands"
       >
         Wetlands
       </ListItem>
-    </li>
+    </ListItem>
   </List>
 </div>
 `;
