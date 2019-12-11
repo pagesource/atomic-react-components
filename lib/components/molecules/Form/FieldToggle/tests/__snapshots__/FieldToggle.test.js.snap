@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldToggle /> should render correctly 1`] = `
+<div
+  className="container"
+>
+  <Label
+    className="labelName"
+    elementLocator=""
+    htmlFor="checkbox_test_1"
+  >
+    Toggle
+  </Label>
+  <Field
+    id="checkbox_test_1"
+    name="test_1"
+  >
+    <Component />
+  </Field>
+  <FormikConnect(ErrorMessageImpl)
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "FieldError-sc-1b3h259-0",
+          "isStatic": false,
+          "rules": Array [
+            [Function],
+            ";",
+            [Function],
+            ";text-align:left;margin:0;",
+            [Function],
+            ";",
+            ";",
+          ],
+        },
+        "displayName": "FieldError",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "FieldError-sc-1b3h259-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    name="test_1"
+  />
+</div>
+`;

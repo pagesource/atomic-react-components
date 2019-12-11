@@ -38,6 +38,7 @@
   --animation-slide-up: slide-up 0.3s;
   --animation-slide-up-with-margin: slide-up-with-margin 0.3s;
   --animation-spinner: rotate 1.2s infinite cubic-bezier(0.55, 0, 0.1, 1);
+  --animation-toggle: translateX(25px);
 }
 
 /**
@@ -45,7 +46,7 @@
  * @presenter Duration
  */
 
- :root {
+:root {
   --duration-m: 300ms;
 }
 
@@ -54,7 +55,6 @@
  * @presenter Easing
  */
 
- :root {
+:root {
   --easing-swift: cubic-bezier(0.55, 0, 0.1, 1);
 }
-
