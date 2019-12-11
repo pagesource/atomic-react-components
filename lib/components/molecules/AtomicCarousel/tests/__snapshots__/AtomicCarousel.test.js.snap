@@ -228,10 +228,11 @@ exports[`<AtomicCarousel /> Should render correctly 1`] = `
                           className="Icon-sc-14jstry-0 gWNbvT"
                           title="previous"
                         >
-                          <img
-                            alt="previous"
-                            className="icon-image"
-                          />
+                          <svg
+                            className="icon"
+                          >
+                            <use />
+                          </svg>
                         </Icon>
                       </StyledComponent>
                     </Icon>
@@ -375,10 +376,11 @@ exports[`<AtomicCarousel /> Should render correctly 1`] = `
                           className="Icon-sc-14jstry-0 gWNbvT"
                           title="next"
                         >
-                          <img
-                            alt="next"
-                            className="icon-image"
-                          />
+                          <svg
+                            className="icon"
+                          >
+                            <use />
+                          </svg>
                         </Icon>
                       </StyledComponent>
                     </Icon>
@@ -796,12 +798,9 @@ exports[`<AtomicCarousel /> Should render correctly 1`] = `
                   type="button"
                 >
                   <Icon
-                    alt="next"
-                    path={false}
-                    title="next"
+                    id="#play_sprite"
                   >
                     <StyledComponent
-                      alt="next"
                       forwardedComponent={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
@@ -827,20 +826,19 @@ exports[`<AtomicCarousel /> Should render correctly 1`] = `
                         }
                       }
                       forwardedRef={null}
-                      path={false}
-                      title="next"
+                      id="#play_sprite"
                     >
                       <Icon
-                        alt="next"
                         className="Icon-sc-14jstry-0 gWNbvT"
-                        path={false}
-                        title="next"
+                        id="#play_sprite"
                       >
-                        <img
-                          alt="next"
-                          className="icon-image"
-                          src={false}
-                        />
+                        <svg
+                          className="icon"
+                        >
+                          <use
+                            xlinkHref="#play_sprite"
+                          />
+                        </svg>
                       </Icon>
                     </StyledComponent>
                   </Icon>

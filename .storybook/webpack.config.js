@@ -1,3 +1,4 @@
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const path = require('path');
 
 module.exports = {
@@ -24,11 +25,23 @@ module.exports = {
 };
 
 module.exports = function({ config }) {
-  config.module.rules.push({
-    test: /\.story.js?$/,
-    loaders: [require.resolve('@storybook/source-loader')],
-    enforce: 'pre',
-  });
+  config.module.rules.push(
+    {
+      test: /\.story.js?$/,
+      loaders: [require.resolve('@storybook/source-loader')],
+      enforce: 'pre',
+    },
+    {
+      test: /\.(svg)$/,
+      loader: 'svg-sprite-loader',
+    }
+  );
+
+  config.plugins.push(
+    new SpriteLoaderPlugin({
+      plainSprite: true,
+    })
+  );
 
   return config;
 };

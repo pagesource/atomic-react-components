@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> should render correctly 1`] = `
+<Carousel
+  nextLabel="next"
+  prevLabel="prev"
+  title="Carousel"
+>
+  <section
+    aria-labelledby="carousel-heading"
+    className="carousel-wrapper"
+  >
+    <Heading
+      HeadingType="h1"
+      elementLocator=""
+      id="carousel-heading"
+      inheritedStyles=""
+    >
+      <h1
+        data-locator="heading-h1-carousel"
+        id="carousel-heading"
+      >
+        Carousel
+      </h1>
+    </Heading>
+    <Component>
+      <div
+        aria-label="carousel"
+        className="carousel-section"
+      >
+        <Slide
+          id="slide_1"
+          key=".0"
+        >
+          <div
+            className="slide active"
+          >
+            TEst 1 
+          </div>
+        </Slide>
+        <Slide
+          id="slide_2"
+          key=".1"
+        >
+          <div
+            className="slide"
+          >
+            TEst 3 
+          </div>
+        </Slide>
+        <Slide
+          id="slide_3"
+          key=".2"
+        >
+          <div
+            className="slide"
+          >
+            TEst 4 
+          </div>
+        </Slide>
+        <Slide
+          id="slide_4"
+          key=".3"
+        >
+          <div
+            className="slide"
+          >
+            TEst 2 
+          </div>
+        </Slide>
+      </div>
+    </Component>
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      className="hidden"
+      tabIndex="-1"
+    >
+      Item 1 of 4
+    </div>
+  </section>
+</Carousel>
+`;

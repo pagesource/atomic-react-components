@@ -140,6 +140,7 @@
     "react-dom": "^16.10.0",
     "react-modal": "^3.6.1",
     "styled-components": "^4.4.0",
+    "svg-sprite-loader": "^4.1.6",
     "yup": "^0.27.0"
   },
   "peerDependencies": {

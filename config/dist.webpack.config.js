@@ -1,3 +1,5 @@
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+
 module.exports = (distRoot, optimize) => ({
   mode: 'production',
   optimization: {
@@ -34,11 +36,20 @@ module.exports = (distRoot, optimize) => ({
         ],
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'file-loader?name=/public/static/images/[name].[ext]',
+        test: /\.(svg)$/i,
+        use: [
+          {
+            loader: 'svg-sprite-loader',
+          },
+        ],
       },
     ],
   },
+  plugins: [
+    new SpriteLoaderPlugin({
+      plainSprite: true,
+    }),
+  ],
   externals: {
     react: {
       root: 'React',
