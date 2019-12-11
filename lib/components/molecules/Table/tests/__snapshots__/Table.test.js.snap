@@ -111,14 +111,14 @@ exports[`Table should render correctly 1`] = `
       },
     ]
   }
-  showInCell={false}
-  showInHeader={false}
+  showComponentInCell={false}
+  showComponentInHeader={false}
   vertical={false}
 >
   <table
     className="table"
-    showInCell={false}
-    showInHeader={false}
+    showComponentInCell={false}
+    showComponentInHeader={false}
   >
     <Head>
       <thead>
