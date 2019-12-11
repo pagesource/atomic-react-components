@@ -1,17 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<StickyBar /> should render correctly 1`] = `
-<List
-  ListType="ol"
-  className=""
-  noDefaultView={true}
-  noMargin={true}
->
-  <li>
-    This is list item
-  </li>
-  <li>
-    This is list item
-  </li>
-</List>
+<nav>
+  <List
+    className="sticky-bar"
+    noDefaultView={true}
+    noMargin={true}
+  >
+    <li>
+      This is list item
+    </li>
+    <li>
+      This is list item
+    </li>
+  </List>
+</nav>
 `;

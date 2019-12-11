@@ -6,7 +6,6 @@ reports
 out
 .history
 .jest-test-results.json
-.vscode/launch.json
 
 # Reports
 reports
