@@ -12,7 +12,8 @@
     "es"
   ],
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js --json --outputFile=.jest-test-results.json",
+    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js --collectCoverage --json --outputFile=.jest-test-results.json",
+    "test:staged": "cross-env NODE_ENV=test jest --config ./config/jest.config.js",
     "test:snap": "yarn run test -u",
     "test:watch": "yarn run test --watch --verbose",
     "audit": "yarn run build -- --report",
@@ -133,6 +134,7 @@
     "core-js": "^2.6.5",
     "flexboxgrid": "^6.3.1",
     "formik": "^2.0.6",
+    "lodash": "^4.17.15",
     "normalize.css": "^8.0.0",
     "react": "^16.10.0",
     "react-app-polyfill": "^1.0.4",
