@@ -17,8 +17,8 @@
     "document": true,
     "window": true
   },
-  "plugins": ["jest", "flowtype", "prettier", "extra-rules", "compat"],
-  "extends": ["airbnb", "plugin:flowtype/recommended", "prettier"],
+  "plugins": ["jest",  "prettier", "extra-rules", "compat"],
+  "extends": ["airbnb" , "prettier"],
   "rules": {
     "max-params": ["error", { "max": 7 }],
     "max-statements": ["error", { "max": 100 }],
@@ -62,9 +62,6 @@
       "files": ["**/*.test.js", "**/*.spec.js"],
       "env": {
         "jest/globals": true
-      },
-      "rules": {
-        "flowtype/no-types-missing-file-annotation": "off"
       }
     }
   ]

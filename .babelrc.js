@@ -31,7 +31,6 @@ module.exports = api => {
       ],
     ],
     presets: [
-      '@babel/preset-flow',
       [
         'next',
         {
