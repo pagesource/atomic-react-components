@@ -2,13 +2,13 @@
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
   "numPassedTestSuites": 31,
-  "numPassedTests": 69,
+  "numPassedTests": 68,
   "numPendingTestSuites": 0,
   "numPendingTests": 6,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
   "numTotalTestSuites": 31,
-  "numTotalTests": 75,
+  "numTotalTests": 74,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1576003425803,
+  "startTime": 1576004370465,
   "success": true,
   "testResults": [
     {
@@ -56,10 +56,52 @@
           "title": "should change the tab panel and execute callback on closed tab click"
         }
       ],
-      "endTime": 1576003438517,
+      "endTime": 1576004380893,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Tabs\\tests\\Tabs.test.js",
-      "startTime": 1576003435518,
+      "startTime": 1576004378560,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Popover /> Rendering"],
+          "failureMessages": [],
+          "fullName": "<Popover /> Rendering should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should have Close Button By Default and can be closed",
+          "location": null,
+          "status": "passed",
+          "title": "Should have Close Button By Default and can be closed"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should open By Default when isVisible set to true",
+          "location": null,
+          "status": "passed",
+          "title": "Should open By Default when isVisible set to true"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should open and close on Trigger and X button click",
+          "location": null,
+          "status": "passed",
+          "title": "Should open and close on Trigger and X button click"
+        }
+      ],
+      "endTime": 1576004381084,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\tests\\Popover.test.js",
+      "startTime": 1576004378949,
       "status": "passed",
       "summary": ""
     },
@@ -106,68 +148,10 @@
           "title": "should check the data attribute of button"
         }
       ],
-      "endTime": 1576003438530,
+      "endTime": 1576004381266,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.test.js",
-      "startTime": 1576003435913,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Video />"],
-          "failureMessages": [],
-          "fullName": "<Video /> should have video tag",
-          "location": null,
-          "status": "passed",
-          "title": "should have video tag"
-        },
-        {
-          "ancestorTitles": ["<Video />"],
-          "failureMessages": [],
-          "fullName": "<Video /> should have source tag in video",
-          "location": null,
-          "status": "passed",
-          "title": "should have source tag in video"
-        },
-        {
-          "ancestorTitles": ["<Video />"],
-          "failureMessages": [],
-          "fullName": "<Video /> should have src attribute in source tag",
-          "location": null,
-          "status": "passed",
-          "title": "should have src attribute in source tag"
-        },
-        {
-          "ancestorTitles": ["<Video />"],
-          "failureMessages": [],
-          "fullName": "<Video /> should not be autoplay and should be mute",
-          "location": null,
-          "status": "passed",
-          "title": "should not be autoplay and should be mute"
-        },
-        {
-          "ancestorTitles": ["<Video />"],
-          "failureMessages": [],
-          "fullName": "<Video /> should be a className videoContainer",
-          "location": null,
-          "status": "passed",
-          "title": "should be a className videoContainer"
-        },
-        {
-          "ancestorTitles": ["<Video />"],
-          "failureMessages": [],
-          "fullName": "<Video /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1576003438575,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\tests\\Video.test.js",
-      "startTime": 1576003436030,
+      "startTime": 1576004379152,
       "status": "passed",
       "summary": ""
     },
@@ -222,10 +206,10 @@
           "title": "getSchema should return null if no params are passed"
         }
       ],
-      "endTime": 1576003438668,
+      "endTime": 1576004381347,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\tests\\Form.test.js",
-      "startTime": 1576003435120,
+      "startTime": 1576004378462,
       "status": "passed",
       "summary": ""
     },
@@ -264,172 +248,60 @@
           "title": "should check the default locator of image"
         }
       ],
-      "endTime": 1576003438857,
+      "endTime": 1576004381543,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Image\\tests\\Image.test.js",
-      "startTime": 1576003436322,
+      "startTime": 1576004379442,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<Popover /> Rendering"],
+          "ancestorTitles": ["<Video />"],
           "failureMessages": [],
-          "fullName": "<Popover /> Rendering should render correctly",
+          "fullName": "<Video /> should have video tag",
           "location": null,
           "status": "passed",
-          "title": "should render correctly"
+          "title": "should have video tag"
         },
         {
-          "ancestorTitles": ["Popover functional behavior"],
+          "ancestorTitles": ["<Video />"],
           "failureMessages": [],
-          "fullName": "Popover functional behavior Should have Close Button By Default and can be closed",
+          "fullName": "<Video /> should have source tag in video",
           "location": null,
           "status": "passed",
-          "title": "Should have Close Button By Default and can be closed"
+          "title": "should have source tag in video"
         },
         {
-          "ancestorTitles": ["Popover functional behavior"],
+          "ancestorTitles": ["<Video />"],
           "failureMessages": [],
-          "fullName": "Popover functional behavior Should open By Default when isVisible set to true",
+          "fullName": "<Video /> should have src attribute in source tag",
           "location": null,
           "status": "passed",
-          "title": "Should open By Default when isVisible set to true"
+          "title": "should have src attribute in source tag"
         },
         {
-          "ancestorTitles": ["Popover functional behavior"],
+          "ancestorTitles": ["<Video />"],
           "failureMessages": [],
-          "fullName": "Popover functional behavior Should open and close on Trigger and X button click",
+          "fullName": "<Video /> should not be autoplay and should be mute",
           "location": null,
           "status": "passed",
-          "title": "Should open and close on Trigger and X button click"
-        }
-      ],
-      "endTime": 1576003439003,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\tests\\Popover.test.js",
-      "startTime": 1576003436341,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
+          "title": "should not be autoplay and should be mute"
         },
         {
-          "ancestorTitles": ["FieldInput Component"],
+          "ancestorTitles": ["<Video />"],
           "failureMessages": [],
-          "fullName": "FieldInput Component should render label correctly",
-          "location": null,
-          "status": "pending",
-          "title": "should render label correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render select tag",
-          "location": null,
-          "status": "pending",
-          "title": "should render select tag"
-        }
-      ],
-      "endTime": 1576003439694,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldSelect\\tests\\FieldSelect.test.js",
-      "startTime": 1576003439053,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Styled component"],
-          "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
+          "fullName": "<Video /> should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
         }
       ],
-      "endTime": 1576003439720,
+      "endTime": 1576004381651,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.style.test.js",
-      "startTime": 1576003439298,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldTextarea Component"],
-          "failureMessages": [],
-          "fullName": "FieldTextarea Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldTextarea Component"],
-          "failureMessages": [],
-          "fullName": "FieldTextarea Component should render label correctly",
-          "location": null,
-          "status": "pending",
-          "title": "should render label correctly"
-        },
-        {
-          "ancestorTitles": ["FieldTextarea Component"],
-          "failureMessages": [],
-          "fullName": "FieldTextarea Component should render textarea tag",
-          "location": null,
-          "status": "pending",
-          "title": "should render textarea tag"
-        }
-      ],
-      "endTime": 1576003439859,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldTextarea\\tests\\FieldTextarea.test.js",
-      "startTime": 1576003439129,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldError Component"],
-          "failureMessages": [],
-          "fullName": "FieldError Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldError Component"],
-          "failureMessages": [],
-          "fullName": "FieldError Component should check the element locator of field error",
-          "location": null,
-          "status": "passed",
-          "title": "should check the element locator of field error"
-        },
-        {
-          "ancestorTitles": ["FieldError Component"],
-          "failureMessages": [],
-          "fullName": "FieldError Component should check the default slnid of field error",
-          "location": null,
-          "status": "passed",
-          "title": "should check the default slnid of field error"
-        }
-      ],
-      "endTime": 1576003439903,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\FieldError\\tests\\FieldError.test.js",
-      "startTime": 1576003439451,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\tests\\Video.test.js",
+      "startTime": 1576004379495,
       "status": "passed",
       "summary": ""
     },
@@ -460,62 +332,122 @@
           "title": "should render Input component with proper type"
         }
       ],
-      "endTime": 1576003439990,
+      "endTime": 1576004381863,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldInput\\tests\\FieldInput.test.js",
-      "startTime": 1576003439205,
+      "startTime": 1576004381321,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["Anchor Component"],
+          "ancestorTitles": ["FieldTextarea Component"],
           "failureMessages": [],
-          "fullName": "Anchor Component should render correctly and match snapshot",
+          "fullName": "FieldTextarea Component should render correctly",
           "location": null,
           "status": "passed",
-          "title": "should render correctly and match snapshot"
+          "title": "should render correctly"
         },
         {
-          "ancestorTitles": ["Anchor Component"],
+          "ancestorTitles": ["FieldTextarea Component"],
           "failureMessages": [],
-          "fullName": "Anchor Component Should handle on typeahead focuson Events",
+          "fullName": "FieldTextarea Component should render label correctly",
           "location": null,
-          "status": "passed",
-          "title": "Should handle on typeahead focuson Events"
+          "status": "pending",
+          "title": "should render label correctly"
         },
         {
-          "ancestorTitles": ["Anchor Component"],
+          "ancestorTitles": ["FieldTextarea Component"],
           "failureMessages": [],
-          "fullName": "Anchor Component should check the data attribute of anchor",
+          "fullName": "FieldTextarea Component should render textarea tag",
           "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of anchor"
+          "status": "pending",
+          "title": "should render textarea tag"
         }
       ],
-      "endTime": 1576003439995,
+      "endTime": 1576004382172,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Anchor\\tests\\Anchor.test.js",
-      "startTime": 1576003439538,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldTextarea\\tests\\FieldTextarea.test.js",
+      "startTime": 1576004381555,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<Breadcrumb />"],
+          "ancestorTitles": ["Button"],
           "failureMessages": [],
-          "fullName": "<Breadcrumb /> should render correctly",
+          "fullName": "Button should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
         }
       ],
-      "endTime": 1576003440198,
+      "endTime": 1576004382206,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\tests\\Breadcrumb.test.js",
-      "startTime": 1576003434644,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.style.test.js",
+      "startTime": 1576004381821,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render label correctly",
+          "location": null,
+          "status": "pending",
+          "title": "should render label correctly"
+        },
+        {
+          "ancestorTitles": ["FieldInput Component"],
+          "failureMessages": [],
+          "fullName": "FieldInput Component should render select tag",
+          "location": null,
+          "status": "pending",
+          "title": "should render select tag"
+        }
+      ],
+      "endTime": 1576004382343,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldSelect\\tests\\FieldSelect.test.js",
+      "startTime": 1576004381718,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<ArticleThumbnail />"],
+          "failureMessages": [],
+          "fullName": "<ArticleThumbnail /> should render correctly with Readmore",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with Readmore"
+        },
+        {
+          "ancestorTitles": ["<ArticleThumbnail />"],
+          "failureMessages": [],
+          "fullName": "<ArticleThumbnail /> should render correctly with full clickable thumb",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with full clickable thumb"
+        }
+      ],
+      "endTime": 1576004382478,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\tests\\ArticleThumbnail.test.js",
+      "startTime": 1576004382038,
       "status": "passed",
       "summary": ""
     },
@@ -554,28 +486,28 @@
           "title": "should render checked"
         }
       ],
-      "endTime": 1576003440745,
+      "endTime": 1576004382617,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\InputChoice\\tests\\InputChoice.test.js",
-      "startTime": 1576003440208,
+      "startTime": 1576004382097,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["Select Styled component"],
+          "ancestorTitles": ["<Breadcrumb />"],
           "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
+          "fullName": "<Breadcrumb /> should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
         }
       ],
-      "endTime": 1576003440790,
+      "endTime": 1576004382626,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.style.test.js",
-      "startTime": 1576003440344,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\tests\\Breadcrumb.test.js",
+      "startTime": 1576004378046,
       "status": "passed",
       "summary": ""
     },
@@ -590,54 +522,10 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1576003441013,
+      "endTime": 1576004382679,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Input\\tests\\Input.style.test.js",
-      "startTime": 1576003440485,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Modal Component"],
-          "failureMessages": [],
-          "fullName": "Modal Component should render Modal correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render Modal correctly"
-        }
-      ],
-      "endTime": 1576003441113,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\tests\\Modal.test.js",
-      "startTime": 1576003440637,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<ArticleThumbnail />"],
-          "failureMessages": [],
-          "fullName": "<ArticleThumbnail /> should render correctly with Readmore",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with Readmore"
-        },
-        {
-          "ancestorTitles": ["<ArticleThumbnail />"],
-          "failureMessages": [],
-          "fullName": "<ArticleThumbnail /> should render correctly with full clickable thumb",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with full clickable thumb"
-        }
-      ],
-      "endTime": 1576003441135,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\tests\\ArticleThumbnail.test.js",
-      "startTime": 1576003440571,
+      "startTime": 1576004382260,
       "status": "passed",
       "summary": ""
     },
@@ -668,90 +556,96 @@
           "title": "should check the default locator of heading"
         }
       ],
-      "endTime": 1576003441290,
+      "endTime": 1576004383052,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Heading\\tests\\Heading.test.js",
-      "startTime": 1576003440796,
+      "startTime": 1576004382632,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["Button"],
+          "ancestorTitles": ["Modal Component"],
           "failureMessages": [],
-          "fullName": "Button should render correctly",
+          "fullName": "Modal Component should render Modal correctly",
           "location": null,
           "status": "passed",
-          "title": "should render correctly"
+          "title": "should render Modal correctly"
         }
       ],
-      "endTime": 1576003441287,
+      "endTime": 1576004383076,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.style.test.js",
-      "startTime": 1576003440676,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\tests\\Modal.test.js",
+      "startTime": 1576004382659,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<Tab />"],
+          "ancestorTitles": ["Anchor Component"],
           "failureMessages": [],
-          "fullName": "<Tab /> should render correctly",
+          "fullName": "Anchor Component should render correctly and match snapshot",
           "location": null,
           "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1576003441625,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Tabs\\Tab\\tests\\Tab.test.js",
-      "startTime": 1576003441228,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Image Component with styles"],
-          "failureMessages": [],
-          "fullName": "Image Component with styles should render correctly and match snapshots",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshots"
+          "title": "should render correctly and match snapshot"
         },
         {
-          "ancestorTitles": ["Image Component with styles"],
+          "ancestorTitles": ["Anchor Component"],
           "failureMessages": [],
-          "fullName": "Image Component with styles should render correctly with lazy load",
+          "fullName": "Anchor Component Should handle on typeahead focuson Events",
           "location": null,
           "status": "passed",
-          "title": "should render correctly with lazy load"
+          "title": "Should handle on typeahead focuson Events"
+        },
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component should check the data attribute of anchor",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of anchor"
         }
       ],
-      "endTime": 1576003441728,
+      "endTime": 1576004383113,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Image\\tests\\Image.style.test.js",
-      "startTime": 1576003441341,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Anchor\\tests\\Anchor.test.js",
+      "startTime": 1576004382758,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["Debug"],
+          "ancestorTitles": ["FieldError Component"],
           "failureMessages": [],
-          "fullName": "Debug should render correctly",
+          "fullName": "FieldError Component should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["FieldError Component"],
+          "failureMessages": [],
+          "fullName": "FieldError Component should check the element locator of field error",
+          "location": null,
+          "status": "passed",
+          "title": "should check the element locator of field error"
+        },
+        {
+          "ancestorTitles": ["FieldError Component"],
+          "failureMessages": [],
+          "fullName": "FieldError Component should check the default slnid of field error",
+          "location": null,
+          "status": "passed",
+          "title": "should check the default slnid of field error"
         }
       ],
-      "endTime": 1576003441842,
+      "endTime": 1576004383314,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\Debug\\tests\\Debug.test.js",
-      "startTime": 1576003441488,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\FieldError\\tests\\FieldError.test.js",
+      "startTime": 1576004382951,
       "status": "passed",
       "summary": ""
     },
@@ -774,54 +668,46 @@
           "title": "should check the data attribute of textarea"
         }
       ],
-      "endTime": 1576003441991,
+      "endTime": 1576004383501,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.test.js",
-      "startTime": 1576003441561,
+      "startTime": 1576004383120,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<List />"],
+          "ancestorTitles": ["Select Styled component"],
           "failureMessages": [],
-          "fullName": "<List /> should render default view correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render default view correctly"
-        }
-      ],
-      "endTime": 1576003442052,
-      "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\List\\tests\\List.test.js",
-      "startTime": 1576003441658,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Component"],
-          "failureMessages": [],
-          "fullName": "Select Component should render correctly",
+          "fullName": "Select Styled component should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Select Component"],
-          "failureMessages": [],
-          "fullName": "Select Component should check the data attribute of dropdown/select",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of dropdown/select"
         }
       ],
-      "endTime": 1576003442218,
+      "endTime": 1576004383521,
       "message": "",
-      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.test.js",
-      "startTime": 1576003441869,
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.style.test.js",
+      "startTime": 1576004383081,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Select Styled component"],
+          "failureMessages": [],
+          "fullName": "Select Styled component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1576004383538,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.style.test.js",
+      "startTime": 1576004383196,
       "status": "passed",
       "summary": ""
     },
@@ -844,10 +730,72 @@
           "title": "should check the data attribute of para"
         }
       ],
-      "endTime": 1576003442227,
+      "endTime": 1576004383741,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Para\\tests\\Para.test.js",
-      "startTime": 1576003441814,
+      "startTime": 1576004383448,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Tab />"],
+          "failureMessages": [],
+          "fullName": "<Tab /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1576004383844,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Tabs\\Tab\\tests\\Tab.test.js",
+      "startTime": 1576004383482,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<List />"],
+          "failureMessages": [],
+          "fullName": "<List /> should render default view correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render default view correctly"
+        }
+      ],
+      "endTime": 1576004383934,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\List\\tests\\List.test.js",
+      "startTime": 1576004383561,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Image Component with styles"],
+          "failureMessages": [],
+          "fullName": "Image Component with styles should render correctly and match snapshots",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshots"
+        },
+        {
+          "ancestorTitles": ["Image Component with styles"],
+          "failureMessages": [],
+          "fullName": "Image Component with styles should render correctly with lazy load",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with lazy load"
+        }
+      ],
+      "endTime": 1576004384061,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Image\\tests\\Image.style.test.js",
+      "startTime": 1576004383716,
       "status": "passed",
       "summary": ""
     },
@@ -870,10 +818,54 @@
           "title": "should check the data attribute of input"
         }
       ],
-      "endTime": 1576003442427,
+      "endTime": 1576004384215,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Input\\tests\\Input.test.js",
-      "startTime": 1576003442152,
+      "startTime": 1576004383954,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Debug"],
+          "failureMessages": [],
+          "fullName": "Debug should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1576004384246,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\Debug\\tests\\Debug.test.js",
+      "startTime": 1576004383895,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Select Component"],
+          "failureMessages": [],
+          "fullName": "Select Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Select Component"],
+          "failureMessages": [],
+          "fullName": "Select Component should check the data attribute of dropdown/select",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of dropdown/select"
+        }
+      ],
+      "endTime": 1576004384263,
+      "message": "",
+      "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.test.js",
+      "startTime": 1576004383990,
       "status": "passed",
       "summary": ""
     },
@@ -888,10 +880,10 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1576003442490,
+      "endTime": 1576004384344,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Tabs\\TabPanel\\tests\\TabPanel.test.js",
-      "startTime": 1576003442216,
+      "startTime": 1576004384097,
       "status": "passed",
       "summary": ""
     },
@@ -906,10 +898,10 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1576003442531,
+      "endTime": 1576004384388,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\tests\\Track.test.js",
-      "startTime": 1576003442280,
+      "startTime": 1576004384204,
       "status": "passed",
       "summary": ""
     },
@@ -932,10 +924,10 @@
           "title": "should check the data attribute of label"
         }
       ],
-      "endTime": 1576003442593,
+      "endTime": 1576004384439,
       "message": "",
       "name": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Label\\tests\\Label.test.js",
-      "startTime": 1576003442381,
+      "startTime": 1576004384279,
       "status": "passed",
       "summary": ""
     }
@@ -1940,6 +1932,219 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "0b86d08ebe87f6191a38cd8314f0df02f26169a1"
     },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "dedd6606e4a8010e406ce87fe22e7511a067c61f"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.js",
+      "statementMap": {
+        "0": { "start": { "line": 20, "column": 51 }, "end": { "line": 20, "column": 62 } },
+        "1": { "start": { "line": 23, "column": 4 }, "end": { "line": 23, "column": 17 } },
+        "2": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 40 } },
+        "3": { "start": { "line": 37, "column": 4 }, "end": { "line": 37, "column": 75 } },
+        "4": { "start": { "line": 39, "column": 26 }, "end": { "line": 39, "column": 36 } },
+        "5": { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } },
+        "6": { "start": { "line": 41, "column": 6 }, "end": { "line": 43, "column": 9 } },
+        "7": { "start": { "line": 52, "column": 4 }, "end": { "line": 52, "column": 78 } },
+        "8": { "start": { "line": 61, "column": 23 }, "end": { "line": 73, "column": 3 } },
+        "9": { "start": { "line": 62, "column": 15 }, "end": { "line": 62, "column": 23 } },
+        "10": { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } },
+        "11": { "start": { "line": 69, "column": 6 }, "end": { "line": 71, "column": 9 } },
+        "12": { "start": { "line": 80, "column": 16 }, "end": { "line": 84, "column": 3 } },
+        "13": { "start": { "line": 81, "column": 4 }, "end": { "line": 83, "column": 7 } },
+        "14": { "start": { "line": 91, "column": 10 }, "end": { "line": 95, "column": 3 } },
+        "15": { "start": { "line": 92, "column": 4 }, "end": { "line": 94, "column": 7 } },
+        "16": { "start": { "line": 98, "column": 81 }, "end": { "line": 98, "column": 91 } },
+        "17": { "start": { "line": 99, "column": 28 }, "end": { "line": 99, "column": 38 } },
+        "18": { "start": { "line": 106, "column": 20 }, "end": { "line": 106, "column": 89 } },
+        "19": { "start": { "line": 108, "column": 4 }, "end": { "line": 127, "column": 6 } },
+        "20": { "start": { "line": 131, "column": 0 }, "end": { "line": 134, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 22, "column": 2 }, "end": { "line": 22, "column": 3 } },
+          "loc": { "start": { "line": 22, "column": 21 }, "end": { "line": 29, "column": 3 } },
+          "line": 22
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 36, "column": 2 }, "end": { "line": 36, "column": 3 } },
+          "loc": { "start": { "line": 36, "column": 22 }, "end": { "line": 45, "column": 3 } },
+          "line": 36
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 51, "column": 2 }, "end": { "line": 51, "column": 3 } },
+          "loc": { "start": { "line": 51, "column": 25 }, "end": { "line": 53, "column": 3 } },
+          "line": 51
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 61, "column": 23 }, "end": { "line": 61, "column": 24 } },
+          "loc": { "start": { "line": 61, "column": 42 }, "end": { "line": 73, "column": 3 } },
+          "line": 61
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 80, "column": 16 }, "end": { "line": 80, "column": 17 } },
+          "loc": { "start": { "line": 80, "column": 22 }, "end": { "line": 84, "column": 3 } },
+          "line": 80
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 91, "column": 10 }, "end": { "line": 91, "column": 11 } },
+          "loc": { "start": { "line": 91, "column": 16 }, "end": { "line": 95, "column": 3 } },
+          "line": 91
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 97, "column": 2 }, "end": { "line": 97, "column": 3 } },
+          "loc": { "start": { "line": 97, "column": 11 }, "end": { "line": 128, "column": 3 } },
+          "line": 97
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } },
+            { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } }
+          ],
+          "line": 40
+        },
+        "1": {
+          "loc": { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } },
+            { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } }
+          ],
+          "line": 63
+        },
+        "2": {
+          "loc": { "start": { "line": 64, "column": 6 }, "end": { "line": 67, "column": 43 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 64, "column": 6 }, "end": { "line": 64, "column": 21 } },
+            { "start": { "line": 65, "column": 6 }, "end": { "line": 65, "column": 29 } },
+            { "start": { "line": 66, "column": 6 }, "end": { "line": 66, "column": 24 } },
+            { "start": { "line": 67, "column": 6 }, "end": { "line": 67, "column": 43 } }
+          ],
+          "line": 64
+        },
+        "3": {
+          "loc": { "start": { "line": 106, "column": 20 }, "end": { "line": 106, "column": 89 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 106, "column": 20 }, "end": { "line": 106, "column": 27 } },
+            { "start": { "line": 106, "column": 31 }, "end": { "line": 106, "column": 89 } }
+          ],
+          "line": 106
+        },
+        "4": {
+          "loc": { "start": { "line": 115, "column": 9 }, "end": { "line": 125, "column": 9 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 115, "column": 9 }, "end": { "line": 115, "column": 20 } },
+            { "start": { "line": 116, "column": 10 }, "end": { "line": 124, "column": 16 } }
+          ],
+          "line": 115
+        },
+        "5": {
+          "loc": { "start": { "line": 117, "column": 13 }, "end": { "line": 121, "column": 13 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 117, "column": 13 }, "end": { "line": 117, "column": 33 } },
+            { "start": { "line": 118, "column": 14 }, "end": { "line": 120, "column": 23 } }
+          ],
+          "line": 117
+        },
+        "6": {
+          "loc": { "start": { "line": 122, "column": 13 }, "end": { "line": 122, "column": 82 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 122, "column": 13 }, "end": { "line": 122, "column": 26 } },
+            { "start": { "line": 122, "column": 30 }, "end": { "line": 122, "column": 82 } }
+          ],
+          "line": 122
+        }
+      },
+      "s": {
+        "0": 5,
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 2,
+        "7": 0,
+        "8": 5,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 5,
+        "13": 1,
+        "14": 5,
+        "15": 1,
+        "16": 9,
+        "17": 9,
+        "18": 9,
+        "19": 9,
+        "20": 1
+      },
+      "f": { "0": 5, "1": 5, "2": 0, "3": 0, "4": 1, "5": 1, "6": 9 },
+      "b": {
+        "0": [2, 3],
+        "1": [0, 0],
+        "2": [0, 0, 0, 0],
+        "3": [9, 8],
+        "4": [9, 3],
+        "5": [3, 3],
+        "6": [3, 3]
+      },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "3a6ea242c4433b71a51b003839efc59f1c457c17"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.style.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 4 }, "end": { "line": 14, "column": 5 } },
+          "loc": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 64 } },
+          "line": 14
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 14, "column": 38 }, "end": { "line": 14, "column": 59 } },
+            { "start": { "line": 14, "column": 62 }, "end": { "line": 14, "column": 64 } }
+          ],
+          "line": 14
+        }
+      },
+      "s": { "0": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "0c0a3d865a3bc20f4d463ad34201e6e5c74f7ea8"
+    },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.js",
       "statementMap": {
@@ -2082,112 +2287,6 @@
       "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0] },
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "006d2b8ce3f1541b9e2a148e6c8dcad03d8f52fe"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "811f37684b5e4879dd6fe58094720197d29e682d"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js",
-      "statementMap": {
-        "0": { "start": { "line": 16, "column": 14 }, "end": { "line": 46, "column": 1 } },
-        "1": { "start": { "line": 30, "column": 2 }, "end": { "line": 45, "column": 4 } },
-        "2": { "start": { "line": 48, "column": 0 }, "end": { "line": 58, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 16, "column": 14 }, "end": { "line": 16, "column": 15 } },
-          "loc": { "start": { "line": 29, "column": 19 }, "end": { "line": 46, "column": 1 } },
-          "line": 29
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 43, "column": 7 }, "end": { "line": 43, "column": 69 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 43, "column": 29 }, "end": { "line": 43, "column": 37 } },
-            { "start": { "line": 43, "column": 40 }, "end": { "line": 43, "column": 69 } }
-          ],
-          "line": 43
-        }
-      },
-      "s": { "0": 1, "1": 8, "2": 1 },
-      "f": { "0": 8 },
-      "b": { "0": [2, 6] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "e4bc60fa6e7fb4127f85b05e81fbeb5db5b5d8ab"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
-          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
-          "line": 4
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 4, "column": 38 }, "end": { "line": 4, "column": 59 } },
-            { "start": { "line": 4, "column": 62 }, "end": { "line": 4, "column": 64 } }
-          ],
-          "line": 4
-        }
-      },
-      "s": { "0": 0 },
-      "f": { "0": 0 },
-      "b": { "0": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "f55c8342675d4968308de76a65938c6de63b377d"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "d35e9b51c4713675064281a0f845b30b9d841b71"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js",
-      "statementMap": {
-        "0": { "start": { "line": 10, "column": 14 }, "end": { "line": 12, "column": 1 } },
-        "1": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
-        "2": { "start": { "line": 14, "column": 0 }, "end": { "line": 16, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 10, "column": 14 }, "end": { "line": 10, "column": 15 } },
-          "loc": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
-          "line": 11
-        }
-      },
-      "branchMap": {},
-      "s": { "0": 2, "1": 1, "2": 2 },
-      "f": { "0": 1 },
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "5bd42e7d967e052a441d2b26bee5c47121da55a6"
     },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\index.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Form\\index.js",
@@ -3857,8 +3956,8 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "e6f6808067f62a1bdd782dd7d39eaa8aef1ddc2d"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\index.js",
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js",
       "statementMap": {},
       "fnMap": {},
       "branchMap": {},
@@ -3866,270 +3965,42 @@
       "f": {},
       "b": {},
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "dedd6606e4a8010e406ce87fe22e7511a067c61f"
+      "hash": "811f37684b5e4879dd6fe58094720197d29e682d"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.js",
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js",
       "statementMap": {
-        "0": { "start": { "line": 20, "column": 51 }, "end": { "line": 20, "column": 62 } },
-        "1": { "start": { "line": 23, "column": 4 }, "end": { "line": 23, "column": 17 } },
-        "2": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 40 } },
-        "3": { "start": { "line": 37, "column": 4 }, "end": { "line": 37, "column": 75 } },
-        "4": { "start": { "line": 39, "column": 26 }, "end": { "line": 39, "column": 36 } },
-        "5": { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } },
-        "6": { "start": { "line": 41, "column": 6 }, "end": { "line": 43, "column": 9 } },
-        "7": { "start": { "line": 52, "column": 4 }, "end": { "line": 52, "column": 78 } },
-        "8": { "start": { "line": 61, "column": 23 }, "end": { "line": 73, "column": 3 } },
-        "9": { "start": { "line": 62, "column": 15 }, "end": { "line": 62, "column": 23 } },
-        "10": { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } },
-        "11": { "start": { "line": 69, "column": 6 }, "end": { "line": 71, "column": 9 } },
-        "12": { "start": { "line": 80, "column": 16 }, "end": { "line": 84, "column": 3 } },
-        "13": { "start": { "line": 81, "column": 4 }, "end": { "line": 83, "column": 7 } },
-        "14": { "start": { "line": 91, "column": 10 }, "end": { "line": 95, "column": 3 } },
-        "15": { "start": { "line": 92, "column": 4 }, "end": { "line": 94, "column": 7 } },
-        "16": { "start": { "line": 98, "column": 81 }, "end": { "line": 98, "column": 91 } },
-        "17": { "start": { "line": 99, "column": 28 }, "end": { "line": 99, "column": 38 } },
-        "18": { "start": { "line": 106, "column": 20 }, "end": { "line": 106, "column": 89 } },
-        "19": { "start": { "line": 108, "column": 4 }, "end": { "line": 127, "column": 6 } },
-        "20": { "start": { "line": 131, "column": 0 }, "end": { "line": 134, "column": 2 } }
+        "0": { "start": { "line": 16, "column": 14 }, "end": { "line": 46, "column": 1 } },
+        "1": { "start": { "line": 30, "column": 2 }, "end": { "line": 45, "column": 4 } },
+        "2": { "start": { "line": 48, "column": 0 }, "end": { "line": 58, "column": 2 } }
       },
       "fnMap": {
         "0": {
           "name": "(anonymous_0)",
-          "decl": { "start": { "line": 22, "column": 2 }, "end": { "line": 22, "column": 3 } },
-          "loc": { "start": { "line": 22, "column": 21 }, "end": { "line": 29, "column": 3 } },
-          "line": 22
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 36, "column": 2 }, "end": { "line": 36, "column": 3 } },
-          "loc": { "start": { "line": 36, "column": 22 }, "end": { "line": 45, "column": 3 } },
-          "line": 36
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 51, "column": 2 }, "end": { "line": 51, "column": 3 } },
-          "loc": { "start": { "line": 51, "column": 25 }, "end": { "line": 53, "column": 3 } },
-          "line": 51
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 61, "column": 23 }, "end": { "line": 61, "column": 24 } },
-          "loc": { "start": { "line": 61, "column": 42 }, "end": { "line": 73, "column": 3 } },
-          "line": 61
-        },
-        "4": {
-          "name": "(anonymous_4)",
-          "decl": { "start": { "line": 80, "column": 16 }, "end": { "line": 80, "column": 17 } },
-          "loc": { "start": { "line": 80, "column": 22 }, "end": { "line": 84, "column": 3 } },
-          "line": 80
-        },
-        "5": {
-          "name": "(anonymous_5)",
-          "decl": { "start": { "line": 91, "column": 10 }, "end": { "line": 91, "column": 11 } },
-          "loc": { "start": { "line": 91, "column": 16 }, "end": { "line": 95, "column": 3 } },
-          "line": 91
-        },
-        "6": {
-          "name": "(anonymous_6)",
-          "decl": { "start": { "line": 97, "column": 2 }, "end": { "line": 97, "column": 3 } },
-          "loc": { "start": { "line": 97, "column": 11 }, "end": { "line": 128, "column": 3 } },
-          "line": 97
+          "decl": { "start": { "line": 16, "column": 14 }, "end": { "line": 16, "column": 15 } },
+          "loc": { "start": { "line": 29, "column": 19 }, "end": { "line": 46, "column": 1 } },
+          "line": 29
         }
       },
       "branchMap": {
         "0": {
-          "loc": { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } },
-          "type": "if",
-          "locations": [
-            { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } },
-            { "start": { "line": 40, "column": 4 }, "end": { "line": 44, "column": 5 } }
-          ],
-          "line": 40
-        },
-        "1": {
-          "loc": { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } },
-          "type": "if",
-          "locations": [
-            { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } },
-            { "start": { "line": 63, "column": 4 }, "end": { "line": 72, "column": 5 } }
-          ],
-          "line": 63
-        },
-        "2": {
-          "loc": { "start": { "line": 64, "column": 6 }, "end": { "line": 67, "column": 43 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 64, "column": 6 }, "end": { "line": 64, "column": 21 } },
-            { "start": { "line": 65, "column": 6 }, "end": { "line": 65, "column": 29 } },
-            { "start": { "line": 66, "column": 6 }, "end": { "line": 66, "column": 24 } },
-            { "start": { "line": 67, "column": 6 }, "end": { "line": 67, "column": 43 } }
-          ],
-          "line": 64
-        },
-        "3": {
-          "loc": { "start": { "line": 106, "column": 20 }, "end": { "line": 106, "column": 89 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 106, "column": 20 }, "end": { "line": 106, "column": 27 } },
-            { "start": { "line": 106, "column": 31 }, "end": { "line": 106, "column": 89 } }
-          ],
-          "line": 106
-        },
-        "4": {
-          "loc": { "start": { "line": 115, "column": 9 }, "end": { "line": 125, "column": 9 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 115, "column": 9 }, "end": { "line": 115, "column": 20 } },
-            { "start": { "line": 116, "column": 10 }, "end": { "line": 124, "column": 16 } }
-          ],
-          "line": 115
-        },
-        "5": {
-          "loc": { "start": { "line": 117, "column": 13 }, "end": { "line": 121, "column": 13 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 117, "column": 13 }, "end": { "line": 117, "column": 33 } },
-            { "start": { "line": 118, "column": 14 }, "end": { "line": 120, "column": 23 } }
-          ],
-          "line": 117
-        },
-        "6": {
-          "loc": { "start": { "line": 122, "column": 13 }, "end": { "line": 122, "column": 82 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 122, "column": 13 }, "end": { "line": 122, "column": 26 } },
-            { "start": { "line": 122, "column": 30 }, "end": { "line": 122, "column": 82 } }
-          ],
-          "line": 122
-        }
-      },
-      "s": {
-        "0": 5,
-        "1": 5,
-        "2": 5,
-        "3": 5,
-        "4": 5,
-        "5": 5,
-        "6": 2,
-        "7": 0,
-        "8": 5,
-        "9": 0,
-        "10": 0,
-        "11": 0,
-        "12": 5,
-        "13": 1,
-        "14": 5,
-        "15": 1,
-        "16": 9,
-        "17": 9,
-        "18": 9,
-        "19": 9,
-        "20": 1
-      },
-      "f": { "0": 5, "1": 5, "2": 0, "3": 0, "4": 1, "5": 1, "6": 9 },
-      "b": {
-        "0": [2, 3],
-        "1": [0, 0],
-        "2": [0, 0, 0, 0],
-        "3": [9, 8],
-        "4": [9, 3],
-        "5": [3, 3],
-        "6": [3, 3]
-      },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "3a6ea242c4433b71a51b003839efc59f1c457c17"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.style.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\Popover.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 14, "column": 4 }, "end": { "line": 14, "column": 5 } },
-          "loc": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 64 } },
-          "line": 14
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 64 } },
+          "loc": { "start": { "line": 43, "column": 7 }, "end": { "line": 43, "column": 69 } },
           "type": "cond-expr",
           "locations": [
-            { "start": { "line": 14, "column": 38 }, "end": { "line": 14, "column": 59 } },
-            { "start": { "line": 14, "column": 62 }, "end": { "line": 14, "column": 64 } }
+            { "start": { "line": 43, "column": 29 }, "end": { "line": 43, "column": 37 } },
+            { "start": { "line": 43, "column": 40 }, "end": { "line": 43, "column": 69 } }
           ],
-          "line": 14
+          "line": 43
         }
       },
-      "s": { "0": 0 },
-      "f": { "0": 0 },
-      "b": { "0": [0, 0] },
+      "s": { "0": 1, "1": 7, "2": 1 },
+      "f": { "0": 7 },
+      "b": { "0": [2, 5] },
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "0c0a3d865a3bc20f4d463ad34201e6e5c74f7ea8"
+      "hash": "e4bc60fa6e7fb4127f85b05e81fbeb5db5b5d8ab"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "00a220a88125a80f9a8052c4912cdcfbacdd0884"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.js",
-      "statementMap": {
-        "0": { "start": { "line": 15, "column": 19 }, "end": { "line": 30, "column": 1 } },
-        "1": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
-        "2": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 15, "column": 19 }, "end": { "line": 15, "column": 20 } },
-          "loc": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
-          "line": 16
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 19, "column": 21 }, "end": { "line": 19, "column": 22 } },
-          "loc": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } },
-          "line": 20
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 18, "column": 7 }, "end": { "line": 27, "column": 10 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 18, "column": 7 }, "end": { "line": 18, "column": 15 } },
-            { "start": { "line": 19, "column": 8 }, "end": { "line": 27, "column": 10 } }
-          ],
-          "line": 18
-        },
-        "1": {
-          "loc": { "start": { "line": 21, "column": 13 }, "end": { "line": 25, "column": 13 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 22, "column": 14 }, "end": { "line": 22, "column": 54 } },
-            { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 34 } }
-          ],
-          "line": 21
-        }
-      },
-      "s": { "0": 1, "1": 1, "2": 3 },
-      "f": { "0": 1, "1": 3 },
-      "b": { "0": [1, 1], "1": [1, 2] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "08575a4744079fc01ea97cb2a9ad696dfcd17835"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.style.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.style.js",
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js",
       "statementMap": {
         "0": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
       },
@@ -4156,77 +4027,40 @@
       "f": { "0": 0 },
       "b": { "0": [0, 0] },
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "1c972843629dbef80d8d9a83604a324f39cbbb73"
+      "hash": "f55c8342675d4968308de76a65938c6de63b377d"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.js",
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "d35e9b51c4713675064281a0f845b30b9d841b71"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js",
       "statementMap": {
-        "0": { "start": { "line": 54, "column": 14 }, "end": { "line": 102, "column": 1 } },
-        "1": { "start": { "line": 78, "column": 2 }, "end": { "line": 101, "column": 4 } },
-        "2": { "start": { "line": 104, "column": 0 }, "end": { "line": 125, "column": 2 } },
-        "3": { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 49 } }
+        "0": { "start": { "line": 10, "column": 14 }, "end": { "line": 12, "column": 1 } },
+        "1": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
+        "2": { "start": { "line": 14, "column": 0 }, "end": { "line": 16, "column": 2 } }
       },
       "fnMap": {
         "0": {
           "name": "(anonymous_0)",
-          "decl": { "start": { "line": 54, "column": 14 }, "end": { "line": 54, "column": 15 } },
-          "loc": { "start": { "line": 78, "column": 2 }, "end": { "line": 101, "column": 4 } },
-          "line": 78
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 121, "column": 18 }, "end": { "line": 121, "column": 19 } },
-          "loc": { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 49 } },
-          "line": 121
+          "decl": { "start": { "line": 10, "column": 14 }, "end": { "line": 10, "column": 15 } },
+          "loc": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
+          "line": 11
         }
       },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 49 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 32 } },
-            { "start": { "line": 121, "column": 36 }, "end": { "line": 121, "column": 49 } }
-          ],
-          "line": 121
-        }
-      },
-      "s": { "0": 1, "1": 1, "2": 1, "3": 0 },
-      "f": { "0": 1, "1": 0 },
-      "b": { "0": [0, 0] },
+      "branchMap": {},
+      "s": { "0": 2, "1": 1, "2": 2 },
+      "f": { "0": 1 },
+      "b": {},
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "aeb81e086fe323addd73899ffb724a275feaea80"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.style.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 3, "column": 15 }, "end": { "line": 5, "column": 1 } },
-        "1": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
-          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
-          "line": 4
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 4, "column": 38 }, "end": { "line": 4, "column": 59 } },
-            { "start": { "line": 4, "column": 62 }, "end": { "line": 4, "column": 64 } }
-          ],
-          "line": 4
-        }
-      },
-      "s": { "0": 1, "1": 0 },
-      "f": { "0": 0 },
-      "b": { "0": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "abcbdc96ec556990721d7496814aa59ae5fdac81"
+      "hash": "5bd42e7d967e052a441d2b26bee5c47121da55a6"
     },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\index.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\index.js",
@@ -4329,6 +4163,94 @@
       "b": {},
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "d107f9055b86d1aa84982f6f69645003fe88e537"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "00a220a88125a80f9a8052c4912cdcfbacdd0884"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.js",
+      "statementMap": {
+        "0": { "start": { "line": 15, "column": 19 }, "end": { "line": 30, "column": 1 } },
+        "1": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
+        "2": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 15, "column": 19 }, "end": { "line": 15, "column": 20 } },
+          "loc": { "start": { "line": 16, "column": 2 }, "end": { "line": 29, "column": 8 } },
+          "line": 16
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 19, "column": 21 }, "end": { "line": 19, "column": 22 } },
+          "loc": { "start": { "line": 20, "column": 10 }, "end": { "line": 26, "column": 15 } },
+          "line": 20
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 18, "column": 7 }, "end": { "line": 27, "column": 10 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 18, "column": 7 }, "end": { "line": 18, "column": 15 } },
+            { "start": { "line": 19, "column": 8 }, "end": { "line": 27, "column": 10 } }
+          ],
+          "line": 18
+        },
+        "1": {
+          "loc": { "start": { "line": 21, "column": 13 }, "end": { "line": 25, "column": 13 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 22, "column": 14 }, "end": { "line": 22, "column": 54 } },
+            { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 34 } }
+          ],
+          "line": 21
+        }
+      },
+      "s": { "0": 1, "1": 1, "2": 3 },
+      "f": { "0": 1, "1": 3 },
+      "b": { "0": [1, 1], "1": [1, 2] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "08575a4744079fc01ea97cb2a9ad696dfcd17835"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.style.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\Breadcrumb.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
+          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
+          "line": 4
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 4, "column": 38 }, "end": { "line": 4, "column": 59 } },
+            { "start": { "line": 4, "column": 62 }, "end": { "line": 4, "column": 64 } }
+          ],
+          "line": 4
+        }
+      },
+      "s": { "0": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "1c972843629dbef80d8d9a83604a324f39cbbb73"
     },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Heading\\index.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Heading\\index.js",
@@ -4435,6 +4357,76 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "4c09a513cc94280f16c620a2f4aa8d78a601dd9b"
     },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.js",
+      "statementMap": {
+        "0": { "start": { "line": 54, "column": 14 }, "end": { "line": 102, "column": 1 } },
+        "1": { "start": { "line": 78, "column": 2 }, "end": { "line": 101, "column": 4 } },
+        "2": { "start": { "line": 104, "column": 0 }, "end": { "line": 125, "column": 2 } },
+        "3": { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 49 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 54, "column": 14 }, "end": { "line": 54, "column": 15 } },
+          "loc": { "start": { "line": 78, "column": 2 }, "end": { "line": 101, "column": 4 } },
+          "line": 78
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 121, "column": 18 }, "end": { "line": 121, "column": 19 } },
+          "loc": { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 49 } },
+          "line": 121
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 49 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 121, "column": 24 }, "end": { "line": 121, "column": 32 } },
+            { "start": { "line": 121, "column": 36 }, "end": { "line": 121, "column": 49 } }
+          ],
+          "line": 121
+        }
+      },
+      "s": { "0": 1, "1": 1, "2": 1, "3": 0 },
+      "f": { "0": 1, "1": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "aeb81e086fe323addd73899ffb724a275feaea80"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.style.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 3, "column": 15 }, "end": { "line": 5, "column": 1 } },
+        "1": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
+          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
+          "line": 4
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 4, "column": 38 }, "end": { "line": 4, "column": 59 } },
+            { "start": { "line": 4, "column": 62 }, "end": { "line": 4, "column": 64 } }
+          ],
+          "line": 4
+        }
+      },
+      "s": { "0": 1, "1": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "abcbdc96ec556990721d7496814aa59ae5fdac81"
+    },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\core\\utils\\getDisplayName.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\core\\utils\\getDisplayName.js",
       "statementMap": {
@@ -4466,16 +4458,6 @@
       "b": { "0": [0, 0, 0] },
       "hash": "0dbf815477584f9c32fb3a436342d34ed9deb4f2"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\types\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\types\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "7b41fc6ef45f162b7b4bd91957b714d621d4decf"
-    },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Tabs\\types\\index.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Tabs\\types\\index.js",
       "statementMap": {},
@@ -4486,15 +4468,35 @@
       "b": {},
       "hash": "6fcb62c862f798b07b0fd911e282659a6bfa4e7c"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js",
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\types\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\types\\index.js",
       "statementMap": {},
       "fnMap": {},
       "branchMap": {},
       "s": {},
       "f": {},
       "b": {},
-      "hash": "825da75d0bd2a25dc78584291f365dbf593a8f78"
+      "hash": "4607c91147f73c1f8e8374c1f1db17f82582533e"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\types\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\types\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "f6023a0972f5538364b808ca6e932ba97c917fe8"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "db8bf1cc4676e49dea51978a4febda27da0479e2"
     },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Image\\index.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Image\\index.js",
@@ -4535,35 +4537,15 @@
       "b": { "0": [0, 0] },
       "hash": "404ad47e751b6d1055dcd9b1974227756f9b90e8"
     },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js",
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\types\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\types\\index.js",
       "statementMap": {},
       "fnMap": {},
       "branchMap": {},
       "s": {},
       "f": {},
       "b": {},
-      "hash": "db8bf1cc4676e49dea51978a4febda27da0479e2"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\types\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Video\\types\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "f6023a0972f5538364b808ca6e932ba97c917fe8"
-    },
-    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\types\\index.js": {
-      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\atoms\\Track\\types\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "4607c91147f73c1f8e8374c1f1db17f82582533e"
+      "hash": "7b41fc6ef45f162b7b4bd91957b714d621d4decf"
     },
     "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\types\\index.js": {
       "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\types\\index.js",
@@ -4574,6 +4556,16 @@
       "f": {},
       "b": {},
       "hash": "e00c2078395f9e83bdbf1dc3f48f4b9c33c3e37b"
+    },
+    "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js": {
+      "path": "C:\\Users\\ritgupta5\\Desktop\\task\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "825da75d0bd2a25dc78584291f365dbf593a8f78"
     }
   }
 }
