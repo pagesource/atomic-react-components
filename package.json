@@ -12,7 +12,8 @@
     "es"
   ],
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js --json --outputFile=.jest-test-results.json",
+    "test": "cross-env NODE_ENV=test jest --config ./config/jest.config.js --collectCoverage --json --outputFile=.jest-test-results.json",
+    "test-lintstaged": "cross-env NODE_ENV=test jest --config ./config/jest.config.js --json --outputFile=.jest-test-results.json",
     "test:snap": "yarn run test -u",
     "test:watch": "yarn run test --watch --verbose",
     "audit": "yarn run build -- --report",
