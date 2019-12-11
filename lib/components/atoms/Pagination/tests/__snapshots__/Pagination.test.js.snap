@@ -33,7 +33,7 @@ exports[`<Pagination /> should render correctly 1`] = `
       key="1"
     >
       <Button
-        className="page-button"
+        className=""
         onClick={[Function]}
       >
         1
