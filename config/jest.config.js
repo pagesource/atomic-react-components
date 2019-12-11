@@ -4,7 +4,7 @@ module.exports = {
   moduleDirectories: ['node_modules'],
   testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/out/'],
   testResultsProcessor: 'jest-sonar-reporter',
-  collectCoverage: true,
+  // collectCoverage: true,
   coverageDirectory: '<rootDir>/reports/coverage',
   collectCoverageFrom: [
     '**lib/components/**/*.js',
