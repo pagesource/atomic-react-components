@@ -19,6 +19,7 @@ exports[`Select Styled component should render correctly 1`] = `
         "LINK_DECORATION": "text-decoration: none;",
       },
       "border": Object {
+        "BTNS_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "CTA_OUTLINE": "outline: var(--border-size-cta-tertiary) dashed var(--outline);",
         "CTA_TAB": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke);",
         "CTA_TAB_ACTIVE": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke-active);",
@@ -27,8 +28,7 @@ exports[`Select Styled component should render correctly 1`] = `
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
-        "DD_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
-        "FF_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
+        "DRAG_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "FIELD_ACTIVE": "
     border: var(--border-size-field-active) solid var(--field-border-active);
   ",
