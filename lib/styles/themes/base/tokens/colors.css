@@ -3,13 +3,13 @@
  * @presenter Color
  */
 
- :root {
+:root {
   --grey: grey;
   --red: red;
   --black: #000000;
   --white: #ffffff;
 
-  --error: #DA1E28;
+  --error: #da1e28;
   --success: #2e993a;
 
   --brand-primary: #fe414d;
@@ -24,14 +24,18 @@
   --brand-disabled: #e7e7e7;
   --outline: #999;
 
+  --brand-transparent: transparent;
+
   --bg-primary: var(--white);
-  --bg-secondary: #FFD6D9;
+  --bg-secondary: #ffd6d9;
   --bg-cta-primary: var(--brand-primary);
   --bg-cta-primary-active: var(--brand-primary-active);
   --bg-cta-secondary: var(--brand-secondary);
   --bg-cta-secondary-active: var(--brand-secondary-active);
   --bg-cta-tertiary: var(--white);
   --bg-cta-tertiary-active: var(--brand-tertiary-active);
+  --bg-cta-transparent: var(--brand-transparent);
+  --bg-cta-transparent-active: var(--brand-transparent);
 
   --border-primary: #979797;
   --border-secondary: #171717;
@@ -47,8 +51,9 @@
   --text-cta-primary: var(--white);
   --text-cta-secondary: var(--white);
   --text-cta-tertiary: var(--text-primary);
-  --text-cta-disabled: #B1B1B1;
+  --text-cta-disabled: #b1b1b1;
   --text-field-disabled: var(--text-cta-disabled);
+  --text-cta-transparent: #262626;
 
   --field-border-primary: var(--border-primary);
   --field-border-secondary: var(--border-secondary);

@@ -23,6 +23,8 @@ exports[`Button should render correctly 1`] = `
           ";&:focus:not(.focus-visible){outline:none;}",
           [Function],
           ";",
+          [Function],
+          ";",
           ";",
         ],
       },
@@ -77,6 +79,11 @@ exports[`Button should render correctly 1`] = `
         "LIST_INLINE": "
     border-right: var(--border-size-field) solid var(--field-border-primary);
   ",
+        "TypeAhead_LIST_ITEM": "
+    border-bottom: var(--border-size-field) solid var(--stroke);
+    border-left: var(--border-size-field) solid var(--stroke);
+    border-right: var(--border-size-field) solid var(--stroke);
+  ",
       },
       "colors": Object {
         "CTA_DISABLED": "
@@ -109,6 +116,14 @@ exports[`Button should render correctly 1`] = `
     &:hover, &:active{
       background-color: var(--bg-cta-tertiary-active);
       color: var(--text-inverse);
+    }
+  ",
+        "CTA_TRANSPARENT": "
+    background-color: var(--bg-cta-transparent-active);
+    color: var(--text-cta-transparent);
+    &:hover, &:active{
+      background-color: var(--bg-cta-transparent-active);
+      color: var(--text-cta-transparent);
     }
   ",
         "FIELD_DEFAULT": "
