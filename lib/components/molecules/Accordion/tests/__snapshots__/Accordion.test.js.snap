@@ -13,10 +13,10 @@ exports[`<Accordion /> should render correctly 1`] = `
         "componentStyle": ComponentStyle {
           "componentId": "Accordion-vybsad-0",
           "isStatic": false,
-          "lastClassName": "erlkoq",
+          "lastClassName": "cwLChy",
           "rules": Array [
             [Function],
-            ";",
+            ";details{width:100%;padding:20px;background-color:#eee;summary{cursor:pointer;margin-bottom:10px;}&:hover,&:active{background-color:#ccc;}}",
             ";",
           ],
         },
@@ -35,10 +35,10 @@ exports[`<Accordion /> should render correctly 1`] = `
     forwardedRef={null}
   >
     <Accordion
-      className="Accordion-vybsad-0 erlkoq accordion"
+      className="Accordion-vybsad-0 cwLChy accordion"
     >
       <div
-        className="Accordion-vybsad-0 erlkoq accordion"
+        className="Accordion-vybsad-0 cwLChy accordion"
       />
     </Accordion>
   </StyledComponent>
