@@ -3,8 +3,6 @@
 exports[`<Toast /> <Toast />should render correctly 1`] = `
 <Fragment>
   <div
-    autoDismiss={true}
-    autoDismissTimeout={3000}
     className="toast default"
     placement="top-right"
     variation="default"
@@ -32,10 +30,6 @@ exports[`<Toast /> <Toast />should render correctly 1`] = `
     >
       Test
     </div>
-    <span
-      autoDismiss={true}
-      className="toast-loader toast-dismiss default"
-    />
   </div>
 </Fragment>
 `;
