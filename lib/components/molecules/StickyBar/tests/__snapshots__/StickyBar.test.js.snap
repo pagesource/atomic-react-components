@@ -1,9 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<StickyBar /> should render correctly 1`] = `
-<nav>
+<nav
+  aria-labelledby="StickyToolBar"
+>
   <List
     className="sticky-bar"
+    id="StickyToolBar"
     noDefaultView={true}
     noMargin={true}
   >
