@@ -24,15 +24,5 @@ exports[`<Typeahead /> should render correctly 1`] = `
     onKeyDown={[Function]}
     type="search"
   />
-  <List
-    borderSeparator={false}
-    id="results"
-    inheritedStyles=""
-    inline={false}
-    nested={false}
-    noDefaultView={false}
-    noMargin={true}
-    role="listbox"
-  />
 </div>
 `;

@@ -79,10 +79,12 @@ exports[`Button should render correctly 1`] = `
         "LIST_INLINE": "
     border-right: var(--border-size-field) solid var(--field-border-primary);
   ",
-        "TypeAhead_LIST_ITEM": "
+        "LIST_ITEM": "
     border-bottom: var(--border-size-field) solid var(--stroke);
-    border-left: var(--border-size-field) solid var(--stroke);
-    border-right: var(--border-size-field) solid var(--stroke);
+  ",
+        "TYPEAHEAD_LIST": "
+    border: var(--border-size-field) solid var(--stroke);
+    border-bottom: 0 none;
   ",
       },
       "colors": Object {
@@ -119,11 +121,11 @@ exports[`Button should render correctly 1`] = `
     }
   ",
         "CTA_TRANSPARENT": "
-    background-color: var(--bg-cta-transparent-active);
-    color: var(--text-cta-transparent);
+    background-color: transparent;
+    color: var(--text-cta-tertiary);
     &:hover, &:active{
-      background-color: var(--bg-cta-transparent-active);
-      color: var(--text-cta-transparent);
+      background-color: transparent;
+      color: var(--text-cta-active);
     }
   ",
         "FIELD_DEFAULT": "
@@ -136,6 +138,12 @@ exports[`Button should render correctly 1`] = `
   ",
         "LINK_PRIMARY": "
     color: var(--text-link);
+  ",
+        "LIST_ITEM": "
+    background-color: var(--white);
+    &:hover, &:active, &.active{
+      background-color: var(--text-light);
+    }
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
