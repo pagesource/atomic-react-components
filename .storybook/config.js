@@ -1,10 +1,8 @@
 import 'react-app-polyfill/ie11';
 import React from 'react';
 import { configure, setAddon, addDecorator, addParameters } from '@storybook/react';
-import { withConsole } from '@storybook/addon-console';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import { withKnobs } from '@storybook/addon-knobs';
-import { withSmartKnobs } from 'storybook-addon-smart-knobs';
 import { withDesign } from 'storybook-addon-designs';
 import { withTests } from '@storybook/addon-jest';
 import { withA11y } from '@storybook/addon-a11y';
@@ -15,7 +13,6 @@ import GlobalStyles from '../lib/styles';
 import results from '../.jest-test-results.json';
 
 addDecorator(withKnobs);
-addDecorator(withSmartKnobs);
 addDecorator(withA11y);
 addDecorator(withDesign);
 addDecorator(
@@ -27,7 +24,7 @@ addDecorator(
 addDecorator((storyFn, context) => (
   <React.Fragment>
     <GlobalStyles />
-    <ThemeProvider theme={theme}>{withConsole()(storyFn)(context)}</ThemeProvider>
+    <ThemeProvider theme={theme}>{storyFn(context)}</ThemeProvider>
   </React.Fragment>
 ));
 
