@@ -18,7 +18,7 @@ exports[`FieldInput Component should render correctly 1`] = `
     tertiary={true}
     type="button"
   >
-    Choose file(s)
+    Choose File(s)
   </Button>
   <Button
     primary={true}
