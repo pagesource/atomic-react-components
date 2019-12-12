@@ -6,7 +6,7 @@ exports[`<Toast /> <Toast />should render correctly 1`] = `
     autoDismiss={true}
     autoDismissTimeout={3000}
     className="toast default"
-    placement="top-left"
+    placement="top-right"
     variation="default"
   >
     <Button
