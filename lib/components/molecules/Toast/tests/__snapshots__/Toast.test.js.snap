@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toast /> <Toast />should render correctly 1`] = `
+<Fragment>
+  <div
+    autoDismiss={true}
+    autoDismissTimeout={3000}
+    className="toast default"
+    placement="top-left"
+    variation="default"
+  >
+    <Button
+      ariaLabel=""
+      className="toast-close"
+      disabled={false}
+      elementLocator=""
+      inheritedStyles=""
+      onClick={[Function]}
+      primary={false}
+      secondary={false}
+      tertiary={false}
+      type="button"
+    >
+      <img
+        alt="close button"
+        src="/images/close.svg"
+        width="12px"
+      />
+    </Button>
+    <div
+      className="toast-text"
+    >
+      Test
+    </div>
+    <span
+      autoDismiss={true}
+      className="toast-loader toast-dismiss default"
+    />
+  </div>
+</Fragment>
+`;

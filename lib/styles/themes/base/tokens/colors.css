@@ -32,6 +32,11 @@
   --bg-cta-secondary-active: var(--brand-secondary-active);
   --bg-cta-tertiary: var(--white);
   --bg-cta-tertiary-active: var(--brand-tertiary-active);
+  --bg-cta-info:#31708f;
+  --bg-cta-warning:#d8ca00;
+  --bg-cta-success:#36B37E;
+  --bg-cta-error:#a94442;
+  --bg-cta-default:#fe414d;
 
   --border-primary: #979797;
   --border-secondary: #171717;
@@ -49,6 +54,12 @@
   --text-cta-tertiary: var(--text-primary);
   --text-cta-disabled: #B1B1B1;
   --text-field-disabled: var(--text-cta-disabled);
+  --text-cta-info:#d9edf7;
+  --text-cta-warning:#fcf8e3;
+  --text-cta-success:#dff0d8;
+  --text-cta-error:#f2dede;
+  --text-cta-default:#f3e3e3;
+
 
   --field-border-primary: var(--border-primary);
   --field-border-secondary: var(--border-secondary);
