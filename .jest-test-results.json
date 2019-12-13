@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 2,
-  "numPassedTests": 7,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 4,
   "numPendingTestSuites": 0,
-  "numPendingTests": 2,
+  "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 2,
-  "numTotalTests": 9,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 4,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -19,108 +19,123 @@
     "filesRemovedList": [],
     "filesUnmatched": 0,
     "filesUpdated": 0,
-    "matched": 6,
-    "total": 6,
+    "matched": 0,
+    "total": 0,
     "unchecked": 0,
     "uncheckedKeysByFile": [],
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1576050595496,
+  "startTime": 1576229035632,
   "success": true,
   "testResults": [
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["FieldInput Component"],
+          "ancestorTitles": [
+            "Test Suite 1: Check for component and it's child rendered correctly."
+          ],
           "failureMessages": [],
-          "fullName": "FieldInput Component should render correctly",
+          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. Cookie Disclaimer component rendered correctly.",
           "location": null,
           "status": "passed",
-          "title": "should render correctly"
+          "title": "Cookie Disclaimer component rendered correctly."
         },
         {
-          "ancestorTitles": ["FieldInput Component"],
+          "ancestorTitles": [
+            "Test Suite 1: Check for component and it's child rendered correctly."
+          ],
           "failureMessages": [],
-          "fullName": "FieldInput Component should render label correctly",
+          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. should render two buttons for accepting and rejecting the consent",
           "location": null,
-          "status": "pending",
-          "title": "should render label correctly"
+          "status": "passed",
+          "title": "should render two buttons for accepting and rejecting the consent"
         },
         {
-          "ancestorTitles": ["FieldInput Component"],
+          "ancestorTitles": [
+            "Test Suite 2: Check for component and it's child for default props correctly."
+          ],
           "failureMessages": [],
-          "fullName": "FieldInput Component should render Input component with proper type",
+          "fullName": "Test Suite 2: Check for component and it's child for default props correctly. Button props for button types to be rendered.",
           "location": null,
-          "status": "pending",
-          "title": "should render Input component with proper type"
+          "status": "passed",
+          "title": "Button props for button types to be rendered."
+        },
+        {
+          "ancestorTitles": [
+            "Test Suite 2: Check for component and it's child for default props correctly."
+          ],
+          "failureMessages": [],
+          "fullName": "Test Suite 2: Check for component and it's child for default props correctly. Button props for button types to be rendered.",
+          "location": null,
+          "status": "passed",
+          "title": "Button props for button types to be rendered."
         }
       ],
-      "endTime": 1576050597208,
+      "endTime": 1576229050881,
       "message": "",
-      "name": "/Users/vijmishr/Documents/Projects/atomic-react-components/lib/components/molecules/Form/FieldInput/tests/FieldInput.test.js",
-      "startTime": 1576050596762,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render select tag correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render select tag correctly"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render input text field",
-          "location": null,
-          "status": "passed",
-          "title": "should render input text field"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render select field",
-          "location": null,
-          "status": "passed",
-          "title": "should render select field"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render input field with yupValidationSchema",
-          "location": null,
-          "status": "passed",
-          "title": "should render input field with yupValidationSchema"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component should render input field with no validation",
-          "location": null,
-          "status": "passed",
-          "title": "should render input field with no validation"
-        },
-        {
-          "ancestorTitles": ["Form Component"],
-          "failureMessages": [],
-          "fullName": "Form Component getSchema should return null if no params are passed",
-          "location": null,
-          "status": "passed",
-          "title": "getSchema should return null if no params are passed"
-        }
-      ],
-      "endTime": 1576050597337,
-      "message": "",
-      "name": "/Users/vijmishr/Documents/Projects/atomic-react-components/lib/components/molecules/Form/tests/Form.test.js",
-      "startTime": 1576050596754,
+      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\tests\\CookieDisclaimer.test.js",
+      "startTime": 1576229048315,
       "status": "passed",
       "summary": ""
     }
   ],
-  "wasInterrupted": false
+  "wasInterrupted": false,
+  "coverageMap": {
+    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.js": {
+      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.js",
+      "statementMap": {
+        "0": { "start": { "line": 9, "column": 25 }, "end": { "line": 23, "column": 1 } },
+        "1": { "start": { "line": 10, "column": 25 }, "end": { "line": 10, "column": 34 } },
+        "2": { "start": { "line": 11, "column": 29 }, "end": { "line": 11, "column": 38 } },
+        "3": { "start": { "line": 13, "column": 2 }, "end": { "line": 22, "column": 4 } },
+        "4": { "start": { "line": 25, "column": 0 }, "end": { "line": 32, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 9, "column": 25 }, "end": { "line": 9, "column": 26 } },
+          "loc": { "start": { "line": 9, "column": 88 }, "end": { "line": 23, "column": 1 } },
+          "line": 9
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 1, "1": 4, "2": 4, "3": 4, "4": 1 },
+      "f": { "0": 4 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "522f503d3ccf7a7a2abfdd778a925834c97e69ad"
+    },
+    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.style.js": {
+      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.style.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "baca223e2a6a97403d98119a8f64f185e4eb3dfb"
+    },
+    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\types\\index.js": {
+      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\types\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "d1cdb729b2633e18210dd241098b22ecadbe05f0"
+    },
+    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\index.js": {
+      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "c2a9f65dbe2f048d464bfef39a8d16d8dfda06d4"
+    }
+  }
 }
