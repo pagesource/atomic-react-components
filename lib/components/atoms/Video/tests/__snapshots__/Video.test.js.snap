@@ -10,30 +10,14 @@ exports[`<Video /> should render correctly 1`] = `
   loop={true}
   muted={true}
   poster=""
-  trackdata={
-    Array [
-      Object {
-        "id": 2,
-        "isDefault": false,
-        "label": "German",
-        "src": "/",
-        "srcLang": "de",
-      },
-      Object {
-        "id": 3,
-        "isDefault": false,
-        "label": "Franch",
-        "src": "/",
-        "srcLang": "fr",
-      },
-      Object {
-        "id": 4,
-        "isDefault": false,
-        "label": "Hindi",
-        "src": "/",
-        "srcLang": "hi",
-      },
-    ]
+  trackdefaultdata={
+    Object {
+      "id": 1,
+      "isDefault": true,
+      "label": "German",
+      "src": "/",
+      "srcLang": "de",
+    }
   }
   width="50%"
 >
