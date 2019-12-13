@@ -20,7 +20,7 @@
     "clean:dist": "rimraf dist",
     "build": "yarn run clean:dist && node scripts/build.js",
     "generate": "plop --plopfile generators/index.js",
-    "storybook": "start-storybook -s ./lib/static -p 6006",
+    "storybook": "start-storybook -s ./public,./lib/static -p 6006",
     "build-storybook": "build-storybook -c .storybook -o ./out",
     "deploy-storybook": "storybook-to-ghpages --existing-output-dir=./out --host-token-env-variable=GITHUB_TOKEN --ci",
     "lint:js": "eslint lib/",
