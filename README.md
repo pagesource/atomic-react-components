@@ -55,8 +55,9 @@ import { ButtonVanilla } from '@xt-pagesource/atomic-react-pattern-lib';
   15. Tabs, TabsVanilla
   16. Theme
   17. List, ListVanilla
-  18. QuoteMedia, QuoteMediaVanilla
-  19. Video, VideoVanilla
+  18. Blockquote, BlockquoteVanilla
+  19. QuoteMedia, QuoteMediaVanilla
+  20. Video, VideoVanilla
 </details>
 
 ### As Fork/Clone for Custom Development
