@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typeahead /> should render correctly 1`] = `
+<div
+  id="typeahead-component"
+>
+  <Label
+    className=""
+    elementLocator=""
+    htmlFor="word-typeahead"
+  />
+  <Input
+    aria-autocomplete="both"
+    aria-describedby="initInstr"
+    aria-expanded="false"
+    aria-owns="results"
+    autoComplete="off"
+    disabled={false}
+    name="word-typeahead"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    type="search"
+  />
+  <List
+    id="results"
+    noMargin={true}
+    role="listbox"
+  />
+</div>
+`;
