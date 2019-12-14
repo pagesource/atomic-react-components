@@ -39,7 +39,27 @@ exports[`<Accordion /> should render correctly 1`] = `
     >
       <div
         className="Accordion-vybsad-0 dfOGIl accordion"
-      />
+      >
+        <AccordionPanel
+          className="accordion-panel"
+        >
+          <details
+            className="accordion-panel"
+          >
+            <AccordionHeader
+              ariaLabelAttr="aria-label"
+              className="accordion-header"
+            >
+              <summary
+                aria-expanded="false"
+                aria-label="aria-label"
+                className="accordion-header"
+                role="button"
+              />
+            </AccordionHeader>
+          </details>
+        </AccordionPanel>
+      </div>
     </Accordion>
   </StyledComponent>
 </Accordion>
