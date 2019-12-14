@@ -1792,13 +1792,6 @@
     react-inspector "^3.0.2"
     uuid "^3.3.2"
 
-"@storybook/addon-console@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-console/-/addon-console-1.2.1.tgz#f338401661b4636118b13839848061e996d4e104"
-  integrity sha512-2iDbDTipWonvRpIqLLntfhCGvawFFvoG1xyErpyL7K/HRdQ1zzIvR1Qm83S7TK8Vg+RzZWm4wcDbxx7WOsFCNg==
-  dependencies:
-    global "^4.3.2"
-
 "@storybook/addon-docs@5.2.3":
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-5.2.3.tgz#4ff4f401033735e5b929fd2809af1c86f3fbe2cb"
@@ -3730,6 +3723,15 @@ babel-plugin-react-docgen@^3.0.0:
   dependencies:
     lodash "^4.17.11"
     react-docgen "^4.1.0"
+    recast "^0.14.7"
+
+babel-plugin-react-docgen@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.2.0.tgz#c072364d61d1f6bb19a6ca81734fc270870e8b96"
+  integrity sha512-MZ3fhnJ+/tUDhWFGgWsajuLct/dD1xoprmStqrBgtt9flFLPrKIOKOfqwjXjsn6/THs5QrG5rkcDFE3TMMZDjQ==
+  dependencies:
+    lodash "^4.17.15"
+    react-docgen "^4.1.1"
     recast "^0.14.7"
 
 babel-plugin-react-require@^3.0.0:
@@ -11816,7 +11818,7 @@ react-dev-utils@^9.0.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-docgen@^4.1.0:
+react-docgen@^4.1.0, react-docgen@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/react-docgen/-/react-docgen-4.1.1.tgz#8fef0212dbf14733e09edecef1de6b224d87219e"
   integrity sha512-o1wdswIxbgJRI4pckskE7qumiFyqkbvCO++TylEDOo2RbMiueIOg8YzKU4X9++r0DjrbXePw/LHnh81GRBTWRw==
