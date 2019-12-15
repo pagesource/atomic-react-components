@@ -12,17 +12,20 @@ exports[`<Typeahead /> should render correctly 1`] = `
   <Input
     aria-autocomplete="both"
     aria-describedby="initInstr"
-    aria-expanded="false"
-    aria-owns="results"
+    aria-expanded={false}
+    aria-haspopup="true"
+    aria-owns="typeahead-results-word-typeahead"
     autoComplete="off"
     disabled={false}
+    id="word-typeahead"
     name="word-typeahead"
     onChange={[Function]}
     onKeyDown={[Function]}
     type="search"
   />
   <List
-    id="results"
+    aria-label="word-typeahead"
+    id="typeahead-results-word-typeahead"
     noMargin={true}
     role="listbox"
   />
