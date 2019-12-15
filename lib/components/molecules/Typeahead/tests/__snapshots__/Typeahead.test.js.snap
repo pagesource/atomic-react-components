@@ -21,13 +21,37 @@ exports[`<Typeahead /> should render correctly 1`] = `
     name="word-typeahead"
     onChange={[Function]}
     onKeyDown={[Function]}
+    people={
+      Array [
+        Object {
+          "first": "Charlie",
+          "last": "Brown",
+          "twitter": "dancounsell",
+        },
+        Object {
+          "first": "Charlotte",
+          "last": "White",
+          "twitter": "mtnmissy",
+        },
+        Object {
+          "first": "Chloe",
+          "last": "Jones",
+          "twitter": "ladylexy",
+        },
+        Object {
+          "first": "Cooper",
+          "last": "King",
+          "twitter": "steveodom",
+        },
+      ]
+    }
     type="search"
   />
-  <List
-    aria-label="word-typeahead"
-    id="typeahead-results-word-typeahead"
-    noMargin={true}
-    role="listbox"
-  />
+  <span
+    className="initial-string"
+    id="initInstr"
+  >
+    When autocomplete results are available use up and down arrows to review and enter to select. Touch device users, explore by touch or with swipe gestures.
+  </span>
 </div>
 `;
