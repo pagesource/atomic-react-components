@@ -16,3 +16,4 @@ flow-typed
 docs
 
 .cache
+.jest-test-results.json
