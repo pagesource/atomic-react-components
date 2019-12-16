@@ -1,35 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Toast /> <Toast />should render correctly 1`] = `
-<Fragment>
-  <div
-    className="toast default"
-    placement="top-right"
-    variation="default"
-  >
-    <Button
-      ariaLabel=""
-      className="toast-close"
-      disabled={false}
-      elementLocator=""
-      inheritedStyles=""
-      onClick={[Function]}
-      primary={false}
-      secondary={false}
-      tertiary={false}
-      type="button"
-    >
-      <img
-        alt="close button"
-        src="/images/close.svg"
-        width="12px"
-      />
-    </Button>
-    <div
-      className="toast-text"
-    >
-      Test
-    </div>
-  </div>
-</Fragment>
-`;
+exports[`<Toast /> <Toast />should render correctly 1`] = `<Fragment />`;
