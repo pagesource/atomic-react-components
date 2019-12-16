@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuoteMedia /> Should render correctly 1`] = `
+<div
+  className="quoteMedia"
+>
+  <Heading
+    HeadingType="h2"
+    className="title"
+  >
+    Inspirational Quotes
+  </Heading>
+  <div
+    className="container"
+  >
+    <Blockquote
+      quoteAuthor="- Rear Admiral Grace Murray Hopper"
+      quoteContent="Ask forgiveness, not permission."
+    />
+    <div
+      className="media"
+    >
+      <Image
+        alt="Dummy Image"
+        elementLocator=""
+        inheritedStyles=""
+        loading="auto"
+        placeholderSrc="/images/image-placeholder.png"
+        sizes="(min-width: 36em) 33.3vw, 100vw"
+        src="/images/dummies/320.png"
+        srcset="/images/dummies/1280.png 1024w, /images/dummies/640.png 640w, /images/dummies/320.png 320w"
+      />
+    </div>
+  </div>
+</div>
+`;
