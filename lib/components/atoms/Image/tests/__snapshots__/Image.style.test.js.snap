@@ -23,6 +23,7 @@ exports[`Image Component with styles should render correctly and match snapshots
       "styledComponentId": "Image-sc-1m0q2wx-0",
       "target": [Function],
       "toString": [Function],
+      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -56,6 +57,7 @@ exports[`Image Component with styles should render correctly with lazy load 1`] 
       "styledComponentId": "Image-sc-1m0q2wx-0",
       "target": [Function],
       "toString": [Function],
+      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
