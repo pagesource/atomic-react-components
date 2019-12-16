@@ -1,8 +1,8 @@
 const strictRules = {
   'selector-max-specificity': [
-    '0,2,0',
+    '0,3,0',
     {
-      ignoreSelectors: [':global', ':local'],
+      ignoreSelectors: [':global', ':local', ':focus', ':checked', ':after', ':before'],
       severity: 'warning',
     },
   ],
