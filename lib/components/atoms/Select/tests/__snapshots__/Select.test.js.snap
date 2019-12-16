@@ -2,22 +2,29 @@
 
 exports[`Select Component should render correctly 1`] = `
 <select
-  className=""
+  className="select"
   data-locator="my-custom-select-locator"
   disabled={false}
   id="dropdown-1"
   name="my-drop"
   onChange={[Function]}
-  value=""
+  value="select"
 >
   <option
-    key="my-drop_Option 1"
+    disabled={true}
+    selected={true}
+    value=""
+  >
+    Select
+  </option>
+  <option
+    key="my-drop_0"
     value="Option 1"
   >
     Option 1
   </option>
   <option
-    key="my-drop_Option 2"
+    key="my-drop_1"
     value="Option 2"
   >
     Option 2
