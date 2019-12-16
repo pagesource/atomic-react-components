@@ -41,7 +41,9 @@
     ],
     "prettier/prettier": "error",
     "compat/compat": "error",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for":"off"
   },
   "overrides": [
     {
