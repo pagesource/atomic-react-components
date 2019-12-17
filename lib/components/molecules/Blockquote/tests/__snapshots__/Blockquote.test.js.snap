@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Blockquote /> should render correctly 1`] = `
+<blockquote
+  className="blockquote"
+>
+  <Para
+    className="content"
+  >
+    Ask forgiveness, not permission.
+  </Para>
+  <footer
+    className="author"
+  >
+    - Rear Admiral Grace Murray Hopper
+  </footer>
+</blockquote>
+`;

@@ -167,6 +167,7 @@ exports[`Button should render correctly 1`] = `
     width: var(--spacing-6);
   ",
       },
+      "icons": Object {},
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
         "SHADOW_M": "var(--shadow-m)",
@@ -238,6 +239,10 @@ exports[`Button should render correctly 1`] = `
     font-size: var(--font-size-link);
     line-height: var(--line-height-link);
     text-decoration: none;
+  ",
+        "FONT_QUOTE_SIGN": "
+    font-size: var(--font-size-quote-sign);
+    line-height: var(--line-height-quote-sign);
   ",
       },
       "zIndex": Object {
