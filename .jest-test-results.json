@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 1,
-  "numPassedTests": 4,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 1,
-  "numTotalTests": 4,
+  "numTotalTestSuites": 0,
+  "numTotalTests": 0,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,116 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1576229035632,
+  "startTime": 1576554049390,
   "success": true,
-  "testResults": [
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": [
-            "Test Suite 1: Check for component and it's child rendered correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. Cookie Disclaimer component rendered correctly.",
-          "location": null,
-          "status": "passed",
-          "title": "Cookie Disclaimer component rendered correctly."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 1: Check for component and it's child rendered correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. should render two buttons for accepting and rejecting the consent",
-          "location": null,
-          "status": "passed",
-          "title": "should render two buttons for accepting and rejecting the consent"
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 2: Check for component and it's child for default props correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 2: Check for component and it's child for default props correctly. Button props for button types to be rendered.",
-          "location": null,
-          "status": "passed",
-          "title": "Button props for button types to be rendered."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 2: Check for component and it's child for default props correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 2: Check for component and it's child for default props correctly. Button props for button types to be rendered.",
-          "location": null,
-          "status": "passed",
-          "title": "Button props for button types to be rendered."
-        }
-      ],
-      "endTime": 1576229050881,
-      "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\tests\\CookieDisclaimer.test.js",
-      "startTime": 1576229048315,
-      "status": "passed",
-      "summary": ""
-    }
-  ],
+  "testResults": [],
   "wasInterrupted": false,
-  "coverageMap": {
-    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.js": {
-      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.js",
-      "statementMap": {
-        "0": { "start": { "line": 9, "column": 25 }, "end": { "line": 23, "column": 1 } },
-        "1": { "start": { "line": 10, "column": 25 }, "end": { "line": 10, "column": 34 } },
-        "2": { "start": { "line": 11, "column": 29 }, "end": { "line": 11, "column": 38 } },
-        "3": { "start": { "line": 13, "column": 2 }, "end": { "line": 22, "column": 4 } },
-        "4": { "start": { "line": 25, "column": 0 }, "end": { "line": 32, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 9, "column": 25 }, "end": { "line": 9, "column": 26 } },
-          "loc": { "start": { "line": 9, "column": 88 }, "end": { "line": 23, "column": 1 } },
-          "line": 9
-        }
-      },
-      "branchMap": {},
-      "s": { "0": 1, "1": 4, "2": 4, "3": 4, "4": 1 },
-      "f": { "0": 4 },
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "522f503d3ccf7a7a2abfdd778a925834c97e69ad"
-    },
-    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.style.js": {
-      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\CookieDisclaimer.style.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "baca223e2a6a97403d98119a8f64f185e4eb3dfb"
-    },
-    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\types\\index.js": {
-      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\types\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "d1cdb729b2633e18210dd241098b22ecadbe05f0"
-    },
-    "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\index.js": {
-      "path": "C:\\Users\\salkapoo\\Desktop\\Learning\\React\\lib\\components\\molecules\\CookieDisclaimer\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "c2a9f65dbe2f048d464bfef39a8d16d8dfda06d4"
-    }
-  }
+  "coverageMap": {}
 }
