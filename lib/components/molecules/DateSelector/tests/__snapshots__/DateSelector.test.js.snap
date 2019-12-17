@@ -8,7 +8,9 @@ exports[`<DateSelector /> should render correctly 1`] = `
     className=""
     elementLocator=""
     htmlFor="date-selector-day"
-  />
+  >
+    Date
+  </Label>
   <Select
     className="date date-selector"
     id="date-selector-day"
@@ -30,6 +32,7 @@ exports[`<DateSelector /> should render correctly 1`] = `
         28,
         29,
         30,
+        31,
       ]
     }
     selectedOption={17}
@@ -38,7 +41,9 @@ exports[`<DateSelector /> should render correctly 1`] = `
     className=""
     elementLocator=""
     htmlFor="date-selector-month"
-  />
+  >
+    Month
+  </Label>
   <Select
     className="month date-selector"
     id="date-selector-month"
@@ -50,7 +55,9 @@ exports[`<DateSelector /> should render correctly 1`] = `
     className=""
     elementLocator=""
     htmlFor="date-selector-year"
-  />
+  >
+    Year
+  </Label>
   <Select
     className="year date-selector"
     id="date-selector-year"
