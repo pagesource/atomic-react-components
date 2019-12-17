@@ -7,7 +7,7 @@ exports[`<FieldToggle /> should render correctly 1`] = `
   <Label
     className="labelName"
     elementLocator=""
-    htmlFor="FieldToggle"
+    htmlFor="checkbox_test_1"
   >
     Toggle
   </Label>
