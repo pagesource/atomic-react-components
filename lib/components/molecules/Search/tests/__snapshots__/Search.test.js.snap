@@ -42,37 +42,3 @@ exports[`<Search /> should render correctly 1`] = `
   Test
 </StyledComponent>
 `;
-
-exports[`Search should render correctly 1`] = `
-<div
-  className=""
->
-  <div
-    className="search-box"
-  >
-    <Input
-      aria-label="Search"
-      className="search-txt"
-      onChange={[Function]}
-      onKeyPress={[Function]}
-      value=""
-    />
-    <div
-      className="search-button"
-    >
-      <Button />
-      <Button
-        onClick={[Function]}
-        type="button"
-      >
-        <i
-          className="search-icon search-btn"
-        />
-      </Button>
-    </div>
-  </div>
-  <SearchList
-    dataLists={Array []}
-  />
-</div>
-`;
