@@ -36,7 +36,6 @@ exports[`Input Styled component should render correctly 1`] = `
         "render": [Function],
       },
       "toString": [Function],
-      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
