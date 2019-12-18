@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Para Component should render correctly and match snapshot 1`] = `
-<ParaVanilla
+<p
   className=""
-  elementLocator="my-paragraph"
+  data-locator="para-my-paragraph"
 >
   This is Para text
-</ParaVanilla>
+</p>
 `;
