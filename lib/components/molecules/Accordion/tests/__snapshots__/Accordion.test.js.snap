@@ -2,9 +2,13 @@
 
 exports[`<Accordion /> should render correctly 1`] = `
 <Accordion
+  accordionHeader="Accordion Header"
+  accordionPanelContent="Panel Content"
   className="accordion"
 >
   <StyledComponent
+    accordionHeader="Accordion Header"
+    accordionPanelContent="Panel Content"
     className="accordion"
     forwardedComponent={
       Object {
@@ -35,6 +39,8 @@ exports[`<Accordion /> should render correctly 1`] = `
     forwardedRef={null}
   >
     <Accordion
+      accordionHeader="Accordion Header"
+      accordionPanelContent="Panel Content"
       className="Accordion-vybsad-0 dfOGIl accordion"
     >
       <div
@@ -51,12 +57,20 @@ exports[`<Accordion /> should render correctly 1`] = `
               className="accordion-header"
             >
               <summary
-                aria-expanded="false"
+                aria-expanded={false}
                 aria-label="aria-label"
                 className="accordion-header"
+                onClick={[Function]}
+                onKeyDown={[Function]}
                 role="button"
-              />
+                tabIndex="0"
+              >
+                Accordion Header
+              </summary>
             </AccordionHeader>
+            <p>
+              Panel Content
+            </p>
           </details>
         </AccordionPanel>
       </div>
