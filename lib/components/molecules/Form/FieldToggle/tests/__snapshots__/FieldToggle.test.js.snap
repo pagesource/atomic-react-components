@@ -2,10 +2,10 @@
 
 exports[`<FieldToggle /> should render correctly 1`] = `
 <div
-  className="container"
+  className="toggle-container"
 >
   <Label
-    className="labelName"
+    className="label-name"
     elementLocator=""
     htmlFor="checkbox_test_1"
   >
