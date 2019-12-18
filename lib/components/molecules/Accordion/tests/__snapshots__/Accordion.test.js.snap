@@ -31,7 +31,6 @@ exports[`<Accordion /> should render correctly 1`] = `
         "styledComponentId": "Accordion-vybsad-0",
         "target": [Function],
         "toString": [Function],
-        "usesTheme": false,
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
