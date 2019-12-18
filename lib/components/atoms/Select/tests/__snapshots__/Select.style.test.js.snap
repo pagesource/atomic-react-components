@@ -18,6 +18,8 @@ exports[`Select Styled component should render correctly 1`] = `
         "ANIMATION_SPINNER": "var(--animation-spinner)",
         "DURATION_M": "var(--duration-m)",
         "EASING_SWIFT": "var(--easing-swift)",
+        "TOGGLE_SLIDE": " transform: var(--animation-toggle)",
+        "TOGGLE_TRANSITION": "transition: 0.4s",
       },
       "behaviour": Object {
         "LINK_DECORATION": "text-decoration: none;",
@@ -51,6 +53,9 @@ exports[`Select Styled component should render correctly 1`] = `
   ",
       },
       "colors": Object {
+        "BACKGROUND_WHITE": "
+  background-color: var(--bg-primary);
+",
         "CTA_DEFAULT": "
     background-color:var(--bg-cta-default);
     color:var(--text-cta-default);
@@ -100,11 +105,28 @@ exports[`Select Styled component should render correctly 1`] = `
         "CTA_WARNING": "
     background-color:var(--bg-cta-warning);
     color:var(--text-cta-warning);",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
+  ",
+        "GREY_COLOR": "
+      var(--grey);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
+        "SUCCESS_COLOR": "
+  var(--success);
+",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
   ",
         "TEXT_INVERSE": "
     color: var(--text-inverse);
