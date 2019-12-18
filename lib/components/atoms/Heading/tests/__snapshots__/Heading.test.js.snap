@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Heading Component should render correctly and match snapshot 1`] = `
-<h1
+<HeadingVanilla
   className=""
-  data-locator="heading-h1-sample"
 >
   Sample
-</h1>
+</HeadingVanilla>
 `;
