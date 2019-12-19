@@ -3,7 +3,7 @@
 exports[`DDFieldInput Component should render correctly 1`] = `
 <Button
   ariaLabel=""
-  className=""
+  className="dragAndDrop"
   disabled={false}
   elementLocator=""
   inheritedStyles=""
