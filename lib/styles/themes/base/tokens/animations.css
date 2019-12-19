@@ -3,7 +3,7 @@
  * @presenter Animation
  */
 
- @keyframes rotate {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
@@ -90,7 +90,7 @@
  * @presenter Duration
  */
 
- :root {
+:root {
   --duration-m: 300ms;
 }
 
@@ -99,7 +99,6 @@
  * @presenter Easing
  */
 
- :root {
+:root {
   --easing-swift: cubic-bezier(0.55, 0, 0.1, 1);
 }
-

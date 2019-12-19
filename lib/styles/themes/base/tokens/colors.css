@@ -3,13 +3,13 @@
  * @presenter Color
  */
 
- :root {
+:root {
   --grey: grey;
   --red: red;
   --black: #000000;
   --white: #ffffff;
 
-  --error: #DA1E28;
+  --error: #da1e28;
   --success: #2e993a;
 
   --brand-primary: #fe414d;
@@ -25,18 +25,18 @@
   --outline: #999;
 
   --bg-primary: var(--white);
-  --bg-secondary: #FFD6D9;
+  --bg-secondary: #ffd6d9;
   --bg-cta-primary: var(--brand-primary);
   --bg-cta-primary-active: var(--brand-primary-active);
   --bg-cta-secondary: var(--brand-secondary);
   --bg-cta-secondary-active: var(--brand-secondary-active);
   --bg-cta-tertiary: var(--white);
   --bg-cta-tertiary-active: var(--brand-tertiary-active);
-  --bg-cta-info:#31708f;
-  --bg-cta-warning:#d8ca00;
-  --bg-cta-success:#36B37E;
-  --bg-cta-error:#a94442;
-  --bg-cta-default:#fe414d;
+  --bg-cta-info: #31708f;
+  --bg-cta-warning: #d8ca00;
+  --bg-cta-success: #36b37e;
+  --bg-cta-error: #a94442;
+  --bg-cta-default: #fe414d;
 
   --border-primary: #979797;
   --border-secondary: #171717;
@@ -52,14 +52,13 @@
   --text-cta-primary: var(--white);
   --text-cta-secondary: var(--white);
   --text-cta-tertiary: var(--text-primary);
-  --text-cta-disabled: #B1B1B1;
+  --text-cta-disabled: #b1b1b1;
   --text-field-disabled: var(--text-cta-disabled);
-  --text-cta-info:#d9edf7;
-  --text-cta-warning:#fcf8e3;
-  --text-cta-success:#dff0d8;
-  --text-cta-error:#f2dede;
-  --text-cta-default:#f3e3e3;
-
+  --text-cta-info: #d9edf7;
+  --text-cta-warning: #fcf8e3;
+  --text-cta-success: #dff0d8;
+  --text-cta-error: #f2dede;
+  --text-cta-default: #f3e3e3;
 
   --field-border-primary: var(--border-primary);
   --field-border-secondary: var(--border-secondary);
