@@ -20,6 +20,8 @@ exports[`Button should render correctly 1`] = `
           [Function],
           ";",
           [Function],
+          " ",
+          [Function],
           ";&:focus:not(.focus-visible){outline:none;}",
           [Function],
           ";",
@@ -80,8 +82,15 @@ exports[`Button should render correctly 1`] = `
         "LIST_INLINE": "
     border-right: var(--border-size-field) solid var(--field-border-primary);
   ",
+        "TAG": "
+    border: var(--border-size-field) solid var(--black);
+    border-radius: var(--border-radius-s);
+  ",
       },
       "colors": Object {
+        "BG_DEFAULT": "
+    background-color: var(--bg-primary);
+  ",
         "CTA_DEFAULT": "
     background-color:var(--bg-cta-default);
     color:var(--text-cta-default);
@@ -95,6 +104,14 @@ exports[`Button should render correctly 1`] = `
         "CTA_ERROR": "
     background-color:var(--bg-cta-error);
     color:var(--text-cta-error);",
+        "CTA_ICON": "
+    background-color: var(--white);
+    color: var(--black);
+    &:hover, &:active{
+      background-color: var(--white);
+      color: var(--black);
+    }
+  ",
         "CTA_INFO": "
     background-color:var(--bg-cta-info);
     color:var(--text-cta-info);
