@@ -178,7 +178,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="1name"
+          key="1.$name"
         >
           <td
             role="cell"
@@ -197,7 +197,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="1calories"
+          key="1.$calories"
         >
           <td
             role="cell"
@@ -216,7 +216,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="1fat"
+          key="1.$fat"
         >
           <td
             role="cell"
@@ -235,7 +235,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="1carbs"
+          key="1.$carbs"
         >
           <td
             role="cell"
@@ -254,7 +254,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="1protein"
+          key="1.$protein"
         >
           <td
             role="cell"
@@ -278,7 +278,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.9,
             }
           }
-          key="2name"
+          key="2.$name"
         >
           <td
             role="cell"
@@ -297,7 +297,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.9,
             }
           }
-          key="2calories"
+          key="2.$calories"
         >
           <td
             role="cell"
@@ -316,7 +316,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.9,
             }
           }
-          key="2fat"
+          key="2.$fat"
         >
           <td
             role="cell"
@@ -335,7 +335,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.9,
             }
           }
-          key="2carbs"
+          key="2.$carbs"
         >
           <td
             role="cell"
@@ -354,7 +354,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.9,
             }
           }
-          key="2protein"
+          key="2.$protein"
         >
           <td
             role="cell"
@@ -378,7 +378,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6,
             }
           }
-          key="3name"
+          key="3.$name"
         >
           <td
             role="cell"
@@ -397,7 +397,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6,
             }
           }
-          key="3calories"
+          key="3.$calories"
         >
           <td
             role="cell"
@@ -416,7 +416,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6,
             }
           }
-          key="3fat"
+          key="3.$fat"
         >
           <td
             role="cell"
@@ -435,7 +435,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6,
             }
           }
-          key="3carbs"
+          key="3.$carbs"
         >
           <td
             role="cell"
@@ -454,7 +454,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6,
             }
           }
-          key="3protein"
+          key="3.$protein"
         >
           <td
             role="cell"
@@ -478,7 +478,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="5name"
+          key="5.$name"
         >
           <td
             role="cell"
@@ -497,7 +497,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="5calories"
+          key="5.$calories"
         >
           <td
             role="cell"
@@ -516,7 +516,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="5fat"
+          key="5.$fat"
         >
           <td
             role="cell"
@@ -535,7 +535,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="5carbs"
+          key="5.$carbs"
         >
           <td
             role="cell"
@@ -554,7 +554,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="5protein"
+          key="5.$protein"
         >
           <td
             role="cell"
@@ -578,7 +578,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 3.9,
             }
           }
-          key="6name"
+          key="6.$name"
         >
           <td
             role="cell"
@@ -597,7 +597,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 3.9,
             }
           }
-          key="6calories"
+          key="6.$calories"
         >
           <td
             role="cell"
@@ -616,7 +616,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 3.9,
             }
           }
-          key="6fat"
+          key="6.$fat"
         >
           <td
             role="cell"
@@ -635,7 +635,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 3.9,
             }
           }
-          key="6carbs"
+          key="6.$carbs"
         >
           <td
             role="cell"
@@ -654,7 +654,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 3.9,
             }
           }
-          key="6protein"
+          key="6.$protein"
         >
           <td
             role="cell"
@@ -678,7 +678,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6.5,
             }
           }
-          key="7name"
+          key="7.$name"
         >
           <td
             role="cell"
@@ -697,7 +697,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6.5,
             }
           }
-          key="7calories"
+          key="7.$calories"
         >
           <td
             role="cell"
@@ -716,7 +716,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6.5,
             }
           }
-          key="7fat"
+          key="7.$fat"
         >
           <td
             role="cell"
@@ -735,7 +735,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6.5,
             }
           }
-          key="7carbs"
+          key="7.$carbs"
         >
           <td
             role="cell"
@@ -754,7 +754,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 6.5,
             }
           }
-          key="7protein"
+          key="7.$protein"
         >
           <td
             role="cell"
@@ -778,7 +778,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="8name"
+          key="8.$name"
         >
           <td
             role="cell"
@@ -797,7 +797,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="8calories"
+          key="8.$calories"
         >
           <td
             role="cell"
@@ -816,7 +816,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="8fat"
+          key="8.$fat"
         >
           <td
             role="cell"
@@ -835,7 +835,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="8carbs"
+          key="8.$carbs"
         >
           <td
             role="cell"
@@ -854,7 +854,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4.3,
             }
           }
-          key="8protein"
+          key="8.$protein"
         >
           <td
             role="cell"
@@ -878,7 +878,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="9name"
+          key="9.$name"
         >
           <td
             role="cell"
@@ -897,7 +897,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="9calories"
+          key="9.$calories"
         >
           <td
             role="cell"
@@ -916,7 +916,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="9fat"
+          key="9.$fat"
         >
           <td
             role="cell"
@@ -935,7 +935,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="9carbs"
+          key="9.$carbs"
         >
           <td
             role="cell"
@@ -954,7 +954,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="9protein"
+          key="9.$protein"
         >
           <td
             role="cell"
@@ -978,7 +978,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 7,
             }
           }
-          key="10name"
+          key="10.$name"
         >
           <td
             role="cell"
@@ -997,7 +997,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 7,
             }
           }
-          key="10calories"
+          key="10.$calories"
         >
           <td
             role="cell"
@@ -1016,7 +1016,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 7,
             }
           }
-          key="10fat"
+          key="10.$fat"
         >
           <td
             role="cell"
@@ -1035,7 +1035,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 7,
             }
           }
-          key="10carbs"
+          key="10.$carbs"
         >
           <td
             role="cell"
@@ -1054,7 +1054,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 7,
             }
           }
-          key="10protein"
+          key="10.$protein"
         >
           <td
             role="cell"
@@ -1078,7 +1078,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="11name"
+          key="11.$name"
         >
           <td
             role="cell"
@@ -1097,7 +1097,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="11calories"
+          key="11.$calories"
         >
           <td
             role="cell"
@@ -1116,7 +1116,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="11fat"
+          key="11.$fat"
         >
           <td
             role="cell"
@@ -1135,7 +1135,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="11carbs"
+          key="11.$carbs"
         >
           <td
             role="cell"
@@ -1154,7 +1154,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 0,
             }
           }
-          key="11protein"
+          key="11.$protein"
         >
           <td
             role="cell"
@@ -1178,7 +1178,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 2,
             }
           }
-          key="12name"
+          key="12.$name"
         >
           <td
             role="cell"
@@ -1197,7 +1197,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 2,
             }
           }
-          key="12calories"
+          key="12.$calories"
         >
           <td
             role="cell"
@@ -1216,7 +1216,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 2,
             }
           }
-          key="12fat"
+          key="12.$fat"
         >
           <td
             role="cell"
@@ -1235,7 +1235,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 2,
             }
           }
-          key="12carbs"
+          key="12.$carbs"
         >
           <td
             role="cell"
@@ -1254,7 +1254,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 2,
             }
           }
-          key="12protein"
+          key="12.$protein"
         >
           <td
             role="cell"
@@ -1278,7 +1278,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 37,
             }
           }
-          key="13name"
+          key="13.$name"
         >
           <td
             role="cell"
@@ -1297,7 +1297,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 37,
             }
           }
-          key="13calories"
+          key="13.$calories"
         >
           <td
             role="cell"
@@ -1316,7 +1316,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 37,
             }
           }
-          key="13fat"
+          key="13.$fat"
         >
           <td
             role="cell"
@@ -1335,7 +1335,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 37,
             }
           }
-          key="13carbs"
+          key="13.$carbs"
         >
           <td
             role="cell"
@@ -1354,7 +1354,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 37,
             }
           }
-          key="13protein"
+          key="13.$protein"
         >
           <td
             role="cell"
@@ -1378,7 +1378,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="14name"
+          key="14.$name"
         >
           <td
             role="cell"
@@ -1397,7 +1397,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="14calories"
+          key="14.$calories"
         >
           <td
             role="cell"
@@ -1416,7 +1416,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="14fat"
+          key="14.$fat"
         >
           <td
             role="cell"
@@ -1435,7 +1435,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="14carbs"
+          key="14.$carbs"
         >
           <td
             role="cell"
@@ -1454,7 +1454,7 @@ exports[`Table should render correctly 1`] = `
               "protein": 4,
             }
           }
-          key="14protein"
+          key="14.$protein"
         >
           <td
             role="cell"
