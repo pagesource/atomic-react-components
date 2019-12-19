@@ -5,6 +5,7 @@ node_modules
 reports
 out
 .history
+.jest-test-results.json
 
 # Reports
 reports
