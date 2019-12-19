@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag /> should render correctly 1`] = `
+<Fragment>
+  <span
+    className="demo-tag"
+  >
+    <span
+      className="text-content"
+    >
+      Test
+    </span>
+  </span>
+</Fragment>
+`;
