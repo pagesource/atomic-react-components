@@ -11,6 +11,7 @@ const strictRules = {
   'declaration-colon-newline-after': null,
   'value-list-max-empty-lines': null,
   'font-family-no-missing-generic-family-keyword': null,
+  'value-no-vendor-prefix': true,
 };
 
 module.exports = {

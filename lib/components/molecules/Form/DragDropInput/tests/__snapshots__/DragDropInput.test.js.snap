@@ -1,15 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DDFieldInput Component should render correctly 1`] = `
-<div
+<Button
+  ariaLabel=""
   className=""
+  disabled={false}
+  elementLocator=""
+  inheritedStyles=""
   onClick={[Function]}
   onDragLeave={[Function]}
   onDragOver={[Function]}
   onDrop={[Function]}
-  onKeyDown={[Function]}
-  role="button"
-  tabIndex="0"
+  primary={false}
+  secondary={false}
+  tertiary={false}
+  type="button"
 >
   <Label
     className=""
@@ -18,8 +23,7 @@ exports[`DDFieldInput Component should render correctly 1`] = `
   <Field
     name="fileupload"
     render={[Function]}
-    type="file"
   />
   Drop Files Here...
-</div>
+</Button>
 `;

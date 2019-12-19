@@ -26,7 +26,6 @@
     "lint:js": "eslint lib/",
     "lint:js:fix": "yarn run lint:js --fix",
     "lint:css": "stylelint lib/**/*.js",
-    "lint:css:fix": "yarn run lint:css --fix",
     "lint": "yarn run lint:js && yarn run lint:css",
     "flow": "flow",
     "flow:install": "flow-typed install",
