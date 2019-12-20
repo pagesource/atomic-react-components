@@ -125,7 +125,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.8.0",
     "webpack": "^4.31.0",
-    "yarn": "^1.15.2"
+    "yarn": "^1.21.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.3",

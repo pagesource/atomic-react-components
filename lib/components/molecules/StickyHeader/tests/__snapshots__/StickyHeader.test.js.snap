@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test render <StickyHeader /> Component Should test component render correctly 1`] = `
+<StickyHeader>
+  <div
+    aria-label="Sticky Header"
+    className=""
+  >
+    <header />
+  </div>
+</StickyHeader>
+`;
