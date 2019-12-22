@@ -2,6 +2,7 @@
 
 exports[`<Typeahead /> should render correctly 1`] = `
 <div
+  className="typeahead-component"
   id="typeahead-component"
 >
   <Label
@@ -11,13 +12,13 @@ exports[`<Typeahead /> should render correctly 1`] = `
   />
   <Input
     aria-autocomplete="both"
-    aria-describedby="initInstr"
     aria-expanded={false}
     aria-haspopup="true"
     aria-owns="typeahead-results-word-typeahead"
     autoComplete="off"
     disabled={false}
     id="word-typeahead"
+    inheritedStyles=""
     name="word-typeahead"
     onChange={[Function]}
     onKeyDown={[Function]}
