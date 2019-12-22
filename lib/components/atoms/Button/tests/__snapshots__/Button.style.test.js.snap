@@ -34,6 +34,7 @@ exports[`Button should render correctly 1`] = `
       "styledComponentId": "Button-sc-1ccn477-0",
       "target": [Function],
       "toString": [Function],
+      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -87,7 +88,7 @@ exports[`Button should render correctly 1`] = `
   ",
         "TYPEAHEAD_LIST": "
     border: var(--border-size-field) solid var(--stroke);
-    border-bottom: 0 none;
+    //border-bottom: 0 none;
   ",
       },
       "colors": Object {
@@ -145,6 +146,9 @@ exports[`Button should render correctly 1`] = `
       color: var(--text-cta-active);
     }
   ",
+        "CTA_WARNING": "
+    background-color:var(--bg-cta-warning);
+    color:var(--text-cta-warning);",
         "FIELD_DEFAULT": "
     color: var(--text-cta-tertiary);
     background-color: var(--bg-cta-tertiary);
@@ -153,9 +157,6 @@ exports[`Button should render correctly 1`] = `
     background-color: var(--brand-disabled);
     color: 1px solid var(--text-cta-disabled);
   ",
-        "CTA_WARNING": "
-    background-color:var(--bg-cta-warning);
-    color:var(--text-cta-warning);",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
@@ -167,6 +168,9 @@ exports[`Button should render correctly 1`] = `
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
   ",
         "TEXT_INVERSE": "
     color: var(--text-inverse);

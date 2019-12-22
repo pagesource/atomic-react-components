@@ -25,6 +25,7 @@ exports[`Input Styled component should render correctly 1`] = `
       "styledComponentId": "Input-sc-133uxg0-0",
       "target": [Function],
       "toString": [Function],
+      "usesTheme": true,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -79,7 +80,7 @@ exports[`Input Styled component should render correctly 1`] = `
   ",
         "TYPEAHEAD_LIST": "
     border: var(--border-size-field) solid var(--stroke);
-    border-bottom: 0 none;
+    //border-bottom: 0 none;
   ",
       },
       "colors": Object {
@@ -137,6 +138,9 @@ exports[`Input Styled component should render correctly 1`] = `
       color: var(--text-cta-active);
     }
   ",
+        "CTA_WARNING": "
+    background-color:var(--bg-cta-warning);
+    color:var(--text-cta-warning);",
         "FIELD_DEFAULT": "
     color: var(--text-cta-tertiary);
     background-color: var(--bg-cta-tertiary);
@@ -145,9 +149,6 @@ exports[`Input Styled component should render correctly 1`] = `
     background-color: var(--brand-disabled);
     color: 1px solid var(--text-cta-disabled);
   ",
-        "CTA_WARNING": "
-    background-color:var(--bg-cta-warning);
-    color:var(--text-cta-warning);",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
@@ -159,6 +160,9 @@ exports[`Input Styled component should render correctly 1`] = `
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
   ",
         "TEXT_INVERSE": "
     color: var(--text-inverse);
