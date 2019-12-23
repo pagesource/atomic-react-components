@@ -14,8 +14,9 @@ exports[`<Typeahead /> should render correctly 1`] = `
     htmlFor="word-typeahead"
   />
   <Input
-    aria-activedescendant="selectedOption"
+    aria-activedescendant=""
     aria-autocomplete="list"
+    aria-describedby="initInstr"
     autoComplete="off"
     disabled={false}
     id="word-typeahead"
@@ -23,31 +24,17 @@ exports[`<Typeahead /> should render correctly 1`] = `
     name="word-typeahead"
     onChange={[Function]}
     onKeyDown={[Function]}
-    people={
-      Array [
-        Object {
-          "first": "Charlie",
-          "last": "Brown",
-          "twitter": "dancounsell",
-        },
-        Object {
-          "first": "Charlotte",
-          "last": "White",
-          "twitter": "mtnmissy",
-        },
-        Object {
-          "first": "Chloe",
-          "last": "Jones",
-          "twitter": "ladylexy",
-        },
-        Object {
-          "first": "Cooper",
-          "last": "King",
-          "twitter": "steveodom",
-        },
-      ]
-    }
     type="search"
   />
+  <span
+    id="initInstr"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    When autocomplete results are available use up and down arrows to review and enter to select. Touch device users, explore by touch or with swipe gestures.
+  </span>
 </div>
 `;
