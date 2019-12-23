@@ -23,6 +23,8 @@ exports[`Button should render correctly 1`] = `
           ";&:focus:not(.focus-visible){outline:none;}",
           [Function],
           ";",
+          [Function],
+          ";",
           ";",
         ],
       },
@@ -80,6 +82,13 @@ exports[`Button should render correctly 1`] = `
         "LIST_INLINE": "
     border-right: var(--border-size-field) solid var(--field-border-primary);
   ",
+        "LIST_ITEM": "
+    border-bottom: var(--border-size-field) solid var(--stroke);
+  ",
+        "TYPEAHEAD_LIST": "
+    border: var(--border-size-field) solid var(--stroke);
+    //border-bottom: 0 none;
+  ",
       },
       "colors": Object {
         "CTA_DEFAULT": "
@@ -128,14 +137,39 @@ exports[`Button should render correctly 1`] = `
       color: var(--text-inverse);
     }
   ",
+        "CTA_TRANSPARENT": "
+    background-color: transparent;
+    color: var(--text-cta-tertiary);
+    &:hover, &:active{
+      background-color: transparent;
+      color: var(--text-cta-active);
+    }
+  ",
         "CTA_WARNING": "
     background-color:var(--bg-cta-warning);
     color:var(--text-cta-warning);",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
+        "LIST_ITEM": "
+    background-color: var(--white);
+    &:hover, &:active, &.active{
+      background-color: var(--text-light);
+    }
+  ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
   ",
         "TEXT_INVERSE": "
     color: var(--text-inverse);
