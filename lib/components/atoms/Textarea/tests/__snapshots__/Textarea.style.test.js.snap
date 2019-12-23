@@ -81,9 +81,6 @@ exports[`Select Styled component should render correctly 1`] = `
   ",
       },
       "colors": Object {
-        "BG_DEFAULT": "
-    background-color: var(--bg-primary);
-  ",
         "CTA_DEFAULT": "
     background-color:var(--bg-cta-default);
     color:var(--text-cta-default);
@@ -102,7 +99,6 @@ exports[`Select Styled component should render correctly 1`] = `
     color: var(--black);
     &:hover, &:active{
       background-color: var(--white);
-      color: var(--black);
     }
   ",
         "CTA_INFO": "
@@ -143,6 +139,9 @@ exports[`Select Styled component should render correctly 1`] = `
     color:var(--text-cta-warning);",
         "LINK_PRIMARY": "
     color: var(--text-link);
+  ",
+        "TAG_BACKGROUND": "
+    background-color: var(--bg-primary);
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);

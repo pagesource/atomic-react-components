@@ -5,11 +5,7 @@ exports[`<Tag /> should render correctly 1`] = `
   <span
     className="demo-tag"
   >
-    <span
-      className="text-content"
-    >
-      Test
-    </span>
+    Test
   </span>
 </Fragment>
 `;
