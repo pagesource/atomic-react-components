@@ -1,29 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<DateSelector /> should render correctly 1`] = `
+exports[`<FieldDateSelector /> should render correctly 1`] = `
 <div
   className="date-selector"
 >
-  <Label
-    className=""
-    elementLocator=""
-    htmlFor="date-selector-day"
-  >
-    Date
-  </Label>
-  <Select
-    className="date date-selector"
+  <FieldSelect
+    className="date date-selector date-selector-field"
     id="date-selector-day"
     name="day"
     onChange={[Function]}
     options={
       Array [
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
         23,
         24,
         25,
@@ -35,31 +22,17 @@ exports[`<DateSelector /> should render correctly 1`] = `
         31,
       ]
     }
-    selectedOption={17}
+    selectedOption={23}
   />
-  <Label
-    className=""
-    elementLocator=""
-    htmlFor="date-selector-month"
-  >
-    Month
-  </Label>
-  <Select
-    className="month date-selector"
+  <FieldSelect
+    className="Month date-selector date-selector-field"
     id="date-selector-month"
     name="month"
     onChange={[Function]}
     options={Array []}
   />
-  <Label
-    className=""
-    elementLocator=""
-    htmlFor="date-selector-year"
-  >
-    Year
-  </Label>
-  <Select
-    className="year date-selector"
+  <FieldSelect
+    className="year date-selector date-selector-field"
     id="date-selector-year"
     name="year"
     onChange={[Function]}
