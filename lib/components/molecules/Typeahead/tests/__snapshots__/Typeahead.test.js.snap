@@ -2,6 +2,9 @@
 
 exports[`<Typeahead /> should render correctly 1`] = `
 <div
+  aria-expanded={false}
+  aria-haspopup="true"
+  aria-owns="typeahead-results-word-typeahead"
   className="typeahead-component"
   id="typeahead-component"
 >
@@ -11,10 +14,8 @@ exports[`<Typeahead /> should render correctly 1`] = `
     htmlFor="word-typeahead"
   />
   <Input
-    aria-autocomplete="both"
-    aria-expanded={false}
-    aria-haspopup="true"
-    aria-owns="typeahead-results-word-typeahead"
+    aria-activedescendant="selectedOption"
+    aria-autocomplete="list"
     autoComplete="off"
     disabled={false}
     id="word-typeahead"
