@@ -1,0 +1,1469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render correctly 1`] = `
+<Table
+  className="table"
+  data={
+    Array [
+      Object {
+        "calories": 305,
+        "carbs": 67,
+        "fat": 3.7,
+        "id": "1",
+        "name": "Cupcake",
+        "protein": 4.3,
+      },
+      Object {
+        "calories": 452,
+        "carbs": 51,
+        "fat": 25,
+        "id": "2",
+        "name": "Donut",
+        "protein": 4.9,
+      },
+      Object {
+        "calories": 262,
+        "carbs": 24,
+        "fat": 16,
+        "id": "3",
+        "name": "Eclair",
+        "protein": 6,
+      },
+      Object {
+        "calories": 159,
+        "carbs": 24,
+        "fat": 6,
+        "id": "5",
+        "name": "Frozen yoghurt",
+        "protein": 4,
+      },
+      Object {
+        "calories": 356,
+        "carbs": 49,
+        "fat": 16,
+        "id": "6",
+        "name": "Gingerbread",
+        "protein": 3.9,
+      },
+      Object {
+        "calories": 408,
+        "carbs": 87,
+        "fat": 3.2,
+        "id": "7",
+        "name": "Honeycomb",
+        "protein": 6.5,
+      },
+      Object {
+        "calories": 237,
+        "carbs": 37,
+        "fat": 9,
+        "id": "8",
+        "name": "Ice cream sandwich",
+        "protein": 4.3,
+      },
+      Object {
+        "calories": 375,
+        "carbs": 94,
+        "fat": 0,
+        "id": "9",
+        "name": "Jelly Bean",
+        "protein": 0,
+      },
+      Object {
+        "calories": 518,
+        "carbs": 65,
+        "fat": 26,
+        "id": "10",
+        "name": "KitKat",
+        "protein": 7,
+      },
+      Object {
+        "calories": 392,
+        "carbs": 98,
+        "fat": 0.2,
+        "id": "11",
+        "name": "Lollipop",
+        "protein": 0,
+      },
+      Object {
+        "calories": 318,
+        "carbs": 81,
+        "fat": 0,
+        "id": "12",
+        "name": "Marshmallow",
+        "protein": 2,
+      },
+      Object {
+        "calories": 360,
+        "carbs": 9,
+        "fat": 19,
+        "id": "13",
+        "name": "Nougat",
+        "protein": 37,
+      },
+      Object {
+        "calories": 437,
+        "carbs": 63,
+        "fat": 18,
+        "id": "14",
+        "name": "Oreo",
+        "protein": 4,
+      },
+    ]
+  }
+  vertical={false}
+>
+  <table
+    className="table"
+  >
+    <thead>
+      <tr
+        role="row"
+      >
+        <Head
+          dataMappingKey="name"
+          key="name"
+        >
+          <th>
+            Dessert (100g serving)
+          </th>
+        </Head>
+        <Head
+          dataMappingKey="calories"
+          key="calories"
+        >
+          <th>
+            Calories
+          </th>
+        </Head>
+        <Head
+          dataMappingKey="fat"
+          key="fat"
+        >
+          <th>
+            Fat (g)
+          </th>
+        </Head>
+        <Head
+          dataMappingKey="carbs"
+          key="carbs"
+        >
+          <th>
+            Carbs (g)
+          </th>
+        </Head>
+        <Head
+          dataMappingKey="protein"
+          key="protein"
+        >
+          <th>
+            Protein (g)
+          </th>
+        </Head>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="1"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 305,
+              "carbs": 67,
+              "fat": 3.7,
+              "id": "1",
+              "name": "Cupcake",
+              "protein": 4.3,
+            }
+          }
+          key="1.$name"
+        >
+          <td
+            role="cell"
+          >
+            Cupcake
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 305,
+              "carbs": 67,
+              "fat": 3.7,
+              "id": "1",
+              "name": "Cupcake",
+              "protein": 4.3,
+            }
+          }
+          key="1.$calories"
+        >
+          <td
+            role="cell"
+          >
+            305
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 305,
+              "carbs": 67,
+              "fat": 3.7,
+              "id": "1",
+              "name": "Cupcake",
+              "protein": 4.3,
+            }
+          }
+          key="1.$fat"
+        >
+          <td
+            role="cell"
+          >
+            3.7
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 305,
+              "carbs": 67,
+              "fat": 3.7,
+              "id": "1",
+              "name": "Cupcake",
+              "protein": 4.3,
+            }
+          }
+          key="1.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            67
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 305,
+              "carbs": 67,
+              "fat": 3.7,
+              "id": "1",
+              "name": "Cupcake",
+              "protein": 4.3,
+            }
+          }
+          key="1.$protein"
+        >
+          <td
+            role="cell"
+          >
+            4.3
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="2"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 452,
+              "carbs": 51,
+              "fat": 25,
+              "id": "2",
+              "name": "Donut",
+              "protein": 4.9,
+            }
+          }
+          key="2.$name"
+        >
+          <td
+            role="cell"
+          >
+            Donut
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 452,
+              "carbs": 51,
+              "fat": 25,
+              "id": "2",
+              "name": "Donut",
+              "protein": 4.9,
+            }
+          }
+          key="2.$calories"
+        >
+          <td
+            role="cell"
+          >
+            452
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 452,
+              "carbs": 51,
+              "fat": 25,
+              "id": "2",
+              "name": "Donut",
+              "protein": 4.9,
+            }
+          }
+          key="2.$fat"
+        >
+          <td
+            role="cell"
+          >
+            25
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 452,
+              "carbs": 51,
+              "fat": 25,
+              "id": "2",
+              "name": "Donut",
+              "protein": 4.9,
+            }
+          }
+          key="2.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            51
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 452,
+              "carbs": 51,
+              "fat": 25,
+              "id": "2",
+              "name": "Donut",
+              "protein": 4.9,
+            }
+          }
+          key="2.$protein"
+        >
+          <td
+            role="cell"
+          >
+            4.9
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="3"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 262,
+              "carbs": 24,
+              "fat": 16,
+              "id": "3",
+              "name": "Eclair",
+              "protein": 6,
+            }
+          }
+          key="3.$name"
+        >
+          <td
+            role="cell"
+          >
+            Eclair
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 262,
+              "carbs": 24,
+              "fat": 16,
+              "id": "3",
+              "name": "Eclair",
+              "protein": 6,
+            }
+          }
+          key="3.$calories"
+        >
+          <td
+            role="cell"
+          >
+            262
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 262,
+              "carbs": 24,
+              "fat": 16,
+              "id": "3",
+              "name": "Eclair",
+              "protein": 6,
+            }
+          }
+          key="3.$fat"
+        >
+          <td
+            role="cell"
+          >
+            16
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 262,
+              "carbs": 24,
+              "fat": 16,
+              "id": "3",
+              "name": "Eclair",
+              "protein": 6,
+            }
+          }
+          key="3.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            24
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 262,
+              "carbs": 24,
+              "fat": 16,
+              "id": "3",
+              "name": "Eclair",
+              "protein": 6,
+            }
+          }
+          key="3.$protein"
+        >
+          <td
+            role="cell"
+          >
+            6
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="5"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 159,
+              "carbs": 24,
+              "fat": 6,
+              "id": "5",
+              "name": "Frozen yoghurt",
+              "protein": 4,
+            }
+          }
+          key="5.$name"
+        >
+          <td
+            role="cell"
+          >
+            Frozen yoghurt
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 159,
+              "carbs": 24,
+              "fat": 6,
+              "id": "5",
+              "name": "Frozen yoghurt",
+              "protein": 4,
+            }
+          }
+          key="5.$calories"
+        >
+          <td
+            role="cell"
+          >
+            159
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 159,
+              "carbs": 24,
+              "fat": 6,
+              "id": "5",
+              "name": "Frozen yoghurt",
+              "protein": 4,
+            }
+          }
+          key="5.$fat"
+        >
+          <td
+            role="cell"
+          >
+            6
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 159,
+              "carbs": 24,
+              "fat": 6,
+              "id": "5",
+              "name": "Frozen yoghurt",
+              "protein": 4,
+            }
+          }
+          key="5.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            24
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 159,
+              "carbs": 24,
+              "fat": 6,
+              "id": "5",
+              "name": "Frozen yoghurt",
+              "protein": 4,
+            }
+          }
+          key="5.$protein"
+        >
+          <td
+            role="cell"
+          >
+            4
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="6"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 356,
+              "carbs": 49,
+              "fat": 16,
+              "id": "6",
+              "name": "Gingerbread",
+              "protein": 3.9,
+            }
+          }
+          key="6.$name"
+        >
+          <td
+            role="cell"
+          >
+            Gingerbread
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 356,
+              "carbs": 49,
+              "fat": 16,
+              "id": "6",
+              "name": "Gingerbread",
+              "protein": 3.9,
+            }
+          }
+          key="6.$calories"
+        >
+          <td
+            role="cell"
+          >
+            356
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 356,
+              "carbs": 49,
+              "fat": 16,
+              "id": "6",
+              "name": "Gingerbread",
+              "protein": 3.9,
+            }
+          }
+          key="6.$fat"
+        >
+          <td
+            role="cell"
+          >
+            16
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 356,
+              "carbs": 49,
+              "fat": 16,
+              "id": "6",
+              "name": "Gingerbread",
+              "protein": 3.9,
+            }
+          }
+          key="6.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            49
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 356,
+              "carbs": 49,
+              "fat": 16,
+              "id": "6",
+              "name": "Gingerbread",
+              "protein": 3.9,
+            }
+          }
+          key="6.$protein"
+        >
+          <td
+            role="cell"
+          >
+            3.9
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="7"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 408,
+              "carbs": 87,
+              "fat": 3.2,
+              "id": "7",
+              "name": "Honeycomb",
+              "protein": 6.5,
+            }
+          }
+          key="7.$name"
+        >
+          <td
+            role="cell"
+          >
+            Honeycomb
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 408,
+              "carbs": 87,
+              "fat": 3.2,
+              "id": "7",
+              "name": "Honeycomb",
+              "protein": 6.5,
+            }
+          }
+          key="7.$calories"
+        >
+          <td
+            role="cell"
+          >
+            408
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 408,
+              "carbs": 87,
+              "fat": 3.2,
+              "id": "7",
+              "name": "Honeycomb",
+              "protein": 6.5,
+            }
+          }
+          key="7.$fat"
+        >
+          <td
+            role="cell"
+          >
+            3.2
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 408,
+              "carbs": 87,
+              "fat": 3.2,
+              "id": "7",
+              "name": "Honeycomb",
+              "protein": 6.5,
+            }
+          }
+          key="7.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            87
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 408,
+              "carbs": 87,
+              "fat": 3.2,
+              "id": "7",
+              "name": "Honeycomb",
+              "protein": 6.5,
+            }
+          }
+          key="7.$protein"
+        >
+          <td
+            role="cell"
+          >
+            6.5
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="8"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 237,
+              "carbs": 37,
+              "fat": 9,
+              "id": "8",
+              "name": "Ice cream sandwich",
+              "protein": 4.3,
+            }
+          }
+          key="8.$name"
+        >
+          <td
+            role="cell"
+          >
+            Ice cream sandwich
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 237,
+              "carbs": 37,
+              "fat": 9,
+              "id": "8",
+              "name": "Ice cream sandwich",
+              "protein": 4.3,
+            }
+          }
+          key="8.$calories"
+        >
+          <td
+            role="cell"
+          >
+            237
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 237,
+              "carbs": 37,
+              "fat": 9,
+              "id": "8",
+              "name": "Ice cream sandwich",
+              "protein": 4.3,
+            }
+          }
+          key="8.$fat"
+        >
+          <td
+            role="cell"
+          >
+            9
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 237,
+              "carbs": 37,
+              "fat": 9,
+              "id": "8",
+              "name": "Ice cream sandwich",
+              "protein": 4.3,
+            }
+          }
+          key="8.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            37
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 237,
+              "carbs": 37,
+              "fat": 9,
+              "id": "8",
+              "name": "Ice cream sandwich",
+              "protein": 4.3,
+            }
+          }
+          key="8.$protein"
+        >
+          <td
+            role="cell"
+          >
+            4.3
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="9"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 375,
+              "carbs": 94,
+              "fat": 0,
+              "id": "9",
+              "name": "Jelly Bean",
+              "protein": 0,
+            }
+          }
+          key="9.$name"
+        >
+          <td
+            role="cell"
+          >
+            Jelly Bean
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 375,
+              "carbs": 94,
+              "fat": 0,
+              "id": "9",
+              "name": "Jelly Bean",
+              "protein": 0,
+            }
+          }
+          key="9.$calories"
+        >
+          <td
+            role="cell"
+          >
+            375
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 375,
+              "carbs": 94,
+              "fat": 0,
+              "id": "9",
+              "name": "Jelly Bean",
+              "protein": 0,
+            }
+          }
+          key="9.$fat"
+        >
+          <td
+            role="cell"
+          >
+            0
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 375,
+              "carbs": 94,
+              "fat": 0,
+              "id": "9",
+              "name": "Jelly Bean",
+              "protein": 0,
+            }
+          }
+          key="9.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            94
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 375,
+              "carbs": 94,
+              "fat": 0,
+              "id": "9",
+              "name": "Jelly Bean",
+              "protein": 0,
+            }
+          }
+          key="9.$protein"
+        >
+          <td
+            role="cell"
+          >
+            0
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="10"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 518,
+              "carbs": 65,
+              "fat": 26,
+              "id": "10",
+              "name": "KitKat",
+              "protein": 7,
+            }
+          }
+          key="10.$name"
+        >
+          <td
+            role="cell"
+          >
+            KitKat
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 518,
+              "carbs": 65,
+              "fat": 26,
+              "id": "10",
+              "name": "KitKat",
+              "protein": 7,
+            }
+          }
+          key="10.$calories"
+        >
+          <td
+            role="cell"
+          >
+            518
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 518,
+              "carbs": 65,
+              "fat": 26,
+              "id": "10",
+              "name": "KitKat",
+              "protein": 7,
+            }
+          }
+          key="10.$fat"
+        >
+          <td
+            role="cell"
+          >
+            26
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 518,
+              "carbs": 65,
+              "fat": 26,
+              "id": "10",
+              "name": "KitKat",
+              "protein": 7,
+            }
+          }
+          key="10.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            65
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 518,
+              "carbs": 65,
+              "fat": 26,
+              "id": "10",
+              "name": "KitKat",
+              "protein": 7,
+            }
+          }
+          key="10.$protein"
+        >
+          <td
+            role="cell"
+          >
+            7
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="11"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 392,
+              "carbs": 98,
+              "fat": 0.2,
+              "id": "11",
+              "name": "Lollipop",
+              "protein": 0,
+            }
+          }
+          key="11.$name"
+        >
+          <td
+            role="cell"
+          >
+            Lollipop
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 392,
+              "carbs": 98,
+              "fat": 0.2,
+              "id": "11",
+              "name": "Lollipop",
+              "protein": 0,
+            }
+          }
+          key="11.$calories"
+        >
+          <td
+            role="cell"
+          >
+            392
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 392,
+              "carbs": 98,
+              "fat": 0.2,
+              "id": "11",
+              "name": "Lollipop",
+              "protein": 0,
+            }
+          }
+          key="11.$fat"
+        >
+          <td
+            role="cell"
+          >
+            0.2
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 392,
+              "carbs": 98,
+              "fat": 0.2,
+              "id": "11",
+              "name": "Lollipop",
+              "protein": 0,
+            }
+          }
+          key="11.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            98
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 392,
+              "carbs": 98,
+              "fat": 0.2,
+              "id": "11",
+              "name": "Lollipop",
+              "protein": 0,
+            }
+          }
+          key="11.$protein"
+        >
+          <td
+            role="cell"
+          >
+            0
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="12"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 318,
+              "carbs": 81,
+              "fat": 0,
+              "id": "12",
+              "name": "Marshmallow",
+              "protein": 2,
+            }
+          }
+          key="12.$name"
+        >
+          <td
+            role="cell"
+          >
+            Marshmallow
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 318,
+              "carbs": 81,
+              "fat": 0,
+              "id": "12",
+              "name": "Marshmallow",
+              "protein": 2,
+            }
+          }
+          key="12.$calories"
+        >
+          <td
+            role="cell"
+          >
+            318
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 318,
+              "carbs": 81,
+              "fat": 0,
+              "id": "12",
+              "name": "Marshmallow",
+              "protein": 2,
+            }
+          }
+          key="12.$fat"
+        >
+          <td
+            role="cell"
+          >
+            0
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 318,
+              "carbs": 81,
+              "fat": 0,
+              "id": "12",
+              "name": "Marshmallow",
+              "protein": 2,
+            }
+          }
+          key="12.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            81
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 318,
+              "carbs": 81,
+              "fat": 0,
+              "id": "12",
+              "name": "Marshmallow",
+              "protein": 2,
+            }
+          }
+          key="12.$protein"
+        >
+          <td
+            role="cell"
+          >
+            2
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="13"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 360,
+              "carbs": 9,
+              "fat": 19,
+              "id": "13",
+              "name": "Nougat",
+              "protein": 37,
+            }
+          }
+          key="13.$name"
+        >
+          <td
+            role="cell"
+          >
+            Nougat
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 360,
+              "carbs": 9,
+              "fat": 19,
+              "id": "13",
+              "name": "Nougat",
+              "protein": 37,
+            }
+          }
+          key="13.$calories"
+        >
+          <td
+            role="cell"
+          >
+            360
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 360,
+              "carbs": 9,
+              "fat": 19,
+              "id": "13",
+              "name": "Nougat",
+              "protein": 37,
+            }
+          }
+          key="13.$fat"
+        >
+          <td
+            role="cell"
+          >
+            19
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 360,
+              "carbs": 9,
+              "fat": 19,
+              "id": "13",
+              "name": "Nougat",
+              "protein": 37,
+            }
+          }
+          key="13.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            9
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 360,
+              "carbs": 9,
+              "fat": 19,
+              "id": "13",
+              "name": "Nougat",
+              "protein": 37,
+            }
+          }
+          key="13.$protein"
+        >
+          <td
+            role="cell"
+          >
+            37
+          </td>
+        </Cell>
+      </tr>
+      <tr
+        key="14"
+        role="row"
+      >
+        <Cell
+          item={
+            Object {
+              "calories": 437,
+              "carbs": 63,
+              "fat": 18,
+              "id": "14",
+              "name": "Oreo",
+              "protein": 4,
+            }
+          }
+          key="14.$name"
+        >
+          <td
+            role="cell"
+          >
+            Oreo
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 437,
+              "carbs": 63,
+              "fat": 18,
+              "id": "14",
+              "name": "Oreo",
+              "protein": 4,
+            }
+          }
+          key="14.$calories"
+        >
+          <td
+            role="cell"
+          >
+            437
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 437,
+              "carbs": 63,
+              "fat": 18,
+              "id": "14",
+              "name": "Oreo",
+              "protein": 4,
+            }
+          }
+          key="14.$fat"
+        >
+          <td
+            role="cell"
+          >
+            18
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 437,
+              "carbs": 63,
+              "fat": 18,
+              "id": "14",
+              "name": "Oreo",
+              "protein": 4,
+            }
+          }
+          key="14.$carbs"
+        >
+          <td
+            role="cell"
+          >
+            63
+          </td>
+        </Cell>
+        <Cell
+          item={
+            Object {
+              "calories": 437,
+              "carbs": 63,
+              "fat": 18,
+              "id": "14",
+              "name": "Oreo",
+              "protein": 4,
+            }
+          }
+          key="14.$protein"
+        >
+          <td
+            role="cell"
+          >
+            4
+          </td>
+        </Cell>
+      </tr>
+    </tbody>
+  </table>
+</Table>
+`;
