@@ -12,7 +12,7 @@
   "openHandles": [],
   "snapshot": {
     "added": 0,
-    "didUpdate": true,
+    "didUpdate": false,
     "failure": false,
     "filesAdded": 0,
     "filesRemoved": 0,
@@ -26,27 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1577087949106,
+  "startTime": 1577088349593,
   "success": true,
   "testResults": [
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Breadcrumb />"],
-          "failureMessages": [],
-          "fullName": "<Breadcrumb /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577087963660,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\tests\\Breadcrumb.test.js",
-      "startTime": 1577087959472,
-      "status": "passed",
-      "summary": ""
-    },
     {
       "assertionResults": [
         {
@@ -122,10 +104,28 @@
           "title": "autodismiss after timeout"
         }
       ],
-      "endTime": 1577087964324,
+      "endTime": 1577088364650,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\tests\\Toast.test.js",
-      "startTime": 1577087959106,
+      "startTime": 1577088359330,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Breadcrumb />"],
+          "failureMessages": [],
+          "fullName": "<Breadcrumb /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1577088364865,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\tests\\Breadcrumb.test.js",
+      "startTime": 1577088359742,
       "status": "passed",
       "summary": ""
     },
@@ -196,10 +196,10 @@
           "title": "should tigger handleToggleCallback function"
         }
       ],
-      "endTime": 1577087965014,
+      "endTime": 1577088366477,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\tests\\FieldToggle.test.js",
-      "startTime": 1577087959283,
+      "startTime": 1577088359535,
       "status": "passed",
       "summary": ""
     },
@@ -230,44 +230,10 @@
           "title": "should render textarea tag"
         }
       ],
-      "endTime": 1577087965106,
+      "endTime": 1577088366585,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldTextarea\\tests\\FieldTextarea.test.js",
-      "startTime": 1577087964001,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render label correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render label correctly"
-        },
-        {
-          "ancestorTitles": ["FieldInput Component"],
-          "failureMessages": [],
-          "fullName": "FieldInput Component should render Input component with proper type",
-          "location": null,
-          "status": "passed",
-          "title": "should render Input component with proper type"
-        }
-      ],
-      "endTime": 1577087966137,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldInput\\tests\\FieldInput.test.js",
-      "startTime": 1577087965544,
+      "startTime": 1577088365327,
       "status": "passed",
       "summary": ""
     },
@@ -298,10 +264,86 @@
           "title": "should render select tag"
         }
       ],
-      "endTime": 1577087966244,
+      "endTime": 1577088366592,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldSelect\\tests\\FieldSelect.test.js",
-      "startTime": 1577087964833,
+      "startTime": 1577088365195,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<QuoteMedia />"],
+          "failureMessages": [],
+          "fullName": "<QuoteMedia /> Should have component heading being displayed",
+          "location": null,
+          "status": "passed",
+          "title": "Should have component heading being displayed"
+        },
+        {
+          "ancestorTitles": ["<QuoteMedia />"],
+          "failureMessages": [],
+          "fullName": "<QuoteMedia /> Should allow quote component passing",
+          "location": null,
+          "status": "passed",
+          "title": "Should allow quote component passing"
+        },
+        {
+          "ancestorTitles": ["<QuoteMedia />"],
+          "failureMessages": [],
+          "fullName": "<QuoteMedia /> Should render media Image in component body",
+          "location": null,
+          "status": "passed",
+          "title": "Should render media Image in component body"
+        },
+        {
+          "ancestorTitles": ["<QuoteMedia />"],
+          "failureMessages": [],
+          "fullName": "<QuoteMedia /> Should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "Should render correctly"
+        }
+      ],
+      "endTime": 1577088367680,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\tests\\QuoteMedia.test.js",
+      "startTime": 1577088367133,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Tabs />"],
+          "failureMessages": [],
+          "fullName": "<Tabs /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["<Tabs /> functional behavior"],
+          "failureMessages": [],
+          "fullName": "<Tabs /> functional behavior should have minimum dom structure for the tests below",
+          "location": null,
+          "status": "passed",
+          "title": "should have minimum dom structure for the tests below"
+        },
+        {
+          "ancestorTitles": ["<Tabs /> functional behavior"],
+          "failureMessages": [],
+          "fullName": "<Tabs /> functional behavior should change the tab panel and execute callback on closed tab click",
+          "location": null,
+          "status": "passed",
+          "title": "should change the tab panel and execute callback on closed tab click"
+        }
+      ],
+      "endTime": 1577088367832,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\tests\\Tabs.test.js",
+      "startTime": 1577088367034,
       "status": "passed",
       "summary": ""
     },
@@ -356,52 +398,86 @@
           "title": "getSchema should return null if no params are passed"
         }
       ],
-      "endTime": 1577087966288,
+      "endTime": 1577088367869,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\tests\\Form.test.js",
-      "startTime": 1577087965548,
+      "startTime": 1577088367110,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<QuoteMedia />"],
+          "ancestorTitles": ["FieldInput Component"],
           "failureMessages": [],
-          "fullName": "<QuoteMedia /> Should have component heading being displayed",
+          "fullName": "FieldInput Component should render correctly",
           "location": null,
           "status": "passed",
-          "title": "Should have component heading being displayed"
+          "title": "should render correctly"
         },
         {
-          "ancestorTitles": ["<QuoteMedia />"],
+          "ancestorTitles": ["FieldInput Component"],
           "failureMessages": [],
-          "fullName": "<QuoteMedia /> Should allow quote component passing",
+          "fullName": "FieldInput Component should render label correctly",
           "location": null,
           "status": "passed",
-          "title": "Should allow quote component passing"
+          "title": "should render label correctly"
         },
         {
-          "ancestorTitles": ["<QuoteMedia />"],
+          "ancestorTitles": ["FieldInput Component"],
           "failureMessages": [],
-          "fullName": "<QuoteMedia /> Should render media Image in component body",
+          "fullName": "FieldInput Component should render Input component with proper type",
           "location": null,
           "status": "passed",
-          "title": "Should render media Image in component body"
-        },
-        {
-          "ancestorTitles": ["<QuoteMedia />"],
-          "failureMessages": [],
-          "fullName": "<QuoteMedia /> Should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "Should render correctly"
+          "title": "should render Input component with proper type"
         }
       ],
-      "endTime": 1577087967420,
+      "endTime": 1577088368811,
       "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\tests\\QuoteMedia.test.js",
-      "startTime": 1577087966819,
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldInput\\tests\\FieldInput.test.js",
+      "startTime": 1577088368255,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Popover /> Rendering"],
+          "failureMessages": [],
+          "fullName": "<Popover /> Rendering should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should have Close Button By Default and can be closed",
+          "location": null,
+          "status": "passed",
+          "title": "Should have Close Button By Default and can be closed"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should open By Default when isVisible set to true",
+          "location": null,
+          "status": "passed",
+          "title": "Should open By Default when isVisible set to true"
+        },
+        {
+          "ancestorTitles": ["Popover functional behavior"],
+          "failureMessages": [],
+          "fullName": "Popover functional behavior Should open and close on Trigger and X button click",
+          "location": null,
+          "status": "passed",
+          "title": "Should open and close on Trigger and X button click"
+        }
+      ],
+      "endTime": 1577088368900,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\tests\\Popover.test.js",
+      "startTime": 1577088368460,
       "status": "passed",
       "summary": ""
     },
@@ -472,44 +548,46 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087967491,
+      "endTime": 1577088368921,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\tests\\Video.test.js",
-      "startTime": 1577087966918,
+      "startTime": 1577088368440,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<Tabs />"],
+          "ancestorTitles": ["Modal Component"],
           "failureMessages": [],
-          "fullName": "<Tabs /> should render correctly",
+          "fullName": "Modal Component should render Modal correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render Modal correctly"
+        }
+      ],
+      "endTime": 1577088369671,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\tests\\Modal.test.js",
+      "startTime": 1577088369309,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Select Styled component"],
+          "failureMessages": [],
+          "fullName": "Select Styled component should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["<Tabs /> functional behavior"],
-          "failureMessages": [],
-          "fullName": "<Tabs /> functional behavior should have minimum dom structure for the tests below",
-          "location": null,
-          "status": "passed",
-          "title": "should have minimum dom structure for the tests below"
-        },
-        {
-          "ancestorTitles": ["<Tabs /> functional behavior"],
-          "failureMessages": [],
-          "fullName": "<Tabs /> functional behavior should change the tab panel and execute callback on closed tab click",
-          "location": null,
-          "status": "passed",
-          "title": "should change the tab panel and execute callback on closed tab click"
         }
       ],
-      "endTime": 1577087967586,
+      "endTime": 1577088369700,
       "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\tests\\Tabs.test.js",
-      "startTime": 1577087966832,
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.style.test.js",
+      "startTime": 1577088369310,
       "status": "passed",
       "summary": ""
     },
@@ -532,106 +610,10 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087968411,
+      "endTime": 1577088369738,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\tests\\StickyBar.test.js",
-      "startTime": 1577087967929,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Popover /> Rendering"],
-          "failureMessages": [],
-          "fullName": "<Popover /> Rendering should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Popover functional behavior"],
-          "failureMessages": [],
-          "fullName": "Popover functional behavior Should have Close Button By Default and can be closed",
-          "location": null,
-          "status": "passed",
-          "title": "Should have Close Button By Default and can be closed"
-        },
-        {
-          "ancestorTitles": ["Popover functional behavior"],
-          "failureMessages": [],
-          "fullName": "Popover functional behavior Should open By Default when isVisible set to true",
-          "location": null,
-          "status": "passed",
-          "title": "Should open By Default when isVisible set to true"
-        },
-        {
-          "ancestorTitles": ["Popover functional behavior"],
-          "failureMessages": [],
-          "fullName": "Popover functional behavior Should open and close on Trigger and X button click",
-          "location": null,
-          "status": "passed",
-          "title": "Should open and close on Trigger and X button click"
-        }
-      ],
-      "endTime": 1577087968530,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\tests\\Popover.test.js",
-      "startTime": 1577087968012,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Styled component"],
-          "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577087968648,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.style.test.js",
-      "startTime": 1577087968145,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Styled component"],
-          "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577087969453,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.style.test.js",
-      "startTime": 1577087969000,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Modal Component"],
-          "failureMessages": [],
-          "fullName": "Modal Component should render Modal correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render Modal correctly"
-        }
-      ],
-      "endTime": 1577087969510,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\tests\\Modal.test.js",
-      "startTime": 1577087969015,
+      "startTime": 1577088369339,
       "status": "passed",
       "summary": ""
     },
@@ -662,28 +644,174 @@
           "title": "should check the default locator of heading"
         }
       ],
-      "endTime": 1577087969520,
+      "endTime": 1577088370376,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Heading\\tests\\Heading.test.js",
-      "startTime": 1577087969092,
+      "startTime": 1577088370090,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["Button"],
+          "ancestorTitles": ["Select Styled component"],
           "failureMessages": [],
-          "fullName": "Button should render correctly",
+          "fullName": "Select Styled component should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087970268,
+      "endTime": 1577088370396,
       "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.style.test.js",
-      "startTime": 1577087969883,
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.style.test.js",
+      "startTime": 1577088370044,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["InputChoiceVanilla Component"],
+          "failureMessages": [],
+          "fullName": "InputChoiceVanilla Component should render Radio button correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render Radio button correctly"
+        },
+        {
+          "ancestorTitles": ["InputChoiceVanilla Component"],
+          "failureMessages": [],
+          "fullName": "InputChoiceVanilla Component should render checkbox correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render checkbox correctly"
+        },
+        {
+          "ancestorTitles": ["InputChoiceVanilla Component"],
+          "failureMessages": [],
+          "fullName": "InputChoiceVanilla Component should render disabled",
+          "location": null,
+          "status": "passed",
+          "title": "should render disabled"
+        },
+        {
+          "ancestorTitles": ["InputChoiceVanilla Component"],
+          "failureMessages": [],
+          "fullName": "InputChoiceVanilla Component should render checked",
+          "location": null,
+          "status": "passed",
+          "title": "should render checked"
+        }
+      ],
+      "endTime": 1577088370481,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\InputChoice\\tests\\InputChoice.test.js",
+      "startTime": 1577088370119,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Input Styled component"],
+          "failureMessages": [],
+          "fullName": "Input Styled component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1577088371110,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Input\\tests\\Input.style.test.js",
+      "startTime": 1577088370790,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<ArticleThumbnail />"],
+          "failureMessages": [],
+          "fullName": "<ArticleThumbnail /> should render correctly with Readmore",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with Readmore"
+        },
+        {
+          "ancestorTitles": ["<ArticleThumbnail />"],
+          "failureMessages": [],
+          "fullName": "<ArticleThumbnail /> should render correctly with full clickable thumb",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with full clickable thumb"
+        }
+      ],
+      "endTime": 1577088371137,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\tests\\ArticleThumbnail.test.js",
+      "startTime": 1577088370778,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Textarea />"],
+          "failureMessages": [],
+          "fullName": "<Textarea /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["<Textarea />"],
+          "failureMessages": [],
+          "fullName": "<Textarea /> should check the data attribute of textarea",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of textarea"
+        }
+      ],
+      "endTime": 1577088371158,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.test.js",
+      "startTime": 1577088370861,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component should render correctly and match snapshot",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshot"
+        },
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component Should handle on typeahead focuson Events",
+          "location": null,
+          "status": "passed",
+          "title": "Should handle on typeahead focuson Events"
+        },
+        {
+          "ancestorTitles": ["Anchor Component"],
+          "failureMessages": [],
+          "fullName": "Anchor Component should check the data attribute of anchor",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of anchor"
+        }
+      ],
+      "endTime": 1577088371812,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Anchor\\tests\\Anchor.test.js",
+      "startTime": 1577088371522,
       "status": "passed",
       "summary": ""
     },
@@ -730,98 +858,70 @@
           "title": "should check the data attribute of button"
         }
       ],
-      "endTime": 1577087970319,
+      "endTime": 1577088371816,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.test.js",
-      "startTime": 1577087969922,
+      "startTime": 1577088371471,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["<ArticleThumbnail />"],
+          "ancestorTitles": ["<Icon />"],
           "failureMessages": [],
-          "fullName": "<ArticleThumbnail /> should render correctly with Readmore",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with Readmore"
-        },
-        {
-          "ancestorTitles": ["<ArticleThumbnail />"],
-          "failureMessages": [],
-          "fullName": "<ArticleThumbnail /> should render correctly with full clickable thumb",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with full clickable thumb"
-        }
-      ],
-      "endTime": 1577087970361,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\ArticleThumbnail\\tests\\ArticleThumbnail.test.js",
-      "startTime": 1577087969945,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Image Component with styles"],
-          "failureMessages": [],
-          "fullName": "Image Component with styles should render correctly and match snapshots",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshots"
-        },
-        {
-          "ancestorTitles": ["Image Component with styles"],
-          "failureMessages": [],
-          "fullName": "Image Component with styles should render correctly with lazy load",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly with lazy load"
-        }
-      ],
-      "endTime": 1577087971063,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Image\\tests\\Image.style.test.js",
-      "startTime": 1577087970750,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Tab />"],
-          "failureMessages": [],
-          "fullName": "<Tab /> should render correctly",
+          "fullName": "<Icon /> should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["<Icon />"],
+          "failureMessages": [],
+          "fullName": "<Icon /> should have id",
+          "location": null,
+          "status": "passed",
+          "title": "should have id"
         }
       ],
-      "endTime": 1577087971082,
+      "endTime": 1577088371836,
       "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\Tab\\tests\\Tab.test.js",
-      "startTime": 1577087970734,
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Icon\\tests\\Icon.test.js",
+      "startTime": 1577088371549,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["Input Styled component"],
+          "ancestorTitles": ["FieldError Component"],
           "failureMessages": [],
-          "fullName": "Input Styled component should render correctly",
+          "fullName": "FieldError Component should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["FieldError Component"],
+          "failureMessages": [],
+          "fullName": "FieldError Component should check the element locator of field error",
+          "location": null,
+          "status": "passed",
+          "title": "should check the element locator of field error"
+        },
+        {
+          "ancestorTitles": ["FieldError Component"],
+          "failureMessages": [],
+          "fullName": "FieldError Component should check the default slnid of field error",
+          "location": null,
+          "status": "passed",
+          "title": "should check the default slnid of field error"
         }
       ],
-      "endTime": 1577087971199,
+      "endTime": 1577088372506,
       "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Input\\tests\\Input.style.test.js",
-      "startTime": 1577087970798,
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\FieldError\\tests\\FieldError.test.js",
+      "startTime": 1577088372220,
       "status": "passed",
       "summary": ""
     },
@@ -876,242 +976,28 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087971855,
+      "endTime": 1577088372513,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Blockquote\\tests\\Blockquote.test.js",
-      "startTime": 1577087971495,
+      "startTime": 1577088372226,
       "status": "passed",
       "summary": ""
     },
     {
       "assertionResults": [
         {
-          "ancestorTitles": ["InputChoiceVanilla Component"],
+          "ancestorTitles": ["Button"],
           "failureMessages": [],
-          "fullName": "InputChoiceVanilla Component should render Radio button correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render Radio button correctly"
-        },
-        {
-          "ancestorTitles": ["InputChoiceVanilla Component"],
-          "failureMessages": [],
-          "fullName": "InputChoiceVanilla Component should render checkbox correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render checkbox correctly"
-        },
-        {
-          "ancestorTitles": ["InputChoiceVanilla Component"],
-          "failureMessages": [],
-          "fullName": "InputChoiceVanilla Component should render disabled",
-          "location": null,
-          "status": "passed",
-          "title": "should render disabled"
-        },
-        {
-          "ancestorTitles": ["InputChoiceVanilla Component"],
-          "failureMessages": [],
-          "fullName": "InputChoiceVanilla Component should render checked",
-          "location": null,
-          "status": "passed",
-          "title": "should render checked"
-        }
-      ],
-      "endTime": 1577087971969,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\InputChoice\\tests\\InputChoice.test.js",
-      "startTime": 1577087971545,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Anchor Component"],
-          "failureMessages": [],
-          "fullName": "Anchor Component should render correctly and match snapshot",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshot"
-        },
-        {
-          "ancestorTitles": ["Anchor Component"],
-          "failureMessages": [],
-          "fullName": "Anchor Component Should handle on typeahead focuson Events",
-          "location": null,
-          "status": "passed",
-          "title": "Should handle on typeahead focuson Events"
-        },
-        {
-          "ancestorTitles": ["Anchor Component"],
-          "failureMessages": [],
-          "fullName": "Anchor Component should check the data attribute of anchor",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of anchor"
-        }
-      ],
-      "endTime": 1577087972051,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Anchor\\tests\\Anchor.test.js",
-      "startTime": 1577087971660,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Label Component"],
-          "failureMessages": [],
-          "fullName": "Label Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["Label Component"],
-          "failureMessages": [],
-          "fullName": "Label Component should check the data attribute of label",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of label"
-        }
-      ],
-      "endTime": 1577087972730,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Label\\tests\\Label.test.js",
-      "startTime": 1577087972425,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["FieldError Component"],
-          "failureMessages": [],
-          "fullName": "FieldError Component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["FieldError Component"],
-          "failureMessages": [],
-          "fullName": "FieldError Component should check the element locator of field error",
-          "location": null,
-          "status": "passed",
-          "title": "should check the element locator of field error"
-        },
-        {
-          "ancestorTitles": ["FieldError Component"],
-          "failureMessages": [],
-          "fullName": "FieldError Component should check the default slnid of field error",
-          "location": null,
-          "status": "passed",
-          "title": "should check the default slnid of field error"
-        }
-      ],
-      "endTime": 1577087972942,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\FieldError\\tests\\FieldError.test.js",
-      "startTime": 1577087972571,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Icon />"],
-          "failureMessages": [],
-          "fullName": "<Icon /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["<Icon />"],
-          "failureMessages": [],
-          "fullName": "<Icon /> should have id",
-          "location": null,
-          "status": "passed",
-          "title": "should have id"
-        }
-      ],
-      "endTime": 1577087972956,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Icon\\tests\\Icon.test.js",
-      "startTime": 1577087972563,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Para Component"],
-          "failureMessages": [],
-          "fullName": "Para Component should render correctly and match snapshot",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly and match snapshot"
-        },
-        {
-          "ancestorTitles": ["Para Component"],
-          "failureMessages": [],
-          "fullName": "Para Component should check the data attribute of para",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of para"
-        }
-      ],
-      "endTime": 1577087973529,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Para\\tests\\Para.test.js",
-      "startTime": 1577087973215,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<TabPanel />"],
-          "failureMessages": [],
-          "fullName": "<TabPanel /> should render correctly",
+          "fullName": "Button should render correctly",
           "location": null,
           "status": "passed",
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087973715,
+      "endTime": 1577088372636,
       "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\TabPanel\\tests\\TabPanel.test.js",
-      "startTime": 1577087973398,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["<Textarea />"],
-          "failureMessages": [],
-          "fullName": "<Textarea /> should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        },
-        {
-          "ancestorTitles": ["<Textarea />"],
-          "failureMessages": [],
-          "fullName": "<Textarea /> should check the data attribute of textarea",
-          "location": null,
-          "status": "passed",
-          "title": "should check the data attribute of textarea"
-        }
-      ],
-      "endTime": 1577087973863,
-      "message": "",
-      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.test.js",
-      "startTime": 1577087973463,
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.style.test.js",
+      "startTime": 1577088372197,
       "status": "passed",
       "summary": ""
     },
@@ -1126,10 +1012,28 @@
           "title": "should render default view correctly"
         }
       ],
-      "endTime": 1577087974381,
+      "endTime": 1577088373351,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\List\\tests\\List.test.js",
-      "startTime": 1577087974022,
+      "startTime": 1577088373058,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Tab />"],
+          "failureMessages": [],
+          "fullName": "<Tab /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1577088373366,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\Tab\\tests\\Tab.test.js",
+      "startTime": 1577088373048,
       "status": "passed",
       "summary": ""
     },
@@ -1168,10 +1072,10 @@
           "title": "should check the default locator of image"
         }
       ],
-      "endTime": 1577087974498,
+      "endTime": 1577088373411,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Image\\tests\\Image.test.js",
-      "startTime": 1577087974152,
+      "startTime": 1577088373113,
       "status": "passed",
       "summary": ""
     },
@@ -1186,10 +1090,80 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087974660,
+      "endTime": 1577088374026,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\Debug\\tests\\Debug.test.js",
-      "startTime": 1577087974346,
+      "startTime": 1577088373759,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<TabPanel />"],
+          "failureMessages": [],
+          "fullName": "<TabPanel /> should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        }
+      ],
+      "endTime": 1577088374032,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\TabPanel\\tests\\TabPanel.test.js",
+      "startTime": 1577088373748,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Para Component"],
+          "failureMessages": [],
+          "fullName": "Para Component should render correctly and match snapshot",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshot"
+        },
+        {
+          "ancestorTitles": ["Para Component"],
+          "failureMessages": [],
+          "fullName": "Para Component should check the data attribute of para",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of para"
+        }
+      ],
+      "endTime": 1577088374066,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Para\\tests\\Para.test.js",
+      "startTime": 1577088373794,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Label Component"],
+          "failureMessages": [],
+          "fullName": "Label Component should render correctly",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly"
+        },
+        {
+          "ancestorTitles": ["Label Component"],
+          "failureMessages": [],
+          "fullName": "Label Component should check the data attribute of label",
+          "location": null,
+          "status": "passed",
+          "title": "should check the data attribute of label"
+        }
+      ],
+      "endTime": 1577088374671,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Label\\tests\\Label.test.js",
+      "startTime": 1577088374404,
       "status": "passed",
       "summary": ""
     },
@@ -1212,10 +1186,36 @@
           "title": "should check the data attribute of dropdown/select"
         }
       ],
-      "endTime": 1577087975061,
+      "endTime": 1577088374692,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.test.js",
-      "startTime": 1577087974780,
+      "startTime": 1577088374425,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Image Component with styles"],
+          "failureMessages": [],
+          "fullName": "Image Component with styles should render correctly and match snapshots",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly and match snapshots"
+        },
+        {
+          "ancestorTitles": ["Image Component with styles"],
+          "failureMessages": [],
+          "fullName": "Image Component with styles should render correctly with lazy load",
+          "location": null,
+          "status": "passed",
+          "title": "should render correctly with lazy load"
+        }
+      ],
+      "endTime": 1577088374719,
+      "message": "",
+      "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Image\\tests\\Image.style.test.js",
+      "startTime": 1577088374431,
       "status": "passed",
       "summary": ""
     },
@@ -1238,10 +1238,10 @@
           "title": "should check the data attribute of input"
         }
       ],
-      "endTime": 1577087975160,
+      "endTime": 1577088375170,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Input\\tests\\Input.test.js",
-      "startTime": 1577087974912,
+      "startTime": 1577088374970,
       "status": "passed",
       "summary": ""
     },
@@ -1256,16 +1256,492 @@
           "title": "should render correctly"
         }
       ],
-      "endTime": 1577087975256,
+      "endTime": 1577088375179,
       "message": "",
       "name": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\tests\\Track.test.js",
-      "startTime": 1577087975040,
+      "startTime": 1577088374986,
       "status": "passed",
       "summary": ""
     }
   ],
   "wasInterrupted": false,
   "coverageMap": {
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "c6f4523d9b89fa6ee57e184f68f527f64337a5a5"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 14 }, "end": { "line": 53, "column": 1 } },
+        "1": { "start": { "line": 19, "column": 36 }, "end": { "line": 19, "column": 61 } },
+        "2": { "start": { "line": 21, "column": 2 }, "end": { "line": 31, "column": 5 } },
+        "3": { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } },
+        "4": { "start": { "line": 27, "column": 6 }, "end": { "line": 29, "column": 29 } },
+        "5": { "start": { "line": 28, "column": 8 }, "end": { "line": 28, "column": 28 } },
+        "6": { "start": { "line": 36, "column": 16 }, "end": { "line": 38, "column": 3 } },
+        "7": { "start": { "line": 37, "column": 4 }, "end": { "line": 37, "column": 29 } },
+        "8": { "start": { "line": 40, "column": 2 }, "end": { "line": 52, "column": 4 } },
+        "9": { "start": { "line": 55, "column": 0 }, "end": { "line": 58, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 15 } },
+          "loc": { "start": { "line": 14, "column": 87 }, "end": { "line": 53, "column": 1 } },
+          "line": 14
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 21, "column": 18 }, "end": { "line": 21, "column": 19 } },
+          "loc": { "start": { "line": 21, "column": 24 }, "end": { "line": 31, "column": 3 } },
+          "line": 21
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 27, "column": 17 }, "end": { "line": 27, "column": 18 } },
+          "loc": { "start": { "line": 27, "column": 23 }, "end": { "line": 29, "column": 7 } },
+          "line": 27
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 36, "column": 16 }, "end": { "line": 36, "column": 17 } },
+          "loc": { "start": { "line": 36, "column": 22 }, "end": { "line": 38, "column": 3 } },
+          "line": 36
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } },
+            { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } }
+          ],
+          "line": 26
+        },
+        "1": {
+          "loc": { "start": { "line": 26, "column": 8 }, "end": { "line": 26, "column": 43 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 26, "column": 8 }, "end": { "line": 26, "column": 17 } },
+            { "start": { "line": 26, "column": 21 }, "end": { "line": 26, "column": 43 } }
+          ],
+          "line": 26
+        },
+        "2": {
+          "loc": { "start": { "line": 42, "column": 7 }, "end": { "line": 50, "column": 7 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 42, "column": 7 }, "end": { "line": 42, "column": 16 } },
+            { "start": { "line": 43, "column": 8 }, "end": { "line": 49, "column": 14 } }
+          ],
+          "line": 42
+        },
+        "3": {
+          "loc": { "start": { "line": 48, "column": 11 }, "end": { "line": 48, "column": 68 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 48, "column": 11 }, "end": { "line": 48, "column": 31 } },
+            { "start": { "line": 48, "column": 35 }, "end": { "line": 48, "column": 68 } }
+          ],
+          "line": 48
+        }
+      },
+      "s": { "0": 1, "1": 6, "2": 6, "3": 2, "4": 1, "5": 1, "6": 6, "7": 1, "8": 6, "9": 1 },
+      "f": { "0": 6, "1": 2, "2": 1, "3": 1 },
+      "b": { "0": [1, 1], "1": [2, 1], "2": [6, 4], "3": [4, 3] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "d97a3d894d28864ee7976f5fa92692c9932ebe33"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.style.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 3, "column": 20 }, "end": { "line": 57, "column": 1 } },
+        "1": { "start": { "line": 18, "column": 39 }, "end": { "line": 18, "column": 78 } },
+        "2": { "start": { "line": 21, "column": 4 }, "end": { "line": 23, "column": 10 } },
+        "3": { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 81 } },
+        "4": { "start": { "line": 25, "column": 14 }, "end": { "line": 25, "column": 87 } },
+        "5": { "start": { "line": 26, "column": 14 }, "end": { "line": 26, "column": 87 } },
+        "6": { "start": { "line": 27, "column": 14 }, "end": { "line": 27, "column": 83 } },
+        "7": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
+        "8": { "start": { "line": 33, "column": 15 }, "end": { "line": 33, "column": 53 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 18, "column": 30 }, "end": { "line": 18, "column": 31 } },
+          "loc": { "start": { "line": 18, "column": 39 }, "end": { "line": 18, "column": 78 } },
+          "line": 18
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 20, "column": 4 }, "end": { "line": 20, "column": 5 } },
+          "loc": { "start": { "line": 21, "column": 4 }, "end": { "line": 23, "column": 10 } },
+          "line": 21
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 24, "column": 4 }, "end": { "line": 24, "column": 5 } },
+          "loc": { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 81 } },
+          "line": 24
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 25, "column": 4 }, "end": { "line": 25, "column": 5 } },
+          "loc": { "start": { "line": 25, "column": 14 }, "end": { "line": 25, "column": 87 } },
+          "line": 25
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 26, "column": 4 }, "end": { "line": 26, "column": 5 } },
+          "loc": { "start": { "line": 26, "column": 14 }, "end": { "line": 26, "column": 87 } },
+          "line": 26
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 5 } },
+          "loc": { "start": { "line": 27, "column": 14 }, "end": { "line": 27, "column": 83 } },
+          "line": 27
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 5 } },
+          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
+          "line": 28
+        },
+        "7": {
+          "name": "(anonymous_7)",
+          "decl": { "start": { "line": 33, "column": 6 }, "end": { "line": 33, "column": 7 } },
+          "loc": { "start": { "line": 33, "column": 15 }, "end": { "line": 33, "column": 53 } },
+          "line": 33
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 21, "column": 4 }, "end": { "line": 23, "column": 10 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 22, "column": 8 }, "end": { "line": 22, "column": 71 } },
+            { "start": { "line": 23, "column": 8 }, "end": { "line": 23, "column": 10 } }
+          ],
+          "line": 21
+        },
+        "1": {
+          "loc": { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 81 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 24, "column": 43 }, "end": { "line": 24, "column": 76 } },
+            { "start": { "line": 24, "column": 79 }, "end": { "line": 24, "column": 81 } }
+          ],
+          "line": 24
+        },
+        "2": {
+          "loc": { "start": { "line": 25, "column": 14 }, "end": { "line": 25, "column": 87 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 25, "column": 46 }, "end": { "line": 25, "column": 82 } },
+            { "start": { "line": 25, "column": 85 }, "end": { "line": 25, "column": 87 } }
+          ],
+          "line": 25
+        },
+        "3": {
+          "loc": { "start": { "line": 26, "column": 14 }, "end": { "line": 26, "column": 87 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 26, "column": 46 }, "end": { "line": 26, "column": 82 } },
+            { "start": { "line": 26, "column": 85 }, "end": { "line": 26, "column": 87 } }
+          ],
+          "line": 26
+        },
+        "4": {
+          "loc": { "start": { "line": 27, "column": 14 }, "end": { "line": 27, "column": 83 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 27, "column": 44 }, "end": { "line": 27, "column": 78 } },
+            { "start": { "line": 27, "column": 81 }, "end": { "line": 27, "column": 83 } }
+          ],
+          "line": 27
+        },
+        "5": {
+          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 28, "column": 38 }, "end": { "line": 28, "column": 59 } },
+            { "start": { "line": 28, "column": 62 }, "end": { "line": 28, "column": 64 } }
+          ],
+          "line": 28
+        }
+      },
+      "s": { "0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0], "5": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "045d2c3d84477a1e6f376d3d13d82c0adc82190c"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "37012989027d31ec36e71a73d39c5d3fe6662ffd"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.js",
+      "statementMap": {
+        "0": { "start": { "line": 22, "column": 15 }, "end": { "line": 45, "column": 1 } },
+        "1": { "start": { "line": 35, "column": 2 }, "end": { "line": 44, "column": 11 } },
+        "2": { "start": { "line": 47, "column": 0 }, "end": { "line": 57, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 22, "column": 15 }, "end": { "line": 22, "column": 16 } },
+          "loc": { "start": { "line": 35, "column": 2 }, "end": { "line": 44, "column": 11 } },
+          "line": 35
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 36, "column": 16 }, "end": { "line": 36, "column": 33 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 36, "column": 16 }, "end": { "line": 36, "column": 25 } },
+            { "start": { "line": 36, "column": 29 }, "end": { "line": 36, "column": 33 } }
+          ],
+          "line": 36
+        },
+        "1": {
+          "loc": { "start": { "line": 40, "column": 18 }, "end": { "line": 40, "column": 86 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 40, "column": 18 }, "end": { "line": 40, "column": 32 } },
+            { "start": { "line": 40, "column": 36 }, "end": { "line": 40, "column": 86 } }
+          ],
+          "line": 40
+        }
+      },
+      "s": { "0": 4, "1": 10, "2": 4 },
+      "f": { "0": 10 },
+      "b": { "0": [10, 9], "1": [10, 9] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "1b70a8b1be4c888b27f91731825c55996a0f5033"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\core\\utils\\elementLocator.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\core\\utils\\elementLocator.js",
+      "statementMap": {
+        "0": { "start": { "line": 4, "column": 36 }, "end": { "line": 20, "column": 1 } },
+        "1": { "start": { "line": 5, "column": 14 }, "end": { "line": 5, "column": 16 } },
+        "2": { "start": { "line": 7, "column": 2 }, "end": { "line": 18, "column": 5 } },
+        "3": { "start": { "line": 8, "column": 24 }, "end": { "line": 8, "column": 29 } },
+        "4": { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } },
+        "5": { "start": { "line": 11, "column": 6 }, "end": { "line": 15, "column": 9 } },
+        "6": { "start": { "line": 12, "column": 8 }, "end": { "line": 12, "column": 78 } },
+        "7": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } },
+        "8": { "start": { "line": 13, "column": 30 }, "end": { "line": 13, "column": 51 } },
+        "9": { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 29 } },
+        "10": { "start": { "line": 17, "column": 4 }, "end": { "line": 17, "column": 45 } },
+        "11": { "start": { "line": 19, "column": 2 }, "end": { "line": 19, "column": 29 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 4, "column": 36 }, "end": { "line": 4, "column": 37 } },
+          "loc": { "start": { "line": 4, "column": 48 }, "end": { "line": 20, "column": 1 } },
+          "line": 4
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 7, "column": 34 }, "end": { "line": 7, "column": 35 } },
+          "loc": { "start": { "line": 7, "column": 57 }, "end": { "line": 18, "column": 3 } },
+          "line": 7
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 11, "column": 28 }, "end": { "line": 11, "column": 29 } },
+          "loc": { "start": { "line": 11, "column": 51 }, "end": { "line": 15, "column": 7 } },
+          "line": 11
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } },
+            { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } }
+          ],
+          "line": 10
+        },
+        "1": {
+          "loc": { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 67 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 12, "column": 59 }, "end": { "line": 12, "column": 61 } },
+            { "start": { "line": 12, "column": 64 }, "end": { "line": 12, "column": 67 } }
+          ],
+          "line": 12
+        },
+        "2": {
+          "loc": { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 56 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 36 } },
+            { "start": { "line": 12, "column": 40 }, "end": { "line": 12, "column": 56 } }
+          ],
+          "line": 12
+        },
+        "3": {
+          "loc": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } },
+          "type": "if",
+          "locations": [
+            { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } },
+            { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } }
+          ],
+          "line": 13
+        },
+        "4": {
+          "loc": { "start": { "line": 17, "column": 11 }, "end": { "line": 17, "column": 44 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 17, "column": 11 }, "end": { "line": 17, "column": 24 } },
+            { "start": { "line": 17, "column": 28 }, "end": { "line": 17, "column": 44 } }
+          ],
+          "line": 17
+        }
+      },
+      "s": {
+        "0": 20,
+        "1": 45,
+        "2": 45,
+        "3": 49,
+        "4": 49,
+        "5": 37,
+        "6": 53,
+        "7": 53,
+        "8": 16,
+        "9": 53,
+        "10": 49,
+        "11": 45
+      },
+      "f": { "0": 45, "1": 49, "2": 53 },
+      "b": { "0": [37, 12], "1": [37, 16], "2": [53, 53], "3": [16, 37], "4": [49, 33] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "261d3d3285287497a18a2a1b718ae6ebce7c97fc"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.style.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 3, "column": 21 }, "end": { "line": 29, "column": 1 } },
+        "1": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 64 } },
+        "2": { "start": { "line": 9, "column": 13 }, "end": { "line": 13, "column": 3 } },
+        "3": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 69 } },
+        "4": { "start": { "line": 16, "column": 4 }, "end": { "line": 21, "column": 10 } },
+        "5": { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 48 } },
+        "6": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 8, "column": 12 }, "end": { "line": 8, "column": 13 } },
+          "loc": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 64 } },
+          "line": 8
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 5 } },
+          "loc": { "start": { "line": 9, "column": 13 }, "end": { "line": 13, "column": 3 } },
+          "line": 9
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 14, "column": 4 }, "end": { "line": 14, "column": 5 } },
+          "loc": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 69 } },
+          "line": 14
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 15, "column": 4 }, "end": { "line": 15, "column": 5 } },
+          "loc": { "start": { "line": 16, "column": 4 }, "end": { "line": 21, "column": 10 } },
+          "line": 16
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 22, "column": 4 }, "end": { "line": 22, "column": 5 } },
+          "loc": { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 48 } },
+          "line": 22
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 5 } },
+          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
+          "line": 28
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 8, "column": 39 }, "end": { "line": 8, "column": 52 } },
+            { "start": { "line": 8, "column": 55 }, "end": { "line": 8, "column": 64 } }
+          ],
+          "line": 8
+        },
+        "1": {
+          "loc": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 69 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 28 } },
+            { "start": { "line": 14, "column": 32 }, "end": { "line": 14, "column": 69 } }
+          ],
+          "line": 14
+        },
+        "2": {
+          "loc": { "start": { "line": 16, "column": 4 }, "end": { "line": 21, "column": 10 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 17, "column": 8 }, "end": { "line": 20, "column": 3 } },
+            { "start": { "line": 21, "column": 8 }, "end": { "line": 21, "column": 10 } }
+          ],
+          "line": 16
+        },
+        "3": {
+          "loc": { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 48 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 28 } },
+            { "start": { "line": 22, "column": 32 }, "end": { "line": 22, "column": 48 } }
+          ],
+          "line": 22
+        },
+        "4": {
+          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 28, "column": 38 }, "end": { "line": 28, "column": 59 } },
+            { "start": { "line": 28, "column": 62 }, "end": { "line": 28, "column": 64 } }
+          ],
+          "line": 28
+        }
+      },
+      "s": { "0": 4, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "0c3a92356b9452380f83413cde533b7bc9b799b8"
+    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\index.js",
       "statementMap": {},
@@ -1654,108 +2130,6 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "0a59dcc8a68af33ca7b142f8085c91ae33659672"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\core\\utils\\elementLocator.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\core\\utils\\elementLocator.js",
-      "statementMap": {
-        "0": { "start": { "line": 4, "column": 36 }, "end": { "line": 20, "column": 1 } },
-        "1": { "start": { "line": 5, "column": 14 }, "end": { "line": 5, "column": 16 } },
-        "2": { "start": { "line": 7, "column": 2 }, "end": { "line": 18, "column": 5 } },
-        "3": { "start": { "line": 8, "column": 24 }, "end": { "line": 8, "column": 29 } },
-        "4": { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } },
-        "5": { "start": { "line": 11, "column": 6 }, "end": { "line": 15, "column": 9 } },
-        "6": { "start": { "line": 12, "column": 8 }, "end": { "line": 12, "column": 78 } },
-        "7": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } },
-        "8": { "start": { "line": 13, "column": 30 }, "end": { "line": 13, "column": 51 } },
-        "9": { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 29 } },
-        "10": { "start": { "line": 17, "column": 4 }, "end": { "line": 17, "column": 45 } },
-        "11": { "start": { "line": 19, "column": 2 }, "end": { "line": 19, "column": 29 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 4, "column": 36 }, "end": { "line": 4, "column": 37 } },
-          "loc": { "start": { "line": 4, "column": 48 }, "end": { "line": 20, "column": 1 } },
-          "line": 4
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 7, "column": 34 }, "end": { "line": 7, "column": 35 } },
-          "loc": { "start": { "line": 7, "column": 57 }, "end": { "line": 18, "column": 3 } },
-          "line": 7
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 11, "column": 28 }, "end": { "line": 11, "column": 29 } },
-          "loc": { "start": { "line": 11, "column": 51 }, "end": { "line": 15, "column": 7 } },
-          "line": 11
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } },
-          "type": "if",
-          "locations": [
-            { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } },
-            { "start": { "line": 10, "column": 4 }, "end": { "line": 16, "column": 5 } }
-          ],
-          "line": 10
-        },
-        "1": {
-          "loc": { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 67 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 12, "column": 59 }, "end": { "line": 12, "column": 61 } },
-            { "start": { "line": 12, "column": 64 }, "end": { "line": 12, "column": 67 } }
-          ],
-          "line": 12
-        },
-        "2": {
-          "loc": { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 56 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 36 } },
-            { "start": { "line": 12, "column": 40 }, "end": { "line": 12, "column": 56 } }
-          ],
-          "line": 12
-        },
-        "3": {
-          "loc": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } },
-          "type": "if",
-          "locations": [
-            { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } },
-            { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 51 } }
-          ],
-          "line": 13
-        },
-        "4": {
-          "loc": { "start": { "line": 17, "column": 11 }, "end": { "line": 17, "column": 44 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 17, "column": 11 }, "end": { "line": 17, "column": 24 } },
-            { "start": { "line": 17, "column": 28 }, "end": { "line": 17, "column": 44 } }
-          ],
-          "line": 17
-        }
-      },
-      "s": {
-        "0": 20,
-        "1": 45,
-        "2": 45,
-        "3": 49,
-        "4": 49,
-        "5": 37,
-        "6": 53,
-        "7": 53,
-        "8": 16,
-        "9": 53,
-        "10": 49,
-        "11": 45
-      },
-      "f": { "0": 45, "1": 49, "2": 53 },
-      "b": { "0": [37, 12], "1": [37, 16], "2": [53, 53], "3": [16, 37], "4": [49, 33] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "261d3d3285287497a18a2a1b718ae6ebce7c97fc"
-    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Anchor\\Anchor.style.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Anchor\\Anchor.style.js",
       "statementMap": {
@@ -1814,380 +2188,6 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "1b54a66098f528cb69eb2cb998136a6f336059b7"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "c6f4523d9b89fa6ee57e184f68f527f64337a5a5"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.js",
-      "statementMap": {
-        "0": { "start": { "line": 14, "column": 14 }, "end": { "line": 53, "column": 1 } },
-        "1": { "start": { "line": 19, "column": 36 }, "end": { "line": 19, "column": 61 } },
-        "2": { "start": { "line": 21, "column": 2 }, "end": { "line": 31, "column": 5 } },
-        "3": { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } },
-        "4": { "start": { "line": 27, "column": 6 }, "end": { "line": 29, "column": 29 } },
-        "5": { "start": { "line": 28, "column": 8 }, "end": { "line": 28, "column": 28 } },
-        "6": { "start": { "line": 36, "column": 16 }, "end": { "line": 38, "column": 3 } },
-        "7": { "start": { "line": 37, "column": 4 }, "end": { "line": 37, "column": 29 } },
-        "8": { "start": { "line": 40, "column": 2 }, "end": { "line": 52, "column": 4 } },
-        "9": { "start": { "line": 55, "column": 0 }, "end": { "line": 58, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 14, "column": 14 }, "end": { "line": 14, "column": 15 } },
-          "loc": { "start": { "line": 14, "column": 87 }, "end": { "line": 53, "column": 1 } },
-          "line": 14
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 21, "column": 18 }, "end": { "line": 21, "column": 19 } },
-          "loc": { "start": { "line": 21, "column": 24 }, "end": { "line": 31, "column": 3 } },
-          "line": 21
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 27, "column": 17 }, "end": { "line": 27, "column": 18 } },
-          "loc": { "start": { "line": 27, "column": 23 }, "end": { "line": 29, "column": 7 } },
-          "line": 27
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 36, "column": 16 }, "end": { "line": 36, "column": 17 } },
-          "loc": { "start": { "line": 36, "column": 22 }, "end": { "line": 38, "column": 3 } },
-          "line": 36
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } },
-          "type": "if",
-          "locations": [
-            { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } },
-            { "start": { "line": 26, "column": 4 }, "end": { "line": 30, "column": 5 } }
-          ],
-          "line": 26
-        },
-        "1": {
-          "loc": { "start": { "line": 26, "column": 8 }, "end": { "line": 26, "column": 43 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 26, "column": 8 }, "end": { "line": 26, "column": 17 } },
-            { "start": { "line": 26, "column": 21 }, "end": { "line": 26, "column": 43 } }
-          ],
-          "line": 26
-        },
-        "2": {
-          "loc": { "start": { "line": 42, "column": 7 }, "end": { "line": 50, "column": 7 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 42, "column": 7 }, "end": { "line": 42, "column": 16 } },
-            { "start": { "line": 43, "column": 8 }, "end": { "line": 49, "column": 14 } }
-          ],
-          "line": 42
-        },
-        "3": {
-          "loc": { "start": { "line": 48, "column": 11 }, "end": { "line": 48, "column": 68 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 48, "column": 11 }, "end": { "line": 48, "column": 31 } },
-            { "start": { "line": 48, "column": 35 }, "end": { "line": 48, "column": 68 } }
-          ],
-          "line": 48
-        }
-      },
-      "s": { "0": 1, "1": 6, "2": 6, "3": 2, "4": 1, "5": 1, "6": 6, "7": 1, "8": 6, "9": 1 },
-      "f": { "0": 6, "1": 2, "2": 1, "3": 1 },
-      "b": { "0": [1, 1], "1": [2, 1], "2": [6, 4], "3": [4, 3] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "d97a3d894d28864ee7976f5fa92692c9932ebe33"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.style.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\Toast.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 3, "column": 20 }, "end": { "line": 57, "column": 1 } },
-        "1": { "start": { "line": 18, "column": 39 }, "end": { "line": 18, "column": 78 } },
-        "2": { "start": { "line": 21, "column": 4 }, "end": { "line": 23, "column": 10 } },
-        "3": { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 81 } },
-        "4": { "start": { "line": 25, "column": 14 }, "end": { "line": 25, "column": 87 } },
-        "5": { "start": { "line": 26, "column": 14 }, "end": { "line": 26, "column": 87 } },
-        "6": { "start": { "line": 27, "column": 14 }, "end": { "line": 27, "column": 83 } },
-        "7": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
-        "8": { "start": { "line": 33, "column": 15 }, "end": { "line": 33, "column": 53 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 18, "column": 30 }, "end": { "line": 18, "column": 31 } },
-          "loc": { "start": { "line": 18, "column": 39 }, "end": { "line": 18, "column": 78 } },
-          "line": 18
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 20, "column": 4 }, "end": { "line": 20, "column": 5 } },
-          "loc": { "start": { "line": 21, "column": 4 }, "end": { "line": 23, "column": 10 } },
-          "line": 21
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 24, "column": 4 }, "end": { "line": 24, "column": 5 } },
-          "loc": { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 81 } },
-          "line": 24
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 25, "column": 4 }, "end": { "line": 25, "column": 5 } },
-          "loc": { "start": { "line": 25, "column": 14 }, "end": { "line": 25, "column": 87 } },
-          "line": 25
-        },
-        "4": {
-          "name": "(anonymous_4)",
-          "decl": { "start": { "line": 26, "column": 4 }, "end": { "line": 26, "column": 5 } },
-          "loc": { "start": { "line": 26, "column": 14 }, "end": { "line": 26, "column": 87 } },
-          "line": 26
-        },
-        "5": {
-          "name": "(anonymous_5)",
-          "decl": { "start": { "line": 27, "column": 4 }, "end": { "line": 27, "column": 5 } },
-          "loc": { "start": { "line": 27, "column": 14 }, "end": { "line": 27, "column": 83 } },
-          "line": 27
-        },
-        "6": {
-          "name": "(anonymous_6)",
-          "decl": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 5 } },
-          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
-          "line": 28
-        },
-        "7": {
-          "name": "(anonymous_7)",
-          "decl": { "start": { "line": 33, "column": 6 }, "end": { "line": 33, "column": 7 } },
-          "loc": { "start": { "line": 33, "column": 15 }, "end": { "line": 33, "column": 53 } },
-          "line": 33
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 21, "column": 4 }, "end": { "line": 23, "column": 10 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 22, "column": 8 }, "end": { "line": 22, "column": 71 } },
-            { "start": { "line": 23, "column": 8 }, "end": { "line": 23, "column": 10 } }
-          ],
-          "line": 21
-        },
-        "1": {
-          "loc": { "start": { "line": 24, "column": 14 }, "end": { "line": 24, "column": 81 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 24, "column": 43 }, "end": { "line": 24, "column": 76 } },
-            { "start": { "line": 24, "column": 79 }, "end": { "line": 24, "column": 81 } }
-          ],
-          "line": 24
-        },
-        "2": {
-          "loc": { "start": { "line": 25, "column": 14 }, "end": { "line": 25, "column": 87 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 25, "column": 46 }, "end": { "line": 25, "column": 82 } },
-            { "start": { "line": 25, "column": 85 }, "end": { "line": 25, "column": 87 } }
-          ],
-          "line": 25
-        },
-        "3": {
-          "loc": { "start": { "line": 26, "column": 14 }, "end": { "line": 26, "column": 87 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 26, "column": 46 }, "end": { "line": 26, "column": 82 } },
-            { "start": { "line": 26, "column": 85 }, "end": { "line": 26, "column": 87 } }
-          ],
-          "line": 26
-        },
-        "4": {
-          "loc": { "start": { "line": 27, "column": 14 }, "end": { "line": 27, "column": 83 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 27, "column": 44 }, "end": { "line": 27, "column": 78 } },
-            { "start": { "line": 27, "column": 81 }, "end": { "line": 27, "column": 83 } }
-          ],
-          "line": 27
-        },
-        "5": {
-          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 28, "column": 38 }, "end": { "line": 28, "column": 59 } },
-            { "start": { "line": 28, "column": 62 }, "end": { "line": 28, "column": 64 } }
-          ],
-          "line": 28
-        }
-      },
-      "s": { "0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
-      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0 },
-      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0], "5": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "045d2c3d84477a1e6f376d3d13d82c0adc82190c"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "37012989027d31ec36e71a73d39c5d3fe6662ffd"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.js",
-      "statementMap": {
-        "0": { "start": { "line": 22, "column": 15 }, "end": { "line": 45, "column": 1 } },
-        "1": { "start": { "line": 35, "column": 2 }, "end": { "line": 44, "column": 11 } },
-        "2": { "start": { "line": 47, "column": 0 }, "end": { "line": 57, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 22, "column": 15 }, "end": { "line": 22, "column": 16 } },
-          "loc": { "start": { "line": 35, "column": 2 }, "end": { "line": 44, "column": 11 } },
-          "line": 35
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 36, "column": 16 }, "end": { "line": 36, "column": 33 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 36, "column": 16 }, "end": { "line": 36, "column": 25 } },
-            { "start": { "line": 36, "column": 29 }, "end": { "line": 36, "column": 33 } }
-          ],
-          "line": 36
-        },
-        "1": {
-          "loc": { "start": { "line": 40, "column": 18 }, "end": { "line": 40, "column": 86 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 40, "column": 18 }, "end": { "line": 40, "column": 32 } },
-            { "start": { "line": 40, "column": 36 }, "end": { "line": 40, "column": 86 } }
-          ],
-          "line": 40
-        }
-      },
-      "s": { "0": 4, "1": 10, "2": 4 },
-      "f": { "0": 10 },
-      "b": { "0": [10, 9], "1": [10, 9] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "1b70a8b1be4c888b27f91731825c55996a0f5033"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.style.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Button\\Button.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 3, "column": 21 }, "end": { "line": 29, "column": 1 } },
-        "1": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 64 } },
-        "2": { "start": { "line": 9, "column": 13 }, "end": { "line": 13, "column": 3 } },
-        "3": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 69 } },
-        "4": { "start": { "line": 16, "column": 4 }, "end": { "line": 21, "column": 10 } },
-        "5": { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 48 } },
-        "6": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 8, "column": 12 }, "end": { "line": 8, "column": 13 } },
-          "loc": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 64 } },
-          "line": 8
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 9, "column": 4 }, "end": { "line": 9, "column": 5 } },
-          "loc": { "start": { "line": 9, "column": 13 }, "end": { "line": 13, "column": 3 } },
-          "line": 9
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 14, "column": 4 }, "end": { "line": 14, "column": 5 } },
-          "loc": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 69 } },
-          "line": 14
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 15, "column": 4 }, "end": { "line": 15, "column": 5 } },
-          "loc": { "start": { "line": 16, "column": 4 }, "end": { "line": 21, "column": 10 } },
-          "line": 16
-        },
-        "4": {
-          "name": "(anonymous_4)",
-          "decl": { "start": { "line": 22, "column": 4 }, "end": { "line": 22, "column": 5 } },
-          "loc": { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 48 } },
-          "line": 22
-        },
-        "5": {
-          "name": "(anonymous_5)",
-          "decl": { "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 5 } },
-          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
-          "line": 28
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 8, "column": 22 }, "end": { "line": 8, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 8, "column": 39 }, "end": { "line": 8, "column": 52 } },
-            { "start": { "line": 8, "column": 55 }, "end": { "line": 8, "column": 64 } }
-          ],
-          "line": 8
-        },
-        "1": {
-          "loc": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 69 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 28 } },
-            { "start": { "line": 14, "column": 32 }, "end": { "line": 14, "column": 69 } }
-          ],
-          "line": 14
-        },
-        "2": {
-          "loc": { "start": { "line": 16, "column": 4 }, "end": { "line": 21, "column": 10 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 17, "column": 8 }, "end": { "line": 20, "column": 3 } },
-            { "start": { "line": 21, "column": 8 }, "end": { "line": 21, "column": 10 } }
-          ],
-          "line": 16
-        },
-        "3": {
-          "loc": { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 48 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 22, "column": 13 }, "end": { "line": 22, "column": 28 } },
-            { "start": { "line": 22, "column": 32 }, "end": { "line": 22, "column": 48 } }
-          ],
-          "line": 22
-        },
-        "4": {
-          "loc": { "start": { "line": 28, "column": 14 }, "end": { "line": 28, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 28, "column": 38 }, "end": { "line": 28, "column": 59 } },
-            { "start": { "line": 28, "column": 62 }, "end": { "line": 28, "column": 64 } }
-          ],
-          "line": 28
-        }
-      },
-      "s": { "0": 4, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
-      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
-      "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "0c3a92356b9452380f83413cde533b7bc9b799b8"
-    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\index.js",
       "statementMap": {},
@@ -2202,45 +2202,45 @@
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\FieldToggle.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\FieldToggle.js",
       "statementMap": {
-        "0": { "start": { "line": 12, "column": 20 }, "end": { "line": 67, "column": 1 } },
+        "0": { "start": { "line": 12, "column": 20 }, "end": { "line": 68, "column": 1 } },
         "1": { "start": { "line": 26, "column": 33 }, "end": { "line": 26, "column": 66 } },
-        "2": { "start": { "line": 28, "column": 2 }, "end": { "line": 66, "column": 4 } },
+        "2": { "start": { "line": 28, "column": 2 }, "end": { "line": 67, "column": 4 } },
         "3": { "start": { "line": 35, "column": 35 }, "end": { "line": 35, "column": 39 } },
-        "4": { "start": { "line": 36, "column": 10 }, "end": { "line": 62, "column": 12 } },
+        "4": { "start": { "line": 36, "column": 10 }, "end": { "line": 63, "column": 12 } },
         "5": { "start": { "line": 48, "column": 47 }, "end": { "line": 48, "column": 54 } },
         "6": { "start": { "line": 49, "column": 20 }, "end": { "line": 49, "column": 36 } },
         "7": { "start": { "line": 50, "column": 20 }, "end": { "line": 50, "column": 53 } },
-        "8": { "start": { "line": 51, "column": 20 }, "end": { "line": 51, "column": 134 } },
-        "9": { "start": { "line": 51, "column": 93 }, "end": { "line": 51, "column": 134 } },
-        "10": { "start": { "line": 69, "column": 0 }, "end": { "line": 78, "column": 2 } }
+        "8": { "start": { "line": 51, "column": 20 }, "end": { "line": 52, "column": 63 } },
+        "9": { "start": { "line": 52, "column": 22 }, "end": { "line": 52, "column": 63 } },
+        "10": { "start": { "line": 70, "column": 0 }, "end": { "line": 79, "column": 2 } }
       },
       "fnMap": {
         "0": {
           "name": "(anonymous_0)",
           "decl": { "start": { "line": 12, "column": 20 }, "end": { "line": 12, "column": 21 } },
-          "loc": { "start": { "line": 25, "column": 19 }, "end": { "line": 67, "column": 1 } },
+          "loc": { "start": { "line": 25, "column": 19 }, "end": { "line": 68, "column": 1 } },
           "line": 25
         },
         "1": {
           "name": "(anonymous_1)",
           "decl": { "start": { "line": 34, "column": 9 }, "end": { "line": 34, "column": 10 } },
-          "loc": { "start": { "line": 34, "column": 30 }, "end": { "line": 63, "column": 9 } },
+          "loc": { "start": { "line": 34, "column": 30 }, "end": { "line": 64, "column": 9 } },
           "line": 34
         },
         "2": {
           "name": "(anonymous_2)",
           "decl": { "start": { "line": 47, "column": 27 }, "end": { "line": 47, "column": 28 } },
-          "loc": { "start": { "line": 47, "column": 32 }, "end": { "line": 52, "column": 19 } },
+          "loc": { "start": { "line": 47, "column": 32 }, "end": { "line": 53, "column": 19 } },
           "line": 47
         }
       },
       "branchMap": {
         "0": {
-          "loc": { "start": { "line": 51, "column": 20 }, "end": { "line": 51, "column": 134 } },
+          "loc": { "start": { "line": 51, "column": 20 }, "end": { "line": 52, "column": 63 } },
           "type": "if",
           "locations": [
-            { "start": { "line": 51, "column": 20 }, "end": { "line": 51, "column": 134 } },
-            { "start": { "line": 51, "column": 20 }, "end": { "line": 51, "column": 134 } }
+            { "start": { "line": 51, "column": 20 }, "end": { "line": 52, "column": 63 } },
+            { "start": { "line": 51, "column": 20 }, "end": { "line": 52, "column": 63 } }
           ],
           "line": 51
         },
@@ -2254,22 +2254,22 @@
           "line": 51
         },
         "2": {
-          "loc": { "start": { "line": 58, "column": 15 }, "end": { "line": 60, "column": 15 } },
+          "loc": { "start": { "line": 59, "column": 15 }, "end": { "line": 61, "column": 15 } },
           "type": "binary-expr",
           "locations": [
-            { "start": { "line": 58, "column": 15 }, "end": { "line": 58, "column": 32 } },
-            { "start": { "line": 59, "column": 16 }, "end": { "line": 59, "column": 91 } }
-          ],
-          "line": 58
-        },
-        "3": {
-          "loc": { "start": { "line": 59, "column": 48 }, "end": { "line": 59, "column": 83 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 59, "column": 57 }, "end": { "line": 59, "column": 68 } },
-            { "start": { "line": 59, "column": 71 }, "end": { "line": 59, "column": 83 } }
+            { "start": { "line": 59, "column": 15 }, "end": { "line": 59, "column": 32 } },
+            { "start": { "line": 60, "column": 16 }, "end": { "line": 60, "column": 91 } }
           ],
           "line": 59
+        },
+        "3": {
+          "loc": { "start": { "line": 60, "column": 48 }, "end": { "line": 60, "column": 83 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 60, "column": 57 }, "end": { "line": 60, "column": 68 } },
+            { "start": { "line": 60, "column": 71 }, "end": { "line": 60, "column": 83 } }
+          ],
+          "line": 60
         }
       },
       "s": {
@@ -2288,7 +2288,7 @@
       "f": { "0": 8, "1": 6, "2": 3 },
       "b": { "0": [1, 2], "1": [3, 1], "2": [6, 6], "3": [1, 5] },
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "51569efa8a0be6a9c8a703d05b1681409b8fe819"
+      "hash": "3c094cd25a2a58961df217fdccc48cd2f283e267"
     },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\FieldToggle.style.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\FieldToggle\\FieldToggle.style.js",
@@ -3994,17 +3994,6 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "5102d9349f4027328729523720e665f1e7738e57"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "29b7a247675b70717193fde706682ad9bee3a30d"
-    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\QuoteMedia.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\QuoteMedia.js",
       "statementMap": {
@@ -4400,114 +4389,6 @@
       "b": { "0": [0, 0] },
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "47810f9564ca43283935f2d7fddd50b2560fb770"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "ea1e5ea5481794440b8086bc3aff951d00c63e70"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js",
-      "statementMap": {
-        "0": { "start": { "line": 17, "column": 14 }, "end": { "line": 49, "column": 1 } },
-        "1": { "start": { "line": 32, "column": 2 }, "end": { "line": 48, "column": 4 } },
-        "2": { "start": { "line": 51, "column": 0 }, "end": { "line": 61, "column": 2 } },
-        "3": { "start": { "line": 63, "column": 0 }, "end": { "line": 63, "column": 20 } },
-        "4": { "start": { "line": 64, "column": 0 }, "end": { "line": 64, "column": 34 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 17, "column": 14 }, "end": { "line": 17, "column": 15 } },
-          "loc": { "start": { "line": 31, "column": 19 }, "end": { "line": 49, "column": 1 } },
-          "line": 31
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 46, "column": 7 }, "end": { "line": 46, "column": 69 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 46, "column": 29 }, "end": { "line": 46, "column": 37 } },
-            { "start": { "line": 46, "column": 40 }, "end": { "line": 46, "column": 69 } }
-          ],
-          "line": 46
-        }
-      },
-      "s": { "0": 1, "1": 10, "2": 1, "3": 1, "4": 1 },
-      "f": { "0": 10 },
-      "b": { "0": [1, 9] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "06a1fa667440861fb21c78380598e925291df1fd"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 4, "column": 13 }, "end": { "line": 6, "column": 1 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
-          "loc": { "start": { "line": 4, "column": 13 }, "end": { "line": 6, "column": 1 } },
-          "line": 4
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 5, "column": 9 }, "end": { "line": 5, "column": 43 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 5, "column": 23 }, "end": { "line": 5, "column": 34 } },
-            { "start": { "line": 5, "column": 37 }, "end": { "line": 5, "column": 43 } }
-          ],
-          "line": 5
-        }
-      },
-      "s": { "0": 0 },
-      "f": { "0": 0 },
-      "b": { "0": [0, 0] },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "5fef66c27740e36b6507240701301eab8a04bda6"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "10008e8d5aec8da8d6b19303272ca50c16c49d26"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js",
-      "statementMap": {
-        "0": { "start": { "line": 10, "column": 14 }, "end": { "line": 12, "column": 1 } },
-        "1": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
-        "2": { "start": { "line": 14, "column": 0 }, "end": { "line": 16, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 10, "column": 14 }, "end": { "line": 10, "column": 15 } },
-          "loc": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
-          "line": 11
-        }
-      },
-      "branchMap": {},
-      "s": { "0": 2, "1": 5, "2": 2 },
-      "f": { "0": 5 },
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "418598fbef870c181cd366938bf9ba38c7cb144a"
     },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Tabs\\index.js",
@@ -5047,8 +4928,8 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "35574bf54b59ba9ac1b3f7a5b864fd5ab21dc4ed"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\index.js",
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Form\\index.js",
       "statementMap": {},
       "fnMap": {},
       "branchMap": {},
@@ -5056,166 +4937,7 @@
       "f": {},
       "b": {},
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "798e84027faff7c4b79b5b0dba5bd6ec10933585"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.js",
-      "statementMap": {
-        "0": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 61 } },
-        "1": { "start": { "line": 14, "column": 42 }, "end": { "line": 14, "column": 61 } },
-        "2": { "start": { "line": 16, "column": 18 }, "end": { "line": 24, "column": 1 } },
-        "3": { "start": { "line": 17, "column": 2 }, "end": { "line": 23, "column": 4 } },
-        "4": { "start": { "line": 26, "column": 0 }, "end": { "line": 26, "column": 22 } },
-        "5": { "start": { "line": 28, "column": 0 }, "end": { "line": 30, "column": 2 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 14 } },
-          "loc": { "start": { "line": 14, "column": 42 }, "end": { "line": 14, "column": 61 } },
-          "line": 14
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 16, "column": 18 }, "end": { "line": 16, "column": 19 } },
-          "loc": { "start": { "line": 16, "column": 69 }, "end": { "line": 24, "column": 1 } },
-          "line": 16
-        }
-      },
-      "branchMap": {},
-      "s": { "0": 1, "1": 0, "2": 1, "3": 2, "4": 1, "5": 1 },
-      "f": { "0": 0, "1": 2 },
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "d5cc50ef78639515bdd54c4f2245bca22cc37e7a"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.style.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.style.js",
-      "statementMap": {
-        "0": { "start": { "line": 3, "column": 24 }, "end": { "line": 16, "column": 1 } },
-        "1": { "start": { "line": 5, "column": 30 }, "end": { "line": 5, "column": 82 } },
-        "2": { "start": { "line": 7, "column": 4 }, "end": { "line": 9, "column": 6 } },
-        "3": { "start": { "line": 9, "column": 21 }, "end": { "line": 9, "column": 70 } },
-        "4": { "start": { "line": 10, "column": 13 }, "end": { "line": 10, "column": 72 } },
-        "5": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 55 } },
-        "6": { "start": { "line": 15, "column": 14 }, "end": { "line": 15, "column": 64 } }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": { "start": { "line": 5, "column": 20 }, "end": { "line": 5, "column": 21 } },
-          "loc": { "start": { "line": 5, "column": 30 }, "end": { "line": 5, "column": 82 } },
-          "line": 5
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": { "start": { "line": 6, "column": 4 }, "end": { "line": 6, "column": 5 } },
-          "loc": { "start": { "line": 7, "column": 4 }, "end": { "line": 9, "column": 6 } },
-          "line": 7
-        },
-        "2": {
-          "name": "(anonymous_2)",
-          "decl": { "start": { "line": 9, "column": 11 }, "end": { "line": 9, "column": 12 } },
-          "loc": { "start": { "line": 9, "column": 21 }, "end": { "line": 9, "column": 70 } },
-          "line": 9
-        },
-        "3": {
-          "name": "(anonymous_3)",
-          "decl": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 5 } },
-          "loc": { "start": { "line": 10, "column": 13 }, "end": { "line": 10, "column": 72 } },
-          "line": 10
-        },
-        "4": {
-          "name": "(anonymous_4)",
-          "decl": { "start": { "line": 12, "column": 11 }, "end": { "line": 12, "column": 12 } },
-          "loc": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 55 } },
-          "line": 12
-        },
-        "5": {
-          "name": "(anonymous_5)",
-          "decl": { "start": { "line": 15, "column": 4 }, "end": { "line": 15, "column": 5 } },
-          "loc": { "start": { "line": 15, "column": 14 }, "end": { "line": 15, "column": 64 } },
-          "line": 15
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": { "start": { "line": 5, "column": 30 }, "end": { "line": 5, "column": 82 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 5, "column": 52 }, "end": { "line": 5, "column": 71 } },
-            { "start": { "line": 5, "column": 74 }, "end": { "line": 5, "column": 82 } }
-          ],
-          "line": 5
-        },
-        "1": {
-          "loc": { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 92 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 8, "column": 78 }, "end": { "line": 8, "column": 83 } },
-            { "start": { "line": 8, "column": 86 }, "end": { "line": 8, "column": 92 } }
-          ],
-          "line": 8
-        },
-        "2": {
-          "loc": { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 75 } },
-          "type": "binary-expr",
-          "locations": [
-            { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 38 } },
-            { "start": { "line": 8, "column": 42 }, "end": { "line": 8, "column": 75 } }
-          ],
-          "line": 8
-        },
-        "3": {
-          "loc": { "start": { "line": 9, "column": 21 }, "end": { "line": 9, "column": 70 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 9, "column": 43 }, "end": { "line": 9, "column": 62 } },
-            { "start": { "line": 9, "column": 65 }, "end": { "line": 9, "column": 70 } }
-          ],
-          "line": 9
-        },
-        "4": {
-          "loc": { "start": { "line": 10, "column": 16 }, "end": { "line": 10, "column": 70 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 10, "column": 40 }, "end": { "line": 10, "column": 61 } },
-            { "start": { "line": 10, "column": 64 }, "end": { "line": 10, "column": 70 } }
-          ],
-          "line": 10
-        },
-        "5": {
-          "loc": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 55 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 12, "column": 35 }, "end": { "line": 12, "column": 46 } },
-            { "start": { "line": 12, "column": 49 }, "end": { "line": 12, "column": 55 } }
-          ],
-          "line": 12
-        },
-        "6": {
-          "loc": { "start": { "line": 15, "column": 14 }, "end": { "line": 15, "column": 64 } },
-          "type": "cond-expr",
-          "locations": [
-            { "start": { "line": 15, "column": 38 }, "end": { "line": 15, "column": 59 } },
-            { "start": { "line": 15, "column": 62 }, "end": { "line": 15, "column": 64 } }
-          ],
-          "line": 15
-        }
-      },
-      "s": { "0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
-      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
-      "b": {
-        "0": [0, 0],
-        "1": [0, 0],
-        "2": [0, 0],
-        "3": [0, 0],
-        "4": [0, 0],
-        "5": [0, 0],
-        "6": [0, 0]
-      },
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "d8a5c393dc9f18baebfd6f5599ccd95b79e3e115"
+      "hash": "29b7a247675b70717193fde706682ad9bee3a30d"
     },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\index.js",
@@ -5430,6 +5152,114 @@
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "29756612784aa342d68694fb836eeab199d62a58"
     },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "ea1e5ea5481794440b8086bc3aff951d00c63e70"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.js",
+      "statementMap": {
+        "0": { "start": { "line": 17, "column": 14 }, "end": { "line": 49, "column": 1 } },
+        "1": { "start": { "line": 32, "column": 2 }, "end": { "line": 48, "column": 4 } },
+        "2": { "start": { "line": 51, "column": 0 }, "end": { "line": 61, "column": 2 } },
+        "3": { "start": { "line": 63, "column": 0 }, "end": { "line": 63, "column": 20 } },
+        "4": { "start": { "line": 64, "column": 0 }, "end": { "line": 64, "column": 34 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 17, "column": 14 }, "end": { "line": 17, "column": 15 } },
+          "loc": { "start": { "line": 31, "column": 19 }, "end": { "line": 49, "column": 1 } },
+          "line": 31
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 46, "column": 7 }, "end": { "line": 46, "column": 69 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 46, "column": 29 }, "end": { "line": 46, "column": 37 } },
+            { "start": { "line": 46, "column": 40 }, "end": { "line": 46, "column": 69 } }
+          ],
+          "line": 46
+        }
+      },
+      "s": { "0": 1, "1": 10, "2": 1, "3": 1, "4": 1 },
+      "f": { "0": 10 },
+      "b": { "0": [1, 9] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "06a1fa667440861fb21c78380598e925291df1fd"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Video\\Video.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 4, "column": 13 }, "end": { "line": 6, "column": 1 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 5 } },
+          "loc": { "start": { "line": 4, "column": 13 }, "end": { "line": 6, "column": 1 } },
+          "line": 4
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 5, "column": 9 }, "end": { "line": 5, "column": 43 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 5, "column": 23 }, "end": { "line": 5, "column": 34 } },
+            { "start": { "line": 5, "column": 37 }, "end": { "line": 5, "column": 43 } }
+          ],
+          "line": 5
+        }
+      },
+      "s": { "0": 0 },
+      "f": { "0": 0 },
+      "b": { "0": [0, 0] },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "5fef66c27740e36b6507240701301eab8a04bda6"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "10008e8d5aec8da8d6b19303272ca50c16c49d26"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Track\\Track.js",
+      "statementMap": {
+        "0": { "start": { "line": 10, "column": 14 }, "end": { "line": 12, "column": 1 } },
+        "1": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
+        "2": { "start": { "line": 14, "column": 0 }, "end": { "line": 16, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 10, "column": 14 }, "end": { "line": 10, "column": 15 } },
+          "loc": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 94 } },
+          "line": 11
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 2, "1": 5, "2": 2 },
+      "f": { "0": 5 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "418598fbef870c181cd366938bf9ba38c7cb144a"
+    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\Modal.js",
       "statementMap": {
@@ -5499,6 +5329,176 @@
       "b": { "0": [0, 0] },
       "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
       "hash": "a7f7f52406cda56e2373750c8368aa63688810eb"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "798e84027faff7c4b79b5b0dba5bd6ec10933585"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.js",
+      "statementMap": {
+        "0": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 61 } },
+        "1": { "start": { "line": 14, "column": 42 }, "end": { "line": 14, "column": 61 } },
+        "2": { "start": { "line": 16, "column": 18 }, "end": { "line": 24, "column": 1 } },
+        "3": { "start": { "line": 17, "column": 2 }, "end": { "line": 23, "column": 4 } },
+        "4": { "start": { "line": 26, "column": 0 }, "end": { "line": 26, "column": 22 } },
+        "5": { "start": { "line": 28, "column": 0 }, "end": { "line": 30, "column": 2 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 14, "column": 13 }, "end": { "line": 14, "column": 14 } },
+          "loc": { "start": { "line": 14, "column": 42 }, "end": { "line": 14, "column": 61 } },
+          "line": 14
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 16, "column": 18 }, "end": { "line": 16, "column": 19 } },
+          "loc": { "start": { "line": 16, "column": 69 }, "end": { "line": 24, "column": 1 } },
+          "line": 16
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 1, "1": 0, "2": 1, "3": 2, "4": 1, "5": 1 },
+      "f": { "0": 0, "1": 2 },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "d5cc50ef78639515bdd54c4f2245bca22cc37e7a"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.style.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\StickyBar.style.js",
+      "statementMap": {
+        "0": { "start": { "line": 3, "column": 24 }, "end": { "line": 16, "column": 1 } },
+        "1": { "start": { "line": 5, "column": 30 }, "end": { "line": 5, "column": 82 } },
+        "2": { "start": { "line": 7, "column": 4 }, "end": { "line": 9, "column": 6 } },
+        "3": { "start": { "line": 9, "column": 21 }, "end": { "line": 9, "column": 70 } },
+        "4": { "start": { "line": 10, "column": 13 }, "end": { "line": 10, "column": 72 } },
+        "5": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 55 } },
+        "6": { "start": { "line": 15, "column": 14 }, "end": { "line": 15, "column": 64 } }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": { "start": { "line": 5, "column": 20 }, "end": { "line": 5, "column": 21 } },
+          "loc": { "start": { "line": 5, "column": 30 }, "end": { "line": 5, "column": 82 } },
+          "line": 5
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": { "start": { "line": 6, "column": 4 }, "end": { "line": 6, "column": 5 } },
+          "loc": { "start": { "line": 7, "column": 4 }, "end": { "line": 9, "column": 6 } },
+          "line": 7
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": { "start": { "line": 9, "column": 11 }, "end": { "line": 9, "column": 12 } },
+          "loc": { "start": { "line": 9, "column": 21 }, "end": { "line": 9, "column": 70 } },
+          "line": 9
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": { "start": { "line": 10, "column": 4 }, "end": { "line": 10, "column": 5 } },
+          "loc": { "start": { "line": 10, "column": 13 }, "end": { "line": 10, "column": 72 } },
+          "line": 10
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": { "start": { "line": 12, "column": 11 }, "end": { "line": 12, "column": 12 } },
+          "loc": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 55 } },
+          "line": 12
+        },
+        "5": {
+          "name": "(anonymous_5)",
+          "decl": { "start": { "line": 15, "column": 4 }, "end": { "line": 15, "column": 5 } },
+          "loc": { "start": { "line": 15, "column": 14 }, "end": { "line": 15, "column": 64 } },
+          "line": 15
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": { "start": { "line": 5, "column": 30 }, "end": { "line": 5, "column": 82 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 5, "column": 52 }, "end": { "line": 5, "column": 71 } },
+            { "start": { "line": 5, "column": 74 }, "end": { "line": 5, "column": 82 } }
+          ],
+          "line": 5
+        },
+        "1": {
+          "loc": { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 92 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 8, "column": 78 }, "end": { "line": 8, "column": 83 } },
+            { "start": { "line": 8, "column": 86 }, "end": { "line": 8, "column": 92 } }
+          ],
+          "line": 8
+        },
+        "2": {
+          "loc": { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 75 } },
+          "type": "binary-expr",
+          "locations": [
+            { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 38 } },
+            { "start": { "line": 8, "column": 42 }, "end": { "line": 8, "column": 75 } }
+          ],
+          "line": 8
+        },
+        "3": {
+          "loc": { "start": { "line": 9, "column": 21 }, "end": { "line": 9, "column": 70 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 9, "column": 43 }, "end": { "line": 9, "column": 62 } },
+            { "start": { "line": 9, "column": 65 }, "end": { "line": 9, "column": 70 } }
+          ],
+          "line": 9
+        },
+        "4": {
+          "loc": { "start": { "line": 10, "column": 16 }, "end": { "line": 10, "column": 70 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 10, "column": 40 }, "end": { "line": 10, "column": 61 } },
+            { "start": { "line": 10, "column": 64 }, "end": { "line": 10, "column": 70 } }
+          ],
+          "line": 10
+        },
+        "5": {
+          "loc": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 55 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 12, "column": 35 }, "end": { "line": 12, "column": 46 } },
+            { "start": { "line": 12, "column": 49 }, "end": { "line": 12, "column": 55 } }
+          ],
+          "line": 12
+        },
+        "6": {
+          "loc": { "start": { "line": 15, "column": 14 }, "end": { "line": 15, "column": 64 } },
+          "type": "cond-expr",
+          "locations": [
+            { "start": { "line": 15, "column": 38 }, "end": { "line": 15, "column": 59 } },
+            { "start": { "line": 15, "column": 62 }, "end": { "line": 15, "column": 64 } }
+          ],
+          "line": 15
+        }
+      },
+      "s": { "0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0 },
+      "f": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 },
+      "b": {
+        "0": [0, 0],
+        "1": [0, 0],
+        "2": [0, 0],
+        "3": [0, 0],
+        "4": [0, 0],
+        "5": [0, 0],
+        "6": [0, 0]
+      },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "d8a5c393dc9f18baebfd6f5599ccd95b79e3e115"
     },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Heading\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\atoms\\Heading\\index.js",
@@ -5783,16 +5783,6 @@
       "b": {},
       "hash": "05912792bc3d1b103ee7badb7e6e013ea887b598"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Blockquote\\types\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Blockquote\\types\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "34246b1b3013ad5798b9afdd35d3a1c064deee7b"
-    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\types\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Breadcrumb\\types\\index.js",
       "statementMap": {},
@@ -5803,25 +5793,15 @@
       "b": {},
       "hash": "c46ff25df7b3825c4fa81cc48feeb54fc07d701d"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js",
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\index.js",
       "statementMap": {},
       "fnMap": {},
       "branchMap": {},
       "s": {},
       "f": {},
       "b": {},
-      "hash": "6e98eeff4156240916fb8500e37615fea445fa93"
-    },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js",
-      "statementMap": {},
-      "fnMap": {},
-      "branchMap": {},
-      "s": {},
-      "f": {},
-      "b": {},
-      "hash": "1aa8ccb4cd18849da974346199decc4916f063a8"
+      "hash": "1d901d20fb3b240cf0937f2e4a268631823c06b6"
     },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\types\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\types\\index.js",
@@ -5832,6 +5812,16 @@
       "f": {},
       "b": {},
       "hash": "cc4b4a4b71a51c5be1a23ba07dd358e41cbb3803"
+    },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Popover\\types\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "6e98eeff4156240916fb8500e37615fea445fa93"
     },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\types\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\StickyBar\\types\\index.js",
@@ -5853,6 +5843,16 @@
       "b": {},
       "hash": "848244212ed07a14d3efd707aea15f008c14c019"
     },
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Blockquote\\types\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Blockquote\\types\\index.js",
+      "statementMap": {},
+      "fnMap": {},
+      "branchMap": {},
+      "s": {},
+      "f": {},
+      "b": {},
+      "hash": "34246b1b3013ad5798b9afdd35d3a1c064deee7b"
+    },
     "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\types\\index.js": {
       "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Toast\\types\\index.js",
       "statementMap": {},
@@ -5873,15 +5873,15 @@
       "b": {},
       "hash": "da832397573a62fd1ddf7117027010cc0e43c354"
     },
-    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\index.js": {
-      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\QuoteMedia\\index.js",
+    "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js": {
+      "path": "C:\\ReactPractice\\Hero Component\\atomic-react-components\\lib\\components\\molecules\\Modal\\index.js",
       "statementMap": {},
       "fnMap": {},
       "branchMap": {},
       "s": {},
       "f": {},
       "b": {},
-      "hash": "1d901d20fb3b240cf0937f2e4a268631823c06b6"
+      "hash": "1aa8ccb4cd18849da974346199decc4916f063a8"
     }
   }
 }
