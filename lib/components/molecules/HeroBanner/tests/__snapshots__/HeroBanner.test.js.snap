@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeroBanner /> should render correctly 1`] = `
+<div
+  className="hero-container"
+>
+  <section>
+    <header
+      role="banner"
+    />
+  </section>
+</div>
+`;
