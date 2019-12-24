@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Suite 1: Check for component and it's child rendered correctly. should render wrapper correctly for snapshot matching. 1`] = `
+<div
+  role="banner"
+>
+  <Button
+    onClick={[Function]}
+    tertiary={true}
+  >
+    <Icon
+      id="close"
+    />
+  </Button>
+  <div
+    className="displayRow"
+  >
+    <div
+      className="btnContainer"
+    >
+      <Button
+        onClick={[Function]}
+        primary={true}
+      >
+        Accept
+      </Button>
+      <Button
+        onClick={[Function]}
+        tertiary={true}
+      >
+        Reject
+      </Button>
+    </div>
+  </div>
+</div>
+`;

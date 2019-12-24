@@ -75,6 +75,17 @@
   }
 }
 
+@keyframes disclaimer-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 :root {
   --animation-slide-up: slide-up 1s ease-in-out;
   --animation-slide-bottom: slide-bottom 1s ease-in-out;
@@ -83,6 +94,7 @@
   --animation-fade-out: fade-out;
   --animation-slide-up-with-margin: slide-up-with-margin 0.3s;
   --animation-spinner: rotate 1.2s infinite cubic-bezier(0.55, 0, 0.1, 1);
+  --animation-disclaimer: disclaimer-slide-up 0.5s ease-in;
 }
 
 /**
