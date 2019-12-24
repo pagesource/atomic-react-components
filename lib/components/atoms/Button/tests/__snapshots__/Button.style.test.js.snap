@@ -226,7 +226,9 @@ exports[`Button should render correctly 1`] = `
     width: var(--spacing-6);
   ",
       },
-      "icons": Object {},
+      "icons": Object {
+        "close": null,
+      },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
         "SHADOW_M": "var(--shadow-m)",
