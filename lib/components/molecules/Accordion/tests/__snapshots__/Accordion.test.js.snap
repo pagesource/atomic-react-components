@@ -45,7 +45,9 @@ exports[`<Accordion /> should render correctly 1`] = `
       <div
         className="Accordion-vybsad-0 bbzLKL accordion"
       >
-        <AccordionPanel>
+        <AccordionPanel
+          className="panel"
+        >
           <details
             className="accordion-panel "
             onClick={[Function]}
