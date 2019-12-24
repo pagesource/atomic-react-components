@@ -31,6 +31,7 @@ exports[`Select Styled component should render correctly 1`] = `
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
+        "DRAG_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "FIELD_ACTIVE": "
     border: var(--border-size-field-active) solid var(--field-border-active);
   ",
