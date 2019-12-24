@@ -79,6 +79,10 @@ exports[`Select Styled component should render correctly 1`] = `
         "LIST_ITEM": "
     border-bottom: var(--border-size-field) solid var(--stroke);
   ",
+        "TAG": "
+    border: var(--border-size-field) solid var(--black);
+    border-radius: var(--border-radius-s);
+  ",
         "TYPEAHEAD_LIST": "
     border: var(--border-size-field) solid var(--stroke);
     //border-bottom: 0 none;
@@ -98,6 +102,13 @@ exports[`Select Styled component should render correctly 1`] = `
         "CTA_ERROR": "
     background-color:var(--bg-cta-error);
     color:var(--text-cta-error);",
+        "CTA_ICON": "
+    background-color: var(--bg-cta-transparent);
+    color: var(--black);
+    &:hover, &:active{
+      background-color: var(--bg-cta-transparent);
+    }
+  ",
         "CTA_INFO": "
     background-color:var(--bg-cta-info);
     color:var(--text-cta-info);
@@ -158,6 +169,9 @@ exports[`Select Styled component should render correctly 1`] = `
     &:hover, &:active, &.active{
       background-color: var(--text-light);
     }
+  ",
+        "TAG_BACKGROUND": "
+    background-color: var(--bg-primary);
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
