@@ -111,10 +111,10 @@ exports[`Button should render correctly 1`] = `
     background-color:var(--bg-cta-error);
     color:var(--text-cta-error);",
         "CTA_ICON": "
-    background-color: var(--white);
+    background-color: var(--bg-cta-transparent);
     color: var(--black);
     &:hover, &:active{
-      background-color: var(--white);
+      background-color: var(--bg-cta-transparent);
     }
   ",
         "CTA_INFO": "
