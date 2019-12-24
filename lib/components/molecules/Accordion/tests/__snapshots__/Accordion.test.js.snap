@@ -17,10 +17,10 @@ exports[`<Accordion /> should render correctly 1`] = `
         "componentStyle": ComponentStyle {
           "componentId": "Accordion-vybsad-0",
           "isStatic": false,
-          "lastClassName": "dfOGIl",
+          "lastClassName": "bbzLKL",
           "rules": Array [
             [Function],
-            ";details{width:100%;padding:10px;background-color:#eee;summary{cursor:pointer;padding:20px 0;}&:hover,&:active,&[open]{background-color:#ccc;}}",
+            ";details{width:100%;padding:10px;background-color:#eee;summary{cursor:pointer;padding:20px 0;}.accordion-panel-content{display:none;transition:0.4s;}&:hover,&:active,&[open],&.active{background-color:#ccc;}&[open],&.active{.accordion-panel-content{display:block;}}}",
             ";",
           ],
         },
@@ -40,16 +40,17 @@ exports[`<Accordion /> should render correctly 1`] = `
     <Accordion
       accordionHeader="Accordion Header"
       accordionPanelContent="Panel Content"
-      className="Accordion-vybsad-0 dfOGIl accordion"
+      className="Accordion-vybsad-0 bbzLKL accordion"
     >
       <div
-        className="Accordion-vybsad-0 dfOGIl accordion"
+        className="Accordion-vybsad-0 bbzLKL accordion"
       >
-        <AccordionPanel
-          className="accordion-panel"
-        >
+        <AccordionPanel>
           <details
-            className="accordion-panel"
+            className="accordion-panel "
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
           >
             <AccordionHeader
               ariaLabelAttr="aria-label"
@@ -61,7 +62,7 @@ exports[`<Accordion /> should render correctly 1`] = `
                 aria-label="aria-label"
                 className="accordion-header"
                 onClick={[Function]}
-                onKeyDown={[Function]}
+                onKeyPress={[Function]}
                 role="button"
                 tabIndex="0"
               >
