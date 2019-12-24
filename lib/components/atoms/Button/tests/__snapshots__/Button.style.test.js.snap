@@ -93,9 +93,6 @@ exports[`Button should render correctly 1`] = `
   ",
       },
       "colors": Object {
-        "BACKGROUND_WHITE": "
-  background-color: var(--bg-primary);
-",
         "CTA_DEFAULT": "
     background-color:var(--bg-cta-default);
     color:var(--text-cta-default);
@@ -187,6 +184,9 @@ exports[`Button should render correctly 1`] = `
   ",
         "TOGGLE_SWITCH": "
     background-color: var(--bg-cta-secondary);
+  ",
+        "TOGGLE_SWITCH_INACTIVE": "
+    background-color: var(--grey);
   ",
       },
       "dimensions": Object {
