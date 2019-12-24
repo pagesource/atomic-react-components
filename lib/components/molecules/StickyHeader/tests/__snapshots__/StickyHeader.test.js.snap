@@ -2,11 +2,75 @@
 
 exports[`Test render <StickyHeader /> Component Should test component render correctly 1`] = `
 <StickyHeader>
-  <div
+  <StickyHeaderstyle__Wrapper
     aria-label="Sticky Header"
-    className=""
+    className="no-sticky"
+    elmRef={
+      Object {
+        "current": <div
+          aria-label="Sticky Header"
+          class="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eAiUDw no-sticky"
+        >
+          <header />
+        </div>,
+      }
+    }
   >
-    <header />
-  </div>
+    <StyledComponent
+      aria-label="Sticky Header"
+      className="no-sticky"
+      elmRef={
+        Object {
+          "current": <div
+            aria-label="Sticky Header"
+            class="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eAiUDw no-sticky"
+          >
+            <header />
+          </div>,
+        }
+      }
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "StickyHeaderstyle__Wrapper-sc-1npzz5d-0",
+            "isStatic": false,
+            "lastClassName": "eAiUDw",
+            "rules": Array [
+              "position:relative;height:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "StickyHeaderstyle__Wrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "StickyHeaderstyle__Wrapper-sc-1npzz5d-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={
+        Object {
+          "current": <div
+            aria-label="Sticky Header"
+            class="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eAiUDw no-sticky"
+          >
+            <header />
+          </div>,
+        }
+      }
+    >
+      <div
+        aria-label="Sticky Header"
+        className="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eAiUDw no-sticky"
+      >
+        <header />
+      </div>
+    </StyledComponent>
+  </StickyHeaderstyle__Wrapper>
 </StickyHeader>
 `;
