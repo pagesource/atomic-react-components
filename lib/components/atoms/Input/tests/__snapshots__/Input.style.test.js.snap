@@ -23,7 +23,18 @@ exports[`Input Styled component should render correctly 1`] = `
       "foldedComponentIds": Array [],
       "render": [Function],
       "styledComponentId": "Input-sc-133uxg0-0",
-      "target": [Function],
+      "target": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": Object {
+          "ariaLabel": "",
+          "className": "",
+          "elementLocator": "",
+          "placeholder": "",
+          "type": "text",
+          "value": "",
+        },
+        "render": [Function],
+      },
       "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
@@ -57,6 +68,7 @@ exports[`Input Styled component should render correctly 1`] = `
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
+        "DRAG_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "FIELD_ACTIVE": "
     border: var(--border-size-field-active) solid var(--field-border-active);
   ",
@@ -78,6 +90,10 @@ exports[`Input Styled component should render correctly 1`] = `
         "LIST_ITEM": "
     border-bottom: var(--border-size-field) solid var(--stroke);
   ",
+        "TAG": "
+    border: var(--border-size-field) solid var(--black);
+    border-radius: var(--border-radius-s);
+  ",
         "TYPEAHEAD_LIST": "
     border: var(--border-size-field) solid var(--stroke);
     //border-bottom: 0 none;
@@ -97,6 +113,13 @@ exports[`Input Styled component should render correctly 1`] = `
         "CTA_ERROR": "
     background-color:var(--bg-cta-error);
     color:var(--text-cta-error);",
+        "CTA_ICON": "
+    background-color: var(--bg-cta-transparent);
+    color: var(--black);
+    &:hover, &:active{
+      background-color: var(--bg-cta-transparent);
+    }
+  ",
         "CTA_INFO": "
     background-color:var(--bg-cta-info);
     color:var(--text-cta-info);
@@ -157,6 +180,9 @@ exports[`Input Styled component should render correctly 1`] = `
     &:hover, &:active, &.active{
       background-color: var(--text-light);
     }
+  ",
+        "TAG_BACKGROUND": "
+    background-color: var(--bg-primary);
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);

@@ -1,225 +1,34 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 5,
-  "numPassedTests": 15,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 5,
-  "numTotalTests": 15,
+  "numTotalTestSuites": 0,
+  "numTotalTests": 0,
   "openHandles": [],
   "snapshot": {
-    "added": 1,
+    "added": 0,
     "didUpdate": false,
     "failure": false,
-    "filesAdded": 1,
+    "filesAdded": 0,
     "filesRemoved": 0,
     "filesRemovedList": [],
     "filesUnmatched": 0,
     "filesUpdated": 0,
-    "matched": 4,
-    "total": 5,
+    "matched": 0,
+    "total": 0,
     "unchecked": 0,
     "uncheckedKeysByFile": [],
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1577174179558,
+  "startTime": 1577179558880,
   "success": true,
-  "testResults": [
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Input Styled component"],
-          "failureMessages": [],
-          "fullName": "Input Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577174188967,
-      "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\Atomic-Component\\atomic-react-components\\lib\\components\\atoms\\Input\\tests\\Input.style.test.js",
-      "startTime": 1577174187249,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Button"],
-          "failureMessages": [],
-          "fullName": "Button should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577174188984,
-      "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\Atomic-Component\\atomic-react-components\\lib\\components\\atoms\\Button\\tests\\Button.style.test.js",
-      "startTime": 1577174187241,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Styled component"],
-          "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577174189045,
-      "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\Atomic-Component\\atomic-react-components\\lib\\components\\atoms\\Select\\tests\\Select.style.test.js",
-      "startTime": 1577174187303,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": ["Select Styled component"],
-          "failureMessages": [],
-          "fullName": "Select Styled component should render correctly",
-          "location": null,
-          "status": "passed",
-          "title": "should render correctly"
-        }
-      ],
-      "endTime": 1577174189545,
-      "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\Atomic-Component\\atomic-react-components\\lib\\components\\atoms\\Textarea\\tests\\Textarea.style.test.js",
-      "startTime": 1577174189282,
-      "status": "passed",
-      "summary": ""
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": [
-            "Test Suite 1: Check for component and it's child rendered correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. should render wrapper correctly for snapshot matching.",
-          "location": null,
-          "status": "passed",
-          "title": "should render wrapper correctly for snapshot matching."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 1: Check for component and it's child rendered correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. Cookie Disclaimer component rendered correctly.",
-          "location": null,
-          "status": "passed",
-          "title": "Cookie Disclaimer component rendered correctly."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 1: Check for component and it's child rendered correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 1: Check for component and it's child rendered correctly. should render two buttons for accepting and rejecting the consent",
-          "location": null,
-          "status": "passed",
-          "title": "should render two buttons for accepting and rejecting the consent"
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 2: Check for component and it's child for default props correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 2: Check for component and it's child for default props correctly. Button props for button types to be rendered.",
-          "location": null,
-          "status": "passed",
-          "title": "Button props for button types to be rendered."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 2: Check for component and it's child for default props correctly."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 2: Check for component and it's child for default props correctly. Button props for button types to be rendered.",
-          "location": null,
-          "status": "passed",
-          "title": "Button props for button types to be rendered."
-        },
-        {
-          "ancestorTitles": ["Test Suite 3: testing styled component - HOC"],
-          "failureMessages": [],
-          "fullName": "Test Suite 3: testing styled component - HOC should rendered the component properly when styles are being applied.",
-          "location": null,
-          "status": "passed",
-          "title": "should rendered the component properly when styles are being applied."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 4: testing functional behaviour of the cookie disclaimer."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 4: testing functional behaviour of the cookie disclaimer. setting the isVisible variable to false",
-          "location": null,
-          "status": "passed",
-          "title": "setting the isVisible variable to false"
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 4: testing functional behaviour of the cookie disclaimer."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 4: testing functional behaviour of the cookie disclaimer. accepting the consent and dropping the cookie.",
-          "location": null,
-          "status": "passed",
-          "title": "accepting the consent and dropping the cookie."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 4: testing functional behaviour of the cookie disclaimer."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 4: testing functional behaviour of the cookie disclaimer. rejecting the consent and dropping the cookie.",
-          "location": null,
-          "status": "passed",
-          "title": "rejecting the consent and dropping the cookie."
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 4: testing functional behaviour of the cookie disclaimer."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 4: testing functional behaviour of the cookie disclaimer. Accept Button click simulation",
-          "location": null,
-          "status": "passed",
-          "title": "Accept Button click simulation"
-        },
-        {
-          "ancestorTitles": [
-            "Test Suite 4: testing functional behaviour of the cookie disclaimer."
-          ],
-          "failureMessages": [],
-          "fullName": "Test Suite 4: testing functional behaviour of the cookie disclaimer. Reject Button click simulation",
-          "location": null,
-          "status": "passed",
-          "title": "Reject Button click simulation"
-        }
-      ],
-      "endTime": 1577174189546,
-      "message": "",
-      "name": "C:\\Users\\salkapoo\\Desktop\\Learning\\Atomic-Component\\atomic-react-components\\lib\\components\\molecules\\CookieDisclaimer\\tests\\CookieDisclaimer.test.js",
-      "startTime": 1577174187200,
-      "status": "passed",
-      "summary": ""
-    }
-  ],
+  "testResults": [],
   "wasInterrupted": false,
   "coverageMap": {}
 }
