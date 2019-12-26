@@ -19,6 +19,8 @@ exports[`Select Styled component should render correctly 1`] = `
         "ANIMATION_SPINNER": "var(--animation-spinner)",
         "DURATION_M": "var(--duration-m)",
         "EASING_SWIFT": "var(--easing-swift)",
+        "TOGGLE_SLIDE": " transform: var(--animation-toggle)",
+        "TOGGLE_TRANSITION": "transition: 0.4s",
       },
       "behaviour": Object {
         "LINK_DECORATION": "text-decoration: none;",
@@ -165,6 +167,9 @@ exports[`Select Styled component should render correctly 1`] = `
   ",
         "TOGGLE_SWITCH": "
     background-color: var(--bg-cta-secondary);
+  ",
+        "TOGGLE_SWITCH_INACTIVE": "
+    background-color: var(--grey);
   ",
       },
       "dimensions": Object {

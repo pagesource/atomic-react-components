@@ -95,6 +95,7 @@
   --animation-slide-up-with-margin: slide-up-with-margin 0.3s;
   --animation-spinner: rotate 1.2s infinite cubic-bezier(0.55, 0, 0.1, 1);
   --animation-disclaimer: disclaimer-slide-up 0.5s ease-in;
+  --animation-toggle: translateX(25px);
 }
 
 /**
