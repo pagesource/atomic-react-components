@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag /> should render correctly 1`] = `
+<Fragment>
+  <span
+    className="demo-tag"
+    role="listitem"
+  >
+    Test
+  </span>
+</Fragment>
+`;
