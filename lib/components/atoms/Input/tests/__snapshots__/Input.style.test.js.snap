@@ -234,6 +234,11 @@ exports[`Input Styled component should render correctly 1`] = `
       },
       "icons": Object {
         "close": null,
+        "closewhite": null,
+        "error": null,
+        "info": null,
+        "success": null,
+        "warning": null,
       },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
