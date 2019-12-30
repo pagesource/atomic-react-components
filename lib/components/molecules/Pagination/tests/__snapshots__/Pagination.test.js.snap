@@ -1,64 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Pagination /> should render correctly 1`] = `
-<nav
-  className=""
->
-  <ul
-    className="pagination"
+<Fragment>
+  <nav
+    arial-label=""
+    className=""
   >
-    <li
-      className="first"
+    <ul
+      className="pagination"
     >
-      <Button
-        className="btn-first"
-        disabled={false}
-        onClick={[Function]}
+      <li
+        className="first"
       >
-        First
-      </Button>
-    </li>
-    <li
-      className="previous"
-    >
-      <Button
-        disabled={false}
-        onClick={[Function]}
+        <Button
+          aria-label=""
+          className="btn-first"
+          disabled={false}
+          onClick={[Function]}
+        >
+          First
+        </Button>
+      </li>
+      <li
+        className="previous"
       >
-        Previous
-      </Button>
-    </li>
-    <li
-      className="page-item"
-      key="1"
-    >
-      <Button
-        className=""
-        onClick={[Function]}
+        <Button
+          aria-label=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          Previous
+        </Button>
+      </li>
+      <PaginationList
+        currentPageAria=""
+        executePagination={[Function]}
+        pageNumbers={Array []}
+      />
+      <li
+        className="next"
       >
-        1
-      </Button>
-    </li>
-    <li
-      className="next"
-    >
-      <Button
-        disabled={false}
-        onClick={[Function]}
+        <Button
+          aria-label=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          Next
+        </Button>
+      </li>
+      <li
+        className="last"
       >
-        Next
-      </Button>
-    </li>
-    <li
-      className="last"
-    >
-      <Button
-        disabled={false}
-        onClick={[Function]}
-      >
-        Last
-      </Button>
-    </li>
-  </ul>
-</nav>
+        <Button
+          aria-label=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          Last
+        </Button>
+      </li>
+    </ul>
+  </nav>
+</Fragment>
 `;
