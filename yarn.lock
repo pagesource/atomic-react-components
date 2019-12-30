@@ -3301,7 +3301,11 @@ atob-lite@^2.0.0:
   resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-2.0.0.tgz#0fef5ad46f1bd7a8502c65727f0367d5ee43d696"
   integrity sha1-D+9a1G8b16hQLGVyfwNn1e5D1pY=
 
+<<<<<<< HEAD
 atob@^2.1.2:
+=======
+atob@^2.1.1:
+>>>>>>> develop
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
@@ -4223,6 +4227,7 @@ can-use-dom@^0.1.0:
   integrity sha1-IsxKNKCrxDlQ9CxkEQJKP2NmtFo=
 
 caniuse-db@^1.0.30000977:
+<<<<<<< HEAD
   version "1.0.30001017"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001017.tgz#5e796982558eed4053256137d28458c83e380b77"
   integrity sha512-I59zfU8ZEGGM/uRN6ZgdrLmgnSCzQUcit4HrPa3IsC0Fd19IxsT9KVA+08PsL82TzEaiSMp0QbhgFNK1W9puig==
@@ -4231,6 +4236,16 @@ caniuse-lite@^1.0.30000989, caniuse-lite@^1.0.30001012, caniuse-lite@^1.0.300010
   version "1.0.30001017"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001017.tgz#d3ad6ec18148b9bd991829958d9d7e562bb78cd6"
   integrity sha512-EDnZyOJ6eYh6lHmCvCdHAFbfV4KJ9lSdfv4h/ppEhrU/Yudkl7jujwMZ1we6RX7DXqBfT04pVMQ4J+1wcTlsKA==
+=======
+  version "1.0.30001016"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001016.tgz#2712424b6667fbb5edea8a42fc5f4c9505271631"
+  integrity sha512-4G/7ef/NFSAsn9nFIiPvQr+ayoeLJP3wnQH23BPBJKofNdxFild5dokOjUj4tLFA5yd/VHllhzX55IPLwXhRtg==
+
+caniuse-lite@^1.0.30000989, caniuse-lite@^1.0.30001012, caniuse-lite@^1.0.30001015:
+  version "1.0.30001016"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001016.tgz#16ea48d7d6e8caf3cad3295c2d746fe38c4e7f66"
+  integrity sha512-yYQ2QfotceRiH4U+h1Us86WJXtVHDmy3nEKIdYPsZCYnOV5/tMgGbmoIlrMzmh2VXlproqYtVaKeGDBkMZifFA==
+>>>>>>> develop
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -5821,9 +5836,15 @@ eslint-config-airbnb@^18.0.1:
     object.entries "^1.1.0"
 
 eslint-config-prettier@^6.4.0:
+<<<<<<< HEAD
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.9.0.tgz#430d24822e82f7deb1e22a435bfa3999fae4ad64"
   integrity sha512-k4E14HBtcLv0uqThaI6I/n1LEqROp8XaPu6SO9Z32u5NlGRC07Enu1Bh2KEFw4FNHbekH8yzbIU9kUGxbiGmCA==
+=======
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.8.0.tgz#36bd7559dcef9f97d7596779b38e6a879abb89d3"
+  integrity sha512-aq4M7mjjVregZ2l45O9qz6Mv6f5zVMl/IqfmUL8hNOoDAzVKYMhYPJytbqE/lPIVO1iMDXIFqjiEE59BfJZpZw==
+>>>>>>> develop
   dependencies:
     get-stdin "^6.0.0"
 
@@ -8250,9 +8271,15 @@ isarray@^2.0.5:
   integrity sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==
 
 isbinaryfile@^4.0.2:
+<<<<<<< HEAD
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/isbinaryfile/-/isbinaryfile-4.0.3.tgz#1bcca23bf4b2a95d209ec1e9da23b4d75e50fa2d"
   integrity sha512-GQ9Gjhp3AsEbo8/L/pA+MYl/c4hRm5O/+uCkF4LMx1a556Wh4/d75H13qu9LldmhU4yKnlfNKBmEcCaze3b2Gw==
+=======
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/isbinaryfile/-/isbinaryfile-4.0.2.tgz#bfc45642da645681c610cca831022e30af426488"
+  integrity sha512-C3FSxJdNrEr2F4z6uFtNzECDM5hXk+46fxaa+cwBe5/XrWSmzdG8DDgyjfX6/NRdBB21q2JXuRAzPCUs+fclnQ==
+>>>>>>> develop
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -11304,9 +11331,15 @@ pseudomap@^1.0.2:
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
 psl@^1.1.24, psl@^1.1.28:
+<<<<<<< HEAD
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.7.0.tgz#f1c4c47a8ef97167dea5d6bbf4816d736e884a3c"
   integrity sha512-5NsSEDv8zY70ScRnOTn7bK7eanl2MvFrOrS/R6x+dBt5g1ghnj9Zv90kO8GwT8gxcu2ANyFprnFYB85IogIJOQ==
+=======
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/psl/-/psl-1.6.0.tgz#60557582ee23b6c43719d9890fb4170ecd91e110"
+  integrity sha512-SYKKmVel98NCOYXpkwUqZqh0ahZeeKfmisiLIcEZdsb+WbLv02g/dI5BUmZnIyOe7RzZtLax81nnb2HbvC2tzA==
+>>>>>>> develop
 
 public-encrypt@^4.0.0:
   version "4.0.3"
@@ -12433,9 +12466,15 @@ run-queue@^1.0.0, run-queue@^1.0.3:
     aproba "^1.1.1"
 
 rxjs@>=6.4.0, rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.5.3:
+<<<<<<< HEAD
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.4.tgz#e0777fe0d184cec7872df147f303572d414e211c"
   integrity sha512-naMQXcgEo3csAEGvw/NydRA0fuS2nDZJiw1YUWFKU7aPPAPGZEsD4Iimit96qwCieH6y614MCLYwdkrWx7z/7Q==
+=======
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.3.tgz#510e26317f4db91a7eb1de77d9dd9ba0a4899a3a"
+  integrity sha512-wuYsAYYFdWTAnAaPoKGNhfpWwKZbJW+HgAJ+mImp+Epl7BG8oNWBCTyRM8gba9k4lk8BgWdoYm21Mo/RYhhbgA==
+>>>>>>> develop
   dependencies:
     tslib "^1.9.0"
 
@@ -12847,11 +12886,19 @@ source-list-map@^2.0.0:
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
 
 source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
+<<<<<<< HEAD
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
   integrity sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==
   dependencies:
     atob "^2.1.2"
+=======
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.2.tgz#72e2cc34095543e43b2c62b2c4c10d4a9054f259"
+  integrity sha512-MjqsvNwyz1s0k81Goz/9vRBe9SZdB09Bdw+/zYyO+3CuPk6fouTaxscHkgtE8jKvf01kVfl8riHzERQ/kefaSA==
+  dependencies:
+    atob "^2.1.1"
+>>>>>>> develop
     decode-uri-component "^0.2.0"
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
@@ -14394,9 +14441,15 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
     source-map "~0.6.1"
 
 webpack@^4.31.0, webpack@^4.33.0, webpack@^4.38.0:
+<<<<<<< HEAD
   version "4.41.5"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.5.tgz#3210f1886bce5310e62bb97204d18c263341b77c"
   integrity sha512-wp0Co4vpyumnp3KlkmpM5LWuzvZYayDwM2n17EHFr4qxBBbRokC7DJawPJC7TfSFZ9HZ6GsdH40EBj4UV0nmpw==
+=======
+  version "4.41.4"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.4.tgz#4bec4125224bdf50efa8be6226c19047599cd034"
+  integrity sha512-Lc+2uB6NjpCWsHI3trkoISOI64h9QYIXenbEWj3bn3oyjfB1lEBXjWAfAyY2sM0rZn41oD5V91OLwKRwS6Wp8Q==
+>>>>>>> develop
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"

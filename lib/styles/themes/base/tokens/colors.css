@@ -21,6 +21,8 @@
   --brand-tertiary: var(--black);
   --brand-tertiary-active: var(--black);
 
+  --brand-transparent: transparent;
+
   --brand-disabled: #e7e7e7;
   --outline: #999;
 
@@ -32,6 +34,7 @@
   --bg-cta-secondary-active: var(--brand-secondary-active);
   --bg-cta-tertiary: var(--white);
   --bg-cta-tertiary-active: var(--brand-tertiary-active);
+  --bg-cta-transparent: var(--brand-transparent);
   --bg-cta-info: #31708f;
   --bg-cta-warning: #d8ca00;
   --bg-cta-success: #36b37e;

@@ -32,6 +32,6 @@ module.exports = {
   verbose: true,
   testMatch: ['<rootDir>/lib/**/*.test.js'],
   moduleNameMapper: {
-    '\\.(css)$': 'identity-obj-proxy',
+    '\\.(css|svg)$': 'identity-obj-proxy',
   },
 };

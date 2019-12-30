@@ -20,7 +20,11 @@ exports[`Button should render correctly 1`] = `
           [Function],
           ";",
           [Function],
+          " ",
+          [Function],
           ";&:focus:not(.focus-visible){outline:none;}",
+          [Function],
+          ";",
           [Function],
           ";",
           ";",
@@ -49,6 +53,8 @@ exports[`Button should render correctly 1`] = `
         "ANIMATION_SPINNER": "var(--animation-spinner)",
         "DURATION_M": "var(--duration-m)",
         "EASING_SWIFT": "var(--easing-swift)",
+        "TOGGLE_SLIDE": " transform: var(--animation-toggle)",
+        "TOGGLE_TRANSITION": "transition: 0.4s",
       },
       "behaviour": Object {
         "LINK_DECORATION": "text-decoration: none;",
@@ -62,6 +68,7 @@ exports[`Button should render correctly 1`] = `
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
+        "DRAG_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "FIELD_ACTIVE": "
     border: var(--border-size-field-active) solid var(--field-border-active);
   ",
@@ -80,6 +87,17 @@ exports[`Button should render correctly 1`] = `
         "LIST_INLINE": "
     border-right: var(--border-size-field) solid var(--field-border-primary);
   ",
+        "LIST_ITEM": "
+    border-bottom: var(--border-size-field) solid var(--stroke);
+  ",
+        "TAG": "
+    border: var(--border-size-field) solid var(--black);
+    border-radius: var(--border-radius-s);
+  ",
+        "TYPEAHEAD_LIST": "
+    border: var(--border-size-field) solid var(--stroke);
+    //border-bottom: 0 none;
+  ",
       },
       "colors": Object {
         "CTA_DEFAULT": "
@@ -95,6 +113,13 @@ exports[`Button should render correctly 1`] = `
         "CTA_ERROR": "
     background-color:var(--bg-cta-error);
     color:var(--text-cta-error);",
+        "CTA_ICON": "
+    background-color: var(--bg-cta-transparent);
+    color: var(--black);
+    &:hover, &:active{
+      background-color: var(--bg-cta-transparent);
+    }
+  ",
         "CTA_INFO": "
     background-color:var(--bg-cta-info);
     color:var(--text-cta-info);
@@ -128,14 +153,42 @@ exports[`Button should render correctly 1`] = `
       color: var(--text-inverse);
     }
   ",
+        "CTA_TRANSPARENT": "
+    background-color: transparent;
+    color: var(--text-cta-tertiary);
+    &:hover, &:active{
+      background-color: transparent;
+      color: var(--text-cta-active);
+    }
+  ",
         "CTA_WARNING": "
     background-color:var(--bg-cta-warning);
     color:var(--text-cta-warning);",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
+        "LIST_ITEM": "
+    background-color: var(--white);
+    &:hover, &:active, &.active{
+      background-color: var(--text-light);
+    }
+  ",
+        "TAG_BACKGROUND": "
+    background-color: var(--bg-primary);
+  ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
   ",
         "TEXT_INVERSE": "
     color: var(--text-inverse);
@@ -148,6 +201,9 @@ exports[`Button should render correctly 1`] = `
   ",
         "TOGGLE_SWITCH": "
     background-color: var(--bg-cta-secondary);
+  ",
+        "TOGGLE_SWITCH_INACTIVE": "
+    background-color: var(--grey);
   ",
       },
       "dimensions": Object {
@@ -175,7 +231,14 @@ exports[`Button should render correctly 1`] = `
     width: var(--spacing-6);
   ",
       },
-      "icons": Object {},
+      "icons": Object {
+        "close": null,
+        "closewhite": null,
+        "error": null,
+        "info": null,
+        "success": null,
+        "warning": null,
+      },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
         "SHADOW_M": "var(--shadow-m)",
