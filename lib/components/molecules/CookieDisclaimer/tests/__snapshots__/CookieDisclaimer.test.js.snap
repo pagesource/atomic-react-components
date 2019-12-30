@@ -12,25 +12,20 @@ exports[`Test Suite 1: Check for component and it's child rendered correctly. sh
       id="close"
     />
   </Button>
-  <div
-    className="displayRow"
-  >
-    <div
-      className="btnContainer"
+  <div />
+  <div>
+    <Button
+      onClick={[Function]}
+      primary={true}
     >
-      <Button
-        onClick={[Function]}
-        primary={true}
-      >
-        Accept
-      </Button>
-      <Button
-        onClick={[Function]}
-        tertiary={true}
-      >
-        Reject
-      </Button>
-    </div>
+      Accept & Continue
+    </Button>
+    <Button
+      onClick={[Function]}
+      tertiary={true}
+    >
+      Decline
+    </Button>
   </div>
 </div>
 `;
