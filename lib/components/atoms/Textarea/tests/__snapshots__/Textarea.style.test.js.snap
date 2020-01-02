@@ -40,11 +40,12 @@ exports[`Select Styled component should render correctly 1`] = `
         "ANIMATION_SLIDE_LEFT": "var(--animation-slide-left)",
         "ANIMATION_SLIDE_RIGHT": "var(--animation-slide-right)",
         "ANIMATION_SLIDE_UP": "var(--animation-slide-up)",
+        "ANIMATION_SLIDE_UP_LINEAR": "var(--animation-slide-up-linear)",
         "ANIMATION_SLIDE_UP_WITH_MARGIN": "var(--animation-slide-up-with-margin)",
         "ANIMATION_SPINNER": "var(--animation-spinner)",
         "DURATION_M": "var(--duration-m)",
         "EASING_SWIFT": "var(--easing-swift)",
-        "TOGGLE_SLIDE": " transform: var(--animation-toggle)",
+        "TOGGLE_SLIDE": "transform: var(--animation-toggle)",
         "TOGGLE_TRANSITION": "transition: 0.4s",
       },
       "behaviour": Object {
