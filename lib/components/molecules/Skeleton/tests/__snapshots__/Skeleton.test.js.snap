@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Skeleton /> should render correctly 1`] = `
+<Skeleton>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Skeleton-sc-1oak7zh-0",
+          "isStatic": false,
+          "lastClassName": "cVxneV",
+          "rules": Array [
+            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}.skeleton{div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;margin:",
+            [Function],
+            ";.skeletalLine{border-radius:5px;height:",
+            [Function],
+            ";width:",
+            [Function],
+            ";}.skeletalCircle{border-radius:",
+            [Function],
+            ";height:",
+            [Function],
+            ";width:",
+            [Function],
+            ";}}}",
+            [Function],
+            ";",
+            ";",
+          ],
+        },
+        "displayName": "Skeleton",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "shapes": [Function],
+        "styledComponentId": "Skeleton-sc-1oak7zh-0",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <Skeleton
+      className="Skeleton-sc-1oak7zh-0 cVxneV"
+    >
+      <div
+        className="skeleton Skeleton-sc-1oak7zh-0 cVxneV"
+      >
+        <Shapes>
+          <div
+            className="skeletalLine"
+          />
+        </Shapes>
+      </div>
+    </Skeleton>
+  </StyledComponent>
+</Skeleton>
+`;
