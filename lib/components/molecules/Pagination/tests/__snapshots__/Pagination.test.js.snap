@@ -21,33 +21,19 @@ exports[`<Pagination /> should render correctly 1`] = `
           First
         </Button>
       </li>
-      <li
-        className="previous"
-      >
-        <Button
-          aria-label=""
-          disabled={false}
-          onClick={[Function]}
-        >
-          Previous
-        </Button>
-      </li>
       <PaginationList
         currentPageAria=""
+        disabledFirstNdPrevious={false}
+        disabledNextAndLast={false}
         executePagination={[Function]}
+        handleBackwardClick={[Function]}
+        handleForwardClick={[Function]}
+        nextButtonAria=""
+        nextLabel="Next"
         pageNumbers={Array []}
+        previousButtonAria=""
+        previousLabel="Previous"
       />
-      <li
-        className="next"
-      >
-        <Button
-          aria-label=""
-          disabled={false}
-          onClick={[Function]}
-        >
-          Next
-        </Button>
-      </li>
       <li
         className="last"
       >
