@@ -7,24 +7,27 @@ exports[`<Skeleton /> should render correctly 1`] = `
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
+        "circle": [Function],
         "componentStyle": ComponentStyle {
           "componentId": "Skeleton-sc-1oak7zh-0",
           "isStatic": false,
-          "lastClassName": "cVxneV",
+          "lastClassName": "kAdMpY",
           "rules": Array [
-            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}.skeleton{div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;margin:",
-            [Function],
-            ";.skeletalLine{border-radius:5px;height:",
+            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;&.skeletalLine{border-radius:5px;height:",
             [Function],
             ";width:",
             [Function],
-            ";}.skeletalCircle{border-radius:",
+            ";margin:",
+            [Function],
+            ";}&.skeletalCircle{border-radius:",
             [Function],
             ";height:",
             [Function],
             ";width:",
             [Function],
-            ";}}}",
+            ";margin:",
+            [Function],
+            ";}}",
             [Function],
             ";",
             ";",
@@ -32,8 +35,8 @@ exports[`<Skeleton /> should render correctly 1`] = `
         },
         "displayName": "Skeleton",
         "foldedComponentIds": Array [],
+        "line": [Function],
         "render": [Function],
-        "shapes": [Function],
         "styledComponentId": "Skeleton-sc-1oak7zh-0",
         "target": [Function],
         "toString": [Function],
@@ -44,16 +47,35 @@ exports[`<Skeleton /> should render correctly 1`] = `
     forwardedRef={null}
   >
     <Skeleton
-      className="Skeleton-sc-1oak7zh-0 cVxneV"
+      className="Skeleton-sc-1oak7zh-0 kAdMpY"
     >
       <div
-        className="skeleton Skeleton-sc-1oak7zh-0 cVxneV"
+        className="skeleton Skeleton-sc-1oak7zh-0 kAdMpY"
       >
-        <Shapes>
+        <Line
+          lineGutter="5px"
+          lineHeight="20px"
+          lineWidth="100%"
+        >
           <div
             className="skeletalLine"
+            skeletalLineGutter="5px"
+            skeletalLineHeight="20px"
+            skeletalLineWidth="100%"
           />
-        </Shapes>
+        </Line>
+        <Circle
+          circleGutter="5px"
+          circleRadius="30px"
+          circleWidth="100px"
+        >
+          <div
+            className="skeletalCircle"
+            skeletalCircleGutter="5px"
+            skeletalCircleRadius="30px"
+            skeletalCircleWidth="100px"
+          />
+        </Circle>
       </div>
     </Skeleton>
   </StyledComponent>
