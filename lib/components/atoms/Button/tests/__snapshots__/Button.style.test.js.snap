@@ -173,6 +173,10 @@ exports[`Button should render correctly 1`] = `
     background-color: var(--brand-disabled);
     color: 1px solid var(--text-cta-disabled);
   ",
+        "HERO_CONTENT": "
+    color: var(--text-inverse);
+    background-color: var(--black);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
