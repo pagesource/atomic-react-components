@@ -2,10 +2,21 @@
 
 exports[`<HeroBanner /> should render correctly 1`] = `
 <section
-  className="hero"
+  className="hero stacked"
 >
   <header
+    className="wrap"
     role="banner"
-  />
+  >
+    <div
+      className="media-wrap"
+    >
+      <Image
+        alt="Dummy Image"
+        placeholderSrc="/images/image-placeholder.png"
+        src="/images/bg.jpg"
+      />
+    </div>
+  </header>
 </section>
 `;

@@ -131,6 +131,10 @@ exports[`Button should render correctly 1`] = `
         "CTA_WARNING": "
     background-color:var(--bg-cta-warning);
     color:var(--text-cta-warning);",
+        "HERO_CONTENT": "
+    color: var(--text-inverse);
+    background-color: var(--black);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
