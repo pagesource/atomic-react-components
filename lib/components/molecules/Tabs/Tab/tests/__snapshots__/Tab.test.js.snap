@@ -4,7 +4,6 @@ exports[`<Tab /> should render correctly 1`] = `
 <li
   className=""
   id="tab_undefined"
-  inheritedStyles=""
   onClick={[Function]}
   onKeyDown={[Function]}
   role="tab"

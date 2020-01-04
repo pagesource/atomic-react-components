@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldToggle /> should render correctly 1`] = `
+<div
+  className="toggle-container"
+>
+  <Label
+    className="label-name"
+    elementLocator=""
+    htmlFor="checkbox_test_1"
+  >
+    Toggle
+  </Label>
+  <Field
+    id="checkbox_test_1"
+    name="test_1"
+  >
+    <Component />
+  </Field>
+</div>
+`;
