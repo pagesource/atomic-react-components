@@ -1,15 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Accordion /> should render correctly 1`] = `
-<Accordion
-  accordionHeader="Accordion Header"
-  accordionPanelContent="Panel Content"
-  className="accordion"
->
+<Accordion>
   <StyledComponent
-    accordionHeader="Accordion Header"
-    accordionPanelContent="Panel Content"
-    className="accordion"
     forwardedComponent={
       Object {
         "$$typeof": Symbol(react.forward_ref),
@@ -38,26 +31,23 @@ exports[`<Accordion /> should render correctly 1`] = `
     forwardedRef={null}
   >
     <Accordion
-      accordionHeader="Accordion Header"
-      accordionPanelContent="Panel Content"
-      className="Accordion-vybsad-0 bbzLKL accordion"
+      className="Accordion-vybsad-0 bbzLKL"
     >
       <div
-        className="Accordion-vybsad-0 bbzLKL accordion"
+        className="Accordion-vybsad-0 bbzLKL"
       >
         <AccordionPanel
           className="panel"
         >
           <details
-            className="accordion-panel "
-            onClick={[Function]}
-            onKeyPress={[Function]}
-            role="button"
+            className="accordion-panel panel"
           >
             <AccordionHeader
               ariaLabel="aria-label"
               className="accordion-header"
+              isExpanded={false}
               key=".0"
+              toggleExpanded={[Function]}
             >
               <summary
                 aria-expanded={false}
@@ -67,15 +57,8 @@ exports[`<Accordion /> should render correctly 1`] = `
                 onKeyPress={[Function]}
                 role="button"
                 tabIndex="0"
-              >
-                Accordion Header
-              </summary>
+              />
             </AccordionHeader>
-            <p
-              key=".1"
-            >
-              Panel Content
-            </p>
           </details>
         </AccordionPanel>
       </div>
