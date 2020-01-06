@@ -15,7 +15,7 @@ exports[`<Pagination /> should render correctly 1`] = `
         <Button
           aria-label=""
           className="btn-first"
-          disabled={false}
+          disabled={true}
           onClick={[Function]}
         >
           First
@@ -26,15 +26,17 @@ exports[`<Pagination /> should render correctly 1`] = `
       >
         <Button
           aria-label=""
-          disabled={false}
+          disabled={true}
           onClick={[Function]}
         >
           Previous
         </Button>
       </li>
       <PaginationList
+        activePage={1}
         currentPageAria=""
         executePagination={[Function]}
+        gotoPageAria="Go to Page Number"
         pageNumbers={Array []}
       />
       <li
