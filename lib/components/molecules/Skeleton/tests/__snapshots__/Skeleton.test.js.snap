@@ -7,13 +7,14 @@ exports[`<Skeleton /> should render correctly 1`] = `
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
+        "bar": [Function],
         "circle": [Function],
         "componentStyle": ComponentStyle {
           "componentId": "Skeleton-sc-1oak7zh-0",
           "isStatic": false,
-          "lastClassName": "kAecXZ",
+          "lastClassName": "eKIMIF",
           "rules": Array [
-            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;&.skeletalLine{border-radius:5px;}&.skeletalCircle{border-radius:50%;}}",
+            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;&.bar{border-radius:5px;}&.circle{border-radius:50%;}}",
             [Function],
             ";",
             ";",
@@ -21,7 +22,6 @@ exports[`<Skeleton /> should render correctly 1`] = `
         },
         "displayName": "Skeleton",
         "foldedComponentIds": Array [],
-        "line": [Function],
         "render": [Function],
         "styledComponentId": "Skeleton-sc-1oak7zh-0",
         "target": [Function],
@@ -33,37 +33,37 @@ exports[`<Skeleton /> should render correctly 1`] = `
     forwardedRef={null}
   >
     <Skeleton
-      className="Skeleton-sc-1oak7zh-0 kAecXZ"
+      className="Skeleton-sc-1oak7zh-0 eKIMIF"
     >
       <div
-        className="skeleton Skeleton-sc-1oak7zh-0 kAecXZ"
+        className="skeleton Skeleton-sc-1oak7zh-0 eKIMIF"
       >
-        <Line
+        <Bar
           height="18px"
-          margin="0"
+          marginBottom="0"
           width="100%"
         >
           <div
-            className="skeletalLine"
+            className="bar"
             style={
               Object {
                 "height": "18px",
-                "margin": "0",
+                "marginBottom": "0",
                 "width": "100%",
               }
             }
           />
-        </Line>
+        </Bar>
         <Circle
-          margin="20px"
+          marginBottom="20px"
           width="100px"
         >
           <div
-            className="skeletalCircle"
+            className="circle"
             style={
               Object {
                 "height": "100px",
-                "margin": "20px",
+                "marginBottom": "20px",
                 "width": "100px",
               }
             }
