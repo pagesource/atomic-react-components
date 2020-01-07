@@ -12,9 +12,9 @@ exports[`<Skeleton /> should render correctly 1`] = `
         "componentStyle": ComponentStyle {
           "componentId": "Skeleton-sc-1oak7zh-0",
           "isStatic": false,
-          "lastClassName": "eKIMIF",
+          "lastClassName": "TWmMc",
           "rules": Array [
-            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;&.bar{border-radius:5px;}&.circle{border-radius:50%;}}",
+            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;&.circle{border-radius:50%;}}",
             [Function],
             ";",
             ";",
@@ -33,10 +33,10 @@ exports[`<Skeleton /> should render correctly 1`] = `
     forwardedRef={null}
   >
     <Skeleton
-      className="Skeleton-sc-1oak7zh-0 eKIMIF"
+      className="Skeleton-sc-1oak7zh-0 TWmMc"
     >
       <div
-        className="skeleton Skeleton-sc-1oak7zh-0 eKIMIF"
+        className="skeleton Skeleton-sc-1oak7zh-0 TWmMc"
       >
         <Bar
           height="18px"
