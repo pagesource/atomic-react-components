@@ -4,8 +4,6 @@ exports[`<Tabs /> should render correctly 1`] = `
 <div
   className="example"
   id="default-tab"
-  inheritedStyles=""
-  initialSelectedIndex={0}
 >
   <div
     className="tabs-wrap"

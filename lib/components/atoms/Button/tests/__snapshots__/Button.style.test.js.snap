@@ -20,7 +20,11 @@ exports[`Button should render correctly 1`] = `
           [Function],
           ";",
           [Function],
-          ";&:focus:not(.focus-visible){outline:none;}",
+          " ",
+          [Function],
+          ";",
+          [Function],
+          " ",
           [Function],
           ";",
           [Function],
@@ -47,10 +51,13 @@ exports[`Button should render correctly 1`] = `
         "ANIMATION_SLIDE_LEFT": "var(--animation-slide-left)",
         "ANIMATION_SLIDE_RIGHT": "var(--animation-slide-right)",
         "ANIMATION_SLIDE_UP": "var(--animation-slide-up)",
+        "ANIMATION_SLIDE_UP_LINEAR": "var(--animation-slide-up-linear)",
         "ANIMATION_SLIDE_UP_WITH_MARGIN": "var(--animation-slide-up-with-margin)",
         "ANIMATION_SPINNER": "var(--animation-spinner)",
         "DURATION_M": "var(--duration-m)",
         "EASING_SWIFT": "var(--easing-swift)",
+        "TOGGLE_SLIDE": "transform: var(--animation-toggle)",
+        "TOGGLE_TRANSITION": "transition: 0.4s",
       },
       "behaviour": Object {
         "LINK_DECORATION": "text-decoration: none;",
@@ -64,6 +71,7 @@ exports[`Button should render correctly 1`] = `
         "CTA_TERTIARY": "
     border: var(--border-size-cta-tertiary) solid var(--border-secondary);
   ",
+        "DRAG_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
         "FIELD_ACTIVE": "
     border: var(--border-size-field-active) solid var(--field-border-active);
   ",
@@ -85,6 +93,10 @@ exports[`Button should render correctly 1`] = `
         "LIST_ITEM": "
     border-bottom: var(--border-size-field) solid var(--stroke);
   ",
+        "TAG": "
+    border: var(--border-size-field) solid var(--black);
+    border-radius: var(--border-radius-s);
+  ",
         "TYPEAHEAD_LIST": "
     border: var(--border-size-field) solid var(--stroke);
     //border-bottom: 0 none;
@@ -104,6 +116,13 @@ exports[`Button should render correctly 1`] = `
         "CTA_ERROR": "
     background-color:var(--bg-cta-error);
     color:var(--text-cta-error);",
+        "CTA_ICON": "
+    background-color: var(--bg-cta-transparent);
+    color: var(--black);
+    &:hover, &:active{
+      background-color: var(--bg-cta-transparent);
+    }
+  ",
         "CTA_INFO": "
     background-color:var(--bg-cta-info);
     color:var(--text-cta-info);
@@ -156,6 +175,10 @@ exports[`Button should render correctly 1`] = `
     background-color: var(--brand-disabled);
     color: 1px solid var(--text-cta-disabled);
   ",
+        "HERO_CONTENT": "
+    color: var(--text-inverse);
+    background-color: var(--black);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
@@ -164,6 +187,9 @@ exports[`Button should render correctly 1`] = `
     &:hover, &:active, &.active{
       background-color: var(--text-light);
     }
+  ",
+        "TAG_BACKGROUND": "
+    background-color: var(--bg-primary);
   ",
         "TEXT_DEFAULT": "
     color: var(--text-primary);
@@ -182,6 +208,9 @@ exports[`Button should render correctly 1`] = `
   ",
         "TOGGLE_SWITCH": "
     background-color: var(--bg-cta-secondary);
+  ",
+        "TOGGLE_SWITCH_INACTIVE": "
+    background-color: var(--grey);
   ",
       },
       "dimensions": Object {
@@ -209,7 +238,18 @@ exports[`Button should render correctly 1`] = `
     width: var(--spacing-6);
   ",
       },
-      "icons": Object {},
+      "icons": Object {
+        "close": null,
+        "closewhite": null,
+        "error": null,
+        "info": null,
+        "leftArrow": null,
+        "pause": null,
+        "play": null,
+        "rightArrow": null,
+        "success": null,
+        "warning": null,
+      },
       "shadow": Object {
         "SHADOW_L": "var(--shadow-l)",
         "SHADOW_M": "var(--shadow-m)",

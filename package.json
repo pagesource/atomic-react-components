@@ -16,7 +16,6 @@
     "test:staged": "cross-env NODE_ENV=test jest --config ./config/jest.config.js --passWithNoTests",
     "test:snap": "yarn run test -u",
     "test:watch": "yarn run test --watch --verbose",
-    "test:debug": "yarn --inspect node_modules/.bin/jest ProgressIndicator.test.js",
     "audit": "yarn run build -- --report",
     "clean:dist": "rimraf dist",
     "build": "yarn run clean:dist && node scripts/build.js",
