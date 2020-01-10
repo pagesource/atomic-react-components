@@ -8,42 +8,26 @@ exports[`<ProgressIndicator /> should render correctly 1`] = `
     <p
       className="progress-label"
     >
-      33%
+      100%
     </p>
     <div
       className="progress-wrapper"
       role="progressbar"
     >
+      <progress
+        className="bar completed"
+        max="100"
+        value="100.00"
+      />
       <ol
         className="linear-bar"
       >
-        <Step
-          currentItemStatus="inactive"
+        <Component
           currentItemtStatus="completed"
           itemIndex={0}
           key=".0"
           variation="bar"
-        >
-          Label1
-        </Step>
-        <Step
-          currentItemStatus="inactive"
-          currentItemtStatus="active"
-          itemIndex={1}
-          key=".1"
-          variation="bar"
-        >
-          Label2
-        </Step>
-        <Step
-          currentItemStatus="inactive"
-          currentItemtStatus="inactive"
-          itemIndex={2}
-          key=".2"
-          variation="bar"
-        >
-          Label3
-        </Step>
+        />
       </ol>
     </div>
   </div>
