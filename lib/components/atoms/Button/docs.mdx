@@ -1,0 +1,23 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { Fragment } from 'react';
+import Button from './index.js';
+import { primaryButton } from './Button.mock';
+
+<Meta title="Button" component={Button} />
+
+# Button #
+
+Button communicate actions a user can take  to perform tasks.
+
+# Props #
+
+<Props of={Button} />
+
+<Preview>
+  <Story name="Primary">
+  <Fragment>
+    <Button {...primaryButton}>Submit</Button>
+  </Fragment>
+  </Story>
+</Preview
+
