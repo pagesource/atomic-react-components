@@ -1,9 +1,10 @@
+// @flow
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import { Fragment } from 'react';
-import Button from './index.js';
+import ButtonVanilla from './index.js';
 import { primaryButton } from './Button.mock';
 
-<Meta title="Button" component={Button} />
+<Meta title="Button" component={ButtonVanilla} />
 
 # Button #
 
@@ -11,13 +12,13 @@ Button communicate actions a user can take  to perform tasks.
 
 # Props #
 
-<Props of={Button} />
+<Props of={ButtonVanilla} />
 
 <Preview>
   <Story name="Primary">
   <Fragment>
-    <Button {...primaryButton}>Submit</Button>
+    <ButtonVanilla {...primaryButton}>Submit</ButtonVanilla>
   </Fragment>
   </Story>
-</Preview
+</Preview>
 

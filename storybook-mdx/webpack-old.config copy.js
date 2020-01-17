@@ -2,7 +2,7 @@ const path = require('path');
 const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin');
 const babelrc = require('../babel.config');
 
-// const root = path.resolve(__dirname, '../');
+const root = path.resolve(__dirname, '../');
 
 module.exports = {
   module: {
@@ -28,9 +28,6 @@ module.exports = {
 };
 
 module.exports = async ({ config }) => {
-  let dev = false;
-  let modules = 'commonjs';
-
   config.module.rules.push(
     {
       test: /\.story.js?$/,
@@ -45,20 +42,7 @@ module.exports = async ({ config }) => {
           loader: 'babel-loader',
           options: {
             root: './',
-            presets: [
-              '@babel/preset-flow',
-              [
-                'next',
-                {
-                  'preset-env': {
-                    modules: 'commonjs',
-                  },
-                },
-              ],
-              ['@react-bootstrap', { dev, modules, removePropTypes: !dev }],
-            ],
             plugins: [
-              'babel-plugin-styled-components',
               '@babel/plugin-transform-react-jsx',
               [
                 'module-resolver',
