@@ -8,7 +8,6 @@ import { withTests } from '@storybook/addon-jest';
 import { withA11y } from '@storybook/addon-a11y';
 import { ThemeProvider } from 'styled-components';
 import theme from '../lib/styles/themes/base/index';
-// import myTheme from './theme';
 import '../lib/styles/cssIncludes';
 import GlobalStyles from '../lib/styles';
 import results from '../.jest-test-results.json';
@@ -60,9 +59,7 @@ addParameters({
   },
 });
 
-const req = require.context('../lib/components/', true, /\.mdx$/);
-// require.context('../lib/components/', true, /\.mdx$/),
-// const req = require.context('../lib/components/', true, /story\.js$/);
+const req = require.context('../lib/components/', true, /story\.js$/);
 
 function loadStories() {
   req.keys().forEach(filename => req(filename));
