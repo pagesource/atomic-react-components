@@ -1,24 +1,13 @@
-// @flow
-import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
-import { Fragment } from 'react';
-import ButtonVanilla from './index.js';
-import { primaryButton } from './Button.mock';
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { withKnobs, select, boolean } from "@storybook/addon-knobs";
+import DayMonthYear from "@storybook/react/demo";
 
-<Meta title="Button" component={ButtonVanilla} />
+<Meta title="Day Month Year" component={DayMonthYear} />
 
-# Button #
+# Day/Month/Year
 
-Button communicate actions a user can take  to perform tasks.
+- This component must use `inputmode="numeric"` in order to bring up the correct keyboard on mobile.
 
-# Props #
-
-<Props of={ButtonVanilla} />
-
-<Preview>
-  <Story name="Primary">
-  <Fragment>
-    <ButtonVanilla {...primaryButton}>Submit</ButtonVanilla>
-  </Fragment>
-  </Story>
-</Preview>
-
+<Story name="standard">
+  <DayMonthYear />
+</Story>

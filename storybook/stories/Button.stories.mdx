@@ -1,18 +1,13 @@
-import { action } from '@storybook/addon-actions';
-import { Button } from '@storybook/react/demo';
-import { Story, Meta } from '@storybook/addon-docs/blocks';
+import { Meta, Story } from "@storybook/addon-docs/blocks";
+import { withKnobs, select, boolean } from "@storybook/addon-knobs";
+import DayMonthYear from "../Button/Button";
 
-<Meta title='MDX|Button' component={Button} />
+<Meta title="Day Month Year" component={DayMonthYear} />
 
+# Day/Month/Year
 
-# Hello Docs
+- This component must use `inputmode="numeric"` in order to bring up the correct keyboard on mobile.
 
-Welcome to the future of Storybook!
-
-<Story name="hello">
-  <Button onClick={action('clicked')}>Hello button!</Button>
-</Story>
-
-<Story name="with emoji">
-  <Button onClick={action('clicked')}>🤘🚀💯</Button>
+<Story name="standard">
+  <DayMonthYear />
 </Story>
