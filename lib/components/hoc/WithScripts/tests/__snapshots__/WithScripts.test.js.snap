@@ -1,3 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<WithScripts /> should render correctly 1`] = `<Component />`;
+exports[`<WithScripts /> should render correctly 1`] = `
+<WithScripts(comp1)>
+  <comp1
+    injectedProp={Object {}}
+  >
+    <div>
+      Hoc will consume the wrapper Component A and injected respective script details
+    </div>
+  </comp1>
+</WithScripts(comp1)>
+`;
