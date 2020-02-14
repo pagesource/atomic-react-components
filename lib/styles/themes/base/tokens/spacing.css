@@ -3,7 +3,7 @@
  * @presenter Spacing
  */
 
- :root {
+:root {
   --spacing-quad-unit: 0.125rem;
   --spacing-half-unit: 0.25rem;
   --spacing-1: 0.5rem;

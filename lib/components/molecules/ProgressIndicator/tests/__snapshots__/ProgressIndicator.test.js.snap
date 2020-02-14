@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressIndicator /> should render correctly 1`] = `
+<Fragment>
+  <div
+    className="progress-indicator-container"
+  >
+    <p
+      className="progress-label"
+    >
+      100%
+    </p>
+    <div
+      className="progress-wrapper"
+      role="progressbar"
+    >
+      <progress
+        className="bar completed"
+        max="100"
+        value="100.00"
+      />
+      <ol
+        className="linear-bar"
+      >
+        <Component
+          currentItemtStatus="completed"
+          itemIndex={0}
+          key=".0"
+          variation="bar"
+        />
+      </ol>
+    </div>
+  </div>
+</Fragment>
+`;
