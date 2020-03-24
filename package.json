@@ -137,6 +137,7 @@
     "react-app-polyfill": "^1.0.4",
     "react-dom": "^16.10.0",
     "react-modal": "^3.6.1",
+    "react-svg": "^11.0.15",
     "styled-components": "^4.4.0",
     "yup": "^0.27.0"
   },
