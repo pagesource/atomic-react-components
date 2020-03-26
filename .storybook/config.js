@@ -59,8 +59,7 @@ addParameters({
   },
 });
 
-const req = require.context('../lib/components/', true, /story\.js$/);
-
+const req = require.context('../lib/components/', true, /.stories\.(js|mdx)$/);
 function loadStories() {
   req.keys().forEach(filename => req(filename));
 }

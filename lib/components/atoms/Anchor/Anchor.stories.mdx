@@ -1,0 +1,21 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import Anchor, { AnchorVanilla } from '.';
+import { defaultAnchor } from './Anchor.mock';
+
+<Meta title="AnchorVanilla" component={AnchorVanilla} />
+
+### Anchor Vanilla
+
+<Preview>
+  <Story name="Knobs">
+   <AnchorVanilla {...defaultAnchor}>Click Me</AnchorVanilla>
+  </Story>
+</Preview>
+
+### Anchor Link
+<Preview>
+    <Story name="Link">
+  <Anchor {...defaultAnchor}>Click Me</Anchor>
+  </Story>
+</Preview>
+

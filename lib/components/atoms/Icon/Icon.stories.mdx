@@ -1,0 +1,43 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import  Icon  from './index.js';
+import defaultConfig from './Icon.mock';
+
+<Meta title="Icons" component={Icon} />
+
+### Icon
+
+<Preview>
+  <Story name="Close Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="close" />
+  </Story>
+  <Story name="Left Arrow">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="leftArrow" />
+  </Story>
+    <Story name="Right Arrow">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="rightArrow" />
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="Play Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="play" />
+  </Story>
+    <Story name="Pause Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="pause" />
+  </Story>
+  <Story name="Warning Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="warning" />
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="Info Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="info" />
+  </Story>
+    <Story name="Success Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="success" />
+  </Story>
+  <Story name="Close White Icon">
+    <Icon {...defaultConfig} width="30px" height="30px"  id="closewhite" />
+  </Story>
+</Preview>
