@@ -7,6 +7,7 @@ before_install:
 script:
   - yarn validate
   - yarn run build-storybook
+  - commitlint-travis
 install:
   - yarn install
 deploy:
