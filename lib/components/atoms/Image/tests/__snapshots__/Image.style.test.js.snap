@@ -1,14 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Image Component with styles should render correctly and match snapshots 1`] = `
-.c0 {
-  max-width: 100%;
-  height: auto;
-}
-
 <Image
   alt="ABC"
-  className="c0"
+  className="Image-sc-1m0q2wx-0 jkBBgm"
   elementLocator=""
   inheritedStyles=""
   loading="auto"
@@ -20,14 +15,9 @@ exports[`Image Component with styles should render correctly and match snapshots
 `;
 
 exports[`Image Component with styles should render correctly with lazy load 1`] = `
-.c0 {
-  max-width: 100%;
-  height: auto;
-}
-
 <Image
   alt="Dummy Image"
-  className="c0"
+  className="Image-sc-1m0q2wx-0 jkBBgm"
   elementLocator=""
   inheritedStyles=""
   loading="lazy"
