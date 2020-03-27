@@ -2,12 +2,12 @@
 
 exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
 <div>
-  <Anchor
+  <Anchor__StyledAnchor
     className="AnchorClass"
     target="_blank"
     to="#"
   >
-    <Image
+    <Image__StyledImage
       alt="Dummy Image"
       loading="lazy"
       placeholderSrc="https://placekitten.com/g/601/300"
@@ -15,26 +15,26 @@ exports[`<ArticleThumbnail /> should render correctly with Readmore 1`] = `
       src="https://placekitten.com/g/601/300"
       srcset="https://placekitten.com/g/601/300 1024w, https://placekitten.com/g/401/300 640w, https://placekitten.com/g/301/300 320w"
     />
-  </Anchor>
+  </Anchor__StyledAnchor>
   Test
-  <Anchor
+  <Anchor__StyledAnchor
     className="AnchorClass"
     target="_blank"
     to="#"
   >
     ReadMore
-  </Anchor>
+  </Anchor__StyledAnchor>
 </div>
 `;
 
 exports[`<ArticleThumbnail /> should render correctly with full clickable thumb 1`] = `
 <div>
-  <Anchor
+  <Anchor__StyledAnchor
     className="AnchorClass"
     target="_blank"
     to="#"
   >
-    <Image
+    <Image__StyledImage
       alt="Dummy Image"
       placeholderSrc="https://placekitten.com/g/600/300"
       sizes="(min-width: 36em) 33.3vw, 100vw"
@@ -42,6 +42,6 @@ exports[`<ArticleThumbnail /> should render correctly with full clickable thumb 
       srcset="https://placekitten.com/g/600/300 1024w, https://placekitten.com/g/400/300 640w, https://placekitten.com/g/300/300 320w"
     />
     Test
-  </Anchor>
+  </Anchor__StyledAnchor>
 </div>
 `;

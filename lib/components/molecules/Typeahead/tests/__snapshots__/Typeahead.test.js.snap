@@ -13,7 +13,7 @@ exports[`<Typeahead /> should render correctly 1`] = `
     elementLocator=""
     htmlFor="word-typeahead"
   />
-  <Input
+  <Input__StyledInput
     aria-activedescendant=""
     aria-autocomplete="list"
     aria-describedby="initInstr"

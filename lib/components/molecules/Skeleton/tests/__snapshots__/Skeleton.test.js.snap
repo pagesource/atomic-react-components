@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Skeleton /> should render correctly 1`] = `
-<Skeleton>
+<Skeleton__StyledSkeleton>
   <Skeleton
-    className="Skeleton-sc-1oak7zh-0 izYbze"
+    className="Skeleton__StyledSkeleton-sc-1oak7zh-0 iDRFJU"
   >
     <div
-      className="skeleton Skeleton-sc-1oak7zh-0 izYbze"
+      className="skeleton Skeleton__StyledSkeleton-sc-1oak7zh-0 iDRFJU"
     >
       <Bar
         height="18px"
@@ -41,5 +41,5 @@ exports[`<Skeleton /> should render correctly 1`] = `
       </Circle>
     </div>
   </Skeleton>
-</Skeleton>
+</Skeleton__StyledSkeleton>
 `;

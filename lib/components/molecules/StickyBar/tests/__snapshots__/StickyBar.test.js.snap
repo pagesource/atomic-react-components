@@ -4,7 +4,7 @@ exports[`<StickyBar /> should render correctly 1`] = `
 <nav
   aria-labelledby="StickyToolBar"
 >
-  <List
+  <List__StyledList
     className="sticky-bar"
     id="StickyToolBar"
     noDefaultView={true}
@@ -16,6 +16,6 @@ exports[`<StickyBar /> should render correctly 1`] = `
     <li>
       This is list item
     </li>
-  </List>
+  </List__StyledList>
 </nav>
 `;
