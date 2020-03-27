@@ -6,7 +6,6 @@ before_install:
   - export PATH=$HOME/.yarn/bin:$PATH
 script:
   - commitlint-travis
-  - eslint --fix ./lib
   - yarn validate
   - yarn run build-storybook
 install:
