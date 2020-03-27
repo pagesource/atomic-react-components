@@ -1,8 +1,8 @@
-import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import { primaryButton, primaryButtonDisabled, secondaryButton, secondaryButtonDisabled, customButtonLocator} from './Button.mock';
 import Button, { ButtonVanilla } from '.';
 
-<Meta title="Button" component={Button} />
+<Meta title="Buttons" component={Button} />
 
 ### Vanila  Button
 
@@ -46,3 +46,7 @@ import Button, { ButtonVanilla } from '.';
    <Button {...customButtonLocator}>Submit</Button>
   </Story>
 </Preview>
+
+## Props 🔧
+
+<Props of={ButtonVanilla} />
