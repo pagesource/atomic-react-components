@@ -8,7 +8,6 @@ exports[`Select Component should render correctly 1`] = `
   id="dropdown-1"
   name="my-drop"
   onChange={[Function]}
-  value=""
 >
   <option
     key="Option 1"

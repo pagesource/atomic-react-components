@@ -1,46 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FieldInput Component should render correctly 1`] = `
-<div
-  className=""
+<form
+  onSubmit={[Function]}
 >
-  <Label
+  <FieldInput
     className=""
-    elementLocator=""
-  />
-  <Field
+    errors={Object {}}
+    fieldProps={Object {}}
+    label="Enter username"
+    labelProps={Object {}}
+    name="username"
+    onBlur={null}
+    onChange={null}
+    placeholder=""
+    register={[Function]}
+    setValue={[Function]}
     type="text"
-  >
-    <Component />
-  </Field>
-  <FormikConnect(ErrorMessageImpl)
-    component={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "componentId": "FieldError-sc-1b3h259-0",
-          "isStatic": false,
-          "rules": Array [
-            [Function],
-            ";",
-            [Function],
-            ";text-align:left;margin:0;",
-            [Function],
-            ";",
-            ";",
-          ],
-        },
-        "displayName": "FieldError",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "FieldError-sc-1b3h259-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
+    validationInstructions="Enter valid username"
   />
-</div>
+  <FieldInput
+    className=""
+    errors={Object {}}
+    fieldProps={Object {}}
+    label="Enter username"
+    labelProps={Object {}}
+    name="username"
+    onBlur={null}
+    onChange={null}
+    placeholder=""
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+    validationInstructions="Enter valid username"
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
 `;
