@@ -2,75 +2,44 @@
 
 exports[`<Skeleton /> should render correctly 1`] = `
 <Skeleton>
-  <StyledComponent
-    forwardedComponent={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "bar": [Function],
-        "circle": [Function],
-        "componentStyle": ComponentStyle {
-          "componentId": "Skeleton-sc-1oak7zh-0",
-          "isStatic": false,
-          "lastClassName": "TWmMc",
-          "rules": Array [
-            "@keyframes pulse{0%{background-position:0% 0%;}100%{background-position:-135% 0%;}}div{display:inline-block;background:linear-gradient(-90deg,#ededed 0%,#e1e1e1 50%,#ededed 100%);background-size:400% 400%;animation:pulse 1.2s ease-in-out infinite;&.circle{border-radius:50%;}}",
-            [Function],
-            ";",
-            ";",
-          ],
-        },
-        "displayName": "Skeleton",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "Skeleton-sc-1oak7zh-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
-    forwardedRef={null}
+  <Skeleton
+    className="Skeleton-sc-1oak7zh-0 izYbze"
   >
-    <Skeleton
-      className="Skeleton-sc-1oak7zh-0 TWmMc"
+    <div
+      className="skeleton Skeleton-sc-1oak7zh-0 izYbze"
     >
-      <div
-        className="skeleton Skeleton-sc-1oak7zh-0 TWmMc"
+      <Bar
+        height="18px"
+        marginBottom="0"
+        width="100%"
       >
-        <Bar
-          height="18px"
-          marginBottom="0"
-          width="100%"
-        >
-          <div
-            className="bar"
-            style={
-              Object {
-                "height": "18px",
-                "marginBottom": "0",
-                "width": "100%",
-              }
+        <div
+          className="bar"
+          style={
+            Object {
+              "height": "18px",
+              "marginBottom": "0",
+              "width": "100%",
             }
-          />
-        </Bar>
-        <Circle
-          marginBottom="20px"
-          width="100px"
-        >
-          <div
-            className="circle"
-            style={
-              Object {
-                "height": "100px",
-                "marginBottom": "20px",
-                "width": "100px",
-              }
+          }
+        />
+      </Bar>
+      <Circle
+        marginBottom="20px"
+        width="100px"
+      >
+        <div
+          className="circle"
+          style={
+            Object {
+              "height": "100px",
+              "marginBottom": "20px",
+              "width": "100px",
             }
-          />
-        </Circle>
-      </div>
-    </Skeleton>
-  </StyledComponent>
+          }
+        />
+      </Circle>
+    </div>
+  </Skeleton>
 </Skeleton>
 `;
