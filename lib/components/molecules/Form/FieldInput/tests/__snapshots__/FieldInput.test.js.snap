@@ -19,6 +19,7 @@ exports[`FieldInput Component should render correctly 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
+          "baseHash": 260646660,
           "componentId": "FieldError-sc-1b3h259-0",
           "isStatic": false,
           "rules": Array [
@@ -30,6 +31,7 @@ exports[`FieldInput Component should render correctly 1`] = `
             ";",
             ";",
           ],
+          "staticRulesId": "",
         },
         "displayName": "FieldError",
         "foldedComponentIds": Array [],
