@@ -22,9 +22,9 @@ const step = (name, root, fn) => async () => {
   console.log(cyan('Built: ') + green(name));
 };
 
-const shell = (cmd) => execa.shell(cmd, { stdio: ['pipe', 'pipe', 'inherit'] });
+const shell = cmd => execa.shell(cmd, { stdio: ['pipe', 'pipe', 'inherit'] });
 
-const has = (t) => !targets.length || targets.includes(t);
+const has = t => !targets.length || targets.includes(t);
 
 /**
  * Run babel over the src directory and output
@@ -69,7 +69,7 @@ console.log(green(`Building targets: ${targets.length ? targets.join(', ') : 'al
 clean();
 
 Promise.all([has('lib') && buildLib(), has('es') && buildEsm(), has('dist') && buildDist()]).catch(
-  (err) => {
+  err => {
     if (err) console.error(red(err.stack || err.toString()));
     process.exit(1);
   }

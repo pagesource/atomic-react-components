@@ -1,27 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button should render correctly 1`] = `
-.c0 {
-  border: none;
-  border-radius: 0;
-  position: relative;
-  min-height: 48px;
-  cursor: pointer;
-  background-color: var(--bg-cta-primary);
-  color: var(--text-cta-primary);
-  font-size: var(--font-size-cta);
-  line-height: var(--line-height-cta);
-  padding: 0 1rem;
-}
-
-.c0:hover,
-.c0:active {
-  background-color: var(--bg-cta-primary-active);
-}
-
 <Button
   ariaLabel=""
-  className="c0"
+  className="Button-sc-1ccn477-0 krkESV"
   disabled={false}
   elementLocator=""
   inheritedStyles=""

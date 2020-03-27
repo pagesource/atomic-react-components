@@ -1,13 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FieldInput Component should render correctly 1`] = `
-<Formik
-  initialValues={null}
-  validate={[Function]}
-  validateOnBlur={true}
-  validateOnChange={true}
-  validationSchema={null}
+<form
+  onSubmit={[Function]}
 >
-  <Component />
-</Formik>
+  <FieldSelect
+    errors={Object {}}
+    fieldProps={Object {}}
+    labelProps={Object {}}
+    onChange={null}
+    register={[Function]}
+    setValue={[Function]}
+  />
+  <FieldSelect
+    errors={Object {}}
+    fieldProps={Object {}}
+    labelProps={Object {}}
+    onChange={null}
+    register={[Function]}
+    setValue={[Function]}
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
 `;

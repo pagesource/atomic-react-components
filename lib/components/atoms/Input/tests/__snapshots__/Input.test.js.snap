@@ -9,6 +9,5 @@ exports[`Input Component should render correctly 1`] = `
   onChange={[Function]}
   placeholder=""
   type="text"
-  value="abc"
 />
 `;
