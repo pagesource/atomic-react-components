@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FieldError Component should render correctly 1`] = `
-<Para
+<Para__StyledPara
   aria-live="assertive"
   className=""
   data-locator="field-error-some-error"
@@ -9,5 +9,5 @@ exports[`FieldError Component should render correctly 1`] = `
   role="alert"
 >
   Some Error Occurred
-</Para>
+</Para__StyledPara>
 `;

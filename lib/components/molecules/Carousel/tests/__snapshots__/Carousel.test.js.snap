@@ -69,11 +69,11 @@ exports[`<Carousel /> should render correctly 1`] = `
       <div
         className="carousel-dots"
       >
-        <List>
+        <List__StyledList>
           <List
             ListType="ul"
             borderSeparator={false}
-            className="List-rp20fd-0 kPEgAw"
+            className="List__StyledList-rp20fd-0 dlvIbB"
             inheritedStyles=""
             inline={false}
             nested={false}
@@ -82,7 +82,7 @@ exports[`<Carousel /> should render correctly 1`] = `
           >
             <ul
               borderSeparator={false}
-              className="List-rp20fd-0 kPEgAw"
+              className="List__StyledList-rp20fd-0 dlvIbB"
               inheritedStyles=""
               inline={false}
               nested={false}
@@ -94,13 +94,13 @@ exports[`<Carousel /> should render correctly 1`] = `
                   className="item active"
                   key="0"
                 >
-                  <Button
+                  <Button__StyledButton
                     className="icon"
                     onClick={[Function]}
                   >
                     <Button
                       ariaLabel=""
-                      className="Button-sc-1ccn477-0 krkESV icon"
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                       disabled={false}
                       elementLocator=""
                       inheritedStyles=""
@@ -114,7 +114,7 @@ exports[`<Carousel /> should render correctly 1`] = `
                     >
                       <button
                         aria-label={null}
-                        className="Button-sc-1ccn477-0 krkESV icon"
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                         data-locator="button-button-"
                         disabled={false}
                         onClick={[Function]}
@@ -124,19 +124,19 @@ exports[`<Carousel /> should render correctly 1`] = `
                         1
                       </button>
                     </Button>
-                  </Button>
+                  </Button__StyledButton>
                 </li>
                 <li
                   className="item"
                   key="1"
                 >
-                  <Button
+                  <Button__StyledButton
                     className="icon"
                     onClick={[Function]}
                   >
                     <Button
                       ariaLabel=""
-                      className="Button-sc-1ccn477-0 krkESV icon"
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                       disabled={false}
                       elementLocator=""
                       inheritedStyles=""
@@ -150,7 +150,7 @@ exports[`<Carousel /> should render correctly 1`] = `
                     >
                       <button
                         aria-label={null}
-                        className="Button-sc-1ccn477-0 krkESV icon"
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                         data-locator="button-button-"
                         disabled={false}
                         onClick={[Function]}
@@ -160,19 +160,19 @@ exports[`<Carousel /> should render correctly 1`] = `
                         2
                       </button>
                     </Button>
-                  </Button>
+                  </Button__StyledButton>
                 </li>
                 <li
                   className="item"
                   key="2"
                 >
-                  <Button
+                  <Button__StyledButton
                     className="icon"
                     onClick={[Function]}
                   >
                     <Button
                       ariaLabel=""
-                      className="Button-sc-1ccn477-0 krkESV icon"
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                       disabled={false}
                       elementLocator=""
                       inheritedStyles=""
@@ -186,7 +186,7 @@ exports[`<Carousel /> should render correctly 1`] = `
                     >
                       <button
                         aria-label={null}
-                        className="Button-sc-1ccn477-0 krkESV icon"
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                         data-locator="button-button-"
                         disabled={false}
                         onClick={[Function]}
@@ -196,19 +196,19 @@ exports[`<Carousel /> should render correctly 1`] = `
                         3
                       </button>
                     </Button>
-                  </Button>
+                  </Button__StyledButton>
                 </li>
                 <li
                   className="item"
                   key="3"
                 >
-                  <Button
+                  <Button__StyledButton
                     className="icon"
                     onClick={[Function]}
                   >
                     <Button
                       ariaLabel=""
-                      className="Button-sc-1ccn477-0 krkESV icon"
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                       disabled={false}
                       elementLocator=""
                       inheritedStyles=""
@@ -222,7 +222,7 @@ exports[`<Carousel /> should render correctly 1`] = `
                     >
                       <button
                         aria-label={null}
-                        className="Button-sc-1ccn477-0 krkESV icon"
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
                         data-locator="button-button-"
                         disabled={false}
                         onClick={[Function]}
@@ -232,12 +232,12 @@ exports[`<Carousel /> should render correctly 1`] = `
                         4
                       </button>
                     </Button>
-                  </Button>
+                  </Button__StyledButton>
                 </li>
               </GetList>
             </ul>
           </List>
-        </List>
+        </List__StyledList>
       </div>
     </ListWrapper>
   </section>

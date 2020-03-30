@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Accordion /> should render correctly 1`] = `
-<Accordion>
+<Accordion__StyledAccordion>
   <Accordion
-    className="Accordion-vybsad-0 cZaGZp"
+    className="Accordion__StyledAccordion-vybsad-0 gvcbpS"
   >
     <div
-      className="Accordion-vybsad-0 cZaGZp"
+      className="Accordion__StyledAccordion-vybsad-0 gvcbpS"
     >
       <AccordionPanel
         className="panel"
@@ -35,5 +35,5 @@ exports[`<Accordion /> should render correctly 1`] = `
       </AccordionPanel>
     </div>
   </Accordion>
-</Accordion>
+</Accordion__StyledAccordion>
 `;
