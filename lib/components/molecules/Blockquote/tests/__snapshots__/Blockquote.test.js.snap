@@ -4,11 +4,11 @@ exports[`<Blockquote /> should render correctly 1`] = `
 <blockquote
   className="blockquote"
 >
-  <Para
+  <Para__StyledPara
     className="content"
   >
     Ask forgiveness, not permission.
-  </Para>
+  </Para__StyledPara>
   <footer
     className="author"
   >
