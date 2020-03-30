@@ -1,0 +1,49 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import defaultConfig from './Pagination.mock';
+import List from '../List';
+import Pagination, { PaginationVanilla } from '.';
+
+<Meta title="Molecules/Pagination" component={PaginationVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+ <PaginationVanilla
+        data={defaultConfig.items}
+        pageSize={5}
+        onPageChange={pageNumber => console.log('You are on page:', pageNumber)}
+        renderPaginationComponent={({ data }) => {
+          return <List>{data && data.map(item => <li key={item.code}>{item.name}</li>)}</List>;
+        }}
+      />
+  </Story>
+</Preview>
+
+### Pagination
+<Preview>
+  <Story name="Pagination">
+  <Pagination
+        data={defaultConfig.items}
+        pageSize={5}
+        nextLabel="&raquo;"
+        previousLabel="&laquo;"
+        onPageChange={pageNumber => console.log('You are on page:', pageNumber)}
+        renderPaginationComponent={({ data }) => {
+          return <List>{data && data.map(item => <li key={item.code}>{item.name}</li>)}</List>;
+        }}
+        currentPageAria="you are on page number"
+        paginationAriaLabel="Pagination"
+        lastButtonAria="Last Button"
+        nextButtonAria="Next Button"
+        previousButtonAria="Previous Button"
+        gotoPageAria="Go to page number"
+      />
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={PaginationVanilla} />
+

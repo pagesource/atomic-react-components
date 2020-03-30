@@ -1,0 +1,29 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import Modal, { ModalVanilla } from './Modal';
+
+<Meta title="Molecules/Modal" component={ModalVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+    <ModalVanilla>
+      <h2>Hello World</h2>
+    </ModalVanilla>
+  </Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Default">
+ <Modal>
+      <h2>Hello World</h2>
+    </Modal>
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={ModalVanilla} />
+

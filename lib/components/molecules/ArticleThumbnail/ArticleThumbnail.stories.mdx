@@ -1,0 +1,33 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import defaultConfig from './ArticleThumbnail.mock';
+// Import Styled Component to showcase variations
+import ArticleThumbnail, {ArticleThumbnailVanilla} from '.';
+import Para from '../../atoms/Para';
+import Heading from '../../atoms/Heading';
+
+<Meta title="Molecules/Article Thumbnail" component={ArticleThumbnailVanilla} />
+
+### Article Thumbnail
+<Preview>
+  <Story name="Knobs">
+  <ArticleThumbnail {...defaultConfig}>
+      <Heading style={{ color: 'black' }}>Dummy Title</Heading>
+    </ArticleThumbnail>
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="Default">
+ <ArticleThumbnail {...defaultConfig}>
+      <>
+        <Heading>Dummy Title</Heading>
+        <Para>Dummy Para</Para>
+      </>
+    </ArticleThumbnail>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={ArticleThumbnailVanilla} />
+

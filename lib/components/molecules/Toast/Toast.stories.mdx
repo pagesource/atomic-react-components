@@ -1,0 +1,58 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import defaultToast from './Toast.mock.js'
+import { ParaVanilla as Para } from '../../atoms/Para';
+// Import Styled Component to showcase variations
+import Toast, { ToastVanilla } from '.';
+import Icon from '../../atoms/Icon';
+
+
+<Meta title="Molecules/Toast" component={ToastVanilla} />
+
+### Toast Info
+<Preview>
+  <Story name="Toast Info">
+   <Toast variation="info" {...defaultToast}>
+      <Icon id="info" title="information icon" />
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+### Toast Success
+<Preview>
+  <Story name="Toast Success">
+ <Toast variation="success" {...defaultToast}>
+      <Icon id="success" title="success icon" />
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+
+### Toast Warning
+<Preview>
+  <Story name="Toast Warning">
+  <Toast variation="warning" {...defaultToast}>
+      <Icon id="warning" title="warning icon" />
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+### Toast Error
+<Preview>
+  <Story name="Toast Error">
+ <Toast variation="error" {...defaultToast}>
+      <Icon id="error" title="error icon" />
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+
+
+## Props 🔧
+
+<Props of={ToastVanilla} />
+

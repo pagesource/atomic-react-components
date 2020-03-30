@@ -1,0 +1,38 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import { defaultTabs, verticalTabs } from './Tabs.mock';
+import Tabs, { TabsVanilla } from '.';
+
+
+<Meta title="Molecules/Tabs/Tabs" component={TabsVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+<TabsVanilla {...defaultTabs} />
+  </Story>
+</Preview>
+
+### Horizontal
+<Preview>
+  <Story name="Horizontal">
+<Tabs {...defaultTabs} />
+  </Story>
+</Preview>
+
+
+### Vertical
+<Preview>
+  <Story name="Vertical">
+<Tabs {...verticalTabs} />
+  </Story>
+</Preview>
+
+
+
+
+
+## Props 🔧
+
+<Props of={TabsVanilla} />
+
