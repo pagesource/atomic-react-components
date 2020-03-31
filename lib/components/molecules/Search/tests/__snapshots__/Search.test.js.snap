@@ -40,5 +40,5 @@ exports[`<Search /> should render correctly 1`] = `
   forwardedRef={null}
 >
   Test
-</StyledComponent>
+</Search>
 `;
