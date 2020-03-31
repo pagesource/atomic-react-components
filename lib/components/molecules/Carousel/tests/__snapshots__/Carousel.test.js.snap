@@ -69,406 +69,175 @@ exports[`<Carousel /> should render correctly 1`] = `
       <div
         className="carousel-dots"
       >
-        <List>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "List-rp20fd-0",
-                  "isStatic": false,
-                  "lastClassName": "carOkM",
-                  "rules": Array [
-                    "margin:0 0 ",
-                    [Function],
-                    " 0;li{margin-bottom:",
-                    [Function],
-                    ";}",
-                    [Function],
-                    ";",
-                    [Function],
-                    ";",
-                    [Function],
-                    ";",
-                    [Function],
-                    ";",
-                    [Function],
-                    ";",
-                    [Function],
-                    ";",
-                    ";",
-                  ],
-                },
-                "displayName": "List",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "List-rp20fd-0",
-                "target": [Function],
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
+        <List__StyledList>
+          <List
+            ListType="ul"
+            borderSeparator={false}
+            className="List__StyledList-rp20fd-0 dlvIbB"
+            inheritedStyles=""
+            inline={false}
+            nested={false}
+            noDefaultView={false}
+            noMargin={false}
           >
-            <List
-              ListType="ul"
+            <ul
               borderSeparator={false}
-              className="List-rp20fd-0 carOkM"
+              className="List__StyledList-rp20fd-0 dlvIbB"
               inheritedStyles=""
               inline={false}
               nested={false}
               noDefaultView={false}
               noMargin={false}
             >
-              <ul
-                borderSeparator={false}
-                className="List-rp20fd-0 carOkM"
-                inheritedStyles=""
-                inline={false}
-                nested={false}
-                noDefaultView={false}
-                noMargin={false}
-              >
-                <GetList>
-                  <li
-                    className="item active"
-                    key="0"
+              <GetList>
+                <li
+                  className="item active"
+                  key="0"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
                   >
                     <Button
-                      className="icon"
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
                       onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
                     >
-                      <StyledComponent
-                        className="icon"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1ccn477-0",
-                              "isStatic": false,
-                              "lastClassName": "cqzVbc",
-                              "rules": Array [
-                                "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                ";",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1ccn477-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
                         onClick={[Function]}
+                        type="button"
+                        variation=""
                       >
-                        <Button
-                          ariaLabel=""
-                          className="Button-sc-1ccn477-0 cqzVbc icon"
-                          disabled={false}
-                          elementLocator=""
-                          inheritedStyles=""
-                          onClick={[Function]}
-                          primary={false}
-                          secondary={false}
-                          tertiary={false}
-                          transparent={false}
-                          type="button"
-                          variation=""
-                        >
-                          <button
-                            aria-label={null}
-                            className="Button-sc-1ccn477-0 cqzVbc icon"
-                            data-locator="button-button-"
-                            disabled={false}
-                            onClick={[Function]}
-                            type="button"
-                            variation=""
-                          >
-                            1
-                          </button>
-                        </Button>
-                      </StyledComponent>
+                        1
+                      </button>
                     </Button>
-                  </li>
-                  <li
-                    className="item"
-                    key="1"
+                  </Button__StyledButton>
+                </li>
+                <li
+                  className="item"
+                  key="1"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
                   >
                     <Button
-                      className="icon"
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
                       onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
                     >
-                      <StyledComponent
-                        className="icon"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1ccn477-0",
-                              "isStatic": false,
-                              "lastClassName": "cqzVbc",
-                              "rules": Array [
-                                "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                ";",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1ccn477-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
                         onClick={[Function]}
+                        type="button"
+                        variation=""
                       >
-                        <Button
-                          ariaLabel=""
-                          className="Button-sc-1ccn477-0 cqzVbc icon"
-                          disabled={false}
-                          elementLocator=""
-                          inheritedStyles=""
-                          onClick={[Function]}
-                          primary={false}
-                          secondary={false}
-                          tertiary={false}
-                          transparent={false}
-                          type="button"
-                          variation=""
-                        >
-                          <button
-                            aria-label={null}
-                            className="Button-sc-1ccn477-0 cqzVbc icon"
-                            data-locator="button-button-"
-                            disabled={false}
-                            onClick={[Function]}
-                            type="button"
-                            variation=""
-                          >
-                            2
-                          </button>
-                        </Button>
-                      </StyledComponent>
+                        2
+                      </button>
                     </Button>
-                  </li>
-                  <li
-                    className="item"
-                    key="2"
+                  </Button__StyledButton>
+                </li>
+                <li
+                  className="item"
+                  key="2"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
                   >
                     <Button
-                      className="icon"
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
                       onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
                     >
-                      <StyledComponent
-                        className="icon"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1ccn477-0",
-                              "isStatic": false,
-                              "lastClassName": "cqzVbc",
-                              "rules": Array [
-                                "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                ";",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1ccn477-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
                         onClick={[Function]}
+                        type="button"
+                        variation=""
                       >
-                        <Button
-                          ariaLabel=""
-                          className="Button-sc-1ccn477-0 cqzVbc icon"
-                          disabled={false}
-                          elementLocator=""
-                          inheritedStyles=""
-                          onClick={[Function]}
-                          primary={false}
-                          secondary={false}
-                          tertiary={false}
-                          transparent={false}
-                          type="button"
-                          variation=""
-                        >
-                          <button
-                            aria-label={null}
-                            className="Button-sc-1ccn477-0 cqzVbc icon"
-                            data-locator="button-button-"
-                            disabled={false}
-                            onClick={[Function]}
-                            type="button"
-                            variation=""
-                          >
-                            3
-                          </button>
-                        </Button>
-                      </StyledComponent>
+                        3
+                      </button>
                     </Button>
-                  </li>
-                  <li
-                    className="item"
-                    key="3"
+                  </Button__StyledButton>
+                </li>
+                <li
+                  className="item"
+                  key="3"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
                   >
                     <Button
-                      className="icon"
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
                       onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
                     >
-                      <StyledComponent
-                        className="icon"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "Button-sc-1ccn477-0",
-                              "isStatic": false,
-                              "lastClassName": "cqzVbc",
-                              "rules": Array [
-                                "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                " ",
-                                [Function],
-                                ";",
-                                [Function],
-                                ";",
-                                ";",
-                              ],
-                            },
-                            "displayName": "Button",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "Button-sc-1ccn477-0",
-                            "target": [Function],
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
                         onClick={[Function]}
+                        type="button"
+                        variation=""
                       >
-                        <Button
-                          ariaLabel=""
-                          className="Button-sc-1ccn477-0 cqzVbc icon"
-                          disabled={false}
-                          elementLocator=""
-                          inheritedStyles=""
-                          onClick={[Function]}
-                          primary={false}
-                          secondary={false}
-                          tertiary={false}
-                          transparent={false}
-                          type="button"
-                          variation=""
-                        >
-                          <button
-                            aria-label={null}
-                            className="Button-sc-1ccn477-0 cqzVbc icon"
-                            data-locator="button-button-"
-                            disabled={false}
-                            onClick={[Function]}
-                            type="button"
-                            variation=""
-                          >
-                            4
-                          </button>
-                        </Button>
-                      </StyledComponent>
+                        4
+                      </button>
                     </Button>
-                  </li>
-                </GetList>
-              </ul>
-            </List>
-          </StyledComponent>
-        </List>
+                  </Button__StyledButton>
+                </li>
+              </GetList>
+            </ul>
+          </List>
+        </List__StyledList>
       </div>
     </ListWrapper>
   </section>

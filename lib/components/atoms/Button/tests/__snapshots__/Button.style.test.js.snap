@@ -1,48 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button should render correctly 1`] = `
-<StyledComponent
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "Button-sc-1ccn477-0",
-        "isStatic": false,
-        "rules": Array [
-          "border:none;border-radius:0;position:relative;min-height:48px;cursor:",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          " ",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          ";",
-        ],
-      },
-      "displayName": "Button",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "Button-sc-1ccn477-0",
-      "target": [Function],
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
+.c0 {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  min-height: 48px;
+  cursor: pointer;
+  background-color: var(--bg-cta-primary);
+  color: var(--text-cta-primary);
+  font-size: var(--font-size-cta);
+  line-height: var(--line-height-cta);
+  padding: 0 1rem;
+}
+
+.c0:hover,
+.c0:active {
+  background-color: var(--bg-cta-primary-active);
+}
+
+<Button
+  ariaLabel=""
+  className="c0"
+  disabled={false}
+  elementLocator=""
+  inheritedStyles=""
+  primary={false}
+  secondary={false}
+  tertiary={false}
   theme={
     Object {
       "animations": Object {
@@ -341,5 +326,8 @@ exports[`Button should render correctly 1`] = `
       },
     }
   }
+  transparent={false}
+  type="button"
+  variation=""
 />
 `;

@@ -85,96 +85,36 @@ exports[`DDFieldInput Component should render correctly 1`] = `
                 name="fileupload"
                 render={[Function]}
               >
-                <Input
+                <Input__StyledInput
                   name="fileupload"
                   onBlur={[Function]}
                   onChange={[Function]}
                   type="file"
                   value={null}
                 >
-                  <StyledComponent
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "Input-sc-133uxg0-0",
-                          "isStatic": false,
-                          "lastClassName": "ajXGW",
-                          "rules": Array [
-                            [Function],
-                            ";",
-                            [Function],
-                            ";",
-                            [Function],
-                            ";",
-                            ";",
-                          ],
-                        },
-                        "displayName": "Input",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "Input-sc-133uxg0-0",
-                        "target": Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "defaultProps": Object {
-                            "ariaLabel": "",
-                            "className": "",
-                            "elementLocator": "",
-                            "placeholder": "",
-                            "type": "text",
-                            "value": "",
-                          },
-                          "render": [Function],
-                        },
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={
-                      Object {
-                        "current": <input
-                          aria-label=""
-                          class="Input-sc-133uxg0-0 ajXGW"
-                          data-locator="input-file-fileupload"
-                          name="fileupload"
-                          placeholder=""
-                          type="file"
-                          value=""
-                        />,
-                      }
-                    }
+                  <ForwardRef
+                    ariaLabel=""
+                    className="Input__StyledInput-sc-133uxg0-0 FRPZs"
+                    elementLocator=""
                     name="fileupload"
                     onBlur={[Function]}
                     onChange={[Function]}
+                    placeholder=""
                     type="file"
                     value={null}
                   >
-                    <ForwardRef
-                      ariaLabel=""
-                      className="Input-sc-133uxg0-0 ajXGW"
-                      elementLocator=""
+                    <input
+                      aria-label=""
+                      className="Input__StyledInput-sc-133uxg0-0 FRPZs"
+                      data-locator="input-file-fileupload"
                       name="fileupload"
                       onBlur={[Function]}
                       onChange={[Function]}
                       placeholder=""
                       type="file"
-                      value={null}
-                    >
-                      <input
-                        aria-label=""
-                        className="Input-sc-133uxg0-0 ajXGW"
-                        data-locator="input-file-fileupload"
-                        name="fileupload"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        placeholder=""
-                        type="file"
-                      />
-                    </ForwardRef>
-                  </StyledComponent>
-                </Input>
+                    />
+                  </ForwardRef>
+                </Input__StyledInput>
               </Field>
               Drop Files Here...
             </button>
