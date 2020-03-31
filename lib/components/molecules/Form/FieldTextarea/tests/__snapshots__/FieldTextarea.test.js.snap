@@ -1,46 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FieldTextarea Component should render correctly 1`] = `
-<div
-  className=""
+<form
+  onSubmit={[Function]}
 >
-  <Label
+  <FieldTextarea
     className=""
+    errors={Object {}}
+    labelProps={Object {}}
+    onChange={null}
+    register={[Function]}
+    setValue={[Function]}
+    value=""
+  />
+  <FieldTextarea
+    className=""
+    errors={Object {}}
+    labelProps={Object {}}
+    onChange={null}
+    register={[Function]}
+    setValue={[Function]}
+    value=""
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
     elementLocator=""
-  />
-  <Field>
-    <Component />
-  </Field>
-  <FormikConnect(ErrorMessageImpl)
-    component={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "attrs": Array [],
-        "componentStyle": ComponentStyle {
-          "baseHash": 524329165,
-          "componentId": "FieldError__StyledFieldError-sc-1b3h259-0",
-          "isStatic": false,
-          "rules": Array [
-            [Function],
-            ";",
-            [Function],
-            ";text-align:left;margin:0;",
-            [Function],
-            ";",
-            ";",
-          ],
-          "staticRulesId": "",
-        },
-        "displayName": "FieldError__StyledFieldError",
-        "foldedComponentIds": Array [],
-        "render": [Function],
-        "styledComponentId": "FieldError__StyledFieldError-sc-1b3h259-0",
-        "target": [Function],
-        "toString": [Function],
-        "warnTooManyClasses": [Function],
-        "withComponent": [Function],
-      }
-    }
-  />
-</div>
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
 `;

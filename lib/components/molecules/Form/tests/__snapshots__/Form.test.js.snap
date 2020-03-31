@@ -1,440 +1,133 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form Component should render input field with no validation 1`] = `
-<Formik
-  initialValues={
-    Object {
-      "email": "",
-      "typeOfUser": "",
-      "username": "",
-    }
-  }
-  validate={[Function]}
-  validateOnBlur={true}
-  validateOnChange={true}
-  validationSchema={null}
+exports[`Form Component should render form correctly 1`] = `
+<form
+  onSubmit={[Function]}
 >
-  <Component />
-</Formik>
+  <FieldSelect__StyledFieldSelect
+    errors={Object {}}
+    label="Type of user"
+    name="typeOfUser"
+    options={
+      Array [
+        "Admin",
+        "Read Only",
+      ]
+    }
+    register={[Function]}
+    setValue={[Function]}
+    validateOnBlur={true}
+  />
+  <FieldInput__StyledFieldInput
+    errors={Object {}}
+    label="User Name"
+    name="username"
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
 `;
 
-exports[`Form Component should render input field with yupValidationSchema 1`] = `
-<Formik
-  initialValues={
-    Object {
-      "email": "",
-      "typeOfUser": "",
-      "username": "",
-    }
-  }
-  validate={[Function]}
-  validateOnBlur={true}
-  validateOnChange={true}
-  validationSchema={
-    ObjectSchema {
-      "_blacklist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "_conditions": Array [],
-      "_defaultDefault": [Function],
-      "_deps": Array [],
-      "_excludedEdges": Array [],
-      "_exclusive": Object {},
-      "_mutate": undefined,
-      "_nodes": Array [
-        "username",
-      ],
-      "_options": Object {
-        "abortEarly": true,
-        "recursive": true,
-      },
-      "_type": "object",
-      "_typeError": [Function],
-      "_whitelist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "fields": Object {
-        "username": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "max": true,
-            "min": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-      },
-      "tests": Array [],
-      "transforms": Array [
-        [Function],
-      ],
-    }
-  }
+exports[`Form Component should render form field with no validation 1`] = `
+<form
+  onSubmit={[Function]}
 >
-  <Component />
-</Formik>
+  <FieldInput__StyledFieldInput
+    errors={Object {}}
+    label="User Name"
+    name="username"
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+  />
+  <FieldSelect__StyledFieldSelect
+    errors={Object {}}
+    label="Type of user"
+    name="typeOfUser"
+    options={
+      Array [
+        "Admin",
+        "Read Only",
+      ]
+    }
+    register={[Function]}
+    setValue={[Function]}
+    validateOnBlur={true}
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
 `;
 
-exports[`Form Component should render input text field 1`] = `
-<Formik
-  initialValues={
-    Object {
-      "email": "",
-      "typeOfUser": "",
-      "username": "",
-    }
-  }
-  validate={[Function]}
-  validateOnBlur={true}
-  validateOnChange={true}
-  validationSchema={
-    ObjectSchema {
-      "_blacklist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "_conditions": Array [],
-      "_defaultDefault": [Function],
-      "_deps": Array [],
-      "_excludedEdges": Array [],
-      "_exclusive": Object {},
-      "_mutate": undefined,
-      "_nodes": Array [
-        "email",
-        "username",
-      ],
-      "_options": Object {
-        "abortEarly": true,
-        "recursive": true,
-      },
-      "_type": "object",
-      "_typeError": [Function],
-      "_whitelist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "fields": Object {
-        "email": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "email": false,
-            "max": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-        "username": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "max": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-      },
-      "tests": Array [],
-      "transforms": Array [
-        [Function],
-      ],
-    }
-  }
+exports[`Form Component should render form field with yupValidationSchema 1`] = `
+<form
+  onSubmit={[Function]}
 >
-  <Component />
-</Formik>
-`;
-
-exports[`Form Component should render select field 1`] = `
-<Formik
-  initialValues={
-    Object {
-      "email": "",
-      "typeOfUser": "",
-      "username": "",
+  <FieldInput__StyledFieldInput
+    errors={Object {}}
+    label="User Name"
+    name="username"
+    register={[Function]}
+    setValue={[Function]}
+    type="text"
+  />
+  <FieldSelect__StyledFieldSelect
+    errors={Object {}}
+    label="Type of user"
+    name="typeOfUser"
+    options={
+      Array [
+        "Admin",
+        "Read Only",
+      ]
     }
-  }
-  validate={[Function]}
-  validateOnBlur={true}
-  validateOnChange={true}
-  validationSchema={
-    ObjectSchema {
-      "_blacklist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "_conditions": Array [],
-      "_defaultDefault": [Function],
-      "_deps": Array [],
-      "_excludedEdges": Array [],
-      "_exclusive": Object {},
-      "_mutate": undefined,
-      "_nodes": Array [
-        "email",
-        "username",
-      ],
-      "_options": Object {
-        "abortEarly": true,
-        "recursive": true,
-      },
-      "_type": "object",
-      "_typeError": [Function],
-      "_whitelist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "fields": Object {
-        "email": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "email": false,
-            "max": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-        "username": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "max": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-      },
-      "tests": Array [],
-      "transforms": Array [
-        [Function],
-      ],
-    }
-  }
->
-  <Component />
-</Formik>
-`;
-
-exports[`Form Component should render select tag correctly 1`] = `
-<Formik
-  initialValues={
-    Object {
-      "email": "",
-      "typeOfUser": "",
-      "username": "",
-    }
-  }
-  validate={[Function]}
-  validateOnBlur={true}
-  validateOnChange={true}
-  validationSchema={
-    ObjectSchema {
-      "_blacklist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "_conditions": Array [],
-      "_defaultDefault": [Function],
-      "_deps": Array [],
-      "_excludedEdges": Array [],
-      "_exclusive": Object {},
-      "_mutate": undefined,
-      "_nodes": Array [
-        "email",
-        "username",
-      ],
-      "_options": Object {
-        "abortEarly": true,
-        "recursive": true,
-      },
-      "_type": "object",
-      "_typeError": [Function],
-      "_whitelist": RefSet {
-        "list": Set {},
-        "refs": Map {},
-      },
-      "fields": Object {
-        "email": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "email": false,
-            "max": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-        "username": StringSchema {
-          "_blacklist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "_conditions": Array [],
-          "_deps": Array [],
-          "_exclusive": Object {
-            "max": true,
-            "required": true,
-          },
-          "_mutate": undefined,
-          "_options": Object {
-            "abortEarly": true,
-            "recursive": true,
-          },
-          "_type": "string",
-          "_typeError": [Function],
-          "_whitelist": RefSet {
-            "list": Set {},
-            "refs": Map {},
-          },
-          "tests": Array [
-            [Function],
-            [Function],
-          ],
-          "transforms": Array [
-            [Function],
-          ],
-        },
-      },
-      "tests": Array [],
-      "transforms": Array [
-        [Function],
-      ],
-    }
-  }
->
-  <Component />
-</Formik>
+    register={[Function]}
+    setValue={[Function]}
+    validateOnBlur={true}
+  />
+  <Button
+    ariaLabel=""
+    className=""
+    disabled={false}
+    elementLocator=""
+    inheritedStyles=""
+    primary={true}
+    secondary={false}
+    tertiary={false}
+    transparent={false}
+    type="submit"
+    variation=""
+  >
+    Submit
+  </Button>
+</form>
 `;
