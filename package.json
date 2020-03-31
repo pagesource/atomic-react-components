@@ -31,7 +31,7 @@
     "flow:install": "flow-typed install",
     "flow:coverage": "flow-coverage-report -i 'lib/**/*.js' -x 'lib/**/*.spec.js' -t html -t json -t text -o reports/flow/ --threshold 70",
     "pretty": "prettier --write **/*.{js,json,css}",
-    "validate": "yarn run lint && yarn run flow && yarn run test && yarn run build",
+    "validate": "yarn run lint && yarn run test && yarn run build",
     "auditNPM": "yarn audit --verbose --json",
     "prepublishOnly": "yarn validate",
     "npm-publish": "yarn publish --verbose --access=public"

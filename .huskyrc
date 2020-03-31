@@ -1,6 +1,7 @@
 {
   "hooks": {
     "pre-commit": "lint-staged",
+    "pre-push": "yarn run flow",
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   }
 }
