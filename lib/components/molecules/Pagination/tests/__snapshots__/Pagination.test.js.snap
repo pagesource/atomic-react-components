@@ -12,25 +12,25 @@ exports[`<Pagination /> should render correctly 1`] = `
       <li
         className="first"
       >
-        <Button
+        <Button__StyledButton
           aria-label=""
           className="btn-first"
           disabled={true}
           onClick={[Function]}
         >
           First
-        </Button>
+        </Button__StyledButton>
       </li>
       <li
         className="previous"
       >
-        <Button
+        <Button__StyledButton
           aria-label=""
           disabled={true}
           onClick={[Function]}
         >
           Previous
-        </Button>
+        </Button__StyledButton>
       </li>
       <PaginationList
         activePage={1}
@@ -42,24 +42,24 @@ exports[`<Pagination /> should render correctly 1`] = `
       <li
         className="next"
       >
-        <Button
+        <Button__StyledButton
           aria-label=""
           disabled={false}
           onClick={[Function]}
         >
           Next
-        </Button>
+        </Button__StyledButton>
       </li>
       <li
         className="last"
       >
-        <Button
+        <Button__StyledButton
           aria-label=""
           disabled={false}
           onClick={[Function]}
         >
           Last
-        </Button>
+        </Button__StyledButton>
       </li>
     </ul>
   </nav>

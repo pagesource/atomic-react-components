@@ -3,7 +3,7 @@
 exports[`Image Component with styles should render correctly and match snapshots 1`] = `
 <Image
   alt="ABC"
-  className="Image-sc-1m0q2wx-0 jkBBgm"
+  className="Image__StyledImage-sc-1m0q2wx-0 jVwuEi"
   elementLocator=""
   inheritedStyles=""
   loading="auto"
@@ -17,7 +17,7 @@ exports[`Image Component with styles should render correctly and match snapshots
 exports[`Image Component with styles should render correctly with lazy load 1`] = `
 <Image
   alt="Dummy Image"
-  className="Image-sc-1m0q2wx-0 jkBBgm"
+  className="Image__StyledImage-sc-1m0q2wx-0 jVwuEi"
   elementLocator=""
   inheritedStyles=""
   loading="lazy"

@@ -17,7 +17,7 @@ exports[`<FieldToggle /> should render correctly 1`] = `
       elementLocator=""
       htmlFor="checkbox_test_1"
     >
-      <Input
+      <Input__StyledInput
         className="toggle-input"
         disabled={false}
         id="checkbox_test_1"

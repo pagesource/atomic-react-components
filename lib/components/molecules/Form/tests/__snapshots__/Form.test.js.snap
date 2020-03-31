@@ -4,7 +4,7 @@ exports[`Form Component should render form correctly 1`] = `
 <form
   onSubmit={[Function]}
 >
-  <FieldSelect
+  <FieldSelect__StyledFieldSelect
     errors={Object {}}
     label="Type of user"
     name="typeOfUser"
@@ -18,7 +18,7 @@ exports[`Form Component should render form correctly 1`] = `
     setValue={[Function]}
     validateOnBlur={true}
   />
-  <FieldInput
+  <FieldInput__StyledFieldInput
     errors={Object {}}
     label="User Name"
     name="username"
@@ -48,7 +48,7 @@ exports[`Form Component should render form field with no validation 1`] = `
 <form
   onSubmit={[Function]}
 >
-  <FieldInput
+  <FieldInput__StyledFieldInput
     errors={Object {}}
     label="User Name"
     name="username"
@@ -56,7 +56,7 @@ exports[`Form Component should render form field with no validation 1`] = `
     setValue={[Function]}
     type="text"
   />
-  <FieldSelect
+  <FieldSelect__StyledFieldSelect
     errors={Object {}}
     label="Type of user"
     name="typeOfUser"
@@ -92,7 +92,7 @@ exports[`Form Component should render form field with yupValidationSchema 1`] = 
 <form
   onSubmit={[Function]}
 >
-  <FieldInput
+  <FieldInput__StyledFieldInput
     errors={Object {}}
     label="User Name"
     name="username"
@@ -100,7 +100,7 @@ exports[`Form Component should render form field with yupValidationSchema 1`] = 
     setValue={[Function]}
     type="text"
   />
-  <FieldSelect
+  <FieldSelect__StyledFieldSelect
     errors={Object {}}
     label="Type of user"
     name="typeOfUser"

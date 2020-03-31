@@ -9,11 +9,11 @@ exports[`<Tab /> should render correctly 1`] = `
   role="tab"
   tabIndex={-1}
 >
-  <Anchor
+  <Anchor__StyledAnchor
     noLink={true}
     to="#undefined"
   >
     Test
-  </Anchor>
+  </Anchor__StyledAnchor>
 </li>
 `;

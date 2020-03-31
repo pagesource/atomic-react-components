@@ -8,23 +8,23 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <Input
+  <Input__StyledInput
     name="fileupload"
     onChange={[Function]}
     type="file"
   />
-  <Button
+  <Button__StyledButton
     onClick={[Function]}
     tertiary={true}
     type="button"
   >
     Choose File(s)
-  </Button>
-  <Button
+  </Button__StyledButton>
+  <Button__StyledButton
     primary={true}
     type="button"
   >
     Upload...
-  </Button>
+  </Button__StyledButton>
 </div>
 `;

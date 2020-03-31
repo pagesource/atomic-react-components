@@ -2,7 +2,7 @@
 
 exports[`Select Styled component should render correctly 1`] = `
 <ForwardRef
-  className="Textarea-g6e5bs-0 kbqxit"
+  className="Textarea__StyledTextArea-g6e5bs-0 bsPSJE"
   elementLocator=""
   placeholder=""
   resize="none"

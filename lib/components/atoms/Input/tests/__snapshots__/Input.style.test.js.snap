@@ -3,10 +3,11 @@
 exports[`Input Styled component should render correctly 1`] = `
 <ForwardRef
   ariaLabel=""
-  className="Input-sc-133uxg0-0 dgazLh"
+  className="Input__StyledInput-sc-133uxg0-0 FRPZs"
   elementLocator=""
   name="userName"
   placeholder=""
+  ref={null}
   theme={
     Object {
       "animations": Object {
