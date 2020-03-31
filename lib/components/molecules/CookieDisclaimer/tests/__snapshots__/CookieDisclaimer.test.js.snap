@@ -12,8 +12,10 @@ exports[`Test Suite 1: Check for component and it's child rendered correctly. sh
       tertiary={true}
     >
       <Icon
-        id="close"
-      />
+        title="close icon"
+      >
+        <ReactComponent />
+      </Icon>
     </Button>
     <div />
     <ul>

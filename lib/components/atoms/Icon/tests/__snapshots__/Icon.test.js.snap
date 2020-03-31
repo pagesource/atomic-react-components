@@ -1,13 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Icon /> should render correctly 1`] = `
-<span
-  className="icon-wrapper"
-  role="presentation"
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "Icon-sc-14jstry-0",
+        "isStatic": false,
+        "rules": Array [
+          "display:inline-flex;align-items:center;justify-content:center;.icon{background-image:url('/",
+          [Function],
+          "');background-size:100%;background-position:center;background-repeat:no-repeat;width:",
+          [Function],
+          ";height:",
+          [Function],
+          ";display:inline-flex;}",
+          [Function],
+          ";",
+          ";",
+        ],
+      },
+      "displayName": "Icon",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "Icon-sc-14jstry-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  height="30px"
+  title="close icon"
+  width="30px"
 >
-  <i
-    aria-label="play"
-    className="icon"
-  />
-</span>
+  <ReactComponent />
+</StyledComponent>
 `;
