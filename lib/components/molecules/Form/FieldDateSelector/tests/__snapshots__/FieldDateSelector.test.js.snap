@@ -4,41 +4,32 @@ exports[`<FieldDateSelector /> should render correctly 1`] = `
 <div
   className="date-selector"
 >
-  <FieldSelect
+  <FieldSelect__StyledFieldSelect
     className="date date-selector date-selector-field"
     id="date-selector-day"
     name="day"
     onChange={[Function]}
     options={
       Array [
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
         31,
       ]
     }
-    selectedOption={23}
+    selectedOption={31}
   />
-  <FieldSelect
+  <FieldSelect__StyledFieldSelect
     className="Month date-selector date-selector-field"
     id="date-selector-month"
     name="month"
     onChange={[Function]}
     options={Array []}
   />
-  <FieldSelect
+  <FieldSelect__StyledFieldSelect
     className="year date-selector date-selector-field"
     id="date-selector-year"
     name="year"
     onChange={[Function]}
     options={
       Array [
-        2019,
         2020,
         2021,
         2022,
@@ -89,9 +80,10 @@ exports[`<FieldDateSelector /> should render correctly 1`] = `
         2067,
         2068,
         2069,
+        2070,
       ]
     }
-    selectedOption={2019}
+    selectedOption={2020}
   />
 </div>
 `;
