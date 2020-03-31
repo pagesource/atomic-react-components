@@ -2,7 +2,7 @@
 
 exports[`Select Styled component should render correctly 1`] = `
 <select
-  className=""
+  className="select"
   data-locator="select-input-userType-undefined"
   disabled={false}
   name="userType"
@@ -304,16 +304,23 @@ exports[`Select Styled component should render correctly 1`] = `
       },
     }
   }
-  value=""
+  value={null}
 >
   <option
-    key="Option 1"
+    disabled={true}
+    selected={true}
+    value=""
+  >
+    Select
+  </option>
+  <option
+    key="userType_0"
     value="Option 1"
   >
     Option 1
   </option>
   <option
-    key="Option 2"
+    key="userType_1"
     value="Option 2"
   >
     Option 2
