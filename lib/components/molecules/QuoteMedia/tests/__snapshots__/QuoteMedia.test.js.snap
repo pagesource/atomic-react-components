@@ -4,16 +4,16 @@ exports[`<QuoteMedia /> Should render correctly 1`] = `
 <div
   className="quoteMedia"
 >
-  <Heading
+  <Heading__StyledHeading
     HeadingType="h2"
     className="title"
   >
     Inspirational Quotes
-  </Heading>
+  </Heading__StyledHeading>
   <div
     className="container"
   >
-    <Blockquote
+    <Blockquote__StyledBlockquote
       quoteAuthor="- Rear Admiral Grace Murray Hopper"
       quoteContent="Ask forgiveness, not permission."
     />

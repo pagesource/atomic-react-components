@@ -1,66 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Image Component with styles should render correctly and match snapshots 1`] = `
-<StyledComponent
+.c0 {
+  max-width: 100%;
+  height: auto;
+}
+
+<Image
   alt="ABC"
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "Image-sc-1m0q2wx-0",
-        "isStatic": false,
-        "rules": Array [
-          "max-width:100%;height:auto;",
-          [Function],
-          ";",
-          ";",
-        ],
-      },
-      "displayName": "Image",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "Image-sc-1m0q2wx-0",
-      "target": [Function],
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
+  className="c0"
+  elementLocator=""
+  inheritedStyles=""
+  loading="auto"
   placeholderSrc="http://xyz.com"
+  sizes=""
   src="http://abc.com"
+  srcset=""
 />
 `;
 
 exports[`Image Component with styles should render correctly with lazy load 1`] = `
-<StyledComponent
+.c0 {
+  max-width: 100%;
+  height: auto;
+}
+
+<Image
   alt="Dummy Image"
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "Image-sc-1m0q2wx-0",
-        "isStatic": false,
-        "rules": Array [
-          "max-width:100%;height:auto;",
-          [Function],
-          ";",
-          ";",
-        ],
-      },
-      "displayName": "Image",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "Image-sc-1m0q2wx-0",
-      "target": [Function],
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
+  className="c0"
+  elementLocator=""
+  inheritedStyles=""
   loading="lazy"
   placeholderSrc="/images/image-placeholder.png"
   sizes="(min-width: 36em) 33.3vw, 100vw"

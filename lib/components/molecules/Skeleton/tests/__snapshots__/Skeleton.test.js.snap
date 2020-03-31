@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Skeleton /> should render correctly 1`] = `
+<Skeleton__StyledSkeleton>
+  <Skeleton
+    className="Skeleton__StyledSkeleton-sc-1oak7zh-0 iDRFJU"
+  >
+    <div
+      className="skeleton Skeleton__StyledSkeleton-sc-1oak7zh-0 iDRFJU"
+    >
+      <Bar
+        height="18px"
+        marginBottom="0"
+        width="100%"
+      >
+        <div
+          className="bar"
+          style={
+            Object {
+              "height": "18px",
+              "marginBottom": "0",
+              "width": "100%",
+            }
+          }
+        />
+      </Bar>
+      <Circle
+        marginBottom="20px"
+        width="100px"
+      >
+        <div
+          className="circle"
+          style={
+            Object {
+              "height": "100px",
+              "marginBottom": "20px",
+              "width": "100px",
+            }
+          }
+        />
+      </Circle>
+    </div>
+  </Skeleton>
+</Skeleton__StyledSkeleton>
+`;

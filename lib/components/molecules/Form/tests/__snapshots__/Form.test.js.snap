@@ -147,9 +147,9 @@ exports[`Form Component should render input text field 1`] = `
           "_conditions": Array [],
           "_deps": Array [],
           "_exclusive": Object {
+            "email": false,
             "max": true,
             "required": true,
-            "undefined": false,
           },
           "_mutate": undefined,
           "_options": Object {
@@ -260,9 +260,9 @@ exports[`Form Component should render select field 1`] = `
           "_conditions": Array [],
           "_deps": Array [],
           "_exclusive": Object {
+            "email": false,
             "max": true,
             "required": true,
-            "undefined": false,
           },
           "_mutate": undefined,
           "_options": Object {
@@ -373,9 +373,9 @@ exports[`Form Component should render select tag correctly 1`] = `
           "_conditions": Array [],
           "_deps": Array [],
           "_exclusive": Object {
+            "email": false,
             "max": true,
             "required": true,
-            "undefined": false,
           },
           "_mutate": undefined,
           "_options": Object {

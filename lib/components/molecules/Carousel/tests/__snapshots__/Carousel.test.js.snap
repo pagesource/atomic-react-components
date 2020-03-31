@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> should render correctly 1`] = `
+<Carousel
+  autoplay={false}
+  controls={false}
+  dots={true}
+  itemsPerSlide={1}
+  responsive={Array []}
+  slideAnimationTime={3000}
+  slideTransitionTime={2000}
+>
+  <section
+    className="carousel-wrapper"
+  >
+    <Component>
+      <div
+        className="carousel-section"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <div
+          className="carousel-sliding-wrapper"
+        >
+          <Slide
+            id={0}
+            key=".0"
+          >
+            <div
+              className="slide active"
+            >
+              TEst 1 
+            </div>
+          </Slide>
+          <Slide
+            id={1}
+            key=".1"
+          >
+            <div
+              className="slide"
+            >
+              TEst 3 
+            </div>
+          </Slide>
+          <Slide
+            id={2}
+            key=".2"
+          >
+            <div
+              className="slide"
+            >
+              TEst 4 
+            </div>
+          </Slide>
+          <Slide
+            id={3}
+            key=".3"
+          >
+            <div
+              className="slide"
+            >
+              TEst 2 
+            </div>
+          </Slide>
+        </div>
+      </div>
+    </Component>
+    <ListWrapper>
+      <div
+        className="carousel-dots"
+      >
+        <List__StyledList>
+          <List
+            ListType="ul"
+            borderSeparator={false}
+            className="List__StyledList-rp20fd-0 dlvIbB"
+            inheritedStyles=""
+            inline={false}
+            nested={false}
+            noDefaultView={false}
+            noMargin={false}
+          >
+            <ul
+              borderSeparator={false}
+              className="List__StyledList-rp20fd-0 dlvIbB"
+              inheritedStyles=""
+              inline={false}
+              nested={false}
+              noDefaultView={false}
+              noMargin={false}
+            >
+              <GetList>
+                <li
+                  className="item active"
+                  key="0"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                        variation=""
+                      >
+                        1
+                      </button>
+                    </Button>
+                  </Button__StyledButton>
+                </li>
+                <li
+                  className="item"
+                  key="1"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                        variation=""
+                      >
+                        2
+                      </button>
+                    </Button>
+                  </Button__StyledButton>
+                </li>
+                <li
+                  className="item"
+                  key="2"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                        variation=""
+                      >
+                        3
+                      </button>
+                    </Button>
+                  </Button__StyledButton>
+                </li>
+                <li
+                  className="item"
+                  key="3"
+                >
+                  <Button__StyledButton
+                    className="icon"
+                    onClick={[Function]}
+                  >
+                    <Button
+                      ariaLabel=""
+                      className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                      disabled={false}
+                      elementLocator=""
+                      inheritedStyles=""
+                      onClick={[Function]}
+                      primary={false}
+                      secondary={false}
+                      tertiary={false}
+                      transparent={false}
+                      type="button"
+                      variation=""
+                    >
+                      <button
+                        aria-label={null}
+                        className="Button__StyledButton-sc-1ccn477-0 isjRmA icon"
+                        data-locator="button-button-"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                        variation=""
+                      >
+                        4
+                      </button>
+                    </Button>
+                  </Button__StyledButton>
+                </li>
+              </GetList>
+            </ul>
+          </List>
+        </List__StyledList>
+      </div>
+    </ListWrapper>
+  </section>
+</Carousel>
+`;

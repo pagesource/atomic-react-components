@@ -6,32 +6,33 @@ exports[`Test Suite 1: Check for component and it's child rendered correctly. sh
     className="cookie-disclaimer"
     role="alert"
   >
-    <Button
+    <Button__StyledButton
       aria-label="close Cookie Disclaimer"
       onClick={[Function]}
       tertiary={true}
     >
-      <Icon
+      <Icon__StyledIcon
         id="close"
+        title="close"
       />
-    </Button>
+    </Button__StyledButton>
     <div />
     <ul>
       <li>
-        <Button
+        <Button__StyledButton
           onClick={[Function]}
           primary={true}
         >
           Accept & Continue
-        </Button>
+        </Button__StyledButton>
       </li>
       <li>
-        <Button
+        <Button__StyledButton
           onClick={[Function]}
           tertiary={true}
         >
           Decline
-        </Button>
+        </Button__StyledButton>
       </li>
     </ul>
   </div>

@@ -1,47 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input Styled component should render correctly 1`] = `
-<StyledComponent
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "Input-sc-133uxg0-0",
-        "isStatic": false,
-        "rules": Array [
-          [Function],
-          ";",
-          [Function],
-          ";",
-          [Function],
-          ";",
-          ";",
-        ],
-      },
-      "displayName": "Input",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "Input-sc-133uxg0-0",
-      "target": Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "defaultProps": Object {
-          "ariaLabel": "",
-          "className": "",
-          "elementLocator": "",
-          "placeholder": "",
-          "type": "text",
-          "value": "",
-        },
-        "render": [Function],
-      },
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
+.c0 {
+  color: var(--text-cta-tertiary);
+  background-color: var(--bg-cta-tertiary);
+  border: var(--border-size-field) solid var(--field-border-primary);
+  font-size: var(--font-size-field);
+  line-height: var(--line-height-field);
+  padding: 0.5rem 1rem;
+}
+
+<ForwardRef
+  ariaLabel=""
+  className="c0"
+  elementLocator=""
   name="userName"
+  placeholder=""
+  ref={null}
   theme={
     Object {
       "animations": Object {
@@ -174,6 +149,10 @@ exports[`Input Styled component should render correctly 1`] = `
     background-color: var(--brand-disabled);
     color: 1px solid var(--text-cta-disabled);
   ",
+        "HERO_CONTENT": "
+    color: var(--text-inverse);
+    background-color: var(--black);
+  ",
         "LINK_PRIMARY": "
     color: var(--text-link);
   ",
@@ -238,6 +217,10 @@ exports[`Input Styled component should render correctly 1`] = `
         "closewhite": null,
         "error": null,
         "info": null,
+        "leftArrow": null,
+        "pause": null,
+        "play": null,
+        "rightArrow": null,
         "success": null,
         "warning": null,
       },
@@ -332,6 +315,7 @@ exports[`Input Styled component should render correctly 1`] = `
       },
     }
   }
+  type="text"
   value={10}
 />
 `;
