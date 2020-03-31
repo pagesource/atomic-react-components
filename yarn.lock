@@ -7257,6 +7257,11 @@ flow-typed@^3.1.0:
     which "^2.0.2"
     yargs "^15.1.0"
 
+flow@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/flow/-/flow-0.2.3.tgz#f8da65efa249127ec99376a28896572a9795d1af"
+  integrity sha1-+Npl76JJEn7Jk3aiiJZXKpeV0a8=
+
 flowgen@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/flowgen/-/flowgen-1.10.0.tgz#a041ae31d543d22166e7ba7c296b8445deb3c2e4"
