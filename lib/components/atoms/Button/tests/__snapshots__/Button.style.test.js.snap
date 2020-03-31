@@ -3,7 +3,7 @@
 exports[`Button should render correctly 1`] = `
 <Button
   ariaLabel=""
-  className="Button-sc-1ccn477-0 krkESV"
+  className="Button__StyledButton-sc-1ccn477-0 isjRmA"
   disabled={false}
   elementLocator=""
   inheritedStyles=""

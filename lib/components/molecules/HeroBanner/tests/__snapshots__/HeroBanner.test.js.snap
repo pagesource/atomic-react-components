@@ -11,7 +11,7 @@ exports[`<HeroBanner /> should render correctly 1`] = `
     <div
       className="media-wrap"
     >
-      <Image
+      <Image__StyledImage
         alt="Dummy Image"
         placeholderSrc="/images/image-placeholder.png"
         src="/images/bg.jpg"
