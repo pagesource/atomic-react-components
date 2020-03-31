@@ -5,6 +5,10 @@ import { ParaVanilla as Para } from '../../atoms/Para';
 // Import Styled Component to showcase variations
 import Toast, { ToastVanilla } from '.';
 import Icon from '../../atoms/Icon';
+import { ReactComponent as IconInfo } from '../../../styles/themes/base/icons/info.svg';
+import { ReactComponent as IconSuccess } from '../../../styles/themes/base/icons/success.svg';
+import { ReactComponent as IconWarn } from '../../../styles/themes/base/icons/warning.svg';
+import { ReactComponent as IconError } from '../../../styles/themes/base/icons/error.svg';
 
 
 <Meta title="Molecules/Toast" component={ToastVanilla} />
@@ -13,7 +17,9 @@ import Icon from '../../atoms/Icon';
 <Preview>
   <Story name="Toast Info">
    <Toast variation="info" {...defaultToast}>
-      <Icon id="info" title="information icon" />
+     <Icon title="information icon" fill="#fff">
+        <IconInfo />
+      </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
   </Story>
@@ -22,8 +28,9 @@ import Icon from '../../atoms/Icon';
 ### Toast Success
 <Preview>
   <Story name="Toast Success">
- <Toast variation="success" {...defaultToast}>
-      <Icon id="success" title="success icon" />
+ <Toast variation="success" {...defaultToast}> <Icon title="success icon" fill="#fff">
+        <IconSuccess />
+      </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
   </Story>
@@ -34,7 +41,9 @@ import Icon from '../../atoms/Icon';
 <Preview>
   <Story name="Toast Warning">
   <Toast variation="warning" {...defaultToast}>
-      <Icon id="warning" title="warning icon" />
+      <Icon title="warning icon" fill="#fff">
+        <IconWarn />
+      </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
   </Story>
@@ -44,7 +53,9 @@ import Icon from '../../atoms/Icon';
 <Preview>
   <Story name="Toast Error">
  <Toast variation="error" {...defaultToast}>
-      <Icon id="error" title="error icon" />
+      <Icon title="error icon" fill="#fff">
+        <IconError />
+      </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
   </Story>

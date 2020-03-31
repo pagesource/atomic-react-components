@@ -7,6 +7,8 @@ import defaultConfig, {
 } from './Carousel.mock';
 import Image from '../../atoms/Image';
 import Icon from '../../atoms/Icon';
+import { ReactComponent as IconLeftArrow } from '../../../styles/themes/base/icons/left-arrow.svg';
+import { ReactComponent as IconRightArrow } from '../../../styles/themes/base/icons/right-arrow.svg';
 import Carousel, { CarouselVanilla } from '.';
 
 <Meta title="Molecules/Carousel" component={CarouselVanilla} />
@@ -38,7 +40,9 @@ import Carousel, { CarouselVanilla } from '.';
   <Story name="Legacy Carousel">
  <Carousel {...defaultConfig}>
       <Carousel.Prev>
-        <Icon id="leftArrow" />
+        <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -55,7 +59,9 @@ import Carousel, { CarouselVanilla } from '.';
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon id="rightArrow" />
+           <Icon title="next">
+        <IconRightArrow />
+       </Icon>
       </Carousel.Next>
     </Carousel>
   </Story>
@@ -66,7 +72,9 @@ import Carousel, { CarouselVanilla } from '.';
   <Story name="Responsive Carousel">
      <Carousel {...responsiveConfig} dots={false}>
       <Carousel.Prev>
-        <Icon id="leftArrow" />
+         <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -83,7 +91,9 @@ import Carousel, { CarouselVanilla } from '.';
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon id="rightArrow" />
+          <Icon title="next">
+        <IconRightArrow />
+       </Icon>
       </Carousel.Next>
       <Carousel.Dots btnStyle="dots" />
     </Carousel>
@@ -95,7 +105,9 @@ import Carousel, { CarouselVanilla } from '.';
   <Story name="Center Mode Carousel">
     <Carousel {...centerModeConfig} dots={false} centerMode>
       <Carousel.Prev>
-        <Icon id="leftArrow" />
+         <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -112,7 +124,9 @@ import Carousel, { CarouselVanilla } from '.';
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon id="rightArrow" />
+        <Icon title="next">
+        <IconRightArrow />
+       </Icon>
       </Carousel.Next>
     </Carousel>
   </Story>
@@ -123,7 +137,9 @@ import Carousel, { CarouselVanilla } from '.';
   <Story name="Thumbnail Carousel">
    <Carousel {...thumbnailConfig}>
       <Carousel.Prev>
-        <Icon id="leftArrow" />
+          <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -140,7 +156,9 @@ import Carousel, { CarouselVanilla } from '.';
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon id="rightArrow" />
+         <Icon title="next">
+        <IconRightArrow  />
+       </Icon>
       </Carousel.Next>
     </Carousel>
   </Story>
