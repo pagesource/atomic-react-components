@@ -1,8 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Select Styled component should render correctly 1`] = `
+<<<<<<< HEAD
 <ForwardRef
   className="Textarea-g6e5bs-0 kbqxit"
+=======
+.c0 {
+  color: var(--text-cta-tertiary);
+  background-color: var(--bg-cta-tertiary);
+  border: var(--border-size-field) solid var(--field-border-primary);
+  font-size: var(--font-size-field);
+  line-height: var(--line-height-field);
+  padding: 0.5rem 1rem;
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+<ForwardRef
+  className="c0"
+>>>>>>> c0fa077c8b6612ec52ace5c9f4561483480974e5
   elementLocator=""
   placeholder=""
   resize="none"
