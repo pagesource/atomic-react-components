@@ -7,6 +7,7 @@ exports[`Button Component should render correctly 1`] = `
   data-locator="button-button-submit"
   disabled={false}
   type="button"
+  variation=""
 >
   Submit
 </button>

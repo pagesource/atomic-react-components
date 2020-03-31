@@ -33,6 +33,11 @@ module.exports = (distRoot, optimize) => ({
           },
         ],
       },
+      {
+        test: /\.(svg|ico|jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/,
+        loader: 'file-loader',
+        query: { name: 'static/media/[name].[hash:8].[ext]' },
+      },
     ],
   },
   externals: {

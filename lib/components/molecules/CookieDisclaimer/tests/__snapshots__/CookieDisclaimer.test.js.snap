@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Suite 1: Check for component and it's child rendered correctly. should render wrapper correctly for snapshot matching. 1`] = `
+<div>
+  <div
+    className="cookie-disclaimer"
+    role="alert"
+  >
+    <Button__StyledButton
+      aria-label="close Cookie Disclaimer"
+      onClick={[Function]}
+      tertiary={true}
+    >
+      <Icon__StyledIcon
+        id="close"
+        title="close"
+      />
+    </Button__StyledButton>
+    <div />
+    <ul>
+      <li>
+        <Button__StyledButton
+          onClick={[Function]}
+          primary={true}
+        >
+          Accept & Continue
+        </Button__StyledButton>
+      </li>
+      <li>
+        <Button__StyledButton
+          onClick={[Function]}
+          tertiary={true}
+        >
+          Decline
+        </Button__StyledButton>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WithScripts /> should not render duplicate ids 1`] = `
+<WithScripts(comp2)>
+  <comp2
+    injectedProp={Object {}}
+  >
+    <div>
+      Hoc will consume the wrapper Component A and injected respective script details without Duplicate ids
+    </div>
+  </comp2>
+</WithScripts(comp2)>
+`;
+
+exports[`<WithScripts /> should render correctly 1`] = `
+<WithScripts(comp1)>
+  <comp1
+    injectedProp={Object {}}
+  >
+    <div>
+      Hoc will consume the wrapper Component A and injected respective script details
+    </div>
+  </comp1>
+</WithScripts(comp1)>
+`;

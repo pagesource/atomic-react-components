@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> should render correctly 1`] = `
+<span
+  className="icon-wrapper"
+  role="presentation"
+>
+  <i
+    aria-label="play"
+    className="icon"
+  />
+</span>
+`;

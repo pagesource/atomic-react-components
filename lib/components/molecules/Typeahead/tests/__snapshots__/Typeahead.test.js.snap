@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typeahead /> should render correctly 1`] = `
+<div
+  aria-expanded={false}
+  aria-haspopup="true"
+  aria-owns="typeahead-results-word-typeahead"
+  className="typeahead-component"
+  id="typeahead-component"
+>
+  <Label
+    className=""
+    elementLocator=""
+    htmlFor="word-typeahead"
+  />
+  <Input__StyledInput
+    aria-activedescendant=""
+    aria-autocomplete="list"
+    aria-describedby="initInstr"
+    autoComplete="off"
+    disabled={false}
+    id="word-typeahead"
+    inheritedStyles=""
+    name="word-typeahead"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    type="search"
+  />
+  <span
+    id="initInstr"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    When autocomplete results are available use up and down arrows to review and enter to select. Touch device users, explore by touch or with swipe gestures.
+  </span>
+</div>
+`;

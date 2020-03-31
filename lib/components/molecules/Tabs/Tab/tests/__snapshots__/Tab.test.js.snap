@@ -4,17 +4,16 @@ exports[`<Tab /> should render correctly 1`] = `
 <li
   className=""
   id="tab_undefined"
-  inheritedStyles=""
   onClick={[Function]}
   onKeyDown={[Function]}
   role="tab"
   tabIndex={-1}
 >
-  <Anchor
+  <Anchor__StyledAnchor
     noLink={true}
     to="#undefined"
   >
     Test
-  </Anchor>
+  </Anchor__StyledAnchor>
 </li>
 `;

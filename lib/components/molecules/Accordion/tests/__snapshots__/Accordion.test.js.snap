@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> should render correctly 1`] = `
+<Accordion__StyledAccordion>
+  <Accordion
+    className="Accordion__StyledAccordion-vybsad-0 gvcbpS"
+  >
+    <div
+      className="Accordion__StyledAccordion-vybsad-0 gvcbpS"
+    >
+      <AccordionPanel
+        className="panel"
+      >
+        <details
+          className="accordion-panel panel"
+        >
+          <AccordionHeader
+            ariaLabel="Accordion Header"
+            className="accordion-header"
+            isExpanded={false}
+            key=".0"
+            toggleExpanded={[Function]}
+          >
+            <summary
+              aria-expanded={false}
+              aria-label="Accordion Header"
+              className="accordion-header"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              role="button"
+              tabIndex="0"
+            />
+          </AccordionHeader>
+        </details>
+      </AccordionPanel>
+    </div>
+  </Accordion>
+</Accordion__StyledAccordion>
+`;

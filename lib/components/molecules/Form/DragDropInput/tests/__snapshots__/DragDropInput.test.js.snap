@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DDFieldInput Component should render correctly 1`] = `
+<Form
+  className=""
+  debug={false}
+  formWrapperProps={Object {}}
+  initialValues={null}
+  validate={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validationSchema={null}
+  yupValidationSchema={null}
+>
+  <Formik
+    initialValues={null}
+    validate={[Function]}
+    validateOnBlur={true}
+    validateOnChange={true}
+    validationSchema={null}
+  >
+    <Form
+      noValidate={true}
+    >
+      <form
+        action="#"
+        noValidate={true}
+        onReset={[Function]}
+        onSubmit={[Function]}
+      >
+        <DDFieldInput
+          className="dragAndDrop"
+          fieldProps={Object {}}
+          labelProps={Object {}}
+          localeText={
+            Object {
+              "btnTextPrimary": "Choose File(s)",
+              "btnTextSecondary": "Upload...",
+              "dragHelperText": "Drop Files Here...",
+            }
+          }
+          name="fileupload"
+          onBlur={null}
+          onChange={null}
+        >
+          <Button
+            ariaLabel=""
+            className="dragAndDrop"
+            disabled={false}
+            elementLocator=""
+            inheritedStyles=""
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onDragOver={[Function]}
+            onDrop={[Function]}
+            primary={false}
+            secondary={false}
+            tertiary={false}
+            transparent={false}
+            type="button"
+            variation=""
+          >
+            <button
+              aria-label={null}
+              className="dragAndDrop"
+              data-locator="button-button-"
+              disabled={false}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDrop={[Function]}
+              type="button"
+              variation=""
+            >
+              <Label
+                className=""
+                elementLocator=""
+              >
+                <label
+                  className=""
+                  data-locator="label-undefined-"
+                />
+              </Label>
+              <Field
+                name="fileupload"
+                render={[Function]}
+              >
+                <Input__StyledInput
+                  name="fileupload"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  type="file"
+                  value={null}
+                >
+                  <ForwardRef
+                    ariaLabel=""
+                    className="Input__StyledInput-sc-133uxg0-0 FRPZs"
+                    elementLocator=""
+                    name="fileupload"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder=""
+                    type="file"
+                    value={null}
+                  >
+                    <input
+                      aria-label=""
+                      className="Input__StyledInput-sc-133uxg0-0 FRPZs"
+                      data-locator="input-file-fileupload"
+                      name="fileupload"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      placeholder=""
+                      type="file"
+                    />
+                  </ForwardRef>
+                </Input__StyledInput>
+              </Field>
+              Drop Files Here...
+            </button>
+          </Button>
+        </DDFieldInput>
+      </form>
+    </Form>
+  </Formik>
+</Form>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should render correctly 1`] = `
+<Fragment>
+  <nav
+    arial-label=""
+    className=""
+  >
+    <ul
+      className="pagination"
+    >
+      <li
+        className="first"
+      >
+        <Button__StyledButton
+          aria-label=""
+          className="btn-first"
+          disabled={true}
+          onClick={[Function]}
+        >
+          First
+        </Button__StyledButton>
+      </li>
+      <li
+        className="previous"
+      >
+        <Button__StyledButton
+          aria-label=""
+          disabled={true}
+          onClick={[Function]}
+        >
+          Previous
+        </Button__StyledButton>
+      </li>
+      <PaginationList
+        activePage={1}
+        currentPageAria=""
+        executePagination={[Function]}
+        gotoPageAria="Go to Page Number"
+        pageNumbers={Array []}
+      />
+      <li
+        className="next"
+      >
+        <Button__StyledButton
+          aria-label=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          Next
+        </Button__StyledButton>
+      </li>
+      <li
+        className="last"
+      >
+        <Button__StyledButton
+          aria-label=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          Last
+        </Button__StyledButton>
+      </li>
+    </ul>
+  </nav>
+</Fragment>
+`;

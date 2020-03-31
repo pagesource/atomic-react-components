@@ -4,19 +4,17 @@ exports[`<Tabs /> should render correctly 1`] = `
 <div
   className="example"
   id="default-tab"
-  inheritedStyles=""
-  initialSelectedIndex={0}
 >
   <div
     className="tabs-wrap"
   >
-    <List
+    <List__StyledList
       inline={true}
       noDefaultView={true}
       noMargin={true}
       role="tablist"
     >
-      <Tab
+      <Tab__StyledTab
         className=""
         index={0}
         isSelected={true}
@@ -26,8 +24,8 @@ exports[`<Tabs /> should render correctly 1`] = `
         tabId="tab-list-item-0"
       >
         First tab
-      </Tab>
-      <Tab
+      </Tab__StyledTab>
+      <Tab__StyledTab
         className=""
         index={1}
         isSelected={false}
@@ -37,20 +35,20 @@ exports[`<Tabs /> should render correctly 1`] = `
         tabId="tab-list-item-1"
       >
         Second tab
-      </Tab>
-    </List>
+      </Tab__StyledTab>
+    </List__StyledList>
   </div>
   <div
     className="panels-wrap"
   >
-    <TabPanel
+    <TabPanel__StyledTabPanel
       className=""
       index={0}
       isSelected={true}
       key="tab-panel-0"
       tabId="tab-list-item-0"
     >
-      <List
+      <List__StyledList
         ListType="ol"
       >
         <li>
@@ -59,16 +57,16 @@ exports[`<Tabs /> should render correctly 1`] = `
         <li>
           This is ordered list item, content of tab 1.
         </li>
-      </List>
-    </TabPanel>
-    <TabPanel
+      </List__StyledList>
+    </TabPanel__StyledTabPanel>
+    <TabPanel__StyledTabPanel
       className=""
       index={1}
       isSelected={false}
       key="tab-panel-1"
       tabId="tab-list-item-1"
     >
-      <List
+      <List__StyledList
         ListType="ul"
       >
         <li>
@@ -77,8 +75,8 @@ exports[`<Tabs /> should render correctly 1`] = `
         <li>
           This is unordered list item, content of tab 2.
         </li>
-      </List>
-    </TabPanel>
+      </List__StyledList>
+    </TabPanel__StyledTabPanel>
   </div>
 </div>
 `;
