@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> should render correctly 1`] = `
+<Search
+  className="Search__StyledSearch-sc-1f83lm1-0 bLFnzM"
+  inputProps={Object {}}
+>
+  Test
+</Search>
+`;
