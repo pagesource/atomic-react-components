@@ -1,43 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Search /> should render correctly 1`] = `
-<StyledComponent
-  forwardedComponent={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": Array [],
-      "componentStyle": ComponentStyle {
-        "componentId": "Search-sc-1f83lm1-0",
-        "isStatic": false,
-        "rules": Array [
-          [Function],
-          ";.search-box{display:flex;",
-          [Function],
-          ";width:638px;margin:0 auto;}.search-txt{",
-          [Function],
-          ";border:none;background:none;outline:none;flex-grow:1;}.search-button{display:flex;overflow:hidden;}button{",
-          [Function],
-          ";cursor:pointer;background:transparent;}button:hover{background-color:transparent;}.search-icon{",
-          [Function],
-          ";display:block;}.search-mic{background:url(images/googlemic.png) 0 0/24px no-repeat;}.search-loader{background:url(images/search-loader.gif) 0 0/24px no-repeat;",
-          [Function],
-          ";}.search-btn{background:url(images/search.svg) 0 0 no-repeat;}",
-          [Function],
-          ";",
-          ";",
-        ],
-      },
-      "displayName": "Search",
-      "foldedComponentIds": Array [],
-      "render": [Function],
-      "styledComponentId": "Search-sc-1f83lm1-0",
-      "target": [Function],
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
-    }
-  }
-  forwardedRef={null}
+<Search
+  className="Search__StyledSearch-sc-1f83lm1-0 bLFnzM"
+  inputProps={Object {}}
 >
   Test
 </Search>
