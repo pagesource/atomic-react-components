@@ -3,24 +3,25 @@
 exports[`Test render <StickyHeader /> Component Should test component render correctly 1`] = `
 <StickyHeader>
   <StickyHeaderstyle__Wrapper
-    aria-label="Sticky Header"
     className="no-sticky"
     elmRef={
       Object {
         "current": <div
-          aria-label="Sticky Header"
-          class="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eLGfVx no-sticky"
+          class="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 bhETWp no-sticky"
         >
-          <header />
+          <header
+            class="content"
+          />
         </div>,
       }
     }
   >
     <div
-      aria-label="Sticky Header"
-      className="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eLGfVx no-sticky"
+      className="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 bhETWp no-sticky"
     >
-      <header />
+      <header
+        className="content"
+      />
     </div>
   </StickyHeaderstyle__Wrapper>
 </StickyHeader>
