@@ -1,0 +1,25 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+// Import Styled Component to showcase variations
+import defaultConfig from './Blockquote.mock';
+import Blockquote, { BlockquoteVanilla } from '.';
+
+<Meta title="Molecules/Blockquote" component={BlockquoteVanilla} />
+
+### Blockquote
+<Preview>
+  <Story name="Knobs">
+ <BlockquoteVanilla
+      {...defaultConfig}
+      className={`hide-default-sample ${defaultConfig.className}`}
+    />
+  </Story>
+    <Story name="Default">
+<Blockquote {...defaultConfig}  />
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={BlockquoteVanilla} />
+

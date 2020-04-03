@@ -1,0 +1,32 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Input, { InputVanilla } from '.';
+import { textInputElementLocator, fileInput } from './Input.mock';
+
+<Meta title="Atoms/Input" component={InputVanilla} />
+
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+<InputVanilla id="username" label="User Name" type="text" name="username" />
+  </Story>
+</Preview>
+
+### File Input
+<Preview>
+  <Story name="Input FIle">
+<Input {...fileInput} />
+  </Story>
+</Preview>
+
+### Input
+<Preview>
+  <Story name="Input">
+<Input {...textInputElementLocator} />
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={InputVanilla} />

@@ -1,0 +1,30 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import defaultConfig from './ProgressIndicator.mock';
+import ProgressIndicator, { ProgressIndicatorVanilla } from '.';
+
+<Meta title="Molecules/Progress Indicator" component={ProgressIndicatorVanilla} />
+
+### Progress Indicator Vanilla
+<Preview>
+  <Story name="Progress Indicator Vanilla">
+<ProgressIndicatorVanilla {...defaultConfig} />
+  </Story>
+</Preview>
+
+### Progress Indicator
+<Preview>
+  <Story name="Progress Indicator">
+ <ProgressIndicator {...defaultConfig}>
+  <ProgressIndicator.Step> Label1 </ProgressIndicator.Step>
+      <ProgressIndicator.Step> Label2 </ProgressIndicator.Step>
+      <ProgressIndicator.Step> Label3 </ProgressIndicator.Step>
+    </ProgressIndicator>
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={ProgressIndicatorVanilla} />
+

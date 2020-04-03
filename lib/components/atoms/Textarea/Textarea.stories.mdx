@@ -1,0 +1,25 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Textarea, { TextareaVanilla } from '.';
+import { textareaWithCustomElementLocator } from './Textarea.mock';
+
+<Meta title="Atoms/Textarea" component={TextareaVanilla} />
+
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+<TextareaVanilla id="textarea" name="textarea" />
+  </Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Default">
+<Textarea {...textareaWithCustomElementLocator} />
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={TextareaVanilla} />
