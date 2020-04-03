@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test render <StickyHeader /> Component Should test component render correctly 1`] = `
+<StickyHeader>
+  <StickyHeaderstyle__Wrapper
+    aria-label="Sticky Header"
+    className="no-sticky"
+    elmRef={
+      Object {
+        "current": <div
+          aria-label="Sticky Header"
+          class="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eLGfVx no-sticky"
+        >
+          <header />
+        </div>,
+      }
+    }
+  >
+    <div
+      aria-label="Sticky Header"
+      className="StickyHeaderstyle__Wrapper-sc-1npzz5d-0 eLGfVx no-sticky"
+    >
+      <header />
+    </div>
+  </StickyHeaderstyle__Wrapper>
+</StickyHeader>
+`;
