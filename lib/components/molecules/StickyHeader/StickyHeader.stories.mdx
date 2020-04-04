@@ -1,15 +1,31 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 
-import StickyHeader from './StickyHeader';
+import StickyHeader, {StickyHeaderVanilla} from './StickyHeader';
 import defaultConfig from './StickyHeader.mock';
 
-storiesOf('molecules/StickyHeader', module)
-  .addParameters({ jest: ['StickyHeader'] })
-  .add('StickyHeader', () => {
-    return (
-      <div style={{ height: '1200px', overflowY: 'scroll' }}>
-        <p>
+
+<Meta title="Molecules/StickyHeader" component={StickyHeaderVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+    <div style={{ height: '1200px', overflowY: 'scroll' }}>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industrys
+      </p>
+      <StickyHeaderVanilla>
+        <h1 style={{ ...defaultConfig.variation1 }}>Sticky Header: No content width</h1>
+      </StickyHeaderVanilla>
+    </div>
+  </Story>
+</Preview>
+
+### StickyHeader
+<Preview>
+  <Story name="StickyHeader">
+    <div style={{ height: '1200px', overflowY: 'scroll' }}>
+      <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
           been the industrys
         </p>
@@ -48,6 +64,13 @@ storiesOf('molecules/StickyHeader', module)
           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.
         </p>
-      </div>
-    );
-  });
+    </div>
+  </Story>
+</Preview>
+
+
+
+## Props 🔧
+
+<Props of={StickyHeaderVanilla} />
+
