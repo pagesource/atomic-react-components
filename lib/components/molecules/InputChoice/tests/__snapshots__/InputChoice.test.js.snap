@@ -5,7 +5,7 @@ exports[`InputChoiceVanilla Component should render Radio button correctly 1`] =
   className=""
   elementLocator=""
   htmlFor="test_1"
-  showlabelbeforeinput="false"
+  showlabelbeforeinput={false}
 >
   <ForwardRef
     ariaLabel=""
@@ -31,7 +31,7 @@ exports[`InputChoiceVanilla Component should render checkbox correctly 1`] = `
   className=""
   elementLocator=""
   htmlFor="test_2"
-  showlabelbeforeinput="false"
+  showlabelbeforeinput={false}
 >
   <ForwardRef
     ariaLabel=""
