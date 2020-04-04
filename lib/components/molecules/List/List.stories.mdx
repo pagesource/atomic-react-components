@@ -1,0 +1,54 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { unorderedList, orderedList, inlineBorderSeparatedUnorderedList } from './List.mock';
+import List, { ListVanilla } from '.';
+
+<Meta title="Molecules/List" component={ListVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+      <ListVanilla {...unorderedList}>
+      <li key={1}>This is list item</li>
+      <li key={2}>This is list item</li>
+      <li key={3}>This is list item</li>
+    </ListVanilla>
+  </Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Default">
+ <List {...unorderedList}>
+      <li key={1}>This is list item</li>
+      <li key={2}>This is list item</li>
+      <li key={3}>This is list item</li>
+    </List>
+  </Story>
+</Preview>
+
+### Ordered List
+<Preview>
+  <Story name="List Ordered">
+ <List {...orderedList}>
+      <li key={1}>This is ordered List item</li>
+      <li key={2}>This is ordered List item</li>
+      <li key={3}>This is ordered List item</li>
+    </List>
+  </Story>
+</Preview>
+
+### Inline List
+<Preview>
+  <Story name="List Inline">
+ <List {...inlineBorderSeparatedUnorderedList}>
+      <li key={1}>Inline Border Separated Unordered List Item</li>
+      <li key={2}>Inline Border Separated Unordered List Item</li>
+      <li key={3}>Inline Border Separated Unordered List Item</li>
+    </List>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={ListVanilla} />
+

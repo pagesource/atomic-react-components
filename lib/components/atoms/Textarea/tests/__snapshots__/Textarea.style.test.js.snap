@@ -5,6 +5,7 @@ exports[`Select Styled component should render correctly 1`] = `
   className="Textarea__StyledTextArea-g6e5bs-0 bsPSJE"
   elementLocator=""
   placeholder=""
+  ref={null}
   resize="none"
   theme={
     Object {

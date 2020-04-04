@@ -1,13 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Icon /> should render correctly 1`] = `
-<span
-  className="icon-wrapper"
-  role="presentation"
+<Icon
+  className="Icon__StyledIcon-sc-14jstry-0 lgusMR"
+  height="30px"
+  title="close icon"
+  width="30px"
 >
-  <i
-    aria-label="play"
-    className="icon"
-  />
-</span>
+  <ReactComponent />
+</Icon>
 `;

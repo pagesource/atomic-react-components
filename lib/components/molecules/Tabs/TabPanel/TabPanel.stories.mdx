@@ -1,0 +1,25 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import { hiddenPanelConfig, selectedPanelConfig } from './TabPanel.mock';
+import TabPanel, { TabPanelVanilla } from '.';
+
+<Meta title="Molecules/Tabs/TabPanel" component={TabPanelVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+<TabPanelVanilla {...hiddenPanelConfig}>Tab panel content.</TabPanelVanilla>
+</Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Horizontal">
+<TabPanel {...selectedPanelConfig}>Tab panel content.</TabPanel>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={TabPanelVanilla} />
+

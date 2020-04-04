@@ -1,0 +1,37 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import Image from '../../atoms/Image/Image';
+// Import Styled Component to showcase variations
+import QuoteMedia, { QuoteMediaVanilla } from '.';
+import defaultImage from '../../atoms/Image/Image.mock';
+import { defaultQuoteMedia, stackedQuoteMedia } from './QuoteMedia.mock';
+
+<Meta title="Molecules/Quote Media" component={QuoteMediaVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+<QuoteMediaVanilla {...defaultQuoteMedia} />
+  </Story>
+</Preview>
+
+### Column
+<Preview>
+  <Story name="Column">
+<QuoteMedia {...defaultQuoteMedia}>
+      <Image {...defaultImage} />
+    </QuoteMedia>
+  </Story>
+</Preview>
+
+### Stacked
+<Preview>
+  <Story name="Stacked">
+      <QuoteMedia {...stackedQuoteMedia}>
+      <Image {...defaultImage} />
+    </QuoteMedia>
+  </Story>
+</Preview>
+
+
+

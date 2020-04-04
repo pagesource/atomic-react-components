@@ -1,0 +1,31 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { checkbox, inputRadio } from './InputChoice.mock';
+import InputChoice, { InputChoiceVanilla } from './InputChoice';
+
+<Meta title="Molecules/InputChoice" component={InputChoiceVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+    <InputChoiceVanilla {...checkbox} />
+  </Story>
+</Preview>
+
+### Input Type Checkbox
+<Preview>
+  <Story name="Input Type Checkbox">
+ <InputChoice {...checkbox} />
+  </Story>
+</Preview>
+
+### Input Type Radio
+<Preview>
+  <Story name="Input Type Radio">
+ <InputChoice {...inputRadio} />
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={InputChoiceVanilla} />
+

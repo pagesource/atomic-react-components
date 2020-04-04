@@ -1,0 +1,31 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Image, { ImageVanilla } from '.';
+import defaultImage, { lazyLoadedImage, customImageLocator } from './Image.mock';
+
+<Meta title="Atoms/Image" component={ImageVanilla} />
+
+
+### Image Vanilla
+<Preview>
+  <Story name="Vanilla Image">
+ <ImageVanilla {...defaultImage} />
+  </Story>
+</Preview>
+
+### custom Image Locator
+<Preview>
+  <Story name="custom Image">
+ <Image {...customImageLocator} />
+  </Story>
+</Preview>
+
+### lazy Loaded Image
+<Preview>
+  <Story name="lazy Loaded">
+ <Image {...lazyLoadedImage} />
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={ImageVanilla} />

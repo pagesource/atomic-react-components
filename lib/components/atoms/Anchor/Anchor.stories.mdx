@@ -1,0 +1,40 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Anchor, { AnchorVanilla } from '.';
+import { defaultAnchor, secondaryAnchor, customLocatorOnAnchor, openInNewTabAnchor } from './Anchor.mock';
+
+<Meta title="Atoms/Links" component={Anchor} />
+
+
+### Anchor Vanilla
+<Preview>
+  <Story name="Knobs">
+   <AnchorVanilla {...defaultAnchor}>Click Me</AnchorVanilla>
+  </Story>
+</Preview>
+
+### Secondary Anchor
+<Preview>
+    <Story name="Secondary Link">
+  <Anchor {...secondaryAnchor}>Click Me</Anchor>
+  </Story>
+</Preview>
+
+
+### Custom Locator On Anchor
+<Preview>
+    <Story name="Custom Locator On Link">
+  <Anchor {...customLocatorOnAnchor}>Click Me</Anchor>
+  </Story>
+</Preview>
+
+### Open In New Tab Anchor
+<Preview>
+    <Story name="Open In New Tab Link">
+  <Anchor {...openInNewTabAnchor}>Click Me</Anchor>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={AnchorVanilla} />
+

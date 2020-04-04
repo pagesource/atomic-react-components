@@ -1,0 +1,23 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+// Import Styled Component to showcase variations
+import defaultConfig from './Breadcrumb.mock';
+import Breadcrumb, { BreadcrumbVanilla } from '.';
+
+
+<Meta title="Molecules/Breadcrumb" component={BreadcrumbVanilla} />
+
+### Breadcrumb Vanilla
+<Preview>
+  <Story name="Knobs">
+<BreadcrumbVanilla {...defaultConfig} />
+  </Story>
+</Preview>
+
+### Breadcrumb Default
+<Preview>
+    <Story name="Default">
+<Breadcrumb {...defaultConfig} />
+  </Story>
+</Preview>
+
+

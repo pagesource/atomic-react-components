@@ -1,0 +1,18 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import  Icon, {IconVanilla}  from './index.js';
+import { ReactComponent as IconClose } from '../../../static/images/close.svg';
+import defaultConfig from './Icon.mock';
+
+<Meta title="Atoms/Icons" component={IconVanilla} />
+
+### Icon
+'IconClose' - import { ReactComponent as IconClose } from 'svg img path';
+
+<Preview>
+  <Story name="Close Icon">
+      <IconVanilla  {...defaultConfig} fill="#000" title="close icon"  width="30px" height="30px">
+        <IconClose />
+       </IconVanilla>
+  </Story>
+</Preview>
+
