@@ -1,0 +1,31 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import defaultConfig from './Search.mock';
+import Search, { SearchVanilla } from '.';
+
+const ListItem = ({ children }) => children;
+
+<Meta title="Molecules/Search" component={SearchVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+  <SearchVanilla
+      {...defaultConfig}
+      className={`hide-default-sample ${defaultConfig.className}`}
+    />
+  </Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Default">
+  <Search {...defaultConfig} renderListItem={(item) => <ListItem key={item}>{item}</ListItem>} />
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={SearchVanilla} />
+
