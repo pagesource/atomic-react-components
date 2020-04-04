@@ -1,0 +1,117 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { defaultConfig, verticalHeader } from './Table.mock';
+import Table, { TableVanilla } from '.';
+import { checkboxHeader } from '../InputChoice/InputChoice.mock';
+import InputChoice from '../InputChoice';
+import Button from '../../atoms/Button';
+import { primaryButton } from '../../atoms/Button/Button.mock';
+
+
+<Meta title="Molecules/Table" component={TableVanilla} />
+
+### Table Knobs
+<Preview>
+  <Story name="Table Knobs">
+    <TableVanilla {...defaultConfig}>
+      <TableVanilla.Head dataMappingKey="name" key="name">
+        Dessert (100g serving)
+      </TableVanilla.Head>
+      <TableVanilla.Head dataMappingKey="calories" key="calories">
+        Calories
+      </TableVanilla.Head>
+      <TableVanilla.Head dataMappingKey="fat" key="fat">
+        Fat (g)
+      </TableVanilla.Head>
+      <TableVanilla.Head dataMappingKey="carbs" key="carbs">
+        Carbs (g)
+      </TableVanilla.Head>
+      <TableVanilla.Head dataMappingKey="protein" key="protein">
+        Protein (g)
+      </TableVanilla.Head>
+    </TableVanilla>
+</Story>
+</Preview>
+
+### Default Table
+<Preview>
+  <Story name="Default Table">
+  <Table {...defaultConfig}>
+      <Table.Head dataMappingKey="name" key="name">
+        Dessert (100g serving)
+      </Table.Head>
+      <Table.Head dataMappingKey="calories" key="calories">
+        Calories
+      </Table.Head>
+      <Table.Head dataMappingKey="fat" key="fat">
+        Fat (g)
+      </Table.Head>
+      <Table.Head dataMappingKey="carbs" key="carbs">
+        Carbs (g)
+      </Table.Head>
+      <Table.Head dataMappingKey="protein" key="protein">
+        Protein (g)
+      </Table.Head>
+    </Table>
+  </Story>
+</Preview>
+
+### Table vertical
+<Preview>
+  <Story name="Table vertical">
+<Table {...defaultConfig} {...verticalHeader}>
+      <Table.Head dataMappingKey="name" key="name">
+        Dessert (100g serving)
+      </Table.Head>
+      <Table.Head dataMappingKey="calories" key="calories">
+        Calories
+      </Table.Head>
+      <Table.Head dataMappingKey="fat" key="fat">
+        Fat (g)
+      </Table.Head>
+      <Table.Head dataMappingKey="carbs" key="carbs">
+        Carbs (g)
+      </Table.Head>
+      <Table.Head dataMappingKey="protein" key="protein">
+        Protein (g)
+      </Table.Head>
+    </Table>
+  </Story>
+</Preview>
+
+
+### Table with input box
+<Preview>
+  <Story name="Table with input box">
+<Table {...defaultConfig}>
+      <Table.Head key="input" cellDataUsingComponent={() => <InputChoice {...checkboxHeader} />}>
+        <InputChoice {...checkboxHeader} />
+      </Table.Head>
+      <Table.Head dataMappingKey="name" key="name">
+        Dessert (100g serving)
+      </Table.Head>
+      <Table.Head dataMappingKey="calories" key="calories">
+        Calories
+      </Table.Head>
+      <Table.Head dataMappingKey="fat" key="fat">
+        Fat (g)
+      </Table.Head>
+      <Table.Head dataMappingKey="carbs" key="carbs">
+        Carbs (g)
+      </Table.Head>
+      <Table.Head dataMappingKey="protein" key="protein">
+        Protein (g)
+      </Table.Head>
+      <Table.Head
+        key="button"
+        cellDataUsingComponent={() => <Button {...primaryButton}>Action</Button>}
+      >
+        Submit
+      </Table.Head>
+    </Table>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={TableVanilla} />
+

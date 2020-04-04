@@ -1,0 +1,25 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Track, { TrackVanilla } from '.';
+import defaultConfig from './Track.mock';
+
+<Meta title="Atoms/Track" component={TrackVanilla} />
+
+
+### Track Knobs
+<Preview>
+  <Story name="Track Knobs">
+<TrackVanilla {...defaultConfig} />
+  </Story>
+</Preview>
+
+### Track
+<Preview>
+  <Story name="Default Track">
+<Track {...defaultConfig} />
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={TrackVanilla} />

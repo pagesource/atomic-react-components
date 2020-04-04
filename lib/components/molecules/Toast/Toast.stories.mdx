@@ -1,7 +1,6 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-// import { action } from '@storybook/addon-actions';
-import defaultToast from './Toast.mock';
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import defaultToast from './Toast.mock.js'
 import { ParaVanilla as Para } from '../../atoms/Para';
 // Import Styled Component to showcase variations
 import Toast, { ToastVanilla } from '.';
@@ -11,38 +10,60 @@ import { ReactComponent as IconSuccess } from '../../../styles/themes/base/icons
 import { ReactComponent as IconWarn } from '../../../styles/themes/base/icons/warning.svg';
 import { ReactComponent as IconError } from '../../../styles/themes/base/icons/error.svg';
 
-storiesOf('Molecules/Toast', module)
-  .addParameters({ jest: ['Toast', 'ToastVanilla'] })
-  .add('Toast Info', () => (
-    <Toast variation="info" {...defaultToast}>
-      <Icon title="information icon" fill="#fff">
+
+<Meta title="Molecules/Toast" component={ToastVanilla} />
+
+### Toast Info
+<Preview>
+  <Story name="Toast Info">
+   <Toast variation="info" {...defaultToast}>
+     <Icon title="information icon" fill="#fff">
         <IconInfo />
       </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
-  ))
-  .add('Toast Success', () => (
-    <Toast variation="success" {...defaultToast}>
-      <Icon title="success icon" fill="#fff">
+  </Story>
+</Preview>
+
+### Toast Success
+<Preview>
+  <Story name="Toast Success">
+ <Toast variation="success" {...defaultToast}> <Icon title="success icon" fill="#fff">
         <IconSuccess />
       </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
-  ))
-  .add('Toast Warning', () => (
-    <Toast variation="warning" {...defaultToast}>
+  </Story>
+</Preview>
+
+
+### Toast Warning
+<Preview>
+  <Story name="Toast Warning">
+  <Toast variation="warning" {...defaultToast}>
       <Icon title="warning icon" fill="#fff">
         <IconWarn />
       </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
-  ))
-  .add('Toast Error', () => (
-    <Toast variation="error" {...defaultToast}>
+  </Story>
+</Preview>
+
+### Toast Error
+<Preview>
+  <Story name="Toast Error">
+ <Toast variation="error" {...defaultToast}>
       <Icon title="error icon" fill="#fff">
         <IconError />
       </Icon>
       <Para>Wow so easy !</Para>
     </Toast>
-  ))
-  .add('ToastVanilla', () => <ToastVanilla {...defaultToast}>Wow so easy!</ToastVanilla>);
+  </Story>
+</Preview>
+
+
+
+## Props 🔧
+
+<Props of={ToastVanilla} />
+

@@ -31,12 +31,12 @@ addDecorator((storyFn, context) => (
 const cssReq = require.context('!!raw-loader!../lib/styles/themes/base/tokens/', true, /.\.css$/);
 const cssTokenFiles = cssReq
   .keys()
-  .map(filename => ({ filename, content: cssReq(filename).default }));
+  .map((filename) => ({ filename, content: cssReq(filename).default }));
 
 const svgIconsReq = require.context('!!raw-loader!../lib/styles/themes/base', true, /.\.svg$/);
 const svgIconTokenFiles = svgIconsReq
   .keys()
-  .map(filename => ({ filename, content: svgIconsReq(filename).default }));
+  .map((filename) => ({ filename, content: svgIconsReq(filename).default }));
 
 addParameters({
   options: {
@@ -59,10 +59,9 @@ addParameters({
   },
 });
 
-const req = require.context('../lib/components/', true, /story\.js$/);
-
+const req = require.context('../lib/components/', true, /.stories\.(js|mdx)$/);
 function loadStories() {
-  req.keys().forEach(filename => req(filename));
+  req.keys().forEach((filename) => req(filename));
 }
 
 configure(loadStories, module);
