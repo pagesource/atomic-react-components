@@ -1,6 +1,4 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import defaultConfig, {
   responsiveConfig,
   vanillaConfig,
@@ -11,14 +9,14 @@ import Image from '../../atoms/Image';
 import Icon from '../../atoms/Icon';
 import { ReactComponent as IconLeftArrow } from '../../../styles/themes/base/icons/left-arrow.svg';
 import { ReactComponent as IconRightArrow } from '../../../styles/themes/base/icons/right-arrow.svg';
-
-// Import Styled Component to showcase variations
 import Carousel, { CarouselVanilla } from '.';
 
-storiesOf('Molecules/Carousel', module)
-  .addParameters({ jest: ['Carousel', 'CarouselVanilla'] })
-  .add('Carousel Vanilla', () => (
-    <CarouselVanilla {...vanillaConfig}>
+<Meta title="Molecules/Carousel" component={CarouselVanilla} />
+
+### Carousel Vanilla
+<Preview>
+  <Story name="Carousel Vanilla">
+ <CarouselVanilla {...vanillaConfig}>
       <CarouselVanilla.SlideWrapper>
         <CarouselVanilla.Slide>
           <Image src="/images/dummies/1280.png" alt="1.jpg" />
@@ -34,13 +32,17 @@ storiesOf('Molecules/Carousel', module)
         </CarouselVanilla.Slide>
       </CarouselVanilla.SlideWrapper>
     </CarouselVanilla>
-  ))
-  .add('Legacy Carousel', () => (
-    <Carousel {...defaultConfig}>
+  </Story>
+</Preview>
+
+### Legacy Carousel
+<Preview>
+  <Story name="Legacy Carousel">
+ <Carousel {...defaultConfig}>
       <Carousel.Prev>
         <Icon title="pre">
-          <IconLeftArrow />
-        </Icon>
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -57,18 +59,22 @@ storiesOf('Molecules/Carousel', module)
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon title="next">
-          <IconRightArrow />
-        </Icon>
+           <Icon title="next">
+        <IconRightArrow />
+       </Icon>
       </Carousel.Next>
     </Carousel>
-  ))
-  .add('Responsive Carousel', () => (
-    <Carousel {...responsiveConfig} dots={false}>
+  </Story>
+</Preview>
+
+### Responsive Carousel
+<Preview>
+  <Story name="Responsive Carousel">
+     <Carousel {...responsiveConfig} dots={false}>
       <Carousel.Prev>
-        <Icon title="pre">
-          <IconLeftArrow />
-        </Icon>
+         <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -85,19 +91,23 @@ storiesOf('Molecules/Carousel', module)
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon title="next">
-          <IconRightArrow />
-        </Icon>
+          <Icon title="next">
+        <IconRightArrow />
+       </Icon>
       </Carousel.Next>
       <Carousel.Dots btnStyle="dots" />
     </Carousel>
-  ))
-  .add('Center Mode Carousel', () => (
+  </Story>
+</Preview>
+
+### Center Mode Carousel
+<Preview>
+  <Story name="Center Mode Carousel">
     <Carousel {...centerModeConfig} dots={false} centerMode>
       <Carousel.Prev>
-        <Icon title="pre">
-          <IconLeftArrow />
-        </Icon>
+         <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -115,17 +125,21 @@ storiesOf('Molecules/Carousel', module)
       </Carousel.SlideWrapper>
       <Carousel.Next>
         <Icon title="next">
-          <IconRightArrow />
-        </Icon>
+        <IconRightArrow />
+       </Icon>
       </Carousel.Next>
     </Carousel>
-  ))
-  .add('Thumbnail Carousel', () => (
-    <Carousel {...thumbnailConfig}>
+  </Story>
+</Preview>
+
+### Thumbnail Carousel
+<Preview>
+  <Story name="Thumbnail Carousel">
+   <Carousel {...thumbnailConfig}>
       <Carousel.Prev>
-        <Icon title="pre">
-          <IconLeftArrow />
-        </Icon>
+          <Icon title="pre">
+        <IconLeftArrow />
+       </Icon>
       </Carousel.Prev>
       <Carousel.SlideWrapper>
         <Carousel.Slide>
@@ -142,9 +156,16 @@ storiesOf('Molecules/Carousel', module)
         </Carousel.Slide>
       </Carousel.SlideWrapper>
       <Carousel.Next>
-        <Icon title="next">
-          <IconRightArrow />
-        </Icon>
+         <Icon title="next">
+        <IconRightArrow  />
+       </Icon>
       </Carousel.Next>
     </Carousel>
-  ));
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={CarouselVanilla} />
+

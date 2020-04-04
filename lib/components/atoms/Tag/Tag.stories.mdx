@@ -1,0 +1,47 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Tag, { TagVanilla } from '.';
+import defaultConfig from './Tag.mock';
+
+<Meta title="Atoms/Tag" component={TagVanilla} />
+
+
+### Tag Vanilla Default
+<Preview>
+  <Story name="Tag Vanilla Default">
+  <TagVanilla {...defaultConfig}>Tag Vanilla</TagVanilla>
+  </Story>
+</Preview>
+
+### Tag Default
+<Preview>
+    <Story name="Tag Default">
+<Tag {...defaultConfig}>Tag Default</Tag>
+  </Story>
+</Preview>
+
+### Tag Removable
+<Preview>
+    <Story name="Tag Removable">
+<Tag {...defaultConfig} tagName="tag1" variation="removable" />
+  </Story>
+</Preview>
+
+### Tag Inherited styles
+<Preview>
+    <Story name="Tag Inherited styles">
+  <Tag
+      {...defaultConfig}
+      variation="removable"
+      tagName="tag1"
+      inheritedStyles={`border: 2px solid red;}`}
+    >
+      Tag Removable
+    </Tag>
+  </Story>
+</Preview>
+
+
+
+## Props 🔧
+
+<Props of={TagVanilla} />

@@ -1,0 +1,33 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import List from '../List';
+import { defaultVisiblePopover } from './Popover.mock';
+import Popover, { PopoverVanilla } from '.';
+
+<Meta title="Molecules/Popover" component={PopoverVanilla} />
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+ <PopoverVanilla {...defaultVisiblePopover}>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua.
+    </PopoverVanilla>
+  </Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Default">
+ <Popover {...defaultVisiblePopover}>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua.
+    </Popover>
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={PopoverVanilla} />
+

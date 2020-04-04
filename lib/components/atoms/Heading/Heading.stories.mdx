@@ -1,0 +1,25 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Heading, { HeadingVanilla } from '.';
+import { mainHeading, headingWithCustomLocator } from './Heading.mock.js';
+
+<Meta title="Atoms/Headings" component={HeadingVanilla} />
+
+
+### Heading Vanilla
+<Preview>
+  <Story name="Vanilla Heading">
+   <HeadingVanilla {...headingWithCustomLocator}>This is Heading text</HeadingVanilla>
+  </Story>
+</Preview>
+
+### Heading With Custom Locator
+<Preview>
+    <Story name="Custom Heading">
+ <Heading {...headingWithCustomLocator}>This is Heading text</Heading>
+  </Story>
+</Preview>
+
+
+## Props 🔧
+
+<Props of={HeadingVanilla} />

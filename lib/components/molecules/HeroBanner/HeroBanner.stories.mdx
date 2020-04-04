@@ -1,0 +1,56 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import {
+  stackedHeroBanner,
+  sideBySideHeroBanner,
+  positionedExternalContent,
+} from './HeroBanner.mock';
+import Button from '../../atoms/Button/Button';
+import primaryButton from '../../atoms/Button/Button.mock';
+import Para from '../../atoms/Para/Para';
+import HeroBanner, {HeroBannerVanilla} from '.';
+
+<Meta title="Molecules/Hero Banner" component={HeroBannerVanilla} />
+
+### Hero Banner
+<Preview>
+  <Story name="Hero Banner">
+  <HeroBanner {...stackedHeroBanner}>
+      <Para>Content will be displayed here in the banner</Para>
+    </HeroBanner>
+  </Story>
+</Preview>
+
+### Stacked
+<Preview>
+  <Story name="Stacked">
+<HeroBanner {...stackedHeroBanner}>
+      <Para>Content will be displayed here in the banner</Para>
+      <Button {...primaryButton}>CTA</Button>
+    </HeroBanner>
+  </Story>
+</Preview>
+
+### Side By Side
+<Preview>
+  <Story name="Input Type Radio">
+ <HeroBanner {...sideBySideHeroBanner}>
+      <Para>Content will be displayed here in the banner</Para>
+      <Button {...primaryButton}>CTA</Button>
+    </HeroBanner>
+  </Story>
+</Preview>
+
+### Positioned Content
+<Preview>
+  <Story name="Positioned Content">
+ <HeroBanner {...positionedExternalContent}>
+      <Para>Content will be displayed here in the banner</Para>
+      <Button {...primaryButton}>CTA</Button>
+    </HeroBanner>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={HeroBannerVanilla} />
+
