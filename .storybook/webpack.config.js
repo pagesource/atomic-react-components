@@ -1,34 +1,14 @@
-const path = require('path');
-
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.(css)$/,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              options: {
-                includePaths: [path.resolve('../node_modules')],
-              },
-            },
-          },
-        ],
-      },
-    ],
-  },
-};
-
-module.exports = function({ config }) {
-  config.module.rules.push({
-    test: /\.story.js?$/,
-    loaders: [require.resolve('@storybook/source-loader')],
-    enforce: 'pre',
+module.exports = ({ config, mode }) => {
+  const assetRule = config.module.rules.find(({ test }) => test.test('.svg'));
+  const assetLoader = {
+    loader: assetRule.loader,
+    options: assetRule.options || assetRule.query,
+  };
+  config.module.rules.unshift({
+    test: /\.svg$/,
+    use: ['@svgr/webpack', assetLoader],
   });
+  config.module.rules = [{ oneOf: config.module.rules }];
 
   return config;
 };

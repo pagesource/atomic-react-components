@@ -1,0 +1,69 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+
+import defaultToast from './Toast.mock.js'
+import { ParaVanilla as Para } from '../../atoms/Para';
+// Import Styled Component to showcase variations
+import Toast, { ToastVanilla } from '.';
+import Icon from '../../atoms/Icon';
+import { ReactComponent as IconInfo } from '../../../styles/themes/base/icons/info.svg';
+import { ReactComponent as IconSuccess } from '../../../styles/themes/base/icons/success.svg';
+import { ReactComponent as IconWarn } from '../../../styles/themes/base/icons/warning.svg';
+import { ReactComponent as IconError } from '../../../styles/themes/base/icons/error.svg';
+
+
+<Meta title="Molecules/Toast" component={ToastVanilla} />
+
+### Toast Info
+<Preview>
+  <Story name="Toast Info">
+   <Toast variation="info" {...defaultToast}>
+     <Icon title="information icon" fill="#fff">
+        <IconInfo />
+      </Icon>
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+### Toast Success
+<Preview>
+  <Story name="Toast Success">
+ <Toast variation="success" {...defaultToast}> <Icon title="success icon" fill="#fff">
+        <IconSuccess />
+      </Icon>
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+
+### Toast Warning
+<Preview>
+  <Story name="Toast Warning">
+  <Toast variation="warning" {...defaultToast}>
+      <Icon title="warning icon" fill="#fff">
+        <IconWarn />
+      </Icon>
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+### Toast Error
+<Preview>
+  <Story name="Toast Error">
+ <Toast variation="error" {...defaultToast}>
+      <Icon title="error icon" fill="#fff">
+        <IconError />
+      </Icon>
+      <Para>Wow so easy !</Para>
+    </Toast>
+  </Story>
+</Preview>
+
+
+
+## Props 🔧
+
+<Props of={ToastVanilla} />
+
