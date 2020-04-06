@@ -41,6 +41,8 @@ const buildLib = step('commonjs modules', libRoot, async () => {
  */
 const buildEsm = step('es modules', esRoot, async () => {
   await shell(`npx babel ${srcRoot} --out-dir ${esRoot} --env-name "esm"`);
+  await shell(`cp -a ${srcRoot}/styles/themes/base/icons/. ${esRoot}/styles/themes/base/icons/`);
+  await shell(`cp -a ${srcRoot}/styles/themes/base/tokens/. ${esRoot}/styles/themes/base/tokens/`);
   await shell('echo "// @flow\n\nexport * from \'../../lib\'" > dist/es/index.js.flow');
 });
 

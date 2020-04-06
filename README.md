@@ -25,10 +25,20 @@ npm install @xt-pagesource/atomic-react-pattern-lib
 ```
 
 To reuse one of the component in your react components just import the components you need. Each component has its un-styled export too as Vanilla version.
+For components with Default styles, you need to import base Theme and GlobalStyles. base theme needs to be passed as a prop
+to our react components. You may use ThemeProvider from styled-components to pass down Theme prop to every component in the hierarchy
+GlobalStyles needs to be initialized before other components as well
 
 ```javascript
 //1. With Default Styles
-import { Button } from '@xt-pagesource/atomic-react-pattern-lib';
+import { Button, Theme, GlobalStyles } from '@xt-pagesource/atomic-react-pattern-lib';
+
+<GlobalStyles>
+<ThemeProvider theme={Theme}>
+  <Button>Test</Button>
+</ThemeProvider>
+
+//
 
 //2. Without Default Styles
 import { ButtonVanilla } from '@xt-pagesource/atomic-react-pattern-lib';
