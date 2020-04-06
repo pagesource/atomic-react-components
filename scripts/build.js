@@ -26,12 +26,18 @@ const shell = (cmd) => execa(cmd, { stdio: ['pipe', 'pipe', 'inherit'], shell: t
 
 const has = (t) => !targets.length || targets.includes(t);
 
+const copyStyles = async (target) => {
+  await shell(`cp -a ${srcRoot}/styles/themes/base/icons/. ${target}/styles/themes/base/icons/`);
+  await shell(`cp -a ${srcRoot}/styles/themes/base/tokens/. ${target}/styles/themes/base/tokens/`);
+};
+
 /**
  * Run babel over the src directory and output
  * compiled common js files to ./lib.
  */
 const buildLib = step('commonjs modules', libRoot, async () => {
   await shell(`npx babel ${srcRoot} --out-dir ${libRoot} --env-name "lib"`);
+  await copyStyles(libRoot);
   await shell('echo "// @flow\n\nexport * from \'../lib\'" > dist/index.js.flow');
 });
 
@@ -41,8 +47,7 @@ const buildLib = step('commonjs modules', libRoot, async () => {
  */
 const buildEsm = step('es modules', esRoot, async () => {
   await shell(`npx babel ${srcRoot} --out-dir ${esRoot} --env-name "esm"`);
-  await shell(`cp -a ${srcRoot}/styles/themes/base/icons/. ${esRoot}/styles/themes/base/icons/`);
-  await shell(`cp -a ${srcRoot}/styles/themes/base/tokens/. ${esRoot}/styles/themes/base/tokens/`);
+  await copyStyles(esRoot);
   await shell('echo "// @flow\n\nexport * from \'../../lib\'" > dist/es/index.js.flow');
 });
 
