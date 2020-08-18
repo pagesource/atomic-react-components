@@ -3,6 +3,7 @@
 exports[`Image Component should render correctly and match snapshots 1`] = `
 <img
   alt="ABC"
+  className=""
   data-locator="my-custom-image-locator"
   loading="auto"
   onError={[Function]}

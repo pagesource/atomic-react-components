@@ -13,7 +13,6 @@ We are using few VS Code extension as well to adhere to our coding standards. Be
 - [**EditorConfig for VS Code**](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [**ESLint**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [**Prettier - Code Formatter**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [**vscode-flow-ide**](https://marketplace.visualstudio.com/items?itemName=gcazaciuc.vscode-flow-ide)
 - [**npm Intellisense**](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [**SonarLint**](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 - [**Import Cost**](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)

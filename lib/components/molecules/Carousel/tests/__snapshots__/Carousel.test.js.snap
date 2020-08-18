@@ -23,6 +23,7 @@ exports[`<Carousel /> should render correctly 1`] = `
           className="carousel-sliding-wrapper"
         >
           <Slide
+            className=""
             id={0}
             key=".0"
           >
@@ -33,6 +34,7 @@ exports[`<Carousel /> should render correctly 1`] = `
             </div>
           </Slide>
           <Slide
+            className=""
             id={1}
             key=".1"
           >
@@ -43,6 +45,7 @@ exports[`<Carousel /> should render correctly 1`] = `
             </div>
           </Slide>
           <Slide
+            className=""
             id={2}
             key=".2"
           >
@@ -53,6 +56,7 @@ exports[`<Carousel /> should render correctly 1`] = `
             </div>
           </Slide>
           <Slide
+            className=""
             id={3}
             key=".3"
           >

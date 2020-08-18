@@ -32,7 +32,7 @@ const has = (t) => !targets.length || targets.includes(t);
  */
 const buildLib = step('commonjs modules', libRoot, async () => {
   await shell(`npx babel ${srcRoot} --out-dir ${libRoot} --env-name "lib"`);
-  await shell('echo "// @flow\n\nexport * from \'../lib\'" > dist/index.js.flow');
+  await shell('echo "export * from \'../lib\'" > dist/index.js');
 });
 
 /**
@@ -43,7 +43,7 @@ const buildEsm = step('es modules', esRoot, async () => {
   await shell(`npx babel ${srcRoot} --out-dir ${esRoot} --env-name "esm"`);
   await shell(`cp -a ${srcRoot}/styles/themes/base/icons/. ${esRoot}/styles/themes/base/icons/`);
   await shell(`cp -a ${srcRoot}/styles/themes/base/tokens/. ${esRoot}/styles/themes/base/tokens/`);
-  await shell('echo "// @flow\n\nexport * from \'../../lib\'" > dist/es/index.js.flow');
+  await shell('echo "export * from \'../../lib\'" > dist/es/index.js');
 });
 
 /**
