@@ -87,12 +87,14 @@ exports[`Form Component should render input field with yupValidationSchema 1`] =
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
       },
       "tests": Array [],
       "transforms": Array [
         [Function],
       ],
+      "type": "object",
     }
   }
 >
@@ -170,6 +172,7 @@ exports[`Form Component should render input text field 1`] = `
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
         "username": StringSchema {
           "_blacklist": RefSet {
@@ -200,12 +203,14 @@ exports[`Form Component should render input text field 1`] = `
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
       },
       "tests": Array [],
       "transforms": Array [
         [Function],
       ],
+      "type": "object",
     }
   }
 >
@@ -283,6 +288,7 @@ exports[`Form Component should render select field 1`] = `
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
         "username": StringSchema {
           "_blacklist": RefSet {
@@ -313,12 +319,14 @@ exports[`Form Component should render select field 1`] = `
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
       },
       "tests": Array [],
       "transforms": Array [
         [Function],
       ],
+      "type": "object",
     }
   }
 >
@@ -396,6 +404,7 @@ exports[`Form Component should render select tag correctly 1`] = `
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
         "username": StringSchema {
           "_blacklist": RefSet {
@@ -426,12 +435,14 @@ exports[`Form Component should render select tag correctly 1`] = `
           "transforms": Array [
             [Function],
           ],
+          "type": "string",
         },
       },
       "tests": Array [],
       "transforms": Array [
         [Function],
       ],
+      "type": "object",
     }
   }
 >

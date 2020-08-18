@@ -10,7 +10,7 @@ import Accordion, {AccordionVanilla} from '.';
 <Preview>
   <Story name="Accordion">
    <Accordion>
-      <Accordion.panel
+      <Accordion.Panel
         id="accordion-1"
         renderPanelBody={() => (
           <Para>
@@ -21,13 +21,13 @@ import Accordion, {AccordionVanilla} from '.';
           </Para>
         )}
       >
-        <Accordion.panel.header>
+        <Accordion.Panel.Header>
           <Heading HeadingType="h3" style={{ display: 'inline-block' }}>
             Heading 1
           </Heading>
-        </Accordion.panel.header>
-      </Accordion.panel>
-      <Accordion.panel
+        </Accordion.Panel.Header>
+      </Accordion.Panel>
+      <Accordion.Panel
         renderPanelBody={() => (
           <Para>
             The purpose of lorem ipsum is to create a natural looking block of text (sentence,
@@ -37,12 +37,12 @@ import Accordion, {AccordionVanilla} from '.';
           </Para>
         )}
       >
-        <Accordion.panel.header>
+        <Accordion.Panel.Header>
           <Heading HeadingType="h3" style={{ display: 'inline-block' }}>
             Heading 2
           </Heading>
-        </Accordion.panel.header>
-      </Accordion.panel>
+        </Accordion.Panel.Header>
+      </Accordion.Panel>
     </Accordion>
   </Story>
 </Preview>
