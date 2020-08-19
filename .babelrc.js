@@ -1,4 +1,4 @@
-module.exports = api => {
+module.exports = (api) => {
   let dev = false;
   let modules = 'commonjs';
 
@@ -31,7 +31,6 @@ module.exports = api => {
       ],
     ],
     presets: [
-      '@babel/preset-flow',
       [
         'next',
         {

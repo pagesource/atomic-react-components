@@ -4,6 +4,7 @@ exports[`<Tag /> should render correctly 1`] = `
 <Fragment>
   <span
     className="demo-tag"
+    id=""
     role="listitem"
   >
     Test

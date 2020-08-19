@@ -9,7 +9,7 @@ import { defaultConfig, vanillaDefaultConfig } from './Video.mock';
 <Preview>
   <Story name="Video Knobs">
     <VideoVanilla {...vanillaDefaultConfig}>
-      <Video.track {...vanillaDefaultConfig.trackdefaultdata} />
+      <Video.Track {...vanillaDefaultConfig.trackdefaultdata} />
     </VideoVanilla>
   </Story>
 </Preview>
@@ -19,7 +19,7 @@ import { defaultConfig, vanillaDefaultConfig } from './Video.mock';
   <Story name="Default Video">
 <Video {...defaultConfig}>
       {defaultConfig.trackdata.map(caption => (
-        <Video.track
+        <Video.Track
           src={caption.src}
           default={caption.isDefault}
           kind="subtitles"

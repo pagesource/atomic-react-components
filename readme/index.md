@@ -5,7 +5,6 @@
 - [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
 - [Folder Structure](FolderStructure.md)
 - [Component Scaffolding](Component.md)
-- [Flow Type](FlowType.md)
 - [Husky](Husky.md)
 - [ES Docs](ESDocs.md)
 - [Storybook](Storybook.md)

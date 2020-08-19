@@ -36,6 +36,7 @@ exports[`FieldInput Component should render correctly 1`] = `
         "displayName": "FieldError__StyledFieldError",
         "foldedComponentIds": Array [],
         "render": [Function],
+        "shouldForwardProp": undefined,
         "styledComponentId": "FieldError__StyledFieldError-sc-1b3h259-0",
         "target": [Function],
         "toString": [Function],

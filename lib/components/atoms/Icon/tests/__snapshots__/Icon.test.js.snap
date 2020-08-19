@@ -3,6 +3,7 @@
 exports[`<Icon /> should render correctly 1`] = `
 <Icon
   className="Icon__StyledIcon-sc-14jstry-0 lgusMR"
+  fill=""
   height="30px"
   title="close icon"
   width="30px"

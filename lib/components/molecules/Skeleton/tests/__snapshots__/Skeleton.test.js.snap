@@ -9,6 +9,7 @@ exports[`<Skeleton /> should render correctly 1`] = `
       className="skeleton Skeleton__StyledSkeleton-sc-1oak7zh-0 iDRFJU"
     >
       <Bar
+        className=""
         height="18px"
         marginBottom="0"
         width="100%"
@@ -25,6 +26,7 @@ exports[`<Skeleton /> should render correctly 1`] = `
         />
       </Bar>
       <Circle
+        className=""
         marginBottom="20px"
         width="100px"
       >
