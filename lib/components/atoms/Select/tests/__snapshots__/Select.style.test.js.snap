@@ -304,7 +304,6 @@ exports[`Select Styled component should render correctly 1`] = `
       },
     }
   }
-  value=""
 >
   <option
     key="Option 1"

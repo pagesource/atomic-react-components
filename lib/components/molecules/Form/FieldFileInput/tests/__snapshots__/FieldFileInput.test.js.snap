@@ -8,9 +8,10 @@ exports[`FieldInput Component should render correctly 1`] = `
     className=""
     elementLocator=""
   />
-  <Field
+  <Input__StyledInput
     name="fileupload"
-    render={[Function]}
+    onChange={[Function]}
+    type="file"
   />
   <Button__StyledButton
     onClick={[Function]}

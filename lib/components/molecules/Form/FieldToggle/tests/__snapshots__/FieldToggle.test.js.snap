@@ -11,11 +11,31 @@ exports[`<FieldToggle /> should render correctly 1`] = `
   >
     Toggle
   </Label>
-  <Field
-    id="checkbox_test_1"
-    name="test_1"
-  >
-    <Component />
-  </Field>
+  <div>
+    <Label
+      className=""
+      elementLocator=""
+      htmlFor="checkbox_test_1"
+    >
+      <Input__StyledInput
+        className="toggle-input"
+        disabled={false}
+        id="checkbox_test_1"
+        name="test_1"
+        onChange={[Function]}
+        onClick={[Function]}
+        type="checkbox"
+        value="off"
+      />
+      <span
+        className="slider"
+      />
+    </Label>
+    <span
+      className="toggle-label"
+    >
+      Off
+    </span>
+  </div>
 </div>
 `;

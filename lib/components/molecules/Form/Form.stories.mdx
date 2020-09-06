@@ -1,0 +1,46 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import {
+  userFormProps,
+  userFormSelectProps,
+  fileMultipleInputProps,
+  fileSingleInputProps,
+  fileDDInputProps,
+  userFormNameInputProps,
+  userFormEmailProps,
+  userFormCommentProps,
+  userFormAgeGroupProps,
+  userFormTnCProps,
+  userFormToggleProps,
+} from './Form.mock';
+import Form from './Form'
+import Button from '../../atoms/Button';
+
+<Meta title="Molecules/Form" component={Form} />
+
+### Default
+
+<Preview>
+  <Story name="Default">
+    <Form {...userFormProps}>
+      <Form.Select {...userFormSelectProps} />
+      <Form.Input {...userFormNameInputProps} />
+      <Form.Input {...userFormEmailProps} />
+      <Form.RadioGroup {...userFormAgeGroupProps} />
+      <Form.Checkbox {...userFormTnCProps} />
+      <Form.Textarea {...userFormCommentProps} />
+      <Form.Toggle {...userFormToggleProps} />
+      <Form.FieldFile {...fileSingleInputProps} />
+      <Form.FieldFile {...fileMultipleInputProps} />
+      <Form.DDFile {...fileDDInputProps} />
+      <Button primary type="submit">
+        Submit
+      </Button>
+    </Form>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={Form} />
+
+
