@@ -1,0 +1,10 @@
+{
+  "name": "@xt-pagesource/atomic-react-themes",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "styled-components": "^5.0.1"
+  },
+  "license": "MIT"
+}

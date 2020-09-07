@@ -1,0 +1,117 @@
+/**
+ * @tokens Animations
+ * @presenter Animation
+ */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(150%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-150%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 300%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-bottom {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -300%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up-with-margin {
+  from {
+    opacity: 0;
+    margin-top: 30px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes slide-up-linear {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root {
+  --animation-slide-up: slide-up 1s ease-in-out;
+  --animation-slide-bottom: slide-bottom 1s ease-in-out;
+  --animation-slide-left: slide-left 1s ease-in-out;
+  --animation-slide-right: slide-right 1s ease-in-out;
+  --animation-fade-out: fade-out;
+  --animation-slide-up-with-margin: slide-up-with-margin 0.3s;
+  --animation-spinner: rotate 1.2s infinite cubic-bezier(0.55, 0, 0.1, 1);
+  --animation-slide-up-linear: slide-up-linear 0.5s ease-in;
+  --animation-toggle: translateX(25px);
+}
+
+/**
+ * @tokens Durations
+ * @presenter Duration
+ */
+
+:root {
+  --duration-m: 300ms;
+}
+
+/**
+ * @tokens Easings
+ * @presenter Easing
+ */
+
+:root {
+  --easing-swift: cubic-bezier(0.55, 0, 0.1, 1);
+}

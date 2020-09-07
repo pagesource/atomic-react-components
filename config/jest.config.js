@@ -2,22 +2,22 @@ module.exports = {
   rootDir: '../',
   setupFiles: ['<rootDir>/config/jest.setup.js'],
   moduleDirectories: ['node_modules'],
-  testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/out/'],
+  testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/out/', '<rootDir>/packages/(?:.+?)/lib/'],
   testResultsProcessor: 'jest-sonar-reporter',
   // collectCoverage: true,
   coverageDirectory: '<rootDir>/reports/coverage',
   collectCoverageFrom: [
-    '**lib/components/**/*.js',
-    '**lib/core/**/*.js',
-    '!**lib/components/**/*.mock.js',
-    '!**lib/components/**/*.story.js',
-    '!**lib/components/**/*.styles.js',
+    '**packages/**/*.js',
+    '!**packages/**/*.mock.js',
+    '!**packages/**/*.story.js',
+    '!**packages/**/*.styles.js',
     '!**lib/styles/**/*.js',
     '!**/node_modules/**',
   ],
   coveragePathIgnorePatterns: [
     // exceptions.
     '/node_modules/',
+    '<rootDir>/packages/(?:.+?)/lib/',
   ],
   coverageReporters: ['lcov', 'json', 'text-summary'],
   coverageThreshold: {
@@ -30,7 +30,7 @@ module.exports = {
   },
   snapshotSerializers: ['enzyme-to-json/serializer'],
   verbose: true,
-  testMatch: ['<rootDir>/lib/**/*.test.js'],
+  testMatch: ['<rootDir>/packages/**/*.test.js'],
   moduleNameMapper: {
     '\\.(css|svg)$': 'identity-obj-proxy',
   },

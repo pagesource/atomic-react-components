@@ -59,5 +59,12 @@
         "no-console": "off"
       }
     }
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+      "eslint-import-resolver-lerna": {
+        "packages": "packages"
+      }
+    }
+  }
 }

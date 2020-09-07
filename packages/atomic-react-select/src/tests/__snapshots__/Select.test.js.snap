@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Component should render correctly 1`] = `
+<select
+  className=""
+  data-locator="my-custom-select-locator"
+  disabled={false}
+  id="dropdown-1"
+  name="my-drop"
+  onChange={[Function]}
+>
+  <option
+    key="Option 1"
+    value="Option 1"
+  >
+    Option 1
+  </option>
+  <option
+    key="Option 2"
+    value="Option 2"
+  >
+    Option 2
+  </option>
+</select>
+`;

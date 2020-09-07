@@ -1,0 +1,52 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { primaryButton, primaryButtonDisabled, secondaryButton, secondaryButtonDisabled, customButtonLocator} from './Button.mock';
+import Button, { ButtonVanilla } from '.';
+
+<Meta title="Atoms/Buttons" component={Button} />
+
+### Vanila  Button
+
+<Preview>
+  <Story name="Vanila Button">
+   <ButtonVanilla {...primaryButton}>Submit</ButtonVanilla>
+  </Story>
+   <Story name="Vanila Disabled Button">
+   <ButtonVanilla {...primaryButtonDisabled}>Submit</ButtonVanilla>
+  </Story>
+</Preview>
+
+
+### Primary  Button
+
+<Preview>
+  <Story name="Primary Styled Button">
+   <Button {...primaryButton}>Submit</Button>
+  </Story>
+   <Story name="Primary Styled Disabled Button">
+   <Button {...primaryButtonDisabled}>Submit</Button>
+  </Story>
+</Preview>
+
+
+### Secondary Button
+
+<Preview>
+  <Story name="Secondary Styled Button">
+   <Button {...secondaryButton}>Submit</Button>
+  </Story>
+   <Story name="Secondary Styled Disabled Button">
+   <Button {...secondaryButtonDisabled}>Submit</Button>
+  </Story>
+</Preview>
+
+### custom Button Locator
+
+<Preview>
+  <Story name="Custom  Button">
+   <Button {...customButtonLocator}>Submit</Button>
+  </Story>
+</Preview>
+
+## Props 🔧
+
+<Props of={ButtonVanilla} />

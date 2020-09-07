@@ -1,0 +1,68 @@
+/**
+ * @tokens Font Families
+ * @presenter FontFamily
+ */
+
+:root {
+  --font-family: 'Futura Next Book', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  --font-family-secondary: 'Futura Next Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  --font-family-display: 'Futura Next Book', Georgia, serif;
+
+  --font-family-monospace: 'Source Code Pro', SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+
+/**
+ * @tokens Font Sizes
+ * @presenter FontSize
+ */
+
+:root {
+  --base-font: 16px;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1rem;
+  --font-size-h4: 1rem;
+  --font-size-default: 1rem;
+  --font-size-default-s: 1rem;
+  --font-size-default-m: 1rem;
+  --font-size-default-l: 1rem;
+  --font-size-cta: 1rem;
+  --font-size-link: 0.75rem;
+  --font-size-label: 0.75rem;
+  --font-size-field: 0.75rem;
+  --font-size-quote-sign: 8rem;
+}
+
+/**
+ * @tokens Font Weights
+ * @presenter FontWeight
+ */
+
+:root {
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+}
+
+/**
+ * @tokens Line Heights
+ * @presenter LineHeight
+ */
+
+:root {
+  --line-height-h1: 4rem;
+  --line-height-h2: 3rem;
+  --line-height-h3: 1.5rem;
+  --line-height-h4: 1.5rem;
+  --line-height-default: 1.5rem;
+  --line-height-cta: 1.25rem;
+  --line-height-link: 1.25rem;
+  --line-height-label: 1.25rem;
+  --line-height-field: 1.25rem;
+  --line-height-quote-sign: 6rem;
+}

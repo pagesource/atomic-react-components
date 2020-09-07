@@ -1,0 +1,11 @@
+{
+  "name": "@xt-pagesource/atomic-react-utils",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "yup": "^0.28.3"
+  },
+  "license": "MIT"
+}

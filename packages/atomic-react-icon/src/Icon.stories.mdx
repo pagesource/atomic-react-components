@@ -1,0 +1,19 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
+import { theme } from '@xt-pagesource/atomic-react-themes';
+
+import  Icon, {IconVanilla}  from './index.js';
+import defaultConfig from './Icon.mock';
+
+<Meta title="Atoms/Icons" component={IconVanilla} />
+
+### Icon
+'IconClose' - theme.icons.close
+
+<Preview>
+  <Story name="Close Icon">
+      <IconVanilla  {...defaultConfig} fill="#000" title="close icon"  width="30px" height="30px">
+        <IconClose />
+       </IconVanilla>
+  </Story>
+</Preview>
+
