@@ -1,0 +1,14 @@
+{
+  "name": "@xt-pagesource/atomic-react-anchor",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "@xt-pagesource/atomic-react-utils": "1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.0.1"
+  },
+  "license": "MIT"
+}

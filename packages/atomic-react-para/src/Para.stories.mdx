@@ -1,0 +1,19 @@
+import { Meta, Story, Preview, Props  } from '@storybook/addon-docs/blocks';
+import Para, { ParaVanilla } from '.';
+
+<Meta title="Atoms/Para" component={ParaVanilla} />
+
+
+### Knobs
+<Preview>
+  <Story name="Knobs">
+<ParaVanilla>This is plain text</ParaVanilla>
+  </Story>
+</Preview>
+
+### Default
+<Preview>
+  <Story name="Default">
+<Para elementLocator="my-text">This is plain text with element locator.</Para>
+  </Story>
+</Preview>

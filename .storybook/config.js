@@ -7,6 +7,7 @@ import { withDesign } from 'storybook-addon-designs';
 import { withTests } from '@storybook/addon-jest';
 import { withA11y } from '@storybook/addon-a11y';
 import { ThemeProvider } from 'styled-components';
+
 import theme from '../lib/styles/themes/base/index';
 import '../lib/styles/cssIncludes';
 import GlobalStyles from '../lib/styles';
@@ -59,7 +60,7 @@ addParameters({
   },
 });
 
-const req = require.context('../lib/components/', true, /.stories\.(js|mdx)$/);
+const req = require.context('../packages', true, /.stories\.(js|mdx)$/);
 function loadStories() {
   req.keys().forEach((filename) => req(filename));
 }

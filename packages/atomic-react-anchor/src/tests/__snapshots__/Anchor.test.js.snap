@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Anchor Component should render correctly and match snapshot 1`] = `
+<a
+  className=""
+  data-locator="link-sample"
+  href="/sample"
+  onClick={[Function]}
+  target=""
+>
+  Sample
+</a>
+`;

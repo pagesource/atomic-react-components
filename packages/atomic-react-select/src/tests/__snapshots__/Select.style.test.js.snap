@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Styled component should render correctly 1`] = `
+<select
+  className=""
+  data-locator="select-input-userType-undefined"
+  disabled={false}
+  name="userType"
+  theme={
+    Object {
+      "animations": Object {
+        "ANIMATION_FADE_OUT": "var(--animation-fade-out)",
+        "ANIMATION_SLIDE_BOTTOM": "var(--animation-slide-bottom)",
+        "ANIMATION_SLIDE_LEFT": "var(--animation-slide-left)",
+        "ANIMATION_SLIDE_RIGHT": "var(--animation-slide-right)",
+        "ANIMATION_SLIDE_UP": "var(--animation-slide-up)",
+        "ANIMATION_SLIDE_UP_LINEAR": "var(--animation-slide-up-linear)",
+        "ANIMATION_SLIDE_UP_WITH_MARGIN": "var(--animation-slide-up-with-margin)",
+        "ANIMATION_SPINNER": "var(--animation-spinner)",
+        "DURATION_M": "var(--duration-m)",
+        "EASING_SWIFT": "var(--easing-swift)",
+        "TOGGLE_SLIDE": "transform: var(--animation-toggle)",
+        "TOGGLE_TRANSITION": "transition: 0.4s",
+      },
+      "behaviour": Object {
+        "LINK_DECORATION": "text-decoration: none;",
+      },
+      "border": Object {
+        "CTA_OUTLINE": "outline: var(--border-size-cta-tertiary) dashed var(--outline);",
+        "CTA_TAB": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TAB_ACTIVE": "border-bottom: var(--border-size-cta-tertiary) solid var(--stroke-active);",
+        "CTA_TAB_PANEL": "border-top: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TAB_PANEL_VERTICAL": "border-left: var(--border-size-cta-tertiary) solid var(--stroke);",
+        "CTA_TERTIARY": "
+    border: var(--border-size-cta-tertiary) solid var(--border-secondary);
+  ",
+        "DRAG_FILE_FIELD": "border: var( --border-size-field-active) dashed var(--border-primary);",
+        "FIELD_ACTIVE": "
+    border: var(--border-size-field-active) solid var(--field-border-active);
+  ",
+        "FIELD_DISABLED": "
+    border: var(--border-size-field-active) solid var(--border-disabled);
+  ",
+        "FIELD_PRIMARY": "
+    border: var(--border-size-field) solid var(--field-border-primary);
+  ",
+        "FIELD_RADIO": "
+    border-radius: var(--border-radius-round);
+  ",
+        "FIELD_SECONDARY": "
+    border: var(--border-size-field) solid var(--field-border-secondary);
+  ",
+        "LIST_INLINE": "
+    border-right: var(--border-size-field) solid var(--field-border-primary);
+  ",
+        "LIST_ITEM": "
+    border-bottom: var(--border-size-field) solid var(--stroke);
+  ",
+        "TAG": "
+    border: var(--border-size-field) solid var(--black);
+    border-radius: var(--border-radius-s);
+  ",
+        "TYPEAHEAD_LIST": "
+    border: var(--border-size-field) solid var(--stroke);
+    //border-bottom: 0 none;
+  ",
+      },
+      "colors": Object {
+        "CTA_DEFAULT": "
+    background-color:var(--bg-cta-default);
+    color:var(--text-cta-default);
+  ",
+        "CTA_DISABLED": "
+    &[disabled]{
+      background-color: var(--brand-disabled);
+      color: var(--text-cta-disabled);
+    }
+  ",
+        "CTA_ERROR": "
+    background-color:var(--bg-cta-error);
+    color:var(--text-cta-error);",
+        "CTA_ICON": "
+    background-color: var(--bg-cta-transparent);
+    color: var(--black);
+    &:hover, &:active{
+      background-color: var(--bg-cta-transparent);
+    }
+  ",
+        "CTA_INFO": "
+    background-color:var(--bg-cta-info);
+    color:var(--text-cta-info);
+  ",
+        "CTA_PRIMARY": "
+    background-color: var(--bg-cta-primary);
+    color: var(--text-cta-primary);
+    &:hover, &:active{
+      background-color: var(--bg-cta-primary-active);
+    }
+  ",
+        "CTA_SECONDARY": "
+    background-color: var(--bg-cta-secondary);
+    color: var(--text-cta-secondary);
+    &:hover, &:active{
+      background-color: var(--bg-cta-secondary-active);
+    }
+  ",
+        "CTA_SUCCESS": "
+    background-color:var(--bg-cta-success);
+    color:var(--text-cta-success);",
+        "CTA_TAB": "
+    background-color: var(--bg-cta-tertiary);
+    color: var(--text-cta-tertiary);
+  ",
+        "CTA_TERTIARY": "
+    background-color: var(--bg-cta-tertiary);
+    color: var(--text-cta-tertiary);
+    &:hover, &:active{
+      background-color: var(--bg-cta-tertiary-active);
+      color: var(--text-inverse);
+    }
+  ",
+        "CTA_TRANSPARENT": "
+    background-color: transparent;
+    color: var(--text-cta-tertiary);
+    &:hover, &:active{
+      background-color: transparent;
+      color: var(--text-cta-active);
+    }
+  ",
+        "CTA_WARNING": "
+    background-color:var(--bg-cta-warning);
+    color:var(--text-cta-warning);",
+        "FIELD_DEFAULT": "
+    color: var(--text-cta-tertiary);
+    background-color: var(--bg-cta-tertiary);
+  ",
+        "FIELD_DISABLED": "
+    background-color: var(--brand-disabled);
+    color: 1px solid var(--text-cta-disabled);
+  ",
+        "HERO_CONTENT": "
+    color: var(--text-inverse);
+    background-color: var(--black);
+  ",
+        "LINK_PRIMARY": "
+    color: var(--text-link);
+  ",
+        "LIST_ITEM": "
+    background-color: var(--white);
+    &:hover, &:active, &.active{
+      background-color: var(--text-light);
+    }
+  ",
+        "TAG_BACKGROUND": "
+    background-color: var(--bg-primary);
+  ",
+        "TEXT_DEFAULT": "
+    color: var(--text-primary);
+  ",
+        "TEXT_ERROR": "
+    color: var(--error);
+  ",
+        "TEXT_INVERSE": "
+    color: var(--text-inverse);
+  ",
+        "TEXT_LIGHT": "
+    color: var(--text-light);
+  ",
+        "TEXT_SECONDARY": "
+    color: var(--text-secondary);
+  ",
+        "TOGGLE_SWITCH": "
+    background-color: var(--bg-cta-secondary);
+  ",
+        "TOGGLE_SWITCH_INACTIVE": "
+    background-color: var(--grey);
+  ",
+      },
+      "dimensions": Object {
+        "CHECKBOX": "
+    height: var(--spacing-3);
+    width: var(--spacing-3);
+  ",
+        "CONTENT_MAX_WIDTH": "
+    max-width: var(--spacing-max-content);
+  ",
+        "CTA": "
+    height: var(--spacing-6);
+    width: auto;
+  ",
+        "FIELD": "
+    height: var(--spacing-6);
+    width:100;
+  ",
+        "RADIO": "
+    height: var(--spacing-3);
+    width: var(--spacing-3);
+  ",
+        "TOGGLE_SWITCH": "
+    height: var(--spacing-3);
+    width: var(--spacing-6);
+  ",
+      },
+      "icons": Object {
+        "close": null,
+        "closewhite": null,
+        "error": null,
+        "info": null,
+        "leftArrow": null,
+        "pause": null,
+        "play": null,
+        "rightArrow": null,
+        "success": null,
+        "warning": null,
+      },
+      "shadow": Object {
+        "SHADOW_L": "var(--shadow-l)",
+        "SHADOW_M": "var(--shadow-m)",
+        "SHADOW_S": "var(--shadow-s)",
+      },
+      "spacing": Object {
+        "HALF_UNIT": "0.25rem",
+        "MAX_CONTENT": "80rem",
+        "QUAD_UNIT": "0.125rem",
+        "UNIT_1": "0.5rem",
+        "UNIT_10": "5rem",
+        "UNIT_11": "5.5rem",
+        "UNIT_12": "6rem",
+        "UNIT_13": "6.5rem",
+        "UNIT_14": "7rem",
+        "UNIT_15": "7.5rem",
+        "UNIT_16": "8rem",
+        "UNIT_17": "8.5rem",
+        "UNIT_18": "9rem",
+        "UNIT_19": "9.5rem",
+        "UNIT_2": "1rem",
+        "UNIT_20": "10rem",
+        "UNIT_3": "1.5rem",
+        "UNIT_4": "2rem",
+        "UNIT_5": "2.5rem",
+        "UNIT_6": "3rem",
+        "UNIT_7": "3.5rem",
+        "UNIT_8": "4rem",
+        "UNIT_9": "4.5rem",
+      },
+      "typography": Object {
+        "FONT_CTA": "
+    font-size: var(--font-size-cta);
+    line-height: var(--line-height-cta);
+  ",
+        "FONT_DEFAULT": "
+    font-family: var(--font-family);
+    font-display: var(--font-family-display);
+    font-size: var(--font-size-default);
+    line-height: var(--line-height-default);
+  ",
+        "FONT_FIELD": "
+    font-size: var(--font-size-field);
+    line-height: var(--line-height-field);
+  ",
+        "FONT_H1": "
+    font-family: var(--font-family-secondary);
+    font-display: var(--font-family-display);
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-h1);
+  ",
+        "FONT_H2": "
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h2);
+  ",
+        "FONT_H3": "
+    font-size: var(--font-size-h3);
+    line-height: var(--line-height-h3);
+  ",
+        "FONT_H4": "
+    font-size: var(--font-size-h4);
+    line-height: var(--line-height-h4);
+  ",
+        "FONT_LABEL": "
+    font-size: var(--font-size-label);
+    line-height: var(--line-height-label);
+  ",
+        "FONT_LINK": "
+    font-size: var(--font-size-link);
+    line-height: var(--line-height-link);
+    text-decoration: none;
+  ",
+        "FONT_QUOTE_SIGN": "
+    font-size: var(--font-size-quote-sign);
+    line-height: var(--line-height-quote-sign);
+  ",
+        "FONT_TOAST": "
+  font-size: var(--font-size-h3);
+  line-height: var(--font-size-h3);
+",
+      },
+      "zIndex": Object {
+        "zFlyOut": "z-index: var(--z-index-fly-out)",
+        "zLoader": "z-index: var(--z-index-loader)",
+        "zModal": "z-index: var(--z-index-modal)",
+        "zNativeTickSelectIcon": "z-index: var(--z-index-native-tick-select-icon)",
+        "zOverlay": "z-index: var(--z-index-overlay)",
+        "zSticky": "z-index: var(--z-index-sticky)",
+      },
+    }
+  }
+>
+  <option
+    key="Option 1"
+    value="Option 1"
+  >
+    Option 1
+  </option>
+  <option
+    key="Option 2"
+    value="Option 2"
+  >
+    Option 2
+  </option>
+</select>
+`;

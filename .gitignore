@@ -5,7 +5,8 @@ node_modules
 reports
 out
 .history
-.jest-test-results.json
+.jest-*
+yarn.lock
 
 # Reports
 reports
@@ -17,3 +18,5 @@ flow-typed
 docs
 
 .cache
+
+packages/**/lib

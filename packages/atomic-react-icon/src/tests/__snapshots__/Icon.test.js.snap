@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> should render correctly 1`] = `
+<Icon
+  className="Icon__StyledIcon-sc-3g6lof-0 NVSQO"
+  fill=""
+  height="30px"
+  title="close icon"
+  width="30px"
+>
+  <displayName
+    0="d"
+    1="e"
+    10="p"
+    11="s"
+    2="f"
+    3="a"
+    4="u"
+    5="l"
+    6="t"
+    7="P"
+    8="r"
+    9="o"
+  />
+</Icon>
+`;

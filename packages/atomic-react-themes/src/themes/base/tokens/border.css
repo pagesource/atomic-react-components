@@ -1,0 +1,24 @@
+/**
+ * @tokens Border Radius
+ * @presenter BorderRadius
+ */
+
+:root {
+  --border-radius-s: var(--spacing-half-unit);
+  --border-radius-m: var(--spacing-half-unit);
+  --border-radius-l: var(--spacing-half-unit);
+  --border-radius-toggle-switch: var(--spacing-1);
+  --border-radius-round: 50%;
+}
+
+/**
+ * @tokens Border
+ * @presenter Border
+ */
+
+:root {
+  --border-size-field: 1px;
+  --border-size-field-active: var(--spacing-quad-unit);
+  --border-size-cta-tertiary: var(--spacing-quad-unit);
+  --stroke-size-tab: var(--spacing-quad-unit);
+}
