@@ -1,7 +1,7 @@
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 import Para from '../../atoms/Para';
 import Heading from '../../atoms/Heading';
-import Accordion, {AccordionVanilla} from '.';
+import Accordion, {AccordionVanilla,AccordionPanel} from '.';
 
 
 <Meta title="Molecules/Accordion" component={AccordionVanilla} />
@@ -27,7 +27,7 @@ import Accordion, {AccordionVanilla} from '.';
           </Heading>
         </Accordion.Panel.Header>
       </Accordion.Panel>
-      <Accordion.Panel
+      <Accordion.Panel  id="accordion-2" defaultExpanded={true} 
         renderPanelBody={() => (
           <Para>
             The purpose of lorem ipsum is to create a natural looking block of text (sentence,
@@ -51,3 +51,5 @@ import Accordion, {AccordionVanilla} from '.';
 
 <Props of={AccordionVanilla} />
 
+#### Accordion Panel
+<Props of={Accordion.Panel} />

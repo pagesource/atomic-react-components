@@ -3,34 +3,141 @@
 exports[`<Accordion /> should render correctly 1`] = `
 <Accordion__StyledAccordion>
   <Accordion
-    className="Accordion__StyledAccordion-vybsad-0 gvcbpS"
+    className="Accordion__StyledAccordion-vybsad-0 cmXrDH"
   >
     <div
-      className="Accordion__StyledAccordion-vybsad-0 gvcbpS"
+      className="Accordion__StyledAccordion-vybsad-0 cmXrDH"
     >
       <AccordionPanel
         className="panel"
+        defaultExpanded={true}
+        disabled={false}
+        id="1"
+        renderPanelBody={[Function]}
       >
         <details
           className="accordion-panel panel"
+          disabled={false}
+          id="1"
+          open={true}
         >
           <AccordionHeader
+            accordionPanelId="1"
             ariaLabel="Accordion Header"
             className="accordion-header"
-            isExpanded={false}
+            disabled={false}
+            isExpanded={true}
             key=".0"
-            toggleExpanded={[Function]}
           >
             <summary
-              aria-expanded={false}
+              aria-disabled={false}
+              aria-expanded={true}
               aria-label="Accordion Header"
+              aria-labelledby="1"
               className="accordion-header"
+              disabled={false}
               onClick={[Function]}
               onKeyPress={[Function]}
               role="button"
               tabIndex="0"
             />
           </AccordionHeader>
+          <div
+            aria-hidden={false}
+            className="accordion-panel-content panel"
+          >
+            <p>
+              test
+            </p>
+          </div>
+        </details>
+      </AccordionPanel>
+      <AccordionPanel
+        className="panel"
+        defaultExpanded={false}
+        disabled={false}
+        id="2"
+        renderPanelBody={[Function]}
+      >
+        <details
+          className="accordion-panel panel"
+          disabled={false}
+          id="2"
+          open={false}
+        >
+          <AccordionHeader
+            accordionPanelId="2"
+            ariaLabel="Accordion Header"
+            className="accordion-header"
+            disabled={false}
+            isExpanded={false}
+            key=".0"
+          >
+            <summary
+              aria-disabled={false}
+              aria-expanded={false}
+              aria-label="Accordion Header"
+              aria-labelledby="2"
+              className="accordion-header"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              role="button"
+              tabIndex="0"
+            />
+          </AccordionHeader>
+          <div
+            aria-hidden={true}
+            className="accordion-panel-content panel"
+          >
+            <p>
+              test 2
+            </p>
+          </div>
+        </details>
+      </AccordionPanel>
+      <AccordionPanel
+        className="panel"
+        defaultExpanded={false}
+        disabled={true}
+        id="3"
+        renderPanelBody={[Function]}
+      >
+        <details
+          className="accordion-panel panel"
+          disabled={true}
+          id="3"
+          open={false}
+        >
+          <AccordionHeader
+            accordionPanelId="3"
+            ariaLabel="Accordion Header"
+            className="accordion-header"
+            disabled={true}
+            isExpanded={false}
+            key=".0"
+          >
+            <summary
+              aria-disabled={true}
+              aria-expanded={false}
+              aria-label="Accordion Header"
+              aria-labelledby="3"
+              className="accordion-header"
+              disabled={true}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              role="button"
+              tabIndex="0"
+            />
+          </AccordionHeader>
+          <div
+            aria-hidden={true}
+            className="accordion-panel-content panel"
+          >
+            <p>
+              test 2
+            </p>
+          </div>
         </details>
       </AccordionPanel>
     </div>
